@@ -1,0 +1,23 @@
+{
+  "store.custom#about-us": {
+    "path": "/quienes-somos"
+  },
+  "store.custom#faq": {
+    "path": "/faq"
+  },
+  "store.custom#contact-us": {
+    "path": "/contact-us"
+  },
+  "store.custom#pagetest": {
+    "path": "/pagetest"
+  },
+  "store.custom#usuario": {
+    "path": "/factura"
+  },
+  "store.custom#smart": {
+    "path": "/smart-solutions"
+  },
+  "store.custom#tyc": {
+    "path": "/terminos-condiciones"
+  }
+}

@@ -1,0 +1,18 @@
+.container--acordeon-Boton {
+    margin: 0 auto;
+}
+@media (max-width: 600px) {
+    .wrapper.wrapper--title--productos--destacados {
+        margin-left: 10px;
+        margin-top: 0;
+    }
+    .heading.heading--title--productos--destacados {
+        margin-top: 0;
+    }
+    .wrapper--text-descubre-nuestros-productos{
+        margin-top: 0;
+    }
+    .headingLevel2.headingLevel2--text-descubre-nuestros-productos {
+        font-size: 18px;
+    }
+}

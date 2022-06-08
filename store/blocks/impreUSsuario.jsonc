@@ -1,0 +1,14 @@
+{
+    "store.custom#usuario": {
+        "blocks": [
+            "iframe"
+        ]
+    },
+    "iframe": {
+        "props": {
+            "width":"1900px",
+            "height":"900px",
+            "src": "https://digitalepartner.com/Impresistem/cambiar.php"
+        }
+    }
+}

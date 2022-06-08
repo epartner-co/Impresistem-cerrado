@@ -1,0 +1,139 @@
+/*_   _ _____    _    ____  _____ ____
+| | | | ____|  / \  |  _ \| ____|  _ \
+| |_| |  _|   / _ \ | | | |  _| | |_) |
+|  _  | |___ / ___ \| |_| | |___|  _ <
+|_| |_|_____/_/   \_\____/|_____|_| \_\    */
+
+.minicartWrapperContainer--mini-cart-icono {
+  position: static;
+  float: none;
+}
+.cartIcon--mini-cart-icono {
+  opacity: 0;
+}
+
+.minicartContainer :global(.vtex-button) {
+  width: 25px;
+  height: 43px;
+  background: url(https://orbeim.vtexcommercestable.com.br/arquivos/carrito.png) no-repeat !important;
+  background-size: contain !important;
+  background-repeat: no-repeat;
+  background-position: 50% !important;
+}
+.minicartContainer :global(.vtex-button):hover {
+  width: 25px;
+  height: 43px;
+  background: url(https://orbeim.vtexcommercestable.com.br/arquivos/carrito.png) no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+@media (max-width: 600px) {
+
+  .openIconContainer--mini-cart-icono {
+    display: flex;
+  }
+}
+/*----------------------------------------------------------------------------------*/
+
+.minicartQuantityBadgeDefault {
+  top: 5px !important;
+  right: -13px !important;
+  width: 9px;
+  height: 9px;
+}
+
+.minicartWrapperContainer {
+  justify-content: center;
+}
+.minicartWrapperContainer :global(.vtex-button):hover{
+  background: transparent;
+}
+.minicartQuantityBadgeDefault {
+  top: -7px;
+  right: 2px;
+  font-size: 7px;
+  height: 7px;
+  background: #2A2A2A;
+  width: 7px;
+}
+.minicartProductListContainer--rowProduct {
+  min-height: 63% !important;
+}
+.minicartCheckoutButton--verCarrito :global(.vtex-button__label)::before{
+content: "Ver Carrito";text-transform: uppercase;font-size: 13px;font-weight: 700;
+}
+.minicartCheckoutButton--verCarrito :global(.vtex-button__label){
+font-size: 0;
+}
+.minicartCheckoutButton--verCarrito :global(.vtex-button){
+background: white;border: 1px solid black;
+color: black;
+border-radius: 0;
+}
+.minicartCheckoutButton--verCarrito :global(.vtex-button):hover{
+background: #001e49 ;
+border:1px solid #001e49;
+color: white;
+
+}
+.minicartCheckoutButton--finalizarPedido :global(.vtex-button__label)::before{
+content: "Finalizar compra";text-transform: uppercase;font-size: 13px;font-weight: 700;
+}
+.minicartCheckoutButton--finalizarPedido :global(.vtex-button__label){
+font-size: 0;
+}
+.minicartCheckoutButton--finalizarPedido :global(.vtex-button){
+background: white;border: 1px solid black;
+color: black;
+border-radius: 0;
+}
+.minicartCheckoutButton--finalizarPedido :global(.vtex-button):hover{
+background: #001e49 ;border: 1px solid #001e49;
+color: white;
+}
+
+.minicartCheckoutButton.minicartCheckoutButton--finalizarPedido {padding: 0;margin-right: 5px;}
+
+.minicartCheckoutButton.minicartCheckoutButton--verCarrito {padding: 0;margin-left: 5px;}
+
+.closeIconContainer {
+  justify-content: end;
+}
+.closeIconContainer {justify-content: end;}
+.minicartTitle{color: #001e49;position: relative;}
+.minicartTitle::after {
+  content: "Producto";
+  font-size: 14px;
+  position: absolute;
+  bottom: 7px;
+  left: 1.8rem;
+}
+.closeIconContainer {
+  justify-content: end;
+  position: absolute;
+  right: 1%;
+  z-index: 999;
+}
+@media (max-width: 600px) {
+  .minicartQuantityBadgeDefault {
+      top: -2px;
+      right: 8px;
+      font-size: 7px;
+      height: 7px;
+      background: #2A2A2A;
+      width: 7px;
+  }
+}
+.minicartTitle {margin-bottom: 27px;border-bottom: 1px solid #cac9c9;padding-bottom: 27px;box-shadow: 0 2px 7px 0px #eae9e9;}
+
+.cartIcon {
+  display: none;
+}
+.drawerStyles{
+  height: 100vh;
+}
+.minicartSideBarContentWrapper {
+  height: 100% !important;
+}

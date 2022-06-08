@@ -1,0 +1,159 @@
+.skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
+  border-radius: 50%;
+}
+
+.container :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+.container:hover :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 1;
+}
+
+@media screen and (max-width: 40em) {
+  .container :global(.vtex-modal-layout-0-x-triggerContainer) {
+    display: none;
+  }
+}
+
+/* Se cambia el tamaño del contenedor del titulo */
+.nameContainer {
+  justify-content: start;
+  padding-top: 0;
+  padding-bottom: 6px;
+  min-height: 40px;
+}
+/* Se cambia el color del titulo */
+.brandName {
+  font-weight: 600;
+  font-size: 16px;
+  color: #001E49;
+}
+
+.container {
+  text-align: start;
+}
+
+.imageContainer {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.image {
+  border-radius: 0.25rem;
+}
+
+/*VITRINAS*/
+.element.element--ProductShelf.element--ProductShelfHome {
+  padding: 0 10px;
+  margin: 0px;
+  background-color: initial;
+}
+
+/*Fotografia de producto cerca a titulo de producto en mobile */
+@media screen and (max-width: 700) {
+  .imageContainer.imageStackContainer {
+    top: 65%;
+  }
+}
+/*--------------------------------------------------*/
+
+/*Estilos de las vitrinas*/
+.containerNormal--ProductShelfHome{
+  margin: 0px 10px;
+  height: 100%;
+  transition: 0.1s all ease;
+  border: 1px transparent solid;
+}
+.containerNormal--ProductShelfHome:hover{
+  border-color: rgb(90, 90, 90);
+  box-shadow: 0px 0px 4px 0px gray;
+}
+
+/*-------*/
+
+
+/*Cambio de color y tamaño de texto de produtos en category*/
+.brandName {
+  color: #001e49;
+  font-size: 14px;
+}
+
+
+.description--vitrina-description {text-overflow: ellipsis;overflow: hidden;white-space: initial;height: 30px;font-size: 12px;margin-top: 3px; margin-bottom: 3px;}
+.imageStackContainer {height: auto;}
+
+/*FLAG MARCA - GENERAL*/
+.productBrandContainer {position: absolute;z-index: 2;font-size: 0;width: 35px;height: 35px;background: transparent;right: 12%;top: 5%;}
+
+/*FLAG MARCA - HP*/
+.productBrandName {width: 100%;height: 100%;background-image: url(https://orbeim.vteximg.com.br/arquivos/brand-logo-hp.png);position: absolute;background-size: 100%;}
+
+.element--vitrina-categoria {position: relative;}
+
+.containerNormal--vitrina-categoria:hover {border-color: #e1e1e1;}
+.containerNormal--vitrina-categoria {padding: 8px;border: 1px solid transparent;}
+
+.container--ProductShelfHome {background: white;}
+.element--ProductShelfHome {position: relative;}
+
+
+.container--ProductShelfHome {background: white;}
+.element--ProductShelfHome {position: relative;}
+.container--ProductShelf.container--ProductShelfHome.containerNormal.containerNormal--ProductShelf.containerNormal--ProductShelfHome {
+  max-width: 600px!important;
+}
+.container--ProductShelf.container--ProductShelfHome.containerNormal.containerNormal--ProductShelf.containerNormal--ProductShelfHome {
+  height: 95%;
+  padding: 0 0%;
+}
+@media (max-width: 600px) {
+  .container--ProductShelf.container--ProductShelfHome.containerNormal.containerNormal--ProductShelf.containerNormal--ProductShelfHome {
+    height: 97%;
+    padding: 0 0%;
+  }
+  :global(.vtex-tab-layout-0-x-contentItem) .container--ProductShelf.container--ProductShelfHome.containerNormal.containerNormal--ProductShelf.containerNormal--ProductShelfHome {
+    height: 93%;
+    padding: 0 0%;
+  }
+}
+
+.imageContainer.imageWrapper {
+  justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+  .description.description--vitrina-description {
+    height: 40px;
+}
+.element.element--ProductShelf.element--ProductShelfHome {
+  min-height: 334px!important;
+  max-height: 300px;
+  margin-bottom: 6px;}
+
+.containerNormal--ProductShelfHome {margin: 0 3px;border-color: rgb(194 194 194);}
+.containerNormal--ProductShelfHome:hover{  border-color: rgb(194 194 194);  box-shadow: 0px 0px 4px 0px gray;}
+.element.element--vitrina-categoria {margin: 3px;}
+.productNameContainer {height: 40px;}
+.nameContainer {  padding-bottom: 2px !important; min-height: 40px;}
+.container.container--vitrina-categoria {  margin: 3px;  padding: 0 3px;  border: 1px solid #c4c4c4;}
+}
+
+.container.container--vitrina-categoria.containerNormal.containerNormal--vitrina-categoria {
+  max-width: 600px !important;
+}
+.element.element--vitrina-categoria {
+  margin: 0;
+  padding: 0;
+}
+
+.element.element--ProductShelf.element--ProductShelfHome {
+  min-height: 500px;
+}
+
+@media (max-width: 700px) {
+  .description--vitrina-description {margin-top: 0px; margin-bottom: 0px;}
+}

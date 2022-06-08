@@ -1,0 +1,77 @@
+/* Blocks can be defined both on the store/blocks.json file, and in any number of json
+ * files inside the store/blocks directory, with any arbitrary directory structure.
+ *
+ * Additionally, all blocks files can support comments, such as this one, if given the
+ * .jsonc file extension.
+ *
+ * The store/blocks.json file is intended for backwards compatibility, for miscellaneous
+ * blocks, or if the app is simple enough that it doesn't warrant splitting the file.
+ */
+ {
+  "store.orderplaced": {
+    "blocks": ["order-placed"]
+  },
+
+  "store.account": {
+    "blocks": [
+      "responsive-layout.desktop#bannerlogin",
+      "responsive-layout.phone#bannerloginM",
+      "my-account"
+    ],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
+  },
+
+  "store.login": {
+    "blocks": [
+      "responsive-layout.desktop#bannerlogin",
+      "responsive-layout.phone#bannerloginM",
+      "login-content#default"
+    ]
+  },
+  "responsive-layout.desktop#bannerlogin": {
+    "children": ["image#banner-login"]
+  },
+  "responsive-layout.phone#bannerloginM": {
+    "children": ["image#banner-loginM"]
+  },
+  "image#banner-login":{
+    "props":{
+      "src": "https://orbeim.vteximg.com.br/arquivos/login11Banner.png"
+    }
+  },
+  "image#banner-loginM":{
+    "props":{
+      "src": "https://orbeim.vteximg.com.br/arquivos/bannerLoginM.png"
+    }
+  },
+  "login-content#default": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+
+  "store.product-review-form": {
+    "blocks": ["product-review-form"]
+  },
+
+  "store.not-found#product": {
+    "blocks": ["rich-text#not-found"]
+  },
+
+  "store.not-found#search": {
+    "blocks": ["rich-text#not-found"]
+  },
+
+  "rich-text#not-found": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**PAGE NOT FOUND**",
+      "font": "t-heading-1"
+    }
+  }
+}

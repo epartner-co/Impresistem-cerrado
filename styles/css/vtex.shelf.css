@@ -1,0 +1,10 @@
+@media (max-width: 700px) {
+.slide.slide--depto-tab {min-height: 335px;margin-bottom: 10px;}
+.shelfContentContainer--depto-tab {
+    margin-bottom: 30px;
+}
+.shelfContentContainer--depto-tab :global(.vtex-slider-0-x-dotsContainer){
+    padding: 0;
+    bottom: -10px;
+}
+}

@@ -1,0 +1,196 @@
+{
+  "store.home": {
+    "blocks": [
+      /*componentes generales*/
+      "list-context.image-list#demo",
+
+      //Slider de marcas
+      "flex-layout.row#phone__nuestras--marcasTitulo",
+      "flex-layout.row#phone__nuestras--marcas",
+
+      //Banners Categorias DESK
+      "responsive-layout.desktop#flex-layout.row-nuestras-marcas-b",
+
+      // tabber
+      "responsive-layout.desktop#flex-layout.row--product__tabs",
+      "responsive-layout.phone#flex-layout.row--product__tabs",
+
+      //Banners Categorias MOBILE
+      "responsive-layout.phone#flex-layout.row-nuestras-marcas-b",
+
+      "responsive-layout.phone#flex-layout.row--home__first--collage--imagenes",
+
+      //MOZAICO CATEGORIA MOBILE
+      "responsive-layout.phone#Mozaico-Cat",
+
+
+      //VITRINA DESTACADOS MOBILE
+      "responsive-layout.phone#rich-text--title--productos--destacados",
+
+      "responsive-layout.phone#flex-layout.row--home__tercer-collage--imagenes",
+
+      //ACORDEON
+      "responsive-layout.desktop#flex-layout.row--home__first--collage--imagenes",
+
+      
+      "responsive-layout.desktop#flex-layout.row--home__second--collage--imagenes",
+      //"flex-layout.row#title--productos--destacados",
+      //"flex-layout.row#Shelf-destacados",
+      //"responsive-layout.desktop#flex-layout.row--home__second-slider-images",
+      "responsive-layout.desktop#flex-layout.row--home__tercer-collage--imagenes",
+      
+      "responsive-layout.desktop#flex-layout.descubre-nuestros-productos",
+      "responsive-layout.phone#flex-layout.descubre-nuestros-productos",
+
+      "responsive-layout.desktop#flex-layout.descubre-la-laptop-ideal",
+
+
+
+
+       "flex-layout.row#title--productos--+vendidos",
+       "flex-layout.row#Shelf-destacados",
+
+       //
+       "responsive-layout.desktop#flex-layout.row--home__third-slider-images",
+
+       "responsive-layout.phone#flex-layout.row--home__third-slider-images",
+      /*componentes desktop*/
+      /*componentes phone*/
+
+/*
+     "responsive-layout.phone#rich-text--title--productos--destacados",
+      "responsive-layout.phone#flex-layout.row--product__tabs",
+      "responsive-layout.phone#flex-layout.row--home__first--collage--imagenes",
+      "responsive-layout.phone#flex-layout.row--home__second--collage--imagenes",
+      "responsive-layout.phone#rich-text--title--productos--destacados",
+      "responsive-layout.phone#flex-layout.row--home__second-slider-images",
+      "responsive-layout.phone#flex-layout.row--home__espacio--grande",
+      "responsive-layout.phone#flex-layout.row--home__tercer-collage--imagenes",
+      "responsive-layout.phone#flex-layout.row--home__espacio--grande",
+      
+      "responsive-layout.phone#flex-layout.row--home__espacio",
+      "responsive-layout.phone#rich-text--title--productos--destacados",
+      "responsive-layout.phone#flex-layout.row--home__second-slider-images",
+      "responsive-layout.phone#flex-layout.row--home__espacio--grande",
+      "responsive-layout.phone#flex-layout.row--home__third-slider-images",
+*/
+      /*componentes generales*/
+
+      //Trigger Modal
+      "responsive-layout.desktop#popUp_desktop",
+      "responsive-layout.tablet#popUp_tablet",
+      "responsive-layout.mobile#popUp_mobile"
+    ]
+  },
+
+  /*componentes generales que se pueden repetir en ambas vistas (desktop y phone)*/
+
+  /*primer slider*/
+
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 920,
+      "images": [
+        {
+          "image": "https://orbeim.vteximg.com.br/arquivos/banne-home-1-full.jpg",
+          "mobileImage": "https://orbeim.vteximg.com.br/arquivos/banner mobile-newBannerImpre.jpg",
+          "link":{
+            "url":"/mujer/ropa"
+          }
+        },
+        {
+          "image": "https://orbeim.vteximg.com.br/arquivos/banne-home-1-full.jpg",
+          "mobileImage": "https://orbeim.vteximg.com.br/arquivos/banner mobile-newBannerImpre.jpg",
+          "link":{
+            "url":"/hombre"
+          }
+        },
+        {
+          "image": "https://orbeim.vteximg.com.br/arquivos/banne-home-1-full.jpg",
+          "mobileImage": "https://orbeim.vteximg.com.br/arquivos/banner mobile-newBannerImpre.jpg",
+          "link":{
+            "url":"/coleccion/bosque-encantado"
+          }
+        }
+      ]
+    }
+  },
+
+
+  
+
+
+
+
+
+
+
+
+
+  /*texto parte tabs...como se repite en ambos...se deja aca*/
+  "rich-text#tabs__content--impresoras":{
+    "props":{
+      "text":"impresoras..."
+    }
+  },
+  "rich-text#tabs__content--celulares":{
+    "props":{
+      "text":"celulares..."
+    }
+  },
+  "rich-text#tabs__content--tablets":{
+    "props":{
+      "text":"tablets..."
+    }
+  },
+
+  /*imagen computador...como se repite...se deja aca*/
+  "image#second--computer":{
+    "props":{
+      "src": "https://asyco.co/wp-content/uploads/2021/03/asus03.jpg"
+    }
+  },
+
+  /*texto computador...como se repite...se deja aca*/
+  "rich-text#first--computer--text":{
+    "props":{
+      "text":"Computador portatil ASUS (13.3,Intel)  \n Laptop 2 en 1 con tecnologia intel Eco \n opcional, IA y seguridad biometrica"
+    }
+  },
+  "rich-text#titleVitrina":{
+    "props":{
+      "blockClass":"titleVitrina",
+      "text":"Computador portatil ASUS (13.3,Intel)"
+    }
+  },
+  "rich-text#descriptionVitrina":{
+    "props":{
+      "blockClass":"descriptionVitrina",
+      "text":"Laptop 2 en 1 con tecnologia intel Eco opcional, IA y seguridad biometrica"
+    }
+  },
+
+  "rich-text#nuestras--marcas": {
+    "props": {
+      "text": "NUESTRAS MARCAS",
+      "blockClass": "nuestras--marcas"
+    }
+  },
+
+  "rich-text#home__lo--ultimo--de--impresistem": {
+    "props": {
+      "text": "## LO ULTIMO QUE IMPRESISTEM TIENE PARA TI",
+      "blockClass": ["nuestras--marcas", "impre-tiene-para-ti"]
+    }
+  },
+
+  //Texto de ultimas noticias
+  "rich-text#ultimas-noticias": {
+    "props": {
+      "text": "Actualizate de las últimas noticias que tenemos para ti",
+      "blockClass": ["nuestras--marcas", "impre-tiene-para-ti"]
+    }
+  }
+}
