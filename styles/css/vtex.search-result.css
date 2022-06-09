@@ -199,3 +199,9 @@
     margin-left: 0rem;
   }
 }
+
+/*AJUSTES CLIENTE*/
+.orderByOptionsContainer {
+  z-index: 99;
+}
+/*AJUSTES CLIENTE*/

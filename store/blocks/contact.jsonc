@@ -1,13 +1,44 @@
 {
   "store.custom#contact-us": {
     "children": [
-      "flex-layout.row#contact-us"
+      "flex-layout.row#contact-us",
+      "modal-trigger#registro"
     ]
   },
 
+  "modal-trigger#registro": {
+    "props": {
+      "trigger": "event",
+      "customPixelEventName": "pageView"
+    },
+    "children":[
+      "modal-layout#registro"
+    ]
+  },
+  "modal-layout#registro": {
+    "props":{
+      "blockClass":"modal_popUp_registro"
+    },
+    "children": [
+      "modal-header#blancor",
+      "flex-layout.row#contact-us"
+    ]
+  },
+  "modal-header#blancor": {
+    "props": {
+      "blockClass": "x-de-registro"
+    }
+  },
+
+
+
+
+
+
+
   "flex-layout.row#contact-us": {
     "props": {
-      "blockClass": "contact"
+      "blockClass": ["contact", "registro"]
     },
     "children": [
       "flex-layout.col#contact-us"
@@ -16,29 +47,48 @@
 
   "flex-layout.col#contact-us": {
     "children": [
+      "list-context.image-list#registro",
       "rich-text#contact-us",
       "form#contact-us"
     ]
   },
+
+  "list-context.image-list#registro": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "images": [
+        {
+          "image": "https://orbeim.vteximg.com.br/arquivos/registro-desk.png",
+          "mobileImage": "https://orbeim.vteximg.com.br/arquivos/registro-mobile.png",
+          "link":{
+            "url":"#"
+          }
+        }
+      ]
+    }
+  },
+
   "rich-text#contact-us": {
     "props": {
-      "text": "## Contact Us"
+      "text": "## ¡Obten todos los beneficios que IMPRESISTEM tiene para ti!",
+      "blockClass": "registro-titulo"
     }
   },
 
   "form#contact-us": {
     "props": {
-      "entity": "contact",
-      "schema": "site-contact"
+      "entity": "RG",
+      "schema": "v1"
     },
     "blocks": [
       "form-success#contact-us"
     ],
     "children": [
-      "form-input.text#title",
-      "form-input.text#name",
-      "form-input.text#email",
-      "form-input.textarea#message",
+      "form-input.text#nombre",
+      "flex-layout.row#nombreyempresa",
+      "flex-layout.row#mailytel",
+      "flex-layout.row#diryciudad",
+      "flex-layout.row#terminos",
       "form-submit#contact"
     ]
   },
@@ -50,36 +100,110 @@
   },
   "rich-text#success-submit": {
     "props": {
-      "text": "Thanks for reaching out! We will come back shortly.",
+      "text": "¡Gracias por tu registro, nos pondremos en contacto lo antes posible!",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
   },
 
-  "form-input.text#title": {
+  "form-input.text#nombre": {
     "props": {
-      "pointer": "#/properties/title"
+      "pointer": "#/properties/nombre",
+      "placeholder": "Nombre"
     }
   },
-  "form-input.text#name": {
+  "flex-layout.row#nombreyempresa": {
     "props": {
-      "pointer": "#/properties/name"
+      "blockClass": "nombreyempresa"
+    },
+    "children": [
+      "form-input.text#empresa",
+      "form-input.text#nit"
+    ]
+  },
+  "form-input.text#empresa": {
+    "props": {
+      "pointer": "#/properties/empresa",
+      "placeholder": "Empresa"
     }
   },
-  "form-input.text#email": {
+  "form-input.text#nit": {
     "props": {
-      "pointer": "#/properties/email"
-    }
-  },
-  "form-input.textarea#message": {
-    "props": {
-      "pointer": "#/properties/message"
+      "pointer": "#/properties/nit",
+      "placeholder": "Nit"
     }
   },
 
+  "flex-layout.row#mailytel": {
+    "props": {
+      "blockClass": "mailytel"
+    },
+    "children": [
+      "form-input.text#mail",
+      "form-input.text#telefono"
+    ]
+  },
+  "form-input.text#mail": {
+    "props": {
+      "pointer": "#/properties/mail",
+      "placeholder": "Correo eletronico"
+    }
+  },
+  "form-input.text#telefono": {
+    "props": {
+      "pointer": "#/properties/telefono",
+      "placeholder": "Teléfono"
+    }
+  },
+
+  "flex-layout.row#diryciudad": {
+    "props": {
+      "blockClass": "mailytel"
+    },
+    "children": [
+      "form-input.text#direccion",
+      "form-input.text#ciudad"
+    ]
+  },
+  "form-input.text#direccion": {
+    "props": {
+      "pointer": "#/properties/direccion",
+      "placeholder": "Dirección"
+    }
+  },
+  "form-input.text#ciudad": {
+    "props": {
+      "pointer": "#/properties/ciudad",
+      "placeholder": "Ciudad"
+    }
+  },
+
+  "flex-layout.row#terminos": {
+    "props": {
+      "blockClass": "terminos"
+    },
+    "children": [
+      "form-input.checkbox#aceptacion",
+      "rich-text#aceptacion"
+    ]
+  },
+  "form-input.checkbox#aceptacion": {
+    "props": {
+      "pointer": "#/properties/aceptacion"
+    }
+  },
+  "rich-text#aceptacion": {
+    "props": {
+      "width":"97%",
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Al enviar, confirmo que he leído y acepto los [Términos](#) y [condiciones y Declaración de privacidad](#).",
+      "blockClass": "aceptacion"
+    }
+  },
   "form-submit#contact": {
     "props": {
-      "label": "Submit"
+      "label": "Enviar"
     }
   }
 }

@@ -199,6 +199,7 @@
   "search-result-layout.mobile": {
     "children": [
       "breadcrumb.search",
+      "flex-layout.row#miga",
       "flex-layout.row#searchtitle",
       "flex-layout.row#filtroSeleccionado",
       "flex-layout.row#searchinfomobile",
@@ -275,7 +276,7 @@
   },
 
   "flex-layout.row#notfound": {
-    "children": ["not-found"],
+    "children": ["flex-layout.col#404Container"],
     "props": {
       "fullWidth": true
     }
@@ -365,6 +366,21 @@
       "text": "List",
       "textColor": "c-auto",
       "blockClass": "layout-option"
+    }
+  },
+  "flex-layout.row#miga": {
+    "children": ["breadcrumb.search#miga" ],
+    "props": {
+      "blockClass": "mija"
+    }
+  },
+  "breadcrumb.search#miga": {
+    "props": {
+      "showOnMobile": true,
+      "homeIconSize": "0",
+      "caretIconSize": "0",
+      "blockClass": "miga"
+    
     }
   },
   "flex-layout.row#filtroSeleccionado": {

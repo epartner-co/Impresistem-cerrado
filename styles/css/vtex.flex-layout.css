@@ -846,7 +846,7 @@
 .flexRowContent--imageVitrina {align-items: center;min-height: 175px; max-height: 175px;overflow: hidden;}
 .flexRow.flexRow--productCountMobileRow :global(.vtex-store-components-3-x-container) {padding: 0 0%;}
 .flexCol--newsletter-form--contenedor {width: 85% !important;margin:30px auto 15px;}
-.flexRowContent.flexRowContent--newsletter-form--phone {  background: #FFC533;  }
+/*AJUSTES CLIENTE*/ /*.flexRowContent.flexRowContent--newsletter-form--phone {  background: #FFC533;  }*/
 .flexRow--cetegoria {visibility: visible; }
 .flexCol--redes--sociales {display: contents;}
 .flexColChild--redes--sociales {width: 12%;justify-content: center;display: flex;margin: 0 0 25px;}
@@ -899,7 +899,45 @@
   padding: 0;
 }
 
-
+/*AJUSTES CLIENTE*/
+.flexRowContent--lineas-redes {
+  align-items: center;
+}
+.flexCol--logo--siguenos--facebook {
+  margin-left: 15px;
+}
+.flexRow--newsletter-form :global(.vtex-input-prefix__group) {
+  border-color: #ffc533;
+  border-radius: 3px 0px 0px 3px;
+}
+.flexRow--newsletter-form--phone :global(.vtex-input-prefix__group) {
+  border-color: #ffc533;
+}
+/*AJUSTES CLIENTE*/
+.flexRowContent--nombreyempresa {
+  justify-content: space-between;
+}
+.flexRowContent--nombreyempresa .stretchChildrenWidth {
+  width: 49% !important;
+}
+.flexRowContent--mailytel  .stretchChildrenWidth {
+  width: 49% !important;
+}
+.flexRowContent--mailytel {
+  justify-content: space-between;
+}
+.flexRowContent--terminos .stretchChildrenWidth {
+  align-items: flex-start;
+}
+.flexRowContent--terminos :global(.vtex-checkbox__inner-container) {
+  border-color: #ffc533;
+}
+.flexRowContent--terminos :global(.vtex-checkbox__label) {
+  display: none;
+}
+.flexRowContent--registro :global(.vtex-button) {
+  width: 100%;
+}
 @media (max-width: 600px) {
   :global(.vtex-search-result-3-x-gallery--list) .flexRowContent--imageVitrina {
     align-items: center;
@@ -944,4 +982,19 @@
     display: flex;
     justify-content: center;
   }
+  .flexCol--redes--sociales .flexColChild:first-child {
+    width: 25%;
+}
+.flexRowContent--nombreyempresa .stretchChildrenWidth {
+  width: 100% !important;
+}
+.flexRowContent--mailytel .stretchChildrenWidth {
+  width: 100% !important;
+}
+.flexRowContent--terminos .stretchChildrenWidth {
+  width: auto !important;
+}
+.flexRowContent--terminos {
+  display: flex;
+}
 }

@@ -1,6 +1,6 @@
 .homeLink::before {
-    content: "Home";
-    font-size: 11px;
+  /*AJUSTES CLIENTE*/  content: "Home";
+    font-size: 14px;
     color: #808080;
     text-decoration: underline;
 }
@@ -9,13 +9,17 @@
 }
 .link{
     color: #808080;
-    font-size: 11px;
+    font-size: 14px;
     text-decoration: underline;
 }
 .term {
     color: #001E49;
-    font-size: 12px;
+  /*AJUSTES CLIENTE*/  font-size: 14px;
     font-weight: bold;
+}
+.link--1:hover {
+    color: #001e49;
+    font-weight: 900;
 }
 .arrow::before {
     content: "";
@@ -24,6 +28,7 @@
     height: 5px;
     border-radius: 50%;
     display: inline-block;
+    margin-right: 5px;
 }
 .arrow {
     display: flex;

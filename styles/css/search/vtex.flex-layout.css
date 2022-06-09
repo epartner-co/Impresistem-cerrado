@@ -1,6 +1,4 @@
-.flexRow--orderByAndSwitcher {
 
-}
 
 .flexRowContent--savingsSummaryListDesktop {
   justify-content: flex-start;
@@ -91,7 +89,7 @@
 }
 
 .flexRow--2-footer-mobile{
-  background: black;
+  background: #00183A;
 }
 
 .flexRow--newsletter-form--phone{

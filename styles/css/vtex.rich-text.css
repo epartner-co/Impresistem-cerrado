@@ -521,7 +521,7 @@
 
 /*TITULO*/
 :global(.vtex-flex-layout-0-x-flexRowContent--container-accordion) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):hover .container--acordeon-titulo {visibility: visible;}
-.container--acordeon-titulo {position: relative;top: 85px;width: 100%;left: 0;right: 0;transition: all 0.5s;visibility: hidden;}
+.container--acordeon-titulo {position: relative;top: 85px;width: 100%;left: 0;right: 0;/*AJUSTES CLIENTE*/transition: all 0.1s;visibility: hidden;}
 .wrapper--acordeon-titulo {width: 100%;}
 .paragraph--acordeon-titulo {font-size: 23px;font-family: 'TT-Norms-bold';line-height: 1.2;}
 
@@ -546,7 +546,19 @@
 
 
 
-
+.paragraph--aceptacion {
+  margin: 0px 0 25px 5px;
+  line-height: 1;
+}
+.link.link--aceptacion {
+  color: #001e49;
+  font-weight: 900;
+  text-decoration: none;
+}
+.wrapper--registro-titulo .heading-level-2 {
+  color: #001e49;
+  font-size: 25px;
+}
 
 @media (max-width: 700px) {
 .paragraph.paragraph--Mozaico-Cat-titulo {color: black;}
@@ -577,4 +589,14 @@
 .wrapper--texto-carrusel-final-mobile .paragraph {margin: 0 0 12px;}
 .heading--impre-tiene-para-ti.heading--nuestras--marcas.heading-level-2.headingLevel2.headingLevel2--impre-tiene-para-ti {  font-size: 23x !important;  margin: 10px 0;}
 .vtex-rich-text-0-x-headingLevel2--text-descubre-nuestros-productos {  font-size: 21px;  margin: 0 0 36px;}
+
+
+.paragraph--siguenos--en {
+  line-height: 1;
+  font-size: 11px;
+  margin-right: 10px;
+}
+.wrapper--registro-titulo .heading-level-2 {
+  font-size: 18px;
+}
 }

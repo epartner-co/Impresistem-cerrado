@@ -58,10 +58,37 @@
     color: white;
 }
 
+/*AJUSTES CLIENTE*/
+.emailInputContainer :global(.vtex-styleguide-9-x-hideDecorators) {
+    background: #ffffff73;
+    border-radius: 0;
+    color: white;
+}
+.emailInputContainer :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+    color: white;
+}
+.formSubmitContainer--newsletter-submit :global(.vtex-button) {
+    border-radius: 0px 3px 3px 0px;
+}
+.formSubmitContainer--newsletter-submit--phone :global(.vtex-button) {
+    border-radius: 0px 3px 3px 0px;
+}
+.emailInputContainer--phone :global(.vtex-styleguide-9-x-hideDecorators) {
+    background: #ffffff5e;
+    border-radius: 0px 3px 3px 0px;;
+}
+.defaultSuccessMessage {
+    color: #ffc533;
+}
+
+/*AJUSTES CLIENTE*/
 /*-----------------------------*/
 
 @media screen and (max-width: 700px) {
 .confirmationCheckboxContainer--newsletter-checkbox-confirmation--phone :global(.vtex-checkbox__label) {font-size: 12px;}
 .formSubmitContainer--newsletter-submit--phone {position: absolute;top: 0;right: 0;left: unset;}
 .emailInputContainer {width: 100%;}
+.defaultSuccessMessage {
+    text-align: center;
+}
 }

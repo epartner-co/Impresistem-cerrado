@@ -1,4 +1,5 @@
 {
+  /*
   "store.custom#faq": {
     "children": [
       "flex-layout.row#faq"
@@ -174,4 +175,5 @@
       "orientation": "up"
     }
   }
+  */
 }

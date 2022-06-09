@@ -6,7 +6,7 @@
     "path": "/faq"
   },
   "store.custom#contact-us": {
-    "path": "/contact-us"
+    "path": "/contacto"
   },
   "store.custom#pagetest": {
     "path": "/pagetest"
@@ -19,5 +19,14 @@
   },
   "store.custom#tyc": {
     "path": "/terminos-condiciones"
+  },
+  "store.custom#Despacho":{
+    "path": "/despacho"
+  },
+  "store.custom#Devolucion":{
+    "path": "/devolucion"
+  },
+  "store.custom#Garantia":{
+    "path": "/garantia"
   }
 }

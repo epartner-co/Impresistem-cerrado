@@ -131,4 +131,16 @@
 
 @media (max-width: 700px) {
 .headerContainer--x-de-cerrado {  position: absolute;  right: -6;  top: 9%;  border: none;}
+.paper--modal_popUp_registro {
+  width: 100%;
+  max-width: 100%;
+}
+}
+
+
+.paper--modal_popUp_registro {
+  padding: 0px 0 20px;
+}
+.headerContainer--x-de-registro {
+  border: none;
 }

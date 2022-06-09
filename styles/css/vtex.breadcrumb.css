@@ -2,6 +2,11 @@
   margin: 8px 0 0px;
 }
 
+/*AJUSTES CLIENTE*/
+.link--1 {
+  font-size: 13px;
+}
+
 @media (max-width: 600px) {
   .container--filtroseleccionado {
       margin: 0;
@@ -51,5 +56,14 @@
 
 .container {
   padding-top: 0px;
-  margin-top: 0px;
+/*AJUSTES CLIENTE*/  margin-top: 15px;
 }
+/*AJUSTES CLIENTE*/
+.term {
+  font-size: 14px !important;
+}
+.link--1 {
+  font-size: 14px;
+}
+
+/*AJUSTES CLIENTE*/
