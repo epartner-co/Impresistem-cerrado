@@ -1,0 +1,232 @@
+{
+    //Soluciones vista 80%
+    "flex-layout.row#cardSmartInfoDesktopTYC": {
+        "props": {
+            "blockClass": "cardSmartInfoDesktopTYC"
+        },
+        "children": [
+            "flex-layout.col#cardSmartInfoDesktop"
+        ]
+    },
+    "flex-layout.col#cardSmartInfoDesktop": {
+        "props": {
+            "blockClass": "cardSmartInfoDesktopTYC"
+        },
+        "children": [
+            "flex-layout.row#cardSmartContainerDesktop"
+        ]
+    },
+    "flex-layout.row#cardSmartContainerDesktop": {
+        "children": [
+            "flex-layout.col#cardSmartDesktop_1",
+            "flex-layout.col#cardSmartDesktop_2",
+            "flex-layout.col#cardSmartDesktop_3"
+        ]
+    },
+    "flex-layout.col#cardSmartDesktop_1": {
+        "props": {
+            "width": "33.333%",
+            "blockClass": "cardSmartDesktop_1"
+        },
+        "children": [
+            "flex-layout.row#bannerCardSmart_1",
+            "rich-text#paragraphSmart_1"
+        ]
+    },
+    "flex-layout.col#cardSmartDesktop_2": {
+        "props": {
+            "width": "33.333%",
+            "blockClass": "cardSmartDesktop_2"
+        },
+        "children": [
+            "flex-layout.row#bannerCardSmart_2",
+            "rich-text#paragraphSmart_2"
+        ]
+    },
+    "flex-layout.col#cardSmartDesktop_3": {
+        "props": {
+            "width": "33.333%",
+            "blockClass": "cardSmartDesktop_3"
+        },
+        "children": [
+            "flex-layout.row#bannerCardSmart_3",
+            "rich-text#paragraphSmart_3"
+        ]
+    },
+    //////////////////////////////// 🐱  Titulos laterales   ////////////////////////////////
+    "flex-layout.col#text-tycs1": {
+        "children": [
+            "flex-layout.col#deskTyC",
+            "flex-layout.col#deskTyC1",
+            "flex-layout.col#deskTyC2",
+            "flex-layout.col#deskTyC3"
+        ],
+        "props": {
+            "blockClass": "textColumn1",
+            "preventVerticalStretch": true,
+            "width": "20%",
+            "rowGap": 0
+        }
+    },
+    "flex-layout.col#deskTyC": {
+        "children": [
+            "rich-text#deskTyC",
+            "rich-text#deskTyCop1"
+        ],
+        "props": {
+            "blockClass": "boxtextop"
+        }
+    },
+    "flex-layout.col#deskTyC1": {
+        "children": [
+            "rich-text#deskTyC1",
+            "rich-text#deskTyC1op1"
+        ],
+        "props": {
+            "blockClass": "boxtextop"
+        }
+    },
+    "flex-layout.col#deskTyC2": {
+        "children": [
+            "rich-text#deskTyC2",
+            "rich-text#deskTyC2op1",
+            "rich-text#deskTyC2op2",
+            "rich-text#deskTyC2op3"
+        ],
+        "props": {
+            "blockClass": "boxtextop"
+        }
+    },
+    "flex-layout.col#deskTyC3": {
+        "children": [
+            "rich-text#deskTyC3",
+            "rich-text#deskTyC3op1"
+        ],
+        "props": {
+            "blockClass": "boxtextop"
+        }
+    },
+    "rich-text#deskTyC": {
+        "props": {
+            "textAlignment": "CENTER",
+            "text": "PREGUNTAS FRECUENTES",
+            "blockClass": [
+                "tituloF",
+                "titutloPri"
+            ]
+        }
+    },
+    "rich-text#deskTyCop1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "text": "[PREGUNTAS FRECUENTES](/faq)",
+            "blockClass": [
+                "tituloF",
+                "tituloSub"
+            ]
+        }
+    },
+    "rich-text#deskTyC1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "text": "TÉRMINOS Y CONDICIONES",
+            "blockClass": [
+                "tituloF"
+            ]
+        }
+    },
+    "rich-text#deskTyC1op1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "text": "[TÉRMINOS Y CONDICIONES](/terminos-condiciones)",
+            "blockClass": [
+                "tituloF",
+                "tituloSub"
+            ]
+        }
+    },
+    "rich-text#deskTyC2": {
+        "props": {
+            "textAlignment": "CENTER",
+            "text": "Políticas",
+            "blockClass": "tituloF"
+        }
+    },
+    "rich-text#deskTyC2op1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "text": "[Despacho](/despacho)",
+            "blockClass": [
+                "tituloF",
+                "tituloSub"
+            ]
+        }
+    },
+    "rich-text#deskTyC2op2": {
+        "props": {
+            "textAlignment": "CENTER",
+            "text": "[Devolucion](/Devolucion)",
+            "blockClass": [
+                "tituloF",
+                "tituloSub"
+            ]
+        }
+    },
+    "rich-text#deskTyC2op3": {
+        "props": {
+            "textAlignment": "CENTER",
+            "text": "[Garantia](/garantia)",
+            "blockClass": [
+                "tituloF",
+                "tituloSub"
+            ]
+        }
+    },
+    "rich-text#deskTyC3": {
+        "props": {
+            "textAlignment": "CENTER",
+            "text": "Smart Solution",
+            "blockClass": "tituloF"
+        }
+    },
+    "rich-text#deskTyC3op1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "text": "[Smart Solution](/smart-solutions)",
+            "blockClass": [
+                "tituloF",
+                "tituloSub"
+            ]
+        }
+    },
+    //Fin titulos laterales
+    //////////////////////////////////   BANNER DESPACHOS   //////////////////////////////////
+    "flex-layout.row#ImgDespachos": {
+        "props": {
+            "blockClass": "flex-layout_bannerDespachos"
+        },
+        "children": [
+            "image#bannerDespachos"
+        ]
+    },
+    "image#bannerDespachos": {
+        "props": {
+            "src": "assets/img/about-us/Rectangle.png",
+            "blockClass": "bannerDespachos"
+        }
+    },
+    "flex-layout.row#ImgDespachosM": {
+        "props": {
+            "blockClass": "flex-layout_bannerDespachos"
+        },
+        "children": [
+            "image#bannerDespachosM"
+        ]
+    },
+    "image#bannerDespachosM": {
+        "props": {
+            "src": "assets/img/about-us/RectangleM.png",
+            "blockClass": "bannerDespachosM"
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "tab-content.item#devoluciones": {
+        "children": [
+            "rich-text#Politicas",
+            "rich-text#Politicas--item1",
+            "rich-text#Politicas--item2",
+            "flex-layout.row#ImgDespachos",
+            "flex-layout.row#ImgDespachosM",
+            "rich-text#Politicas--item3",
+            "rich-text#Politicas--item4",
+            "rich-text#Politicas--item5"
+        ],
+        "props": {
+            "blockClass": [
+                "TabContent",
+                "TabContent--Politicas"
+            ],
+            "tabId": "devoluciones"
+        }
+    },
+    // ? Rich text Politicas
+    "rich-text#Politicas": {
+        "props": {
+            "blockClass": [
+                "Politics__Text",
+                "Politics__Text--Politicas"
+            ],
+            "text": "### POLÍTICA DE DEVOLUCIONES"
+        }
+    },
+    "rich-text#Politicas--item1": {
+        "props": {
+            "blockClass": [
+                "Politics__Text",
+                "Politics__Text--Politicas--item1"
+            ],
+            "text": "Debido a la naturaleza de los productos que comercializamos, Impresistem S.A.S NO acepta devolución de productos, salvo si se demuestra la existencia de una de las siguientes situaciones:\n1. Productos entregados fuera de tiempo, (5) días.\n2. Facturas con producto, cantidad o valor errados previa revisión de la Orden de compra.\n3. Productos que el cliente no haya solicitado previa revisión de la Orden de compra."
+        }
+    },
+    "rich-text#Politicas--item2": {
+        "props": {
+            "blockClass": [
+                "Politics__Text",
+                "Politics__Text--Politicas--item1"
+            ],
+            "text": "#### NO SE ACEPTARÁN DEVOLUCIONES EN NINGÚN CASO SÍ:\nLos productos presentan deterioro por mal uso o manipulación, es decir productos destapados, con empaques deteriorados, rayados, con etiquetas, letreros, cintas, logotipos o en general cualquier modificación que a juicio de Impresistem S.A.S. afecten su posterior comercialización a otro cliente.\nSolo de presentarse alguna de las situaciones anteriores, el procedimiento a seguir es:\n1. Enviar una solicitud para la revisión del caso en devolución, al siguiente correo electrónico tramitespostventa@impresistem.com adjuntando un registro fotográfico del producto, copia de la factura de venta, formato de devoluciones completamente diligenciado.\n2. Recuerda que tienes 5 días hábiles para reportar la devolución al siguiente correo tramitespostventa@impresistem.com de lo contrario se rechazara la solicitud.\n3. Con base en la información anterior, Impresistem analizará las causas expuestas y generará un documento denominado “Tramite en evaluación” con su respectivo número de caso o indicará el rechazo de la solicitud con sus respectivas causales.\n4. Si se genera el trámite de evaluación sobre la devolución, Impresistem emitirá una comunicación escrita al cliente autorizando el envío del producto. Al enviarlo, por favor tener en cuenta:\n    - Bogotá: Imprimir la carta de trámite en estudio\n    - A nivel nacional: Imprimir el rotulador y colocarlo junto con el producto.\nRecuerda que para ambos casos debe encontrarse en perfecto estado físico, sin muestras de uso o manipulación, empaques originales, sellados y accesorios completos. Evitar colocar cintas y rótulos directamente sobre los empaques originales, cualquier signo de deterioro, uso o daño es causal de rechazo y anulación del caso.\n5. Para el envió del producto debes tener en cuenta: El producto debe venir completamente sellado y envuelto ya sea en vinipel transparente o negro, esto con el fin de que llegue a nuestras instalaciones en buen estado evitando así cualquier imprevisto.  \n6. No se debe enviar ningún producto a Impresistem S.A.S. sin tener la aprobación escrita de la devolución. De hacerlo así, será retornado al cliente y los fletes serán por su cuenta."
+        }
+    },
+    "rich-text#Politicas--item3": {
+        "props": {
+            "blockClass": [
+                "Politics__Text",
+                "Politics__Text--Politicas--item1"
+            ],
+            "text": "#### Para tener en cuenta\n1. Plazos para revisión del caso de devolución: Tanto para la Ciudad de Bogotá como para las demás ciudades del País, el plazo máximo para recibir una solicitud de aceptación de devolución es de 5 (cinco) días hábiles a partir de la fecha de entrega.\n2.Plazos para la devolución física del producto: Una vez aprobada la solicitud de aceptación de devolución y contados a partir de la fecha de la carta de aprobación de Impresistem S.A.S. el distribuidor tiene un plazo máximo de 3 (tres) días hábiles en Bogotá y 4 (cuatro) días hábiles a nivel nacional para hacer llegar físicamente a las instalaciones de Impresistem S.A.S.\n3.Ten presente que para el producto aprobado en devolución se analizará el caso en particular para determinar si el pago del flete lo asume el distribuidor.\n4.Cualquier producto que sea entregado en plazo superior al anterior, será devuelto y perderá la aprobación emitida. En caso de que el flete deba ser asumido por el distribuidor no se recibirán despachos con cobro en Impresistem S.A.S. y el flete de regreso será asumido por cuenta del distribuidor.\n5.La carta de trámite en estudio de envío no implica la aceptación de la devolución, Impresistem S.A.S. revisará el estado físico, accesorios, manuales, empaques y el funcionamiento de los productos recibidos en su departamento técnico – si aplica - y solo en ese momento aceptará o no la devolución.\n6.Los vehículos de Impresistem S.A.S. que despachan en la Ciudad de Bogotá, no están autorizados a recibir devoluciones sin que esté adjunta la carta de aceptación.\n7.Cuando por estudio del área se determine que el flete será asumido por Impresistem S.A.S, deberá ser enviada la siguiente información con el fin de agilizar y así poder realizar la correcta recolección del producto."
+        }
+    },
+    "rich-text#Politicas--item4": {
+        "props": {
+            "blockClass": [
+                "Politics__Text",
+                "Politics__Text--Politicas--item1"
+            ],
+            "text": "|||\n| :--- | ---: |\n| Nit||\n| Razón Social||\n|Contacto||\n| Celular||\n| Dirección||\n| Ciudad||\n|Cantidad de Cajas||"
+        }
+    },
+    "rich-text#Politicas--item5": {
+        "props": {
+            "blockClass": [
+                "Politics__Text",
+                "Politics__Text--Politicas--item1"
+            ],
+            "text": "Descargue [aquí](/) el formato de su eleccion\n- Formato de devolcuiones\n- Rotulador"
+        }
+    }
+}

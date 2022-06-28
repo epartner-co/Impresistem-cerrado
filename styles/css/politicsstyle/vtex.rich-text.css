@@ -1,0 +1,58 @@
+/* ------------------------------- */
+/* //* Politics page*/
+/* ------------------------------- */
+.headingLevel1--Politics__Title {
+  font-family: "Encode Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #2a2a2a;
+  margin: 20px 0 50px;
+  text-transform: uppercase;
+}
+.container--Politics__Title {
+  padding: 0 40px;
+}
+.wrapper--Politics__Group-Title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  padding: 0 25px;
+  width: 100%;
+  color: #808080;
+}
+.wrapper--Politics__Group-Title::after {
+  content: "";
+  background-image: url(https://cdn.discordapp.com/attachments/430453905902796804/990566034320789574/Vector.png);
+  width: 15px;
+  height: 15px;
+  /* TODO: Change store URL resource */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transform: rotate(0deg);
+  transition: all 0.2s ease 0s;
+}
+.paragraph--Politics__Group-Title {
+  font-size: 13px;
+  font-weight: 700;
+}
+.paragraph--Politics__Text {
+  font-family: 'Montserrat';
+  margin: 0;
+  font-size: 13px;
+  font-weight: 400;
+  color: #808080;
+}
+.container--Politics__Text {
+  color: #808080;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 18px;
+}
+.listItem--Politics__Text{
+  font-family: 'Montserrat';
+  margin: 0;
+  font-size: 13px;
+  color: #808080;
+  font-weight: 400;
+}

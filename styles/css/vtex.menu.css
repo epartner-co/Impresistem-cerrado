@@ -72,6 +72,7 @@
 .styledLinkContent.styledLinkContent--MenuItem:hover {
   background: #ffedc2;
   border-radius: 2px;
+  border: 6px solid #ececec;
 }
 
 .styledLinkContent.styledLinkContent--MenuItem {
@@ -204,10 +205,12 @@
  /*AJUSTES CLIENTE*/ color: white;
   font-size: 12px;
   white-space: pre-line;
+
 }
 
 .styledLinkContent--texto--menu:hover {
   color: rgb(255, 238, 80);
+
 }
 .styledLinkContent--titulos {
   color: rgb(255, 255, 255);

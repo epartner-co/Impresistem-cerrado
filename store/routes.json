@@ -17,9 +17,7 @@
   "store.custom#smart": {
     "path": "/smart-solutions"
   },
-  "store.custom#tyc": {
-    "path": "/terminos-condiciones"
-  },
+
   "store.custom#Despacho":{
     "path": "/despacho"
   },
@@ -28,5 +26,11 @@
   },
   "store.custom#Garantia":{
     "path": "/garantia"
+  },
+  "store.custom#Nosotros":{
+    "path": "/Nosotros"
+  },
+  "store.custom#politics": {
+    "path": "/terminos-condiciones"
   }
 }

@@ -1,0 +1,114 @@
+/* ------------------------------- */
+/* //* Politics Page */
+/* ------------------------------- */
+.container--Politics__Container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  padding: 0 15px;
+}
+.listContainer--Politics__Menu {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #32454580;
+}
+.listItem--TabItem {
+  margin: 0 0 15px;
+  padding: 0;
+}
+.listItem--TabItem :global(.vtex-button) {
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+}
+.listItem--TabItem :global(.vtex-button__label) {
+  justify-content: flex-start;
+  padding: 0 !important;
+  color: #808080;
+  font-family:  'TT-Norms' !important;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.listItemActive--TabItem
+  :global(.vtex-button__label) {
+    background-color: #FFEDC2;
+    border-radius: 5px ;
+    font-weight: 700;
+
+  color: #2A2A2A;
+}
+.contentContainer--Politics__Content {
+  margin: 30px 0 50px;
+  padding: 10px;
+
+  width: 100%;
+  max-height: 1000px;
+  border-radius: 10px;
+  overflow-y: auto;
+}
+.contentContainer--Politics__Content::-webkit-scrollbar {
+  width: 20px;
+}
+.contentContainer--Politics__Content::-webkit-scrollbar-track {
+  background: #32454580;
+  border-left: 9px solid white;
+  border-right: 9px solid white;
+}
+.contentContainer--Politics__Content::-webkit-scrollbar-thumb {
+  background: #324545;
+  border-left: 7px solid white;
+  border-right: 7px solid white;
+}
+.contentContainer--Politics__Content::-webkit-scrollbar-thumb:hover {
+  border-left: 5px solid white;
+  border-right: 5px solid white;
+}
+.flexRow--Footer-Contac {
+  width: 72%;
+  margin: 0 auto;
+}
+.flexRow--Footer-Payment-rows {
+  width: 90%;
+  margin: 0 auto;
+}
+/* ------------------------------- */
+/* //? Media Queries*/
+/* ------------------------------- */
+@media (min-width: 1026px) {
+  /* ! Politics page */
+  
+  .container--Politics__Container {
+    flex-direction: row;
+    margin-bottom: 50px;
+    padding: 0 15px;
+  }
+  .listContainer--Politics__Menu {
+    justify-content: flex-start;
+    padding-right: 40px;
+    padding-bottom: 0;
+    width: 25%;
+    border-right: 1px solid #D3D3D3;
+    border-bottom: 0;
+  }
+  .contentContainer--Politics__Content {
+    margin-top: 0;
+    margin-left: 40px;
+    margin-bottom: 0;
+    padding: 35px;
+    width: 75%;
+  }
+}
+
+@media (min-width: 1500px) {
+  .listContainer--Politics__Menu {
+    width: 30%;
+  }
+  .contentContainer--Politics__Content {
+    width: 70%;
+  }
+}
+/* ------------------------------- */

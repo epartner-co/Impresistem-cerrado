@@ -577,12 +577,13 @@
 .flexCol--cardWelcomeDesktop,
 .flexCol--cardWelcomeTablet {
   position: relative;
-  background: #f7f7f7;
+  background: #fdfdfd;
+  border-radius: 5px;
 }
 .flexCol--cardWelcomeDesktop {
   top: -60px;
   width: 80% !important;
-  padding: 0px 30px;
+  padding: 0px 160px;
 }
 .flexCol--separator1A,
 .flexCol--separator2A {
@@ -598,7 +599,7 @@
 .flexCol--cardWelcomeTablet {
   top: -40px;
   width: 90% !important;
-  padding: 0px 10px 10px 10px;
+  padding: 0px 30px 10px 30px;
 }
 .flexCol--cardSmartInfoDesktop {
   width: 90% !important;
@@ -632,13 +633,17 @@
   background: #f7f7f7;
   position: absolute;
   left: -10%;
+  padding: 22px;
+  border-radius: 5px;
 }
 .flexCol--containerCreativeTablet {
+  display: flex;
   background: #f7f7f7;
   width: 90% !important;
   position: relative;
-  top: -20%;
   padding: 0px 5%;
+  top: -50px;
+  border-radius: 5px;
 }
 .flexCol--exploreProductsNetwork_1,
 .flexCol--exploreProductsNetwork_2 {
@@ -938,6 +943,18 @@
 .flexRowContent--registro :global(.vtex-button) {
   width: 100%;
 }
+
+.flexRowContent--cardSmartInfoDesktopTYC{
+  display: flex;
+  position: relative;
+  width: 75vw;
+  margin-left: 18.5vw;
+  margin-bottom: 2vh;
+}
+
+
+
+
 @media (max-width: 600px) {
   :global(.vtex-search-result-3-x-gallery--list) .flexRowContent--imageVitrina {
     align-items: center;
@@ -997,4 +1014,19 @@
 .flexRowContent--terminos {
   display: flex;
 }
+.flexRowContent--cardSmartInfoDesktopTYC{
+  display: flex;
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-bottom: 2vh;
 }
+
+
+
+}
+
+
+
+
+

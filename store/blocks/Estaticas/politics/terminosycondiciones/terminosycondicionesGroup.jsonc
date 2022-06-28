@@ -1,0 +1,226 @@
+{
+  // * Terminos Section
+  "disclosure-layout#terminosycondiciones": {
+    "props": {
+      "blockClass": ["Disclosure__group", "Disclosure__group--Terminos"]
+    },
+    "children": ["disclosure-trigger#Terminos", "disclosure-content#Terminos"]
+  },
+  // ! Terminos Title Group
+  "disclosure-trigger#Terminos": {
+    "props": {
+      "blockClass": [
+        "Disclosure__Trigger-Politics",
+        "Disclosure__Trigger-Politics--Terminos"
+      ]
+    },
+    "children": ["rich-text#TerminosTitle"]
+  },
+  // ? Group Title
+  "rich-text#TerminosTitle": {
+    "props": {
+      "blockClass": [
+        "Politics__Group-Title",
+        "Politics__Group-Title--Terminos"
+      ],
+      "text": "TYC"
+    }
+  },
+  // ! Terminos content
+  "disclosure-content#Terminos": {
+    "props": {
+      "blockClass": ["Disclosure__content", "Disclosure__content--Terminos"]
+    },
+    "children": ["tab-list.item#Terminos"]
+  },
+
+  //***************************************************************************
+  // * Item 1
+  //***************************************************************************
+  "tab-list.item#Terminos": {
+    "props": {
+      "blockClass": ["TabItem", "TabItem--Terminos"],
+      "tabId": "terminosycondicionesID",
+      "label": "Términos y Condiciones"
+    }
+  },
+  // ! Item content Terminos
+  // It is necessary to add this components into politics.jsonc at tab-content#Politics__Content
+  "tab-content.item#Terminos": {
+    "children": [
+      "rich-text#Terminos",
+      "rich-text#Terminos--item1",
+      "rich-text#Terminos--item2",
+      "rich-text#Terminos--item3",
+      "rich-text#Terminos--item4",
+      "rich-text#Terminos--item5",
+      "rich-text#Terminos--item6",
+      "rich-text#Terminos--item7",
+      "rich-text#Terminos--item8",
+      "rich-text#Terminos--item9",
+      "rich-text#Terminos--item10",
+      "rich-text#Terminos--item11",
+      "rich-text#Terminos--item12",
+      "rich-text#Terminos--item13",
+      "rich-text#Terminos--item14",
+      "rich-text#Terminos--item15",
+      "rich-text#Terminos--item16",
+      "rich-text#Terminos--item17",
+      "rich-text#Terminos--item18",
+      "rich-text#Terminos--item19",
+      "rich-text#Terminos--item20",
+      "rich-text#Terminos--item21",
+      "rich-text#Terminos--item22",
+      "rich-text#Terminos--item23"
+    ],
+    "props": {
+      "blockClass": ["TabContent", "TabContent--Terminos"],
+      "tabId": "terminosycondicionesID"
+    }
+  },
+  // ? Rich text Terminos
+  "rich-text#Terminos": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Terminos"],
+      "text": "### TERMINOS Y CONDICIONES"
+    }
+  },
+  "rich-text#Terminos--item1": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Terminos--item1"],
+      "text": "Este documento describe los términos y condiciones generales (los 'Términos y Condiciones Generales') y las políticas de privacidad (las 'Políticas de Privacidad') aplicables al acceso y uso de los servicios ofrecidos por IMPRESISTEM, S.A.S ('los Servicios') dentro del sitio www.impresistem.com, y/u otros dominios (urls) relacionados, en donde éstos Términos y Condiciones se encuentren. Cualquier persona que desee acceder y/o suscribirse y/o usar el Sitio o los Servicios podrá hacerlo sujetándose a los Términos y Condiciones Generales y las Políticas de Privacidad, junto con todas las demás políticas y principios que rigen impresistem.com y que son incorporados al presente directamente o por referencia o que son explicados y/o detallados en otras secciones del Sitio. En consecuencia, todas las visitas y todos los contratos y transacciones que se realicen en este Sitio, así como sus efectos jurídicos, quedarán regidos por estas reglas y sometidos a la legislación aplicable en Colombia.\nLos Términos y Condiciones y las Políticas de Privacidad contenidos en este instrumento se aplicarán y se entenderán como parte integral de todos los actos y contratos que se ejecuten o celebren mediante los sistemas de oferta y comercialización comprendidos en este sitio entre los usuarios de este sitio e  IMPRESISTEM S.A.S (en adelante 'IMPRESISTEM', o la 'Empresa', indistintamente).      \nCUALQUIER PERSONA QUE NO ACEPTE ESTOS TÉRMINOS Y CONDICIONES GENERALES Y LAS POLÍTICAS DE PRIVACIDAD, LOS CUALES TIENEN UN CARÁCTER OBLIGATORIO Y VINCULANTE, DEBERÁ ABSTENERSE DE UTILIZAR EL SITIO Y/O LOS SERVICIOS.\nEl Usuario debe leer, entender y aceptar todas las condiciones establecidas en los Términos y Condiciones Generales y en las Políticas de Privacidad de IMPRESISTEM S.A.S así como en los demás documentos incorporados a los mismos por referencia, previo a su registro como Usuario de impresistem.com y/o a la adquisición de productos y/o entrega de cualquier dato con cualquier fin.      \nSi el usuario hiciera uso del Sitio de IMPRESISTEM, ello implicará la aceptación plena de las condiciones establecidas en los Términos y Condiciones Generales y en las Políticas de IMPRESISTEM S.A.S. Por dicha utilización del sitio y/o sus servicios, el Usuario se obligará a cumplir expresamente con las mismas, no pudiendo alegar el desconocimiento de tales Términos y Condiciones Generales y de la Política de Privacidad.\n"
+    }
+  },
+  "rich-text#Terminos--item2": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Terminos--item1"],
+      "text": "### 1.CAPACIDAD LEGAL\nLos Servicios sólo están disponibles para personas que tengan capacidad legal para contratar. No podrán utilizar los servicios las personas que no tengan esa capacidad y los menores de edad. No obstante lo anterior una vez se realice el registro y el Usuario reciba la clave para realizar transacciones en la página web,  se presume la capacidad para obligar a la persona natural o jurídica registrada y las operaciones que realice obligan al Usuario registrado por IMPRESISTEM. Se presume la capacidad legal de la persona que registre una empresa como Usuario, para contratar a nombre de tal entidad y de obligar a la misma en los términos de este Acuerdo."
+    }
+  },
+  "rich-text#Terminos--item3": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Terminos--item1"],
+      "text": "### 2.REGISTRO Y USO DEL SITIO\nEs obligatorio completar el formulario de registro en todos sus campos con datos válidos para convertirse en Usuario autorizado de impresistem.com, acceder a las promociones, y para la adquisición de productos y/o servicios ofrecidos en este sitio. El futuro Miembro impresistem.com deberá completar el formulario de registro con su información personal de manera completa y precisa ('Datos Personales') y asume el compromiso de actualizar los Datos Personales conforme resulte necesario. IMPRESISTEM podrá utilizar diversos medios para identificar a sus Miembros ('Usuarios'), pero IMPRESISTEM NO se responsabiliza por la veracidad de los Datos Personales provistos por sus Usuarios. Los Usuarios garantizan y responden, en cualquier caso, de la exactitud, veracidad, vigencia y autenticidad de los Datos Personales ingresados. Cada usuario sólo podrá ser titular de 1 (una) cuenta IMPRESISTEM, no pudiendo acceder a más de 1 (una) cuenta IMPRESISTEM con distintas direcciones de correo electrónico o falseando, modificando y/o alterando sus datos personales de cualquier manera posible. Si se verificara o sospechará un uso fraudulento y/o malintencionado y/o contrario a estos Términos y Condiciones y/o contrarios a la buena fe, IMPRESISTEM tendrá el derecho inapelable de dar por terminados los créditos, cancelar las cuentas y hasta de perseguir judicialmente a los infractores.   \nIMPRESISTEM se reserva el derecho de solicitar algún comprobante y/o dato adicional a efectos de corroborar los Datos Personales, así como de suspender temporal o definitivamente a aquellos Usuarios cuyos datos no hayan podido ser confirmados. En estos casos de inhabilitación, IMPRESISTEM podrá cancelar la compra efectuada, sin que ello genere derecho alguno a resarcimiento, pago y/o indemnización.\nEl Miembro, una vez registrado, dispondrá de su dirección de email y una clave secreta (en adelante la 'Clave') que le permitirá el acceso personalizado, confidencial y seguro. En caso de poseer estos datos, el Usuario tendrá la posibilidad de cambiar la Clave de acceso, para lo cual deberá sujetarse al procedimiento establecido en el Sitio. El Usuario se obliga a mantener la confidencialidad de su Clave de acceso, asumiendo totalmente la responsabilidad por el mantenimiento de la confidencialidad de su Clave secreta registrada en este sitio web, la cual le permite efectuar compras, solicitar servicios y obtener información (la 'Cuenta'). Dicha Clave es de uso personal, y su entrega a terceros no involucra responsabilidad de IMPRESISTEM S.A.S., en caso de utilización indebida, negligente y/o incorrecta.\nEl Usuario será responsable por todas las operaciones efectuadas en y desde su Cuenta, pues el acceso a la misma está restringido al ingreso y uso de una Clave secreta, de conocimiento exclusivo del Usuario. El Miembro se compromete a notificar a IMPRESISTEM S.A.S., en forma inmediata y por medio idóneo y fehaciente, cualquier uso no autorizado de su Cuenta y/o Clave, así como el ingreso por terceros no autorizados a la misma. Se aclara que está prohibida la venta, cesión, préstamo o transferencia de la Clave y/o Cuenta bajo ningún título.\nIMPRESISTEM S.A.S., se reserva el derecho de rechazar cualquier solicitud de registro o de cancelar un registro previamente aceptado, sin que esté obligado a comunicar o exponer las razones de su decisión y sin que ello genere algún derecho a indemnización o resarcimiento.\n"
+    }
+  },
+  "rich-text#Terminos--item4": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Terminos--item1"],
+      "text": "### 3.MODIFICACIONES DEL ACUERDO\nIMPRESISTEM S.A.S podrá modificar los Términos y Condiciones Generales en cualquier momento, haciendo públicos en el Sitio los términos modificados. Todos los términos modificados entrarán en vigor a los 10 (diez) días de su publicación. Dentro de los 5 (cinco) días siguientes a la publicación de las modificaciones introducidas, el Usuario deberá comunicar por e-mail haciendo clic aquí si no acepta las mismas; en ese caso quedará disuelto el vínculo contractual y será inhabilitado como Miembro. Vencido este plazo, se considerará que el Usuario acepta los nuevos términos y el contrato continuará vinculando a ambas partes."
+    }
+  },
+  "rich-text#Terminos--item5": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Terminos--item1"],
+      "text": "### 4.PROCEDIMIENTO PARA HACER USO DE ESTE SITIO DE INTERNET\nEn los contratos ofrecidos por medio del Sitio, IMPRESISTEM informará, de manera inequívoca y fácilmente accesible, los pasos que deberán seguirse para celebrarlos, e informará, cuando corresponda, si el documento electrónico en que se formalice el contrato será archivado y si éste será accesible al Miembro. El sólo hecho de seguir los pasos que para tales efectos se indiquen en este sitio para efectuar una compra, equivale a aceptar que efectivamente IMPRESISTEM ha dado cumplimiento a las condiciones contenidas en este apartado. Indicará, además, su dirección de correo postal o electrónico y los medios técnicos a disposición del Miembro para identificar y corregir errores en el envío o en sus datos."
+    }
+  },
+  "rich-text#Terminos--item6": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Terminos--item1"],
+      "text": "### 5.MEDIOS DE PAGO QUE SE PODRÁN UTILIZAR EN EL SITIO\nLos productos y servicios ofrecidos en el Sitio, salvo que se señale una forma diferente para casos particulares u ofertas de determinados bienes o servicios, sólo pueden ser pagados con los medios que en cada caso específicamente se indiquen. El uso de tarjetas de crédito se sujetará a lo establecido en estos Términos y Condiciones y, en relación con su emisor, a lo pactado en los respectivos Contratos de Apertura y Reglamento de Uso. En caso de contradicción, predominará lo expresado en ese último instrumento. Tratándose de tarjetas bancarias aceptadas en el Sitio, los aspectos relativos a éstas, tales como la fecha de emisión, caducidad, cupo, bloqueos, etc., se regirán por el respectivo Contrato de Apertura y Reglamento de Uso, de tal forma que IMPRESISTEM no tendrán responsabilidad por cualquiera de los aspectos señalados.\nEl uso de una tarjeta de crédito como medio de pago es responsabilidad exclusiva del Usuario poseedor de la clave, si el Usuario es una empresa, al momento de aceptar las condiciones, acepta que la persona natural que hace la transacción, está autorizada por la empresa, a utilizar tarjetas de crédito en los procesos de compras.\nEl Usuario se obliga a revisar que las tarjetas de crédito correspondan a la empresa como tarjetas corporativas o a clientes cuya moralidad comercial y financiera conoce y si un pago es devuelto posteriormente a la entrega del producto o abono en cuenta de cartera a su cargo, se hace responsable de esta devolución y acepta el pago de la deuda sin ningún otro requerimiento que el informe de la entidad financiera sobre la devolución.\nEl Usuario se compromete a realizar los procesos de seguridad usuales o establecidos por la entidad financiera en este tipo de pagos con tarjeta de crédito, al procesar una compra o abono de cartera.\nEl Usuario entiende y acepta las responsabilidades tributarias en las compras con tarjeta de crédito a través de páginas web, en los casos de tarjetas de crédito de la compañía o persona a quien se le expide la factura o tarjetas de crédito de terceros utilizadas en los procesos de compras.\nEl Sitio podrá indicar determinadas condiciones de compra según el medio de pago que se utilice por el usuario. IMPRESISTEM podrá otorgar descuento en la forma de créditos que los Usuarios podrán descontar en su compra. En cada caso IMPRESISTEM determinará unilateralmente el monto máximo de créditos que el Usuario podrá utilizar en una compra y lo detallará en el sistema, previo a iniciar el proceso de pago. Los créditos utilizados por los Usuarios no serán reintegrados en caso de devolución de los productos, por cualquier causa que esto ocurriera. \n"
+    }
+  },
+  "rich-text#Terminos--item7": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Terminos--item1"],
+      "text": "### 6.CONTRATOS CELEBRADOS A TRAVÉS DE ESTE SITIO\nA través del Sitio web IMPRESISTEM realizarán ofertas de bienes y servicios, que podrán ser aceptadas, por vía electrónica, y utilizando los mecanismos que el mismo Sitio ofrece para ello. Toda aceptación de oferta quedará sujeta a la condición suspensiva de que IMPRESISTEM valide la transacción. En consecuencia, para toda operación que se efectúe en este Sitio, la confirmación y/o validación o verificación por parte de IMPRESISTEM, será requisito para la formación del consentimiento. Para validar la transacción IMPRESISTEM deberá verificar: a) Que valida y acepta el medio de pago ofrecido por el Usuario, b) Que los datos registrados por el cliente en el sitio coinciden con los proporcionados al efectuar su aceptación de oferta, c) Que el pago es acreditado por el Usuario.\nPara informar al Usuario acerca de esta validación, IMPRESISTEM deberá enviar una confirmación escrita a la misma dirección electrónica que haya registrado el Usuario aceptante de la oferta, o por cualquier medio de comunicación que garantice su debido y oportuno conocimiento, o mediante el envío efectivo del producto. El consentimiento se entenderá formado desde el momento en que se envía esta confirmación al Usuario y en el lugar en que fue expedida. La oferta efectuada por el Usuario es irrevocable salvo circunstancias excepcionales, tales como que IMPRESISTEM cambie sustancialmente la descripción del artículo después de realizada alguna oferta, o que exista un claro error tipográfico.\nAviso Legal: La venta y despacho de los productos está condicionada a su disponibilidad y a las existencias de producto. Cuando el producto no se encuentre disponible por cualquier causa, IMPRESISTEM lo notificará de inmediato al cliente y devolverá el valor del precio pagado, en ningún caso IMPRESISTEM asume una responsabilidad diferente a la devolución de lo pagado por el Usuario."
+    }
+  },
+  "rich-text#Terminos--item8": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Terminos--item1"],
+      "text": "### 7.VALIDEZ DE LA OFERTA Y PRECIO\nEl plazo de validez de la oferta es aquel que coincide con la fecha de vigencia indicada en la promoción o en virtud del agotamiento de las cantidades de productos disponibles para esa promoción debidamente informados al Usuario, o mientras la oferta se mantenga disponible, el menor de éstos plazos. Cuando quiera que en una promoción no se indique una fecha de terminación se entenderá que la actividad se extenderá hasta el agotamiento de los inventarios correspondientes.\nLos precios de los productos y servicios disponibles en el Sitio, mientras aparezcan en él, solo tendrán vigencia y aplicación en éste y no serán aplicables a otros canales de venta utilizados por IMPRESISTEM, tales como tiendas, venta telefónica, otros sitios de venta por vía electrónica, catálogos u otros. Los precios de los productos ofrecidos en el Sitio están expresados en Pesos colombianos salvo que se manifieste lo contrario. Los precios ofrecidos corresponden exclusivamente al valor del bien ofrecido y no incluyen gastos de transporte, manejo, envío, accesorios que no se incluyan expresamente ni ningún otro ítem adicional.\nAdicionalmente, es posible que cierto número de productos puedan tener un precio incorrecto. De existir un error tipográfico en alguno de los precios de los productos, si el precio correcto del artículo es más alto que el que figura en la página, a nuestra discreción, IMPRESISTEM S.A.S lo contactará antes de que el producto sea enviado, y/o cancelaremos el pedido y le notificaremos acerca de la cancelación.\nIMPRESISTEM podrá modificar cualquier información contenida en este Sitio, incluyendo las relacionadas con mercaderías, servicios, precios, existencias y condiciones, en cualquier momento y sin previo aviso, hasta el momento de recibir una aceptación de compra, la cual obligará a la Empresa Oferente, sujeto a las condiciones de validación que se indican anteriormente, es decir, una vez que se haya formado el consentimiento entre las partes de una determinada transacción."
+    }
+  },
+  "rich-text#Terminos--item9": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Terminos--item1"],
+      "text": "### 8.PROMOCIONES\nLas promociones que se ofrezcan en este Sitio web no son necesariamente las mismas que ofrezcan otros canales de venta utilizados por IMPRESISTEM, tales como tiendas físicas, venta telefónica, catálogos u otros, a menos que se señale expresamente en este Sitio o en la publicidad que realice IMPRESISTEM para cada promoción. Cuando el Sitio ofrezca promociones que consistan en la entrega gratuita o rebajada de un producto por la compra de otro, el despacho del bien que se entregue gratuitamente o a precio rebajado, se hará en el mismo lugar en el cual se despacha el producto comprado."
+    }
+  },
+  "rich-text#Terminos--item10": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Terminos--item1"],
+      "text": "### 9.DESPACHO DE LOS PRODUCTOS \nLos productos adquiridos a través del Sitio se sujetarán a las condiciones de despacho y entrega elegidas por el Usuario y disponibles en el Sitio. La información del lugar de envío es de exclusiva responsabilidad del Usuario. Los plazos elegidos para el despacho y entrega, se cuentan desde que IMPRESISTEM haya validado la orden de compra y el medio de pago utilizado, y se consideran días hábiles para el cumplimiento de dicho plazo.  Si el medio de pago utilizado es con cargo al crédito que IMPRESISTEM ha concedido al Usuario, el cupo disponible deberá ser suficiente al momento de celebrar la transacción y en caso contrario no se efectuará el despacho de los bienes. IMPRESISTEM informará de esta situación al Usuario. Los pedidos serán despachados de los depósitos de IMPRESISTEM dentro de los treinta (30) días hábiles siguientes de finalizada la venta.\nIMPRESISTEM comunicará por mail a los Usuarios los datos para que pueda realizar el seguimiento del estado del envío por Internet.\nSi el Usuario se encontrara ausente cuando se le visita para dejar el pedido y nadie lo recibe en el lugar previamente señalado, se dejará un aviso en el que figure la hora de la visita. Pasadas las 48 horas del primer intento, el correo regresará al domicilio para efectuar la entrega del pedido. En caso que nuevamente nadie reciba el producto, el envío será reintegrado a IMPRESISTEM, debiendo el Usuario ponerse en contacto con nuestras oficinas para coordinar una nueva entrega cuyo costo estará a exclusivo cargo del Usuario.\nAdvertencia: IMPRESISTEM no puede garantizar el envío a algunas regiones del país de productos considerados sobre-dimensionados o con peso excesivo por las empresas de correo. Cuando esto suceda, nos reservamos el derecho de revocar los pedidos que se encuentren en estas condiciones, caso en el cual la orden será reversada y el valor del precio será reembolsado al cliente en el menor tiempo posible."
+    }
+  },
+  "rich-text#Terminos--item11": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Terminos--item1"],
+      "text": "### 10.DEVOLUCIÓN Y CAMBIOS\nLa devolución y cambio de productos adquiridos por parte de Usuario, se sujetará a la política de IMPRESISTEM sobre la materia, que se detalla en el Anexo 1 que hace parte de estos Términos y Condiciones."
+    }
+  },
+  "rich-text#Terminos--item12": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Terminos--item1"],
+      "text": "### 11.CONDICIONES DE RECLAMACIÓN POR PRODUCTO ERRADO\nEn caso de que el cliente reciba un producto de características diferentes a lo descrito en la página en el momento de la compra, se deberá llevar a cabo el siguiente procedimiento con el fin de verificar la validez de la reclamación.\nLas diferencias deben quedar registradas por escrito en el documento de entrega o guía de transporte y en presencia de la compañía transportadora o personal de logística interna de IMPRESISTEM, si no se cumpliere esta formalidad, IMPRESISTEM puede de manera discrecional atender el cambio de producto una vez analizadas las circunstancias, para lo cual el Cliente deberá tener en cuenta las siguientes indicaciones.\nEl cliente deberá enviar las imágenes del producto, indicando en el asunto del correo el motivo de la reclamación, dentro de las siguientes 48 horas hábiles de haber recibido el producto.\nUna vez el área de Servicio al cliente reciba los documentos requeridos y sean corroborados los datos, se procederá a estudiar lo ocurrido y decidir si procede o no el cambio del producto.\nSi se acepta el Cliente deberá realizar el proceso de devolución y se procederá a realizar el reordenamiento para que el Cliente reciba el producto con las características adquiridas inicialmente."
+    }
+  },
+  "rich-text#Terminos--item13": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Terminos--item1"],
+      "text": "### 12.CONDICIONES DE RECLAMACIÓN POR PIEZA FALTANTE\nEn caso de que el cliente reciba un producto incompleto,  la omisión debe quedar registrada por escrito en el documento de entrega  o guía de transporte y en presencia de la compañía transportadora o personal de logística interna de IMPRESISTEM, si no se cumpliere esta formalidad, IMPRESISTEM puede de manera discrecional atender el la reclamación del Cliente una vez analizadas las circunstancias concretas de la operación de que se trata, para lo cual el Cliente deberá tener en cuenta las siguientes indicaciones.\n- Dentro de los dos días hábiles luego de haber recibido el producto, el cliente deberá comunicarse con la línea de Servicio al Cliente para radicar la reclamación sobre la pieza faltante.\n- Una vez el área de Servicio al Cliente reciba la reclamación y sean corroborados los datos, se procederá a dar una respuesta al cliente. Si se acepta la reclamación en ese caso concreto, IMPRESISTEM enviará la pieza faltante o solicitará al Cliente que proceda a la devolución para enviar el producto completo."
+    }
+  },
+  "rich-text#Terminos--item14": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Terminos--item1"],
+      "text": "### 13.GARANTÍAS\nEn caso que un producto adquirido a través de IMPRESISTEM presente problemas de funcionamiento imputables al proceso de fabricación del producto, el Cliente podrá contactar a IMPRESISTEM quien proporcionará información de los puntos de atención del fabricante para que le brinde un soporte adecuado a la solicitud de garantía del Consumidor o Usuario Final. Todas las solicitudes de garantías deben cumplir con las siguientes condiciones:\n- La garantía del producto debe estar vigente\n- El producto debe contar con la factura y documentos de garantía si excede la legal.\n- El daño del producto debe ser por un defecto de fabricación, falla técnica o irregularidad. Ninguna garantía aplicará si el producto presenta señales de mal uso por parte del cliente.\nEl tiempo para la reparación de los productos está sujeto a la política del fabricante.\n### EXCLUSIONES\nLos componentes no deben presentar daños ocasionados por contacto con ácidos corrosivos u otros productos químicos; por uso de las pilas no prescritas por la marca, o por alteración, manipulación o reparación por parte de personas o servicios distintos a los de la marca, así como las consecuencias del desgaste y el envejecimiento normales.\nPara aplicar la garantía del producto el punto de servicio autorizado debe certificar el daño, falla técnica o defecto de fábrica, de lo contrario la garantía no será válida.\nEs importante que el cliente tenga a la mano factura y certificado de garantía cuando excede el término legal.\n### LA GARANTIA NO APLICA CUANDO:\n- El equipo presente maltrato, daños ocasionados por catástrofes naturales o uso distinto al indicado en las instrucciones de manejo\n- Presente daños causados por fluctuaciones de voltaje de la energía eléctrica o descargas eléctricas atmosféricas\n- El producto haya sido abierto o manipulado por personal no autorizado por la marca\n- Son daños ocasionados por la adaptación e instalación de piezas o accesorios no genuinos, no autorizados por la marca\n- Son daños ocasionados por insectos o roedores\n- Son daños ocasionados por la falta de cuidado con el producto o factores ajenos (oxidación, decoloración, ralladuras, exceso de polvo, golpes ruptura de mueble o gabinete exterior)\n- El producto no presente número de serie de la fabricación o éste se encuentre alterado.\n- Sea requerida fuera del territorio nacional donde fue adquirido el producto de Hardware.\n- Los sellos de garantía estén rotos"
+    }
+  },
+  "rich-text#Terminos--item15": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Terminos--item1"],
+      "text": "### 14.REEMBOLSO\n- Después que el reembolso sea aprobado, el cliente puede elegir entre estos métodos:\n- Bono: Este bono tiene vigencia de un año, no es acumulable y deberá usarse en una sola compra. La duración del reembolso es de 1 día hábil.\n- Consignación bancaria: Para recibir el dinero en la cuenta bancaria, el titular de la cuenta debe ser el mismo que hizo la compra en IMPRESISTEM. La duración del reembolso es de 3 días hábiles.\n- Reversión a tarjeta de crédito: Los reembolsos que se realizan por este método no pueden ser parciales, solamente se aceptará reembolsar la totalidad de la orden. La duración del reembolso es de máximo 15 a 25 días hábiles."
+    }
+  },
+  "rich-text#Terminos--item16": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Terminos--item1"],
+      "text": "### 15.PROPIEDAD INTELECTUAL E INDUSTRIAL\nTodo el contenido incluido o puesto a disposición del Usuario en el Sitio, incluyendo textos, gráficas, logos, íconos, imágenes, archivos de audio, descargas digitales y cualquier otra información (el 'Contenido'), es de propiedad de IMPRESISTEM S.A.S., o las Empresas Fabricantes. La compilación del Contenido es propiedad exclusiva de IMPRESISTEM S.A.S. y, en tal sentido, el Usuario debe abstenerse de extraer y/o reutilizar partes del Contenido sin el consentimiento previo y expreso de IMPRESISTEM.\nAdemás del Contenido, las marcas, denominativas o figurativas, marcas de servicio, diseños industriales y cualquier otro elemento de propiedad intelectual que haga parte del Contenido (la 'Propiedad Industrial'), son de propiedad de IMPRESISTEM S.A.S. o de las Empresas Fabricantes y, por tal razón, no pueden ser usadas por los Usuarios en conexión con cualquier producto o servicio que no sea provisto por IMPRESISTEM S.A.S. En el mismo sentido, la Propiedad Industrial no podrá ser usada por los Usuarios en conexión con cualquier producto y servicio que no sea de aquellos que comercializa u ofrece IMPRESISTEM S.A.S. o de forma que produzca confusión con sus clientes o que desacredite a la Empresa o a las Empresas Fabricantes. "
+    }
+  },
+  "rich-text#Terminos--item17": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Terminos--item1"],
+      "text": "### 16.PROPIEDAD INTELECTUAL DE TERCEROS\nIMPRESISTEM es una empresa respetuosa de las leyes y no pretende aprovecharse de la reputación de terceros, apropiándose de la propiedad intelectual por ellos protegida. Por lo anterior contamos con herramientas que buscan asegurar que productos que se adquieran a través de nuestra página sean originales y hayan ingresado legalmente al país. Teniendo en cuenta lo anterior, si usted sospecha que algún producto que se encuentra en nuestra página infringe derecho de propiedad intelectual de terceros o infringe derechos legalmente protegido por usted, agradecemos notificárnoslo para bajar dichos productos inmediatamente de nuestra página e iniciar todas las acciones tendientes a evitar que esto siga sucediendo."
+    }
+  },
+  "rich-text#Terminos--item18": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Terminos--item1"],
+      "text": "### 17.RESPONSABILIDAD DE IMPRESISTEM\nIMPRESISTEM S.A.S. hará lo posible dentro de sus capacidades para que la transmisión del Sitio sea ininterrumpida y libre de errores. Sin embargo, dada la naturaleza de la Internet, dichas condiciones no pueden ser garantizadas. En el mismo sentido, el acceso del Usuario a la Cuenta puede ser ocasionalmente restringido o suspendido con el objeto de efectuar reparaciones, mantenimiento o introducir nuevos Servicios. IMPRESISTEM S.A.S. no será responsable por pérdidas (i) que no hayan sido causadas por el incumplimiento de sus obligaciones; (ii) lucro cesante o pérdidas de oportunidades comerciales; (iii) cualquier daño indirecto."
+    }
+  },
+  "rich-text#Terminos--item19": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Terminos--item1"],
+      "text": "### 18.TÉRMINOS DE LEY\nEste acuerdo será gobernado e interpretado de acuerdo con las leyes de la República de Colombia, sin dar efecto a cualquier principio de conflictos de ley. Si alguna disposición de estos Términos y Condiciones es declarada ilegal, o presenta un vacío, o por cualquier razón resulta inaplicable, la misma deberá ser interpretada dentro del marco del mismo y en cualquier caso no afectará la validez y la aplicabilidad de las restantes disposiciones."
+    }
+  },
+  "rich-text#Terminos--item20": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Terminos--item1"],
+      "text": "### 19.NOTIFICACIONES\nCualquier comentario, inquietud o reclamación respecto de los anteriores Términos y Condiciones, la Política de Privacidad, o la ejecución de cualquiera de éstos, deberá ser notificada por escrito a IMPRESISTEM S.A.S. a la siguiente dirección: Kilómetro 2 Autopista Medellín, Parque Empresarial Tecnológico, Cota, Cundinamarca, Colombia."
+    }
+  },
+  "rich-text#Terminos--item21": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Terminos--item1"],
+      "text": "### 20.AUTORIZACION\nEl responsable de la tarjeta, de la clave y de la cuenta, expresamente autorizan el reporte a centrales de información (CIFIN, Datacredito, etc.), en caso de que los recursos no sean girados por el banco al beneficiario, por concepto de tarjeta robada u otras causales y este no efectué el pago dentro de los tres (3) días siguientes a la negativa del banco.\nEl cliente y avalistas autorizan a las centrales de información, para que pongan su información, a disposición de otro operador en los términos establecidos en la ley. Su comportamiento frente a sus obligaciones será registrado con el objeto de suministrar información al mercado sobre el estado de sus obligaciones de crédito comercial y financiero."
+    }
+  },
+  "rich-text#Terminos--item22": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Terminos--item1"],
+      "text": "### 21. DECLARACIÓN DE ORIGEN DE FONDOS\nComo titular del usuario y responsable de esta cuenta; certifico que los recursos y valores que he de pagar por concepto de compra de bienes o servicios a IMPRESISTEM S.A.S., provienen de actividades licitas."
+    }
+  },
+  "rich-text#Terminos--item23": {
+    "props": {
+      "blockClass": ["Politics__Text", "Politics__Text--Terminos--item1"],
+      "text": "### 22.DECLARACIÓN DE ORIGEN DE FONDOS\nEs interés de IMPRESISTEM SAS., el cumplimiento de la ley 1581 de 2012, además de la protección de la privacidad de la información personal del usuario obtenida a través del Portal web de la Empresa y en el desarrollo de su objeto social, comprometiéndose a adoptar una política de confidencialidad y protección de datos personales.\nEl responsable del tratamiento de sus datos personales es IMPRESISTEM, domiciliada en el Municipio de Cota, Cundinamarca, ubicada en el Kilómetro 2 de la Autopista Bogotá – Medellín, Parque Empresarial Tecnológico, quién los recogerá a través de sus diferentes canales transaccionales y serán usados para: 1.) atender o formalizar cualquier tipo de trámite, compraventa de producto, o servicio que Usted requiera. 2.) registro como cliente o proveedor. 3.) realizar invitaciones o informar promociones de IMPRESISTEM. 4.) informar sobre productos que se incorporen al inventario o políticas comerciales que se adopten. 5.) permitir su acceso a la página web de la empresa.\nEl Usuario reconoce que el ingreso de información personal, lo realiza de manera voluntaria y teniendo en cuenta las características del Portal y las facultades de uso por parte de IMPRESISTEM, y en el entendido que tal información hará parte de un archivo y/o base de datos que contendrá su perfil, el cual podrá ser usado por IMPRESISTEM en los términos aquí establecidos y en cumplimiento de las funciones propias de la empresa para contactar, convocar, informar, invitar y comunicar la información personal. El usuario podrá modificar o actualizar la información suministrada en cualquier momento.\nLa información personal proporcionada por el usuario, está asegurada por una clave de acceso a la cual sólo el usuario podrá acceder y que sólo él conoce, además de los dispositivos tecnológicos y legales que garantizan la protección y buen uso de la información personal. Debido a que ninguna transmisión por Internet es absolutamente segura ni puede garantizarse este extremo, el usuario asume el hipotético riesgo que ello implica, el cual acepta y conoce.\nIMPRESISTEM no se responsabiliza por cualquier consecuencia derivada del ingreso indebido de terceros a la base de datos y/o por alguna falla técnica en el funcionamiento y/o conservación de datos en el sistema en cualquiera de los servicios de la Página web. Se recomienda en todo momento al usuario tomar las medidas necesarias tendientes a garantizar su seguridad.\nLa información que se almacene en el sistema y toda aquella que sea producto de compilación será propiedad de IMPRESISTEM, salvo que el usuario indique expresamente que no está de acuerdo con que se haga uso de ella.\nDudas, inquietudes y sugerencias sobre habeas data puede remitirlas al correo financiera@impresistem.com\nLeído lo anterior autorizo de manera previa, expresa e inequívoca a IMPRESISTEM para el tratamiento de los datos personales suministrados por mi dentro de las finalidades comerciales, contractuales y legales aquí contempladas. Declaro que soy el titular de la información aquí suministrada para el acceso a la página web de IMPRESISTEM SAS."
+    }
+  }
+}

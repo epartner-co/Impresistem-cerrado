@@ -3,12 +3,16 @@
 /*----------------------------------------------------------------*/
 /*Estilos de botones de vitrinas cuando no están activos*/
 .listItem :global(.vtex-button) {
+  font-family: "TT-Norms"!important;
+  font-weight: 400;
   border-color: rgb(190, 190, 190);
   height: 25px;
   color: rgb(190, 190, 190);
   font-size: 12px;
   width: 100%;
 }
+
+
 
 /*Estilos de botones de vitrinas cuando si están activos*/
 .listItemActive :global(.vtex-button) {

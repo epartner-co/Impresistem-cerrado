@@ -6,7 +6,7 @@
       //"flex-layout.row#ESTATICAS-AYUDAFaq",
       "rich-text#title-faqs",
       "flex-layout.row#faqs",
-      "flex-layout.row#cardSmartInfoDesktop"
+      "flex-layout.row#cardSmartInfoDesktopTYC"
 
     ]
   },
@@ -34,7 +34,7 @@
   //Cajas de contenido
   "flex-layout.row#faqs": {
     "children": [
-      "flex-layout.col#text-faqs1",
+      "flex-layout.col#text-tycs1",
       "flex-layout.col#text-faqs"
     ],
     "props": {
@@ -60,28 +60,28 @@
   "rich-text#deskFaq": {
     "props": {
       "textAlignment": "CENTER",
-      "text": "**FAQ**",
+      "text": "[Faq](/faq)",
       "blockClass": ["tituloF", "selected"]
     }
   },
   "rich-text#deskFaq1": {
     "props": {
       "textAlignment": "CENTER",
-      "text": "**TYC**",
+      "text": "[TYC](/terminos-condiciones)",
       "blockClass": "tituloF"
     }
   },
   "rich-text#deskFaq2": {
     "props": {
       "textAlignment": "CENTER",
-      "text": "**Políticas**",
+      "text": "[Políticas](/despacho)  ",
       "blockClass": "tituloF"
     }
   },
   "rich-text#deskFaq3": {
     "props": {
       "textAlignment": "CENTER",
-      "text": "**Smart Solution**",
+      "text": "[Smart Solution](/smart-solutions)",
       "blockClass": "tituloF"
     }
   },

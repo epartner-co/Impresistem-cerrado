@@ -560,6 +560,31 @@
   font-size: 25px;
 }
 
+.container--Despachos11textostilo{
+  margin-left: calc(18vw + 5px);
+}
+
+.link--textostilo{
+  text-decoration-color: transparent ;
+  color:rgb(0, 0, 75);
+  font-weight: 700;
+}
+
+.paragraph--tituloF{
+  font-size: .8rem !important;
+  line-clamp: 1 ;
+  -webkit-line-clamp: 1 ;
+  display: -webkit-box ;
+  -webkit-box-orient: vertical ;
+  overflow: hidden ;
+  height: 30px;
+}
+
+.link--tituloSub{
+  margin-left: 5px;
+}
+
+
 @media (max-width: 700px) {
 .paragraph.paragraph--Mozaico-Cat-titulo {color: black;}
 .paragraph.paragraph--Mozaico-Cat-texto {color: #808080;}
@@ -598,5 +623,14 @@
 }
 .wrapper--registro-titulo .heading-level-2 {
   font-size: 18px;
+
+  
+}
+.container--textostilo{
+  padding: 20px;
+}
+.container--Despachos11textostilo{
+  margin-left: 0;
+  padding: 20PX;
 }
 }

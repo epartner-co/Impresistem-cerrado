@@ -1,0 +1,48 @@
+/*------------------------------- */
+/* //* Politics Page */
+/* ------------------------------- */
+.trigger--Disclosure__Trigger-Politics {
+  border: none;
+  margin-bottom: 15px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  background: white;
+  border-radius: 5px;
+}
+.trigger--disclosure-icon-search-mobile {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding-top: 4px;
+}
+.trigger--disclosure-icon-search-mobile--visible::before {
+  content: "X";
+  font-size: 28px;
+  top: 1.5rem;
+  position: absolute;
+  font-family: "Encode Sans",sans-serif;
+  font-weight: 600;
+  color: #324545;
+  background: white;
+  margin-left: 3px;
+}
+.content--disclosure-search-mobile--visible {
+  z-index: 50;
+}
+
+.trigger--visible {
+  z-index: 50;
+}
+
+
+.trigger--Disclosure__Trigger-Politics--visible
+  :global(.vtex-rich-text-0-x-wrapper--Politics__Group-Title)::after {
+  transform: rotate(180deg);
+}
+.content--Disclosure__content {
+  padding: 0 30px;
+  width: 100%;
+}
+
+

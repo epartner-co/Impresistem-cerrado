@@ -1,0 +1,67 @@
+{
+  // * Politicas Section
+  "disclosure-layout#Politicas": {
+    "props": {
+      "blockClass": ["Disclosure__group", "Disclosure__group--Politicas"]
+    },
+    "children": ["disclosure-trigger#Politicas", "disclosure-content#Politicas"]
+  },
+  // ! Politicas Title Group
+  "disclosure-trigger#Politicas": {
+    "props": {
+      "blockClass": [
+        "Disclosure__Trigger-Politics",
+        "Disclosure__Trigger-Politics--Politicas"
+      ]
+    },
+    "children": ["rich-text#PoliticasTitle"]
+  },
+  // ? Group Title
+  "rich-text#PoliticasTitle": {
+    "props": {
+      "blockClass": [
+        "Politics__Group-Title",
+        "Politics__Group-Title--Politicas"
+      ],
+      "text": "Políticas"
+    }
+  },
+  // ! Politicas content
+  "disclosure-content#Politicas": {
+    "props": {
+      "blockClass": ["Disclosure__content", "Disclosure__content--Politicas"]
+    },
+    "children": [
+      "tab-list.item#Despacho",
+      "tab-list.item#devoluciones",
+      "tab-list.item#Politicas3"
+    ]
+  },
+  //***************************************************************************
+  // * Item 1
+  //***************************************************************************
+  "tab-list.item#Despacho": {
+    "props": {
+      "blockClass": ["TabItem", "TabItem--Politicas"],
+      "tabId": "Despacho",
+      "label": "Políticas de Despacho "
+    }
+  },
+  "tab-list.item#devoluciones": {
+    "props": {
+      "blockClass": ["TabItem", "TabItem--Politicas"],
+      "tabId": "devoluciones",
+      "label": "Políticas de devoluciones "
+    }
+  },
+  "tab-list.item#Politicas3": {
+    "props": {
+      "blockClass": ["TabItem", "TabItem--Politicas"],
+      "tabId": "Politicas3",
+      "label": "Políticas de Garantía "
+    }
+  }
+  // ! Item content Politicas
+  // It is necessary to add this components into politics.jsonc at tab-content#Politics__Content
+ 
+}

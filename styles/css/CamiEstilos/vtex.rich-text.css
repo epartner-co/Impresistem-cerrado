@@ -6,9 +6,9 @@
 .paragraph.paragraph--solucionesTecnologicas {font-size: 32px;text-align: center;display: block;width: 100%;}
 }
 
-.paragraph.paragraph--textostilo {color: #2A2A2A;font-size: 13px;}
+.paragraph.paragraph--textostilo {color: #2A2A2A;font-size: 13px; padding: 0 20px;}
 
-.strong.strong--textostilo {margin: 24px 0 -13px 0;display: block;}
+.strong.strong--textostilo {margin: 24px 0 -5px 0;display: block;}
 
 .container.container--tituloF.container--selected {background: #FFEDC2;padding: 0 8%;}
 

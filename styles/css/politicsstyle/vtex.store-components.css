@@ -1,0 +1,10 @@
+/* ------------------------------- */
+/* //* Politics Page */
+/* ------------------------------- */
+.infoCardContainer--Politics__Image {
+    height: 202px;
+  }
+  .infoCardCallActionContainer--Politics__Image {
+    display: none;
+  }
+  

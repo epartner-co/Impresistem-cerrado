@@ -1,0 +1,215 @@
+{
+    "store.custom#Nosotros" : {
+        "blocks": [
+            "responsive-layout.desktop#Nosotros",
+            "responsive-layout.mobile#Nosotros",
+            "rich-text#Nosotros",
+            "flex-layout.row#Nosotros",
+            "flex-layout.row#cardSmartInfoDesktopTYC"
+        ]
+    },
+    "responsive-layout.desktop#Nosotros":{
+        "children": ["image#faq"]
+    },
+    "responsive-layout.mobile#Nosotros":{
+        "children": ["image#faqm"]
+    },
+    "image#faq": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/bannerfaq.png",
+            "maxHeight": 950
+        }
+    },
+    "image#faqm": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/bannerfaqmobil.png",
+            "maxHeight": 500
+        }
+    },
+    "rich-text#Nosotros": {
+        "props": {
+            "text": "# Nosotros",
+            "blockClass": "textoquien"
+        }
+    },
+    "flex-layout.row#Nosotros": {
+        "children": [
+            "flex-layout.col#text-tycs1",
+            "flex-layout.col#Nosotros"
+        ],
+        "props": {
+            "blockClass": "FaqsColumn"
+        }
+    },
+    "flex-layout.col#Nosotros": {
+        "children": [
+            "rich-text#Nosotrosdesc",
+            "rich-text#Nosotrosdesc1",
+            "rich-text#Nosotrosdesc2",
+            "rich-text#Nosotrosdesc3",
+            "rich-text#Nosotrosdesc4",
+            "rich-text#Nosotrosdesc5",
+            "rich-text#Nosotrosdesc6",
+            "rich-text#Nosotrosdesc7",
+            "rich-text#Nosotrosdesc8",
+            "rich-text#Nosotrosdesc9",
+            "rich-text#Nosotrosdesc10",
+            "rich-text#Nosotrosdesc11",
+            "rich-text#Nosotrosdesc12",
+            "rich-text#Nosotrosdesc13",
+            "rich-text#Nosotrosdesc14",
+            "rich-text#Nosotrosdesc15",
+            "rich-text#Nosotrosdesc16",
+            "rich-text#Nosotrosdesc17",
+            "rich-text#Nosotrosdesc18",
+            "rich-text#Nosotrosdesc19",
+            "rich-text#Nosotrosdesc20",
+            "rich-text#Nosotrosdesc21",
+            "rich-text#Nosotrosdesc22"
+        ],
+        "props": {
+            "blockClass": "textColumnA",
+            "preventVerticalStretch": true,
+            "width": "80%",
+            "rowGap": 0
+        }
+    },
+    "rich-text#Nosotrosdesc":{
+        "props": {
+            "text": "Nosotros\nSomos mayoristas de tecnología con un amplio portafolio de productos, soluciones y servicios tecnológicos que cubren las necesidades de la industria en los segmentos corporativo, valor y consumo.\nNuestra trayectoria en el mercado, desde 1.990, nos permite en la actualidad distribuir más de 40 marcas con reconocimiento a nivel internacional y contar con más de 6.000 canales de distribución en todo el país.\nCONTAMOS CON 3 UNIDADES DE NEGOCIO\n• SMART CONSUMER\n• SMART SOLUTIONS\n• SMART DIGITAL BUSINESS\nPreguntas Frecuentes\n¿Qué debo hacer si tengo problemas con el usuario o la clave de ingreso?\nPuede enviar un correo a servicioalcliente@impresistem.com; indicando el Nit de la Empresa. Por este mismo medio recibirá la información requerida.\n¿Cómo puedo solicitar una Certificación Comercial?\nIngresando en el menú superior 'Servicio al Cliente', luego en el menú lateral izquierdo 'Certificación Comercial', allí deberá completar toda la información requerida a su solicitud y se le enviará al correo registrado el mismo día de la solicitud.\n¿Cómo puedo solicitar una Certificación Financiera?\nIngresando en el menú superior 'Servicio al Cliente', luego en el menú lateral izquierdo 'Certificación Financiera', allí deberá completar toda la información requerida a su solicitud y se le enviará al correo registrado el mismo día de la solicitud.\n¿Dónde puedo consultar las políticas de garantías de una marca?\nIngresando en el menú superior 'Servicio al Cliente', luego en el menú lateral izquierdo 'Política de Garantías', allí puede consultar haciendo clic en el logo de la marca que desee consultar.\n",
+            "blockClass": "nosotrosText"
+        }
+    },
+    "rich-text#Nosotrosdesc1":{
+        "props": {
+            "text": "¿Cómo consulto mis Manifiestos de Importación?\nIngresando en el menú superior 'Servicio al Cliente', luego en el menú lateral izquierdo 'Declaraciones de importación', allí puede consultar por número de factura o número de Serie.\n¿A través de la página web puedo ver la lista de precios?\nSi. En el menú superior se encuentra el vínculo donde podrá descargar la lista de precios general y lista de precios por línea.\n¿Cuáles son los medios de pago a través de la página web?\nNuestras vías de pago son: Tarjeta de Crédito (Visa y MasterCard), Transferencia bancaria PSE, Crédito con Impresistem y Efectivo.\nSi hago un pedido a través de mi ejecutivo, ¿Cuál es la hora límite para realizarlo y que sean despachados ese mismo día?\nPara Bogotá los pedidos realizados en la mañana antes de las 12:30PM, serán entregados en el transcurso de la tarde del mismo día hasta las 6:00 p.m.; los pedidos realizados en la tarde entre las 12:31pm y las 6:00pm serán entregados al siguiente día hábil en la mañana. (entregas únicamente lunes a viernes).\nPara fuera de Bogotá los pedidos serán entregados entre 1 y 3 días hábiles, dependiendo el destino.\n¿Cómo puedo comprar a través de la página web?\nSeleccionando alguna de las categorías del menú izquierdo del banner inicial: Accesorios, Hardware, Software, Suministros, allí podrá seleccionar si desea buscar por Productos o Marcas, una vez selecionada la opción, podrá ver todos los productos de la categoría y agregarlos al carrito de compras. Descargar Paso a Paso\nYa tengo mi pedido listo en carrito de compras. ¿Qué debo hacer para efectuar la compra?\nLuego de montar su pedido en el carrito de compras y seleccionar el modo de pago, el sistema le dará la opción de generar la orden de compra y realizar el pago.\n\n",
+            "blockClass": "nosotrosText"
+        }
+    },
+    "rich-text#Nosotrosdesc2":{
+        "props": {
+            "text": "Smart Solutions\nEn Smart Solutions ofrecemos soluciones donde encontrara un portafolio de soluciones de Cloud, encaminadas a la transformación digital y la innovación empresarial. Somos líderes modernos y aliados experimentados, conocemos las necesidades de las industrias y ofrecemos soluciones seguras, respaldadas en Cloud.\nEn Impresistem contamos con servicios especializados exclusivos para nuestros clientes, contamos con un equipo altamente calificado para afrontar los diferentes retos de la industria enfocándonos en tecnologías de Ciberseguridad y analítica.\nConoce todas las soluciones que tenemos para ti\nSmart Cloud – Conoce más\nSmart Energies - Conoce más \nSmart Services - Conoce más\nSmart Cloud\nAcronis – Conoce más\nMicrosoft - Conoce más \nTiemViewer - Conoce más\nAcronis\nPara proteger los datos empresariales esenciales de sus clientes, la copia de seguridad no basta: los clientes necesitan una estrategia integrada de ciberprotección. Combinado con Acronis Cyber Protect Cloud, el paquete Advanced Backup le permite ampliar las funciones de copia de seguridad en la nube que necesitan sus clientes para proteger sus datos de forma proactiva. Disponible con modelos de licencia por uso o por carga de trabajo, permite minimizar la pérdida de datos en las infraestructuras y las cargas de trabajo de sus clientes con la mejor tecnología de copia de seguridad y recuperación, que se ha reforzado con ciberprotección.\nMÁS QUE UNA MERA COPIA DE SEGURIDAD: UNA SOLUCIÓN DE CIBERPROTECCIÓN COMPLETA\nBenefíciese de unas funciones de copia de seguridad reforzadas con ciberprotección: al proteger más de 20 plataformas, podrá salvaguardar los datos de sus clientes con plena confianza. Aproveche las ventajas de una sola solución, un solo agente y consola para ofrecer la ciberprotección exhaustiva que buscan sus clientes. Descubra qué funciones de copia de seguridad y protección de datos conseguirá con Acronis Cyber Protect Cloud con Advanced Backup.\n",
+            "blockClass": "nosotrosText"
+        }
+    },
+    "rich-text#Nosotrosdesc3":{
+        "props": {
+            "text": "Advanced Security\nDetenga más ciberamenazas para los clientes con menos recursos. El complemento Advanced Security amplía las funciones de protección de endpoints de Acronis Cyber Protect Cloud, lo que le permite reducir los riesgos de sus clientes con una protección antimalware y unos servicios de corrección mejorados. Simplifique las tareas de implementación, configuración y administración con integración y automatización avanzadas.\nAdvanced Management\nDedique menos tiempo a la gestión de múltiples soluciones y más a proteger los datos, las aplicaciones y los sistemas de sus clientes. Añadiendo Advanced Management a nuestra solución integrada Acronis Cyber Protect Cloud, es posible automatizar la administración de parches y facilitar la planificación del trabajo para reducir las tareas administrativas.\nIncrementa la automatización y la productividad\nLos informes de copia de seguridad programados, combinados con las mejoras de la copia de seguridad en la nube —como la protección continua de los datos—, le ayudan a ahorrar tiempo y protegen a sus clientes frente a las pérdidas de datos.\nLa copia de seguridad más segura\nAcronis ofrece una estrategia única que combina la copia de seguridad en la nube con funciones de ciberprotección, como antimalware y antivirus, para que mantenga protegidos los datos de sus clientes.\nProteja más cargas de trabajo en más plataformas\nProteja desde una sola consola más de 20 plataformas, incluidas Microsoft Exchange, Microsoft SQL Server, Oracle DBMS Real Application Clusters y SAP HANA.\nAdvanced Backup\nCuando se trata de los datos empresariales esenciales de sus clientes, la copia de seguridad no basta: los clientes necesitan una estrategia integrada de ciberprotección. Combinado con Acronis Cyber Protect Cloud, el paquete Advanced Backup le permite ampliar las funciones de copia de seguridad en la nube que necesitan sus clientes para proteger sus datos de forma proactiva.\n",
+            "blockClass": "nosotrosText"
+        }
+    },
+    "rich-text#Nosotrosdesc4":{
+        "props": {
+            "text": "Advance Disaster Recovery\nProteja las cargas de trabajo de sus clientes cuando ocurra un desastre poniendo en marcha al instante sus sistemas gracias a la recuperación basada en la nube y restaurándolos en cualquier lugar. Al añadir Advanced Disaster Recovery a Acronis Cyber Protect Cloud, podrá ampliar fácilmente los servicios de recuperación en la nube que sus clientes necesitan.\nACRONIS CYBER PROTECT CLOUD INCLUYE:\n•Copia de seguridad a nivel de archivos, a nivel de discos, de imágenes y aplicaciones.\n•Haga copias de seguridad de las cargas de trabajo más utilizadas, incluidas las de Mac, Windows, Linux, Microsoft 365, Google Workspace, Hyper-V, VMware, entre muchas otras.\n•Opciones de almacenamiento híbridas: alojado por Acronis, en nubes públicas como Microsoft Azure, o almacenamiento local de MSP.\n•Opciones flexibles de recuperación, desde sistemas completos hasta archivos individuales\n•Migración a nube-local-virtual.\n•Antimalware y antivirus basados en inteligencia artificial para neutralizar los ataques de ransomware y de día cero.\n•Cifrado de archivos comprimidos.\n•Copias de seguridad incrementales y diferenciales.\n•Evaluaciones de vulnerabilidades.\n•Protección de datos de Google Workspace.\n•Protección completa para Microsoft 365.\n•Cifrado de copias de seguridad.\n•Deduplicación.\n•Supervisión y generación de informes.\nADVANCED BACKUP AÑADE:\nProtección continua de los datos:\nEl agente de Acronis supervisa y crea copias de seguridad de los cambios realizados en tiempo real con puntos de recuperación (RPO) casi nulos, lo que garantiza que no se pierdan datos\n•Compatibilidad de copias de seguridad ampliada: cubre clústeres de Microsoft SQL y Microsoft Exchange, Oracle DB y SAP HANA.\n",
+            "blockClass": "nosotrosText"
+        }
+    },
+    "rich-text#Nosotrosdesc5":{
+        "props": {
+            "text": "•Mapa de protección de datos e informes de cumplimiento: analice los entornos de sus clientes para garantizar la protección de sus cargas de trabajo, archivos, aplicaciones y usuarios.\n•Informes de copias de seguridad programadas: reduzca el tiempo y destaque el valor de su empresa de servicios gestionados (MSP) con generación de informes automática.\nProtección Continua de los Datos\nAsegúrese de que los usuarios no pierdan el trabajo en curso definiendo una lista de las aplicaciones esenciales que utilizan con frecuencia. El agente de Acronis supervisa cada cambio realizado en las aplicaciones de la lista y crea continuamente una copia de seguridad para que no se pierda ningún dato entre copias de seguridad programadas, lo que ayuda a lograr RPO casi nulos. Esto, junto con la ciberprotección, contribuye a ofrecer a los clientes la mejor prevención y recuperación que existe.\nMapa de protección de datos e informes de cumplimiento\nGarantice la protección de los datos críticos para la generación de informes de cumplimiento de normativas con el mapa de protección de datos.\nUtilice la clasificación de datos automática para controlar el estado de protección de archivos, carpetas y estaciones de trabajo importantes.\nSi no están protegidos, se genera una alerta para que pueda salvaguardar los datos críticos de sus clientes.\nCertificación y firma electrónica para archivos de copia de seguridad\nRefuerce la protección de datos con funciones de certificación que verifican la autenticidad y la integridad de los archivos de copias de seguridad, y permiten rubricar de forma electrónica esos archivos con una firma digital públicamente verificable.\nCopia de seguridad y restauración de clústeres de aplicaciones\nFacilite el trabajo administrativo del departamento de TI con funciones integradas que permiten crear y recuperar fácilmente las copias de seguridad de clústeres de Microsoft Exchange, Microsoft SQL Server y Oracle DBMS Real Application Clusters.\nCopia de seguridad de SAP Hana\nRefuerce la protección de sus bases de datos de SAP HANA con copias de seguridad a nivel de disco, coherentes y basadas en scripts, que simplifican la administración y no requieren experiencia con SAP HANA.\n",
+            "blockClass": "nosotrosText"
+        }
+    },
+    "rich-text#Nosotrosdesc6":{
+        "props": {
+            "text": "envío de informes de copia de seguridad, en formato PDF o Excel y en el idioma que especifique, a los destinatarios de una lista.\nMicrosoft\nQué es la Nube\nLa definición de la nube, básicamente, es un término que se utiliza para describir una red mundial de servidores, cada uno con una función única. La nube no es una entidad física, sino una red enorme de servidores remotos de todo el mundo que están conectados para funcionar como un único ecosistema.\nEstos servidores están diseñados para almacenar y administrar datos, ejecutar aplicaciones o entregar contenido o servicios, como streaming de vídeos, correo web, software de ofimática o medios sociales. En lugar de acceder a archivos y datos desde un equipo personal o local, accede a ellos en línea desde cualquier dispositivo conectado a Internet, es decir, la información está disponible dondequiera que vaya y siempre que la necesite.\nLas empresas utilizan cuatro métodos diferentes para implementar recursos en la nube. Hay una nube pública, que comparte recursos y ofrece servicios al público a través de Internet; una nube privada, que no se comparte y ofrece servicios a través de una red interna privada, normalmente hospedada en el entorno local; una nube híbrida, que comparte servicios entre nubes públicas y privadas, según su finalidad; y una nube comunitaria, que comparte recursos solo entre organizaciones, por ejemplo, con instituciones gubernamentales.\nLa nube privada se define como los servicios informáticos que se ofrecen a través de Internet o de una red interna privada solo a algunos usuarios y no al público general. También denominada nube interna o corporativa, la informática en nube privada aporta a las empresas gran parte de las ventajas de la nube pública (como autoservicio, escalabilidad y elasticidad), pero con el control y la personalización disponibles en los recursos dedicados a través de una infraestructura informática hospedada en el entorno local. Además, las nubes privadas ofrecen un nivel más alto de seguridad y privacidad con firewalls de la compañía y hospedaje interno, con el fin de garantizar que las operaciones y los datos confidenciales no estén accesibles para proveedores externos. Un inconveniente es que el departamento de TI de la compañía es responsable de la administración de la nube privada y el costo que conlleva. Por tanto, las nubes privadas requieren el mismo gasto de personal, administración y mantenimiento que los centros de datos tradicionales en propiedad.\nEn una nube privada, se pueden ofrecer dos modelos de servicios en la nube. El primero es infraestructura como servicio (IaaS), que permite a una compañía utilizar recursos de infraestructura, como proceso, red y almacenamiento, como servicio. El segundo es plataforma como servicio (PaaS), que permite a una compañía ofrecer todo, desde sencillas aplicaciones basadas en la nube hasta sofisticadas aplicaciones empresariales. Las nubes privadas se pueden combinar también con nubes públicas para crear una nube ",
+            "blockClass": "nosotrosText"
+        }
+    },
+    "rich-text#Nosotrosdesc7":{
+        "props": {
+            "text": "híbrida, que permite a las empresas aprovechar la extensión a la nube para liberar más espacio y escalar servicios informáticos en la nube pública cuando aumenta la demanda de recursos informáticos.\nNUBE HÍBRIDA\n¿Qué es una nube híbrida?\nDescubre que es una nube híbrida\nUna nube híbrida, a veces llamada híbrido en la nube, es un entorno informático que combina un centro de datos local (también denominado nube privada) con una nube pública, lo que permite compartir datos y aplicaciones entre ellos. Algunas personas definen la nube híbrida para incluir configuraciones'multinube' donde una organización utiliza más de una nube pública además de su centro de datos local.\n¿Cuáles son los beneficios de la nube híbrida?\nConoce todos los beneficios\nNo importa qué definición de nube híbrida utilice, las ventajas son las mismas: cuando la demanda de computación y procesamiento aumenta más allá de las capacidades de un centro de datos local, las empresas pueden usar la nube para escalar o reducir instantáneamente la capacidad para controlar el exceso de capacidad. También les permite evitar el tiempo y el costo de comprar, instalar y mantener nuevos servidores que tal vez no siempre necesiten.\nOFERTA DE VALOR IMPRESISTEM\nBeneficios de ser parte de Impresistem SAS como proveedor de soluciones en la nube\nCupo de Crédito\nCupo de crédito exclusivo para CSP, lo que le permitirá seguir aprovisionando servicios sin inconvenientes de topes de cupo.\nPlataforma de Servicios\nPlataforma única de aprovisionamiento de servicios 'AFINNIA'.\nEquipo Especializado\nEquipo de consultores y preventas especializados en la nube de Microsoft quienes les estarán apoyando en sus requerimientos, dimensionamientos y arquitecturas.\nEquipo de Seguridad\n",
+            "blockClass": "nosotrosText"
+        }
+    },
+    "rich-text#Nosotrosdesc8":{
+        "props": {
+            "text": "\nCloud Solution Provider\nLas soluciones que su empresa necesita\nA medida que el mundo se desarrolla, surgen nuevas demandas y debemos responder a ellas. \nCloud Solution Provider (CSP). Esta es una forma de obtener soluciones en la nube (Office 365, Microsoft Azure, Windows, Dynamics y EMS), lo que le permite avanzar y aprovechar al máximo los proyectos a corto, mediano y largo plazo. Un programa que puede ayudarlo a tener las tecnologías y soluciones de Microsoft más innovadoras, y puede usarse para mejorar el flujo de caja de la empresa. Los proveedores de soluciones en la nube serán rentables, simples y adaptables a sus necesidades para ayudar a su negocio en la transformación digital.\nActualmente contamos con soluciones orientadas al mercado, conozca nuestra oferta de valor\nEntre las ventajas que aporta, destacan las siguientes:\nSatisface sus necesidades\nNo solo tiene la oportunidad de pagar mensualmente, sino que también puede pagar exactamente lo que necesita.\nNo existe una cláusula permanente\nCon CSP, no estará sujeto a ningún tipo de contrato, porque es completamente libre de decidir cuándo dejar de utilizar el servicio.\nPuede agregar o eliminar usuarios\n",
+            "blockClass": "nosotrosText"
+        }
+    },
+    "rich-text#Nosotrosdesc9":{
+        "props": {
+            "text": "También puede ajustar la cantidad de licencias en función de la cantidad de usuarios en un momento determinado.\nConozca Azure\nConvierta sus ideas en innovación con productos y servicios de Azure de confianza\nAdministre e implemente aplicaciones de manera libre y flexible en cualquier lugar para lograr sus objetivos. Utilice el idioma, el marco y la infraestructura de su elección (incluido su propio centro de datos y otras nubes) para resolver desafíos de cualquier tamaño. Con Azure, tendrá todo lo que necesita para crear la próxima gran solución.\nConfía en tu nube Desde el principio. la seguridad se obtiene con el apoyo de un equipo de expertos, se obtiene la confianza de las empresas, la gestión pública y la puesta en marcha, y se sigue de forma activa la normativa. Trabaje sin problemas en un entorno mixto En las instalaciones, en la nube multicapa y en el límite de las necesidades. Utilice herramientas y servicios diseñados para nubes híbridas para integrar y administrar su entorno. Crea soluciones según tus preferencias. Como parte del compromiso con el código abierto y la compatibilidad con todos los idiomas y plataformas, le brindamos la capacidad de crear soluciones a su gusto e implementarlas en cualquier lugar. Prepárate para el futuro. La innovación continua de Microsoft proporciona la base para su trabajo de desarrollo actual y sus ideas para productos futuros.\nBeneficios Azure\nReducción de costos\nGracias a Azure, podrás reducir el capital que tenías destinado para el hardware, lo cual además garantizará un ahorro significativo de energía dentro de tu organización.\nReducción de esfuerzos\nCuando el mantenimiento y soporte técnico de la infraestructura de los centros de datos pasa a ser responsabilidad del servicio Azure, el tiempo y recurso que tenías destinado para esa labor ahora podrá ser invertido a nueva labores o tareas que lograrán mejorar el funcionamiento de tu empresa. \nSeguridad\nSegún Microsoft, “Azure le ayuda a proteger sus recursos a través de una metodología rigurosa y a centrarse en la seguridad, la privacidad, el cumplimiento y la transparencia”.\n",
+            "blockClass": "nosotrosText"
+        }
+    },
+    "rich-text#Nosotrosdesc10":{
+        "props": {
+            "text": "Almacenamiento y respaldo\nComo este servicio ha respaldado, su información estará protegida y los problemas causados por la pérdida de información valiosa se reducirán considerablemente. Con Azure, la recuperación de un desastre solo puede llevar unos minutos. \nDisponibilidad\nEl servicio se implementa en una red de centro de datos global administrada por Microsoft, que cubre 42 regiones. Con este servicio, su empresa podrá obtener un mayor rango de datos y rendimiento.\nMicrosoft 365 está diseñado para ayudarte a mejorar la productividad con las aplicaciones innovadoras de Office, servicios inteligentes en la nube y seguridad de primer nivel.\n- Microsoft 365 Familia\n- Microsoft 365 Personal\n- Planes de Microsoft 365 para negocios\n- Microsoft 365 Empresa Básico\n- Microsoft 365 Empresa Estándar\n- Microsoft 365 Empresa Premium\n- Aplicaciones Microsoft 365 para negocios\n- Planes de Microsoft 365 para empresas\n- Microsoft 365 E3\n- Microsoft 365 E5\n- Microsoft 365 F1\n- Aplicaciones Microsoft 365 para empresas\nBeneficios\n",
+            "blockClass": "nosotrosText"
+        }
+    },
+    "rich-text#Nosotrosdesc11":{
+        "props": {
+            "text": "Accede a archivos desde cualquier lugar\nCuando almacenamos archivos en Sharepoint u Onedrive, podemos acceder a ellos desde cualquier ubicación en Internet con solo iniciar sesión como usuarios de Microsoft 365.\nColabora en el mismo archivo en tiempo real\nPodemos procesar el archivo en tiempo real al mismo tiempo que otros compañeros con derechos de acceso. De esta forma, solo tendremos 1 versión actualizada del archivo.\nAlmacenamiento seguro y gestión de la autoridad\nAlmacenamiento seguro en los servidores de Microsoft, tendremos una copia de respaldo y toda la información estará disponible desde cualquier dispositivo.\nSoftware Perpetuo\nAhora puede agregar licencias de software a CSP, permite a los socios participantes concentrarse en brindar diversos servicios y soluciones de hospedaje a sus clientes. También facilita la transición de los clientes a la nube y proporciona a los socios la flexibilidad necesaria para un entorno de nube híbrida.\nSuscripciones\nCSP, permite a los socios participantes concentrarse en brindar diversos servicios y soluciones de hospedaje a sus clientes. También facilita la transición de los clientes a la nube y proporciona a los socios la flexibilidad necesaria para un entorno de nube híbrida.\nAcademia Impresistem Cloud\nPLAN DE ESTUDIO MS CSP\nEl propósito de nuestra academia es brindarle orientación sobre cómo acelerar el crecimiento de su negocio en la nube con el programa Microsoft Cloud Solution Provider 'CSP' y expandir sus oportunidades de ingresos.\nTemáticas que aprenderás con nosotros\nLICENCIAMIENTO MICROSOFT\n",
+            "blockClass": "nosotrosText"
+        }
+    },
+    "rich-text#Nosotrosdesc12":{
+        "props": {
+            "text": "COMPETENCIAS MICROSOFT\nMICROSOFT 365\n- Planes Business y Enterprise - Seguridad y cumplimiento - Conozca el centro de trabajo colaborativo\nMICROSOFT AZURE\n- Azure: Infraestructura como servicio - Plataforma como servicio - Software como servicio\nSOPORTE MICROSOFT\nSOPORTE IMPRESISTEM\nOFERTA DE VALOR IMPRESISTEM\nFoco de entrenamiento\nVentas\nPreventa\nArquitectura\nOperación\nTiempo sugerido**: 3 semana\n*** Variará según la experiencia del participante\nPromociones Microsoft\nValue Proposal for ISV\nApoyo Financiero\nCréditos preaprobados sin estudio de crédito | Plazos de pago especiales.\n",
+            "blockClass": "nosotrosText"
+        }
+    },
+    "rich-text#Nosotrosdesc13":{
+        "props": {
+            "text": "Apoyo Técnico\nReciba asistencia para la cambiar las aplicaciones de plataforma en la nube, incluida la definición de los objetivos y requisitos del sistema, la planificación de la migración, la protección de datos, la implementación y el soporte continuo.\nDigital Marketing\nIM se convierte en el Mayorista que convierte las ideas y promesas de valor de nuestros Partner en un Engine de generación de demanda a través de Marketing Digital Powered by IM, eventos donde el ISV va y presenta su solución, apoyo en promoción de la plataforma Marketplace de Impresistem y apoyo con marketing digital.\nPosicionamiento\nOfrecer soluciones del ISV que el cliente final muchas veces ni siquiera se ha planteado, por desconocimiento.\n•Oferta de valor para los ISV\n•Desde la fuerza local de Impresistem le podemos apoyar en:\noApoyo en despliegue y administración del almacenamiento.\noApoyo en despliegue y administración recursos informáticos de Azure (Máquinas virtuales, App services, databases).\noConfiguración y administración de redes virtuales.\noSupervisar y realizar copias de seguridad de los recursos de Azure.\noAsesoría en Desarrollo de soluciones informáticas de Azure.\noApoyo en como monitorear y optimizar las soluciones de Azure.\noConéctese y consuma servicios de Azure y servicios de terceros.\noAsesoría en estandarización y replicación de sus aplicaciones para que las pueda ofrecer a sus clientes de forma automatizada.\nEstrategia integral SEM\nGeneración de campañas pagas en diferentes plataformas (Google, Facebook, LinkedIn) para aumentar el alcance.\nComunicaciones\n",
+            "blockClass": "nosotrosText"
+        }
+    },
+    "rich-text#Nosotrosdesc14":{
+        "props": {
+            "text": "Diseño y parametrización de campañas automatizadas\nContenido\nGrowth Marketing | Inbound Marketing\nDiseño\nDiseño y desarrollo de Landing page\nAnalítica\nReporte de gestión digital\nAfinnia\nTiemViewer\nLicencia Business Usuario Único \nPara emprendedores, consultores de TI y de otros servicios, y empleados remotos.\nLicencia Premium Multiusuario\nDiseñada para pequeños y medianos negocios, proveedores de servicios gestionados (MSPs) y equipos pequeños.\nLicencia Corporate para equipos\nDiseñado para equipos con varios usuarios donde las tareas múltiples son necesarias.\nSmart Energies\n",
+            "blockClass": "nosotrosText"
+        }
+    },
+    "rich-text#Nosotrosdesc15":{
+        "props": {
+            "text": "¿QUIÉNES SOMOS?\nSmart Energies nace con la idea de aportar y contribuir a la capilaridad y diversificación de la industria de energías renovables en América Latina, gracias a que en los últimos años Impresistem ha sido líder en la comercialización y distribución del sector IT posicionándose como un mayorista confiable. Ahora con una visión de transformación y dinamismo quiere innovar en la cadena de distribución del mercado de fuentes no convencionales de energía.\n¿Qué hacemos?\nSomos el aliado en suministros de equipos para Energías Renovables, además de esto asesoramos y guiamos a nuestros partners para formular proyectos de ingeniería fotovoltaica entre otros. Somos una empresa de soluciones, en donde la prioridad es generar valor a nuestros clientes.\n¿Cómo?\n- Venta Consultiva\n- EaaS / Portafolio Financiero\n- Generación de oportunidades rentables\n- Eficiencia Logística: Sinergia como holding y Certificación OEA\n- Disponibilidad de Inventario\n- Cobertura Nacional\n- Servicio Postventa\n¿Cuáles son los beneficios de la energía renovable?\nAyuda a luchar contra el cambio climático\nDebido a que durante su producción no emite gases de efecto invernadero, la energía renovable es una aliada imprescindible para mitigar el impacto de la sociedad en el medio ambiente.\nSus recursos no se agotan nunca\n",
+            "blockClass": "nosotrosText"
+        }
+    },
+    "rich-text#Nosotrosdesc16":{
+        "props": {
+            "text": "Las fuentes de energía renovable son inagotables y se adaptan a los ciclos naturales, a diferencia de las fuentes de energía convencionales (carbón, gas, petróleo o energía nuclear). Esto las convierte en la clave para crear un sistema energético sostenible que permita el desarrollo local sin poner en riesgo el futuro de las siguientes generaciones.\nDemocratización de la energía\nEl costo de la producción de energía renovable es previsible y panificable. Además, las energías renovables pueden encontrarse en cualquier parte del planeta lo que significa una ventaja diferencial para las economías locales, asegurando la independencia energética al no tener que recurrir a la importación de combustibles fósiles.\nNueva fuente de trabajo\nDuplicar la cuota de energías renovables a nivel mundial hasta alcanzar el 36% en 2030 supondría el aumento del empleo por más de 24 millones de personas en el sector frente a los 9.2 millones actuales, Agencia Internacional de Energías Renovables (IRENA).\nEs competitiva y aceptada en el mundo\nDesde hace varios años el costo de las energías renovables ha caído a nivel mundial gracias al desarrollo de nuevas tecnologías que mejoran su eficiencia, así como el creciente apoyo político que ha recibido de la comunidad internacional por sus numerosos beneficios. En la actualidad, el clima de consenso es a favor del impulso a las tecnologías de energía limpia y sostenible.\nENERGÍA SOLAR\nLa energía solar es aquella generada por el sol y que viaja a través de radiaciones para llegar a la tierra, una vez llegada a la superficie terrestre, la energía solar necesita una instalación fotovoltaica para convertirse en electricidad. La instalación capta la radiación mediante celdas fotovoltaicas y la transforma en corriente. \nENERGÍA TÉRMICA\nLa energía solar térmica consiste principalmente en aprovechar la energía que genera el sol hacia un medio que sea portador de calor, que generalmente suele ser agua o aire en estos casos. Entre ",
+            "blockClass": "nosotrosText"
+        }
+    },
+    "rich-text#Nosotrosdesc17":{
+        "props": {
+            "text": "las distintas aplicaciones que podemos encontrar en este tipo de energía también existe la posibilidad de generar energía para un hogar. Hoy en día los avances tecnológicos permiten calentar agua con la radiación solar hasta producir vapor y posteriormente obtener dicha electricidad.\nMOVILIDAD ELÉCTRICA\nUna de las principales ventajas de la movilidad eléctrica es que mejora la calidad de vida de las personas al no emitir gases tóxicos. Así mismo, al prescindir de los motores de combustión, los vehículos eléctricos evitan la emisión de toneladas de gases de efecto invernadero lo que a su vez ayuda en la lucha para mitigar los efectos del cambio climático.\nSmart Services\nCybersecurity: Backup & Recovery\nImpresistem provee servicios de Implementación, gestión, respaldos y monitoreo de seguridad para complementar su propuesta de protección de la información de los clientes, previniendo posibles amenazas que puedan vulnerar los sistemas, aplicaciones e infraestructura de TI, mitigando los riesgos para reducir brechas de seguridad, garantizando el cumplimiento regulatorio donde aplique.\nBENEFICIOS\n•Prevención proactiva de amenazas, reduciendo los tiempos de atención de incidentes\n•Amplia visibilidad sobre la infraestructura de TI y el tráfico de los dispositivos de red principales\n•Optimización de costos de operación al adquirir este modelo de negocio\n•Mayor seguridad al monitorear y respaldar de manera unificada todos los posibles dispositivos críticos para el negocio\n•Personal calificado y certificado en gobierno de seguridad, análisis y detección de ataques\n•Cumplimiento regulaciones de entes externos en cuanto a controles que deben implementar para reducir riesgos\nAlcance\nServicio IMOC (Monitoreo)\nMonitoreo de red e infraestructura de TI\n- Monitoreo del estado y rendimiento de la red.\n",
+            "blockClass": "nosotrosText"
+        }
+    },
+    "rich-text#Nosotrosdesc18":{
+        "props": {
+            "text": "- Monitoreo de disponibilidad y capacidad de dispositivos.\n- Monitoreo de servicios en la nube.\n- Monitoreo de conexiones.\n- Monitoreo de los Logs de los Dispositivos de red.\nMonitoreo y Correlación Eventos de Seguridad\n- Monitoreo de integridad de datos y archivos.\n- Monitoreo preventivo de amenazas (malware, phishing, virus).\n- Monitoreo denegación de servicio.\n- Monitoreo de seguridad en la nube.\nServicios de Seguridad para entornos Microsoft\n Monitoreo de red e infraestructura de TI\n- Configuración Políticas “Exchange Online Protection”.\n- Configuración Antivirus y Control de Amenazas “Microsoft Defender ATP”.\n- Implementación DLP para prevenir fugas de información.\n- Implementación Políticas de Seguridad para Directorio Activo.\n- Implementación Protección de Información “Azure Information Protection”.\n- Configuración Firewall, VPN.\n- Implementación Cloud App Security.\n- Implementación Correlación de Eventos de Seguridad “Microsoft Sentinel”.\nServicios de Gobierno y Cumplimiento\n Servicios de Gobierno y Cumplimiento\n- Implementación modelo gobierno seguridad de la información.\n- Cumplimiento lineamientos regulaciones y estándares de seguridad para diferentes sectores de la industria.\n- Análisis de vulnerabilidades.\n- Planes concientización y formación en seguridad de la información.\n- Asesoría en cumplimiento o cierres de brechas generadas por entes de control o auditorías.\n",
+            "blockClass": "nosotrosText"
+        }
+    },
+    "rich-text#Nosotrosdesc19":{
+        "props": {
+            "text": "Servicios de Backup and Recovery\nServicios de Backup and Recovery\n- Este servicio se ofrece a través de soluciones que respaldan la protección de la información en máquinas virtuales, servidores físicos, bases de datos.\nDaaS (Device as a Service)\nEn Impresistem pensamos en el negocio de sus clientes, nuestra propuesta de valor incluye el modelo DAAS como una solución tecnológica que contiene hardware, software y servicios, para optimizar el capital de trabajo.\nBENEFICIOS\n•Modelo de financiamiento competitivo, ofreciendo mayor flujo de caja en sus clientes.\n•Disponibilidad de la operación garantizada de acuerdo con los niveles de servicio.\n•Capacidad logística propia para realizar el alistamiento y distribución de equipos a nivel nacional.\n•Elimina el riesgo de obsolescencia tecnológica.\n•Flexibilidad y capacidad de proveer soluciones multimarca de acuerdo con la necesidad del negocio.\nAlcance\n•Servicio de instalación, soporte, mantenimiento y monitoreo de equipos de cómputo\nInstalación herramientas para colaboración Microsoft 365\n•Servicios de impresión\n•Servicios de Mesa de Ayuda 7*24\n•Servicios de Seguridad y Respaldo\n\nSaaS (Software as a Service)\nEn Impresistem asesoramos a los canales para llevar a sus clientes a la transformación, adoptando nuevos modelos que le permiten liberarse de la gestión de soluciones de TI y enfocarse en como innovar su negocio.\nSoftware as a service permite habilitar software y soluciones de tecnología en un modelo donde el cliente no requiere configurar, administrar, mantener hardware y software del producto, se enfoca en sacarle provecho a la solución optimizando el uso de capital de trabajo, mediante suscripciones anuales con un costo mensual recurrentes\n",
+            "blockClass": "nosotrosText"
+        }
+    },
+    "rich-text#Nosotrosdesc20":{
+        "props": {
+            "text": "BENEFICIOS\n•Al adquirir modelos por suscripción le permite reducir costos optimizando el flujo de caja en licenciamiento y mantenimiento.\n•Las soluciones de software bajo esta modalidad le permiten optimizar los tiempos en administración de actualizaciones y mantenimiento de versiones.\n•A través de nuestra mesa de ayuda podemos ofrecer el soporte (7x24) para estas soluciones.\n•Entrenamiento a la medida para usuarios finales de las soluciones.\nAlcance\nSAP Business One\nEs una solución integrada de planificación de recursos empresariales (ERP) para pequeñas y medianas empresas.\n•Licenciamiento / Suscripción\n•Infraestructura certificada (nube privada)\n•Implementación y Consultoría\n•Soporte y Mantenimiento\nAcronis\nEs una solución que integra respaldo, ciberseguridad, gestión y protección de datos de forma nativa para proteger diferentes dispositivos endpoints, sistemas y datos.\n•Servidor Físico\n•Máquina Virtual\n•Workstation\n•Hosting Services\n•Mobile Device\nTeamViewer\nEs una solución que permite conectarse a cualquier dispositivo remoto, a través de múltiples plataformas, desde cualquier lugar, en cualquier momento para controlar escritorios, reuniones y transferencia de archivos entre equipos.\n•Laptop\n•Desktop\n•Dispositivos IOT\n•Servidores\n•Smarthphones\n",
+            "blockClass": "nosotrosText"
+        }
+    },
+    "rich-text#Nosotrosdesc21":{
+        "props": {
+            "text": "\nIvanti\nEs una solución que permite hacer la gestión de servicios de TI, control de activos, actualización sistemas operativos, gestión de identidades, hardening de equipos y gestión de la cadena de suministro.\n•Seguridad a nivel de Dispositivos\n•Administración unificada de Dispositivos\n•Mesa de Ayuda\nSaaS (Software as a Service)\nIM Professional Services\nImpresistem se quiere afianzar como su proveedor de servicios profesionales para que pueda complementar y/o ampliar la propuesta de valor que le ofrece a sus clientes finales.\nBeneficios\n•Personal calificado y certificado para el despliegue e implementación de los servicios profesionales en tiempo y calidad.\n•Control y administración de activos fijos a través de soluciones de software.\n•Alta protección sobre sus activos más valiosos, la información.\n•Gestión integral para el control de los dispositivos de la compañía.\n•Incursionar en nuevos mercados que aumenten la rentabilidad sus negocios.\n•Confiabilidad en el manejo de inventarios, logística y distribución de equipos a nivel nacional.\nAlcance\n•Servicios de Mesa de Ayuda 7x24 para soluciones de Acronis, TeamViewer, Microsoft y SAP Busines One.\n•Servicio de soporte, mantenimiento y monitoreo de equipos de cómputo.\n•Apoyo en consultoría, implementación, capacitación y soporte para soluciones on premise o cloud.\n•IM Security Information.\n•Asesoramiento legal y financiero en proyectos de Energías Renovables.\n•Eficiencia logística, cobertura nacional para diferentes proyectos - Certificación OEA.\nPREGUNTAS FRECUENTES\n",
+            "blockClass": "nosotrosText"
+        }
+    },
+    "rich-text#Nosotrosdesc22":{
+        "props": {
+            "text": "¿Cómo me puedo registrar para acceder a la página web transaccional, conocer los productos y hacer compras?\nPara acceder a la web transaccional debe ser distribuidor con anterioridad, realizar el registro aquí y después si puede acceder a la vitrina digital de Impresistem.\n¿Cómo conozco los precios de los productos?\nLos precios son suministrados solamente para los clientes que han completado el proceso para ser distribuidor. Lo invitamos a que haga parte de nuestro portafolio aquí. \n¿Qué debo hacer si tengo problemas con el usuario o la clave?\nPuede enviar un correo a soporteweb@impresistem.com indicado el problema y su NIT o comunicarse al PBX 876 65 00 Ext: 126.\n¿Si ya envié mis documentos para ser distribuidor y no he obtenido respuesta, a dónde puedo comunicarme?\nSino ha recibido respuesta de nuestra parte comuníquese al correo servicioalcliente@impresistem.com\n¿En qué ciudad puedo ser atendido?\nNo importa en la ciudad de Colombia que se encuentre ubicado, siempre estaremos dispuestos a atender sus requerimientos desde nuestras oficinas principales.\n",
+            "blockClass": "nosotrosText"
+        }
+    }
+}

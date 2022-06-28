@@ -34,7 +34,7 @@
     //Cajas de contenido
     "flex-layout.row#smarts": {
       "children": [
-        "flex-layout.col#text-smarts1",
+        "flex-layout.col#text-tycs1",
         "flex-layout.col#text-smarts"
       ],
       "props": {
