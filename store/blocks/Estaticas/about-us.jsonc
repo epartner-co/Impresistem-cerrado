@@ -12,6 +12,9 @@
     ]
   },
   "flex-layout.col#mediaQueries": {
+    "props":{
+      "blockClass":"quienessomosBody"
+    },
     "children": [
       "responsive-layout.desktop#maqDesktop",
       "responsive-layout.tablet#maqTablet",

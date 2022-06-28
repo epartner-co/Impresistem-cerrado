@@ -12,3 +12,8 @@
     transition:all  .5s  ease-in;
     background-color: #ffc5337d;
 }
+
+.flexColChild--quienessomosBody{
+    width: 80%;
+    margin-left: 10%;
+}

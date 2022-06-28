@@ -33,8 +33,8 @@
     },
     "children": [
       "tab-list.item#Despacho",
-      "tab-list.item#devoluciones",
-      "tab-list.item#Politicas3"
+      "tab-list.item#Devoluciones",
+      "tab-list.item#Garantias"
     ]
   },
   //***************************************************************************
@@ -47,21 +47,21 @@
       "label": "Políticas de Despacho "
     }
   },
-  "tab-list.item#devoluciones": {
+  "tab-list.item#Devoluciones": {
     "props": {
       "blockClass": ["TabItem", "TabItem--Politicas"],
-      "tabId": "devoluciones",
+      "tabId": "Devoluciones",
       "label": "Políticas de devoluciones "
     }
   },
-  "tab-list.item#Politicas3": {
+  "tab-list.item#Garantias": {
     "props": {
       "blockClass": ["TabItem", "TabItem--Politicas"],
-      "tabId": "Politicas3",
+      "tabId": "Garantias",
       "label": "Políticas de Garantía "
     }
   }
   // ! Item content Politicas
   // It is necessary to add this components into politics.jsonc at tab-content#Politics__Content
- 
+
 }

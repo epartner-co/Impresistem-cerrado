@@ -59,11 +59,10 @@
       "blockClass": ["Disclosure"]
     },
     "children": [
-      "disclosure-layout#Faq",// ./faq/FaqGroup.jsonc
-      "disclosure-layout#terminosycondiciones", // ./terminosycondciones/terminosycondicionesGroup.jsonc
-      "disclosure-layout#Politicas", // ./Politicas/PoliticasGroup.jsonc
-      "disclosure-layout#SmartSolutions" // ./EnvioYEntrega/EnvioYEntregaGroup.jsonc
-      //"disclosure-layout#Devoluciones" // ./devoluciones/DevolucionesGroup.jsonc
+      "disclosure-layout#Faq",// ../faq/FaqGroup.jsonc
+      "disclosure-layout#terminosycondiciones", // ../terminosycondciones/terminosycondicionesGroup.jsonc
+      "disclosure-layout#Politicas", // ../Politicas/PoliticasGroup.jsonc
+      "disclosure-layout#SmartSolutions" // ../SmartSolutions/SmartSolutionsaGroup.jsonc
     ]
   },
 
@@ -73,11 +72,12 @@
       "blockClass": ["Politics__Content"]
     },
     "children": [
-      "tab-content.item#Faq", //./faq/FaqGroup.jsonc
-      "tab-content.item#Terminos", // ./terminosycondciones/terminosycondicionesGroup.jsonc
-      "tab-content.item#EnvioYEntrega", // ./EnvioYEntrega/EnvioYEntregaGroup.jsonc
-      "tab-content.item#Despacho", // ./Politicas/PoliticasGroup.jsonc
-      "tab-content.item#devoluciones" // ./devoluciones/DevolucionesGroup.jsonc
+      "tab-content.item#Faq", //../faq/FaqGroup.jsonc
+      "tab-content.item#Terminos", // ../terminosycondciones/terminosycondicionesGroup.jsonc
+      "tab-content.item#Despacho", // ../Politicas/PoliticasGroup.jsonc
+      "tab-content.item#Devoluciones", 
+      "tab-content.item#Garantias",
+      "tab-content.item#SmartSolutions" // ../SmartSolutions/SmartSolutionsGroup.jsonc
     ]
   }
 }

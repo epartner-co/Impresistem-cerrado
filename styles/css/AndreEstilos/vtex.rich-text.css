@@ -23,3 +23,9 @@
     padding: 0;
     padding: 5PX;
 }
+
+.headingLevel4--Politics__Text--Faq {
+    font-weight: 700;
+    font-size: 13px;
+    color: #2A2A2A;
+}

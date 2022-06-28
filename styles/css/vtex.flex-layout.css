@@ -577,7 +577,7 @@
 .flexCol--cardWelcomeDesktop,
 .flexCol--cardWelcomeTablet {
   position: relative;
-  background: #fdfdfd;
+  background: #F9F9F9;
   border-radius: 5px;
 }
 .flexCol--cardWelcomeDesktop {
@@ -656,7 +656,7 @@
 .flexCol--exploreProductsButton {
   text-align: center;
   margin-top: 2%;
-  margin-bottom: 8%;
+  margin-bottom: 20vh;
 }
 
 .flexRow--colorBotonCategory

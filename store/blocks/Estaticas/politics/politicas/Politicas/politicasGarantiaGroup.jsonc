@@ -1,0 +1,1320 @@
+{
+    "tab-content.item#Garantias": {
+        "children": [
+            "rich-text#Garantias",
+            "image#garantia",
+            "rich-text#Garantias1",
+            "image#garantia1",
+            "rich-text#Garantias2",
+            "image#garantia2",
+            "rich-text#Garantias3",
+            "image#garantia3",
+            "rich-text#Garantias4",
+            "image#garantia4",
+            "rich-text#Garantias5",
+            "image#garantia5",
+            "rich-text#Garantias6",
+            "image#garantia6",
+            "rich-text#Garantias7",
+            "image#garantia7",
+            "rich-text#Garantias8",
+            "image#garantia8",
+            "rich-text#Garantias9",
+            "image#garantia9",
+            "rich-text#Garantias10",
+            "image#garantia10",
+            "rich-text#Garantias11",
+            "image#garantia11",
+            "rich-text#Garantias12",
+            "image#garantia12",
+            "rich-text#Garantias13",
+            "image#garantia13",
+            "rich-text#Garantias14",
+            "image#garantia14",
+            "rich-text#Garantias15",
+            "image#garantia15",
+            "rich-text#Garantias16",
+            "image#garantia16",
+            "rich-text#Garantias17",
+            "image#garantia17",
+            "rich-text#Garantias18",
+            "image#garantia18",
+            "rich-text#Garantias19",
+            "image#garantia19",
+            "rich-text#Garantias20",
+            "image#garantia20",
+            "rich-text#Garantias21",
+            "image#garantia21",
+            "rich-text#Garantias22",
+            "image#garantia22",
+            "rich-text#Garantias23",
+            "image#garantia23",
+            "rich-text#Garantias24",
+            "image#garantia24",
+            "rich-text#Garantias25",
+            "image#garantia25",
+            "rich-text#Garantias26",
+            "image#garantia26",
+            "rich-text#Garantias27",
+            "image#garantia27",
+            "rich-text#Garantias28",
+            "image#garantia28",
+            "rich-text#Garantias29",
+            "image#garantia29",
+            "rich-text#Garantias30",
+            "image#garantia30",
+            "rich-text#Garantias31",
+            "image#garantia31",
+            "rich-text#Garantias32",
+            "image#garantia32",
+            "rich-text#Garantias33",
+            "image#garantia33",
+            "rich-text#Garantias34",
+            "image#garantia34",
+            "rich-text#Garantias35",
+            "image#garantia35",
+            "rich-text#Garantias36",
+            "image#garantia36",
+            "rich-text#Garantias37",
+            "image#garantia37",
+            "rich-text#Garantias38",
+            "image#garantia38",
+            "rich-text#Garantias39",
+            "image#garantia39",
+            "rich-text#Garantias40",
+            "image#garantia40",
+            "rich-text#Garantias41",
+            "image#garantia41",
+            "rich-text#Garantias42",
+            "image#garantia42",
+            "rich-text#Garantias43",
+            "image#garantia43",
+            "rich-text#Garantias44",
+            "image#garantia44",
+            "rich-text#Garantias45",
+            "image#garantia45",
+            "rich-text#Garantias46",
+            "image#garantia46",
+            "rich-text#Garantias47",
+            "image#garantia47",
+            "rich-text#Garantias48",
+            "image#garantia48",
+            "rich-text#Garantias49",
+            "image#garantia49",
+            "rich-text#Garantias50",
+            "image#garantia50",
+            "rich-text#Garantias51",
+            "image#garantia51",
+            "rich-text#Garantias52",
+            "image#garantia52",
+            "rich-text#Garantias53",
+            "image#garantia53",
+            "rich-text#Garantias54",
+            "image#garantia54",
+            "rich-text#Garantias55",
+            "image#garantia55",
+            "rich-text#Garantias56",
+            "image#garantia56",
+            "rich-text#Garantias57",
+            "image#garantia57",
+            "rich-text#Garantias58",
+            "image#garantia58",
+            "rich-text#Garantias59",
+            "image#garantia59",
+            "rich-text#Garantias60",
+            "image#garantia60",
+            "rich-text#Garantias61",
+            "image#garantia61",
+            "rich-text#Garantias62",
+            "image#garantia62",
+            "rich-text#Garantias63",
+            "image#garantia63",
+            "rich-text#Garantias64",
+            "image#garantia64",
+            "rich-text#Garantias65"
+        ],
+        "props":{
+            "blockClass": [
+                "TabContent",
+                "TabContent--Politicas"
+            ],
+            "tabId": "Garantias"
+        }
+    },
+    "rich-text#titles-Garantias1": {
+        "props": {
+            "text": "[POLÍTICA DE COOKIES](/Garantias)",
+            "blockClass": "tituloEstaticos"
+        }
+    },
+    "rich-text#titles-Garantias2": {
+        "props": {
+            "text": "[POLÍTICA DE DEVOLUCIÓN](/politica-devoluciones)",
+            "blockClass": "tituloEstaticos"
+        }
+    },
+    "rich-text#titles-Garantias6": {
+        "props": {
+            "text": "[POÍLITCA DE DATOS](/Politica-datos)",
+            "blockClass": "tituloEstaticos"
+        }
+    },
+    "rich-text#titles-Garantias7": {
+        "props": {
+            "text": "[QUIENES SOMOS](/quienes-somos)",
+            "blockClass": "tituloEstaticos"
+        }
+    },
+    "rich-text#title-Garantias": {
+        "props": {
+            "text": "# Garantia solutions",
+            "blockClass": "textoquien"
+        }
+    },
+    "rich-text#title-GarantiasM": {
+        "props": {
+            "text": "# PREGUNTAS FRECUENTES",
+            "blockClass": "textoquienM"
+        }
+    },
+    //Mobile para Garantias
+    "flex-layout.row#GarantiasMobile": {
+        "children": [
+            "flex-layout.col#text-GarantiasMobile"
+        ],
+        "props": {
+            "blockClass": "GarantiasColumnM"
+        }
+    },
+    "flex-layout.col#text-GarantiasMobile": {
+        "children": [
+            "disclosure-layout#simpleGarantia",
+            "disclosure-layout#simpleGarantia2",
+            "disclosure-layout#simpleGarantia3"
+        ],
+        "props": {
+            "blockclass": "textColumn",
+            "preventVerticalStretch": true,
+            "width": "80%",
+            "rowGap": 0
+        }
+    },
+    //-----------------------------------------------------------LATERAL PREGUNTAS FRECUENTES
+    "flex-layout.row#GarantiasLATERAL": {
+        "children": [
+            "flex-layout.col#text-GarantiasDESK"
+        ],
+        "props": {
+            "blockClass": "GarantiasColumnM"
+        }
+    },
+    "flex-layout.col#text-GarantiasDESK": {
+        "children": [
+            "disclosure-layout#DESKGarantia",
+            "disclosure-layout#DESKGarantia2",
+            "disclosure-layout#DESKGarantia3",
+            "disclosure-layout#DESKGarantia4",
+            "disclosure-layout#DESKGarantia5"
+        ],
+        "props": {
+            "blockclass": "Menu-lateral-desk",
+            "preventVerticalStretch": true,
+            "width": "80%",
+            "rowGap": 0
+        }
+    },
+    //----------------------------desplegables-1-dessk
+    "disclosure-layout#DESKGarantia": {
+        "children": [
+            "disclosure-trigger#DESKGarantia",
+            "disclosure-content#DESKGarantia"
+        ],
+        "props": {
+            "blockClass": "lateral-derecha-desk"
+        }
+    },
+    "disclosure-trigger#DESKGarantia": {
+        "children": [
+            "rich-text#ITEMGarantia1"
+        ]
+    },
+    "disclosure-content#DESKGarantia": {
+        "children": [
+            "rich-text#ITEMGarantia1-1",
+            "rich-text#ITEMGarantia1-2",
+            "rich-text#ITEMGarantia1-3"
+        ],
+        "props": {
+            "blockClass": "lateral-derecha-desk-content"
+        }
+    },
+    "rich-text#ITEMGarantia1": {
+        "props": {
+            "text": "Garantia",
+            "blockClass": "lateral-derecha-desk-titulo"
+        }
+    },
+    "rich-text#ITEMGarantia1-1": {
+        "props": {
+            "text": "Comó devolver",
+            "blockClass": "lateral-derecha-desk-item-subtitulo"
+        }
+    },
+    "rich-text#ITEMGarantia1-2": {
+        "props": {
+            "text": "Cambios",
+            "blockClass": "lateral-derecha-desk-item-subtitulo"
+        }
+    },
+    "rich-text#ITEMGarantia1-3": {
+        "props": {
+            "text": "Reembolsos",
+            "blockClass": "lateral-derecha-desk-item-subtitulo"
+        }
+    },
+    //----------------------------desplegables-2-dessk
+    "disclosure-layout#DESKGarantia2": {
+        "children": [
+            "disclosure-trigger#DESKGarantia2",
+            "disclosure-content#DESKGarantia2"
+        ],
+        "props": {
+            "blockClass": "lateral-derecha-desk"
+        }
+    },
+    "disclosure-trigger#DESKGarantia2": {
+        "children": [
+            "rich-text#ITEMGarantia2"
+        ]
+    },
+    "disclosure-content#DESKGarantia2": {
+        "children": [
+            "rich-text#ITEMGarantia1-1",
+            "rich-text#ITEMGarantia1-2",
+            "rich-text#ITEMGarantia1-3"
+        ],
+        "props": {
+            "blockClass": "lateral-derecha-desk-content"
+        }
+    },
+    "rich-text#ITEMGarantia2": {
+        "props": {
+            "text": "Compra",
+            "blockClass": "lateral-derecha-desk-titulo"
+        }
+    },
+    //----------------------------desplegables-3-dessk
+    "disclosure-layout#DESKGarantia3": {
+        "children": [
+            "disclosure-trigger#DESKGarantia3",
+            "disclosure-content#DESKGarantia3"
+        ],
+        "props": {
+            "blockClass": "lateral-derecha-desk"
+        }
+    },
+    "disclosure-trigger#DESKGarantia3": {
+        "children": [
+            "rich-text#ITEMGarantia3"
+        ]
+    },
+    "disclosure-content#DESKGarantia3": {
+        "children": [
+            "rich-text#ITEMGarantia1-1",
+            "rich-text#ITEMGarantia1-2",
+            "rich-text#ITEMGarantia1-3"
+        ],
+        "props": {
+            "blockClass": "lateral-derecha-desk-content"
+        }
+    },
+    "rich-text#ITEMGarantia3": {
+        "props": {
+            "text": "Presentación",
+            "blockClass": "lateral-derecha-desk-titulo"
+        }
+    },
+    //----------------------------desplegables-4-dessk
+    "disclosure-layout#DESKGarantia4": {
+        "children": [
+            "disclosure-trigger#DESKGarantia4",
+            "disclosure-content#DESKGarantia4"
+        ],
+        "props": {
+            "blockClass": "lateral-derecha-desk"
+        }
+    },
+    "disclosure-trigger#DESKGarantia4": {
+        "children": [
+            "rich-text#ITEMGarantia4"
+        ]
+    },
+    "disclosure-content#DESKGarantia4": {
+        "children": [
+            "rich-text#ITEMGarantia1-1",
+            "rich-text#ITEMGarantia1-2",
+            "rich-text#ITEMGarantia1-3"
+        ],
+        "props": {
+            "blockClass": "lateral-derecha-desk-content"
+        }
+    },
+    "rich-text#ITEMGarantia4": {
+        "props": {
+            "text": "Mi cuenta",
+            "blockClass": "lateral-derecha-desk-titulo"
+        }
+    },
+    //----------------------------desplegables-5-dessk
+    "disclosure-layout#DESKGarantia5": {
+        "children": [
+            "disclosure-trigger#DESKGarantia5",
+            "disclosure-content#DESKGarantia5"
+        ],
+        "props": {
+            "blockClass": "lateral-derecha-desk"
+        }
+    },
+    "disclosure-trigger#DESKGarantia5": {
+        "children": [
+            "rich-text#ITEMGarantia5"
+        ]
+    },
+    "disclosure-content#DESKGarantia5": {
+        "children": [
+            "rich-text#ITEMGarantia1-1",
+            "rich-text#ITEMGarantia1-2",
+            "rich-text#ITEMGarantia1-3"
+        ],
+        "props": {
+            "blockClass": "lateral-derecha-desk-content"
+        }
+    },
+    "rich-text#ITEMGarantia5": {
+        "props": {
+            "text": "Devolución",
+            "blockClass": "lateral-derecha-desk-titulo"
+        }
+    },
+    // ----------------------------------------------------------------------------------- DESPLEGABLE MOBILE
+    //desplegables
+    "disclosure-layout#simpleGarantia": {
+        "children": [
+            "disclosure-trigger#simpleGarantia",
+            "disclosure-content#simpleGarantia"
+        ]
+    },
+    "disclosure-trigger#simpleGarantia": {
+        "children": [
+            "rich-text#questionGarantia"
+        ]
+    },
+    "disclosure-content#simpleGarantia": {
+        "children": [
+            "rich-text#answerGarantia"
+        ]
+    },
+    "rich-text#questionGarantia": {
+        "props": {
+            "text": "Garantia"
+        }
+    },
+    "rich-text#answerGarantia": {
+        "props": {
+            "text": "Call us at the number (212) 1234-1234"
+        }
+    },
+    //SEGUNDO DESPLEGABLE
+    "disclosure-layout#simpleGarantia2": {
+        "children": [
+            "disclosure-trigger#simpleGarantia2",
+            "disclosure-content#simpleGarantia2"
+        ],
+        "props": {
+            "animated": true
+        }
+    },
+    "disclosure-trigger#simpleGarantia2": {
+        "children": [
+            "rich-text#questionGarantia2"
+        ]
+    },
+    "disclosure-content#simpleGarantia2": {
+        "children": [
+            /*     "image#devoluciones1",
+           "image#devoluciones2",
+           "image#devoluciones3"
+           */
+        ]
+    },
+    "rich-text#questionGarantia2": {
+        "props": {
+            "text": "Politica de devoluciones",
+            "blockClass": "TituloMobile"
+        }
+    },
+    // TERCER DESPLEGABLE
+    "disclosure-layout#simpleGarantia3": {
+        "children": [
+            "disclosure-trigger#simpleGarantia3",
+            "disclosure-content#simpleGarantia3"
+        ],
+        "props": {
+            "animated": true
+        }
+    },
+    "disclosure-trigger#simpleGarantia3": {
+        "children": [
+            "rich-text#questionGarantia3"
+        ]
+    },
+    "disclosure-content#simpleGarantia3": {
+        "children": [ /*"rich-text#Datos"*/]
+    },
+    "rich-text#questionGarantia3": {
+        "props": {
+            "text": "Politica de datos",
+            "blockClass": "TituloMobile"
+        }
+    },
+    //---------------------------------------------------------------------------IINFO POST HEADER
+    "flex-layout.row#ESTATICAS-AYUDAGarantia": {
+        "children": [
+            "rich-text#title-GarantiasM",
+            "info-card#columsx4-1-ESTATICAGarantia",
+            "info-card#columsx4-2-ESTATICAGarantia",
+            "info-card#columsx4-3-ESTATICAGarantia"
+        ],
+        "props": {
+            "blockClass": "BannerDosMosaicox4-ESTATICA"
+        }
+    },
+    "info-card#columsx4-1-ESTATICAGarantia": {
+        "props": {
+            "id": "texting",
+            "imageUrl": "https://sikaco.vteximg.com.br/arquivos/Rectangle%2024.png",
+            "headline": "¿Necesitas personal?",
+            "callToActionText": "Buscar contratista",
+            "isFullModeStyle": true,
+            "callToActionUrl": "#",
+            "textPosition": "left",
+            "textAlignment": "left",
+            "callToActionMode": "link",
+            "blockClass": "bannerInformativo-ESTATICA"
+        }
+    },
+    "info-card#columsx4-2-ESTATICAGarantia": {
+        "props": {
+            "id": "texting",
+            "imageUrl": "https://sikaco.vteximg.com.br/arquivos/Rectangle%2025.png",
+            "headline": "PREGUNTAS FRECUENTES",
+            "callToActionText": "Buscar contratista",
+            "isFullModeStyle": true,
+            "callToActionUrl": "#",
+            "textPosition": "left",
+            "textAlignment": "left",
+            "callToActionMode": "link",
+            "blockClass": "bannerInformativo2-ESTATICA"
+        }
+    },
+    "info-card#columsx4-3-ESTATICAGarantia": {
+        "props": {
+            "id": "texting",
+            "imageUrl": "https://sikaco.vteximg.com.br/arquivos/Rectangle%2026.png",
+            "headline": "¿Buscar donde comprar?",
+            "callToActionText": "Buscar contratista",
+            "isFullModeStyle": true,
+            "callToActionUrl": "#",
+            "textPosition": "left",
+            "textAlignment": "left",
+            "callToActionMode": "link",
+            "blockClass": "bannerInformativo3-ESTATICA"
+        }
+    },
+    "rich-text#Garantias": {
+        "props": {
+            "text": "## POLÍTICA DE GARANTÍA\n### POLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM ADATA",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias1": {
+        "props": {
+            "text": "Periodo de garantia:\n- discos: 3 anos a partir de la fecha de compra.\n- memorias usd-sd-ram: 5 anos a partir de la fecha de compra.\n- cables y accesorios para dispositivos moviles: 1 ano a partir de la fecha de compra\ntiempos de respuesta: 2 a 3 semanas contadas a partir de la recepcion del producto en impresistem s. A. S.\nYa que el producto viaja a fabrica para validacion directa de su personal tecnico.\nCondiciones generales\nno se tramitan garantias por defectos cosmeticos producto roto o faltante por lo que debe revisar su producto en el momento de la entrega por parte del area logistica.\nDerecho al diagnostico: todo producto reportado debe ser sometido a diagnostico, inspeccion y evaluacion tecnica por parte de impresistem.\nTener los instaladores actualizados y de acuerdo con su sistema operativo\nque el producto tenga un uso adecuado a sus caracteristicas maximas\nque no este roto ni haya sido intervenido\nsi su producto presenta alguna falla realice los siguientes pasos:\n1. Llamar a impresistem s. A. S:\nsede impresistem principal pbx: (571) 876 6490 / 546 5050 ext. 812 - 819 o enviar correo electronico\nangelica. Garzon@impresistem. Com\nsuministrar la siguiente informacion\na. Referencia del producto\nb. Numero de serial si lo posee\nc. Numero de la factura\nd. Falla detallada de la unidad o unidades\n2. De acuerdo a su ubicacion le sera enviado el formato de solicitud de garantias y debera ser diligenciado, para la asignacion de un numero de caso o ticket y se le indicara que hacer con su producto y el tiempo aproximado de respuesta.\n3. Para que su producto sea recibido en cualquiera de estas opciones debera tener:\na. Numero de caso o ticket\nb. Copia de la factura de impresistem\nc. Oficio de solicitud de garantia donde indiquen el # de caso y # de serie si aplica.\nD. Empaques adecuados, accesorios completos y originales\n4. Si de acuerdo con el diagnostico el producto presenta defectos de fabricacion no corregibles, se procedera a:\na. Realizar nota credito por el valor de adquisicion - facturado.\nB. De lo contrario se devolvera el mismo producto con su respectivo informe tecnico donde se explicara detalladamente el motivo del retorno y/o no aceptacion de garantia\ncualquier inquietud puede enviarla al correo web:\nangelica. Garzon@impresistem. Compolitica de garantia para distribuidores de impresistem alcatel",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias2": {
+        "props": {
+            "text": "Periodo de Garantía: 1 año de garantía en dispositivos, 6 meses para accesorios\nEl trámite es directamente con Alcatel a través de sus líneas de servicio\ny los diferentes medios de soporte con los que cuenta\nSoporte\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias3": {
+        "props": {
+            "text": "El cliente puede generar el ticket de garantía a través del siguiente LINK\nhttps://goo.gl/forms/ukXD18v74ZvhGobI2\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM APC",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias4": {
+        "props": {
+            "text": "Periodo de Garantía: de 1 a 3 años a partir de la fecha de la factura de compra, dependiendo el producto.\nSoporte Técnico:\nNuestro horario de atención es: Lunes a Viernes de 8:30 a 18:00\nTeléfono Colombia Bogotá: (0571) 4269733\nTeléfono Colombia Línea Nacional Gratuita: 01 8000 11 8008\nTodas las garantías se registran a través del correo electrónico a través del CCC se darán todas las instrucciones pertinentes para la atención a la solicitud:\nreclamaciones.tecnicas@schneider-electric.com\ncccsam.itb@schneider-electric.com\nhttp://www.schneider-electric.com.co/es/home/support/contact-schneider-electric.jsp\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM ASUS\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias5": {
+        "props": {
+            "text": "Periodo de Garantía: 1 año a partir de la fecha de la factura de compra.\nEl trámite de garantía deberá realizarla el usuario final comunicándose directamente con los puntos de servicio, centro autorizado por el fabricante para trámite de garantía\nLínea de servicio: 018000-910-109\nBogotá o Celular (1) 241 55 28\nPuede de igual manera ingresar al siguiente link donde encontrará información detallada sobre los centros de servicio ASUS de acuerdo a su ubicación\nCentro de Servicios\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM BELKIN\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias6": {
+        "props": {
+            "text": "Periodo de Garantía: 1 año a partir de la fecha de compra.\nTiempos de respuesta: 48 horas hábiles contadas a partir de la recepción del producto en IMPRESISTEM S.A.S.\nCondiciones Generales:\n- NO se tramitan garantías por defectos cosméticos producto roto o faltante por lo que debe revisar su producto en el momento de la entrega por parte del área logística.\n- Derecho al diagnóstico: Todo producto reportado debe ser sometido a diagnóstico, inspección y evaluación técnica por parte de IMPRESISTEM.\n- Tener los instaladores actualizados y de acuerdo a su sistema operativo\n- Que el producto tenga un uso adecuado a sus características máximas\n- Que no esté roto ni haya sido intervenido\nSi su producto presenta alguna falla realicé los siguientes pasos:\n1. Llamar a IMPRESISTEM S.A.S: Sede IMPRESISTEM principal PBX: (571) 876 6490 / 546 5050 Ext. 812 - 819 o enviar correo electrónico\nangelica.garzon@impresistem.com\nSuministrar la siguiente información\na. Referencia del producto\nb. Número de serial si lo posee\nc. Número de la factura\nd. Falla detallada de la unidad o unidades\n2. De acuerdo a su ubicación le será enviado el formato de solicitud de garantías para ser diligenciado y poder asignar el número de caso o ticket, después se le indicará que hacer con su producto y el tiempo aproximado de respuesta.\n3. Para que su producto sea recibido en cualquiera de estas opciones deberá tener:\na. Número de Caso o ticket\nb. Copia de la factura de Impresistem\nc. Oficio de solicitud de garantía donde indiquen el # de caso y # de serie si aplica.\nd. Empaques adecuados, accesorios completos y originales\n4. Si de acuerdo al diagnóstico el producto presenta defectos de fabricación no corregibles, se procederá a:\na. Realizar NOTA CREDITO por el valor de adquisición - facturado.\nb. De lo contrario se devolverá el mismo producto con su respectivo informe técnico donde se explicará detalladamente el motivo del retorno y/o no aceptación de garantía\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM BROTHER\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias7": {
+        "props": {
+            "text": "PERIODO DE GARANTÍA HARDWARE: (1,2 o 3 años dependiendo del modelo) El tiempo de garantía varía según el modelo y línea del producto adquirido, esta garantía viene especificada en el empaque del producto. Para mayor información puede ponerse en contacto cualquiera de los centros de servicio autorizados por BROTHER.\nPeriodo de garantía suministros: 30 días\nEl trámite debe realizarse directamente con BROTHER a través de los centros de servicio autorizados.\nPara más información sobre centros de servicio y atención puede dirigirse directamente a la página de BROTHER\nBrother\nCentro de Llamadas Brother: 01-800-755-0139\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM CANON\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias8": {
+        "props": {
+            "text": "Periodo de Garantía: 1 año a partir de la fecha de la factura de compra.\nPara el trámite de garantías de Hardware Canon el usuario final. Debe remitirse a la siguiente dirección de internet, allí de acuerdo a las características del producto será remitido a los diferentes centros de servicio:\nLÍNEA SOPORTE TÉCNICO A NIVEL NACIONAL: 01800 5181730\nEn el siguiente link encontrará información sobre los centros de servicio autorizados\nServicio técnico impresoras\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias9": {
+        "props": {
+            "text": "Cualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM CDP\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias10": {
+        "props": {
+            "text": "Periodo de Garantía: El tiempo de garantía varía según el modelo y la línea de producto adquirido.\nEl trámite de garantía es directamente con CDP y sus centros de servicio autorizados.\nOficina Principal: (1) 476 7800\nSin Costo: 01800-5181617\nLínea Celular: 315 499 0479\nCorreo eletrónico: conectate@cdpups.com y abrir\nPuede adquirir información adicional en el siguiente link\nSoporte de Garantía\nCENTROS DE SERVICIO:\nCALI:\nINGECOM\nContacto: Oscar Briñez\nTeléfono: 666 2221 – 311 747 7842\nDirección: Calle 40 Norte # 3N-95\nCorreo: soportetecnico@ingecom.com.co\nBUCARAMANGA:\nVORTICE STORE\nContacto: Jefferson Castellanos\nTeléfono: 643 9595 ext 106  - 316 524 9717\nDirección: Carrera 33 # 48-109 Lc 220-325\nCorreo: soporte@vorticestore.com\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\n \n \nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM CLARO\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias11": {
+        "props": {
+            "text": "Periodo de Garantía: 1 año a partir de la fecha de la factura de compra, dependiendo el producto.\nLa garantía de las unidades comercializadas por IMPRESISTEM de CLARO MOVIL funcionan directamente con CLARO a través de los diferentes CAVS (Centros de Atención y Ventas) en el siguiente link puede encontrar la información del CAV más cercano a su ubicación:\nSoporte\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM TRUST\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias12": {
+        "props": {
+            "text": "Periodo de Garantía: 1 año a partir de la fecha de compra.\nTiempos de Respuesta: 48 horas hábiles contadas a partir de la recepción del producto en IMPRESISTEM S.A.S.\nCondiciones Generales:\n- NO se tramitan garantías por defectos cosméticos producto roto o faltante por lo que debe revisar su producto en el momento de la entrega por parte del área logística.\n- Derecho al diagnóstico: Todo producto reportado debe ser sometido a diagnóstico, inspección y evaluación técnica por parte de IMPRESISTEM.\n- Tener los instaladores actualizados y de acuerdo a su sistema operativo\n- Que el producto tenga un uso adecuado a sus características máximas\n- Que no esté roto ni haya sido intervenido\nSi su producto presenta alguna falla realicé los siguientes pasos:\n1. Llamar a IMPRESISTEM S.A.S: Sede IMPRESISTEM principal PBX: (571) 876 6490 / 546 5050 Ext. 812 - 819 o enviar correo electrónico\nangelica.garzon@impresistem.com\nSuministrar la siguiente información\na. Referencia del producto\nb. Número de serial si lo posee\nc. Número de la factura\nd. Falla detallada de la unidad o unidades\n2. De acuerdo a su ubicación le será enviado formato de solicitud de garantías para ser diligencido y asignar un número de caso o ticket, para poder indicar que hacer con su producto y el tiempo aproximado de respuesta.\n3. Para que su producto sea recibido en cualquiera de estas opciones deberá tener:\na. Número de Caso o ticket\nb. Copia de la factura de Impresistem\nc. Oficio de solicitud de garantía donde indiquen el # de caso y # de serie si aplica.\nd. Empaques adecuados, accesorios completos y originales\n4. Si de acuerdo con el diagnóstico el producto presenta defectos de fabricación no corregibles, se procederá a:\na. Realizar NOTA CREDITO por el valor de adquisición - facturado.\nb. De lo contrario se devolverá el mismo producto con su respectivo informe técnico donde se explicará detalladamente el motivo del retorno y/o no aceptación de garantía\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\n \nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM DELL\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias13": {
+        "props": {
+            "text": "PERIODO DE GARANTÍA: El tiempo de garantía varía según el modelo y línea del producto adquirido, esta garantía viene especificada en el empaque del producto. Para mayor información puede ponerse en contacto con DELL o consultar en la siguiente página web:\nSoporte DELL\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias14": {
+        "props": {
+            "text": "\nPERIODO DE GARANTÍA: El tiempo de garantía varía según el modelo y línea del producto adquirido, esta garantía viene especificada en el empaque del producto. Para mayor información puede ponerse en contacto con DELL o consultar en la siguiente página web:\nSoporte DELL\n \nEl trámite debe realizarse directamente con DELL donde le indicarán el proceso que debe seguir con un centro de servicio autorizado.\nDeben tener presente el registro del equipo o TRANSFERENCIA DE PROPIEDAD, este procedimiento es indispensable para cualquier trámite ante la fábrica.\n* Transferencia de propiedad: http://www.dell.com/support/assets-transfer/mx/es/mxbsdt1#/Identify\n* Guía de transferencia de propiedad en YouTube: https://www.youtube.com/watch?v=UP-FWPxuZks\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM DJI\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias15": {
+        "props": {
+            "text": "PERIODO DE GARANTÍA: El tiempo de garantía varía según el modelo y línea del producto adquirido. Para mayor información puede ponerse en contacto con GARANTÍA DINÁMICA directamente.\nEl trámite debe realizarse directamente con GARANTÍA DINAMICA, Centro de Servicio Autorizado para DJI donde le indicarán el proceso que debe seguir.\nSe recomienda realizar registro de la undiad y su garantía en la página web\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias16": {
+        "props": {
+            "text": "www.garatiadinamica.com\nContacto:\nIng. David Ochoa\nTel. 8766500 Ext 812-819\nCel. 3143304669\nsoporte.tecnico1@garantiadinamica.com\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM EPSON\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias17": {
+        "props": {
+            "text": "Línea de Servicio Expreso: (01 8000 915235)\nBogotá: 592 2200\nEn el siguiente link encontrará los centros de servicio autorizados por EPSON para trámite de garantías de acuerdo al tipo de producto\nhttp://global.latin.epson.com/Soporte/Centros-De-Servicios\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM EZVIZ\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias18": {
+        "props": {
+            "text": "Periodo de Garantía: El tiempo de garantía varía según el modelo y marca\nTiempos de Respuesta: Puede variar de 3 a 4 semanas dependiendo de tiempos de respuesta de fábrica.\nPara estos dispositivos se recomienda siempre verificar primero con Impresistem el proceso, ya que no todos son atendidos por nuestro laboratorio técnico, hay unidades que recibe y tramita directamente la fábrica.\nCondiciones Generales:\n- NO se tramitan garantías por defectos cosméticos producto roto o faltante, por lo que debe revisar su producto en el momento de la entrega por parte del área logística.\n- Derecho al diagnóstico: Todo producto reportado debe ser sometido a diagnóstico, inspección y evaluación técnica por parte de Impresitem.\n- Tener los instaladres actualizados y de acuerdo a su sistema operativo\n- Que el producto tenga un uso adecuado a sus características máximas\n- Que no esté roto ni haya sido intervenido\nSi su producto presenta alguna falla realice los siguientes pasos:\n1. Enviar correo electrónico\nangelica.garzon@impresistem.com\nSuministrar la siguiente información\na. Referencia del producto\nb. Número de serial si lo posee\nc. Número de la factura\nd. Falla detallada de la unidad o unidades\n2. De acuerdo a validación con fábrica se le suministrarán las indicaciones para resolver el caso.\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM GENIUS\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias19": {
+        "props": {
+            "text": "Periodo de Garantía: 1 año a partir de la fecha de compra.\nTiempos de Respuesta: 48 horas hábiles contadas a partir de la recepción del producto en Impresistem S.A.S.\nCondiciones Generales:\n- NO se tramitan garantías por defectos cosméticos producto roto o faltante por lo que debe revisar su producto en el momento de la entrega por parte del área logística.\n- Derecho al diagnóstico: Todo producto reportado debe ser sometido a diagnóstico, inspección y evaluación técnica por parte de Impresistem.\n- Tener los instaladores actualizados y de acuerdo a su sistema operativo\n- Que el producto tenga un uso adecuado a sus características máximas\n- Que no esté roto ni haya sido intervenido\nSi su producto presenta alguna falla realice los siguientes pasos:\n1. Llamar a Impresistem S.A.: Sede principal PBX: (571) 876 6490 / 546 5050 Ext. 812 - 819 o enviar correo electrónico\nangelica.garzon@impresistem.com\nSuministrar la siguiente información\na. Referencia del producto\nb. Número de serial si lo posee\nc. Número de la factura\nd. Falla detallada de la unidad o unidades\n2. De acuerdo a su ubicación le será enviado formato de solicitud de garantías para ser diligenciado y así poder generar la asignación del número de caso o ticket y se le indicará que hacer con su producto y el tiempo aproximado de respuesta.\n3. Para que su producto sea recibido en cualquiera de estas opciones deberá tener:\na. Número de caso o ticket\nb. Copia de la factura de Impresistem\nc. Oficio de solicitud de garantía donde indiquen el # de caso y # de serie si aplica.\nd. Empaques adecuados, accesorios completos y originales\n4. Si de acuerdo al diagnóstico el producto presenta defectos de fabricación no corregibles, se procederá a:\na. Realizar NOTA CREDITO por el valor de adquisición - facturado.\nb. De lo contrario se devolverá el mismo producto con su respectivo informe técnico donde se explicará detalladamente el motivo del retorno y/o no aceptación de garantía\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM HIKVISION\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias20": {
+        "props": {
+            "text": "Periodo de Garantía: El tiempon de garantía varía según el modelo y marca\nTiempos de Respuesta: Puede variar de 3 a 4 semanas dependiendo de tiempos de respuesta de fábrica.\nPara estos dispositivos se recomienda siempre verificar primero con Impresistem el proceso, ya que no todos son atendidos por nuestro laboratorio técnico, hay unidades que recibe y tramita directamente la fábrica.\nCondiciones Generales:\n- NO se tramitan garantías por defectos cosméticos producto roto o faltante por lo que debe revisar su producto en el momento de la entrega por parte del área logística.\n- Derecho al diagnóstico: Todo producto reportado debe ser sometido a diagnóstico, inspección y evaluación técnica por parte de Impresistem.\n- Tener los instaladores actualizados y de acuerdo a su sistema operativo\n- Que el producto tenga un uso adecuado a sus características máximas\n- Que no esté roto ni haya sido intervenido\nSi su producto presenta alguna falla realice los siguientes pasos:\n1. Enviar correo electrónico\nangelica.garzon@impresistem.com\nSuministrar la siguiente información\na. Referencia del producto\nb. Número de serial si lo posee\nc. Número de la factura\nd. Falla detallada de la unidad o unidades\n2. De acuerdo a validación con fábrica se le suministrarán las indicaciones para resolver el caso.\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\n \nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM HILOOK\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias21": {
+        "props": {
+            "text": "Periodo de Garantía: El tiempo de garantía varía según el modelo y marca\nTiempos de Respuesta: Puede variar de 3 a 4 semanas dependiendo de tiempos de respuesta de fábrica.\nPara estos dispositivos se recomienda siempre verificar primero con Impresistem el proceso, ya que no todos son atendidos por nuestro laboratorio técnico, hay unidades que recibe y tramita directamente la fábrica.\nCondiciones Generales:\n- NO se tramitan garantías por defectos cosméticos producto roto o faltante por lo que debe revisar su producto en el momento de la entrega por parte del área logística.\n- Derecho al diagnóstico: Todo producto reportado debe ser sometido a diagnóstico, inspección y evaluación técnica por parte de Impresistem.\n- Tener los instaladores actualizados y de acuerdo a su sistema operativo\n- Que el producto tenga un uso adecuado a sus características máximas\n- Que no esté roto ni haya sido intervenido\nSi su producto presenta alguna falla realice los siguientes pasos:\n1. Enviar correo electrónico\nangelica.garzon@impresistem.com\nSuministrar la siguiente información\na. Referencia del producto\nb. Número de serial si lo posee\nc. Número de la factura\nd. Falla detallada de la unidad o unidades\n2. De acuerdo a validacion con fabrica se le suministraran las indicaciones para resolver el caso.\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\n \nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM HP\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias22": {
+        "props": {
+            "text": "Periodo de Garantía: El tiempo de garantía varía según el modelo y línea del producto adquirido, esta garantía viene especificada en el empaque del producto. Para mayor información puede ponerse en contacto con HP directamente.",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias23": {
+        "props": {
+            "text": "Enlace para recibir soporte técnico por chat\nhttps://support.hp.com/co-es/contact-hp\nNo olvide tener a mano:\n- Referencia del producto\n- Serial cuando aplique\n- Fecha de facturación\n- Falla que esta presentando el producto\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias24": {
+        "props": {
+            "text": "Cualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM IBM",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias25": {
+        "props": {
+            "text": "Periodo de Garantía: 1 año a partir de la fecha de la factura de compra.\nTiempos de Respuesta: 48 horas contados a partir de recibido el producto en Impresistem S.A.S.\nCondiciones Generales:\n- NO se tramitan garantías por defectos cosméticos producto roto o faltante por lo que debe revisar su producto en el momento de la entrega por parte del área logística.\n- Derecho al diagnóstico: Todo producto reportado debe ser sometido a diagnóstico, inspección y evaluación técnica por parte de Impresistem.\n- Tener los instaladores actualizados y de acuerdo a su sistema operativo\n- Que el producto tenga un uso adecuado a sus características máximas\n- Que no esté roto ni haya sido intervenido\nSi su producto presenta alguna falla realice los siguientes pasos:\n1. Llamar a IMPRESISTEM S.A.S: Sede principal PBX: (571) 876 6490 / 546 5050 Ext. 812 - 819 o enviar correo electrónico\nangelica.garzon@impresistem.com\nSuministrar la siguiente información\na. Referencia del producto\nb. Número de serial si lo posee\nc. Número de la factura\nd. Falla detallada de la unidad o unidades\n2. De acuerdo a su ubicación le será enviado formato de solicitud de garantías para ser diligenciado y así poder realizar la asignación de un número de caso o ticket, después se le indicará que hacer con su producto y el tiempo aproximado de respuesta.\n3. Para que su producto sea recibido en cualquiera de estas opciones deberá tener:\na. Número de Caso o ticket\nb. Copia de la factura de Impresistem\nc. Oficio de solicitud de garantía donde indiquen el # de caso y # de serie si aplica.\nd. Empaques adecuados, accesorios completos y originales\n4. Si de acuerdo al diagnóstico el producto presenta defectos de fabricación no corregibles, se procederá a:\na. Realizar NOTA CREDITO por el valor de adquisición - facturado.\nb. De lo contrario se devolverá el mismo producto con su respectivo informe técnico donde se explicará detalladamente el motivo del retorno y/o no aceptación de garantía\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM INTEL\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias26": {
+        "props": {
+            "text": "Periodo de Garantía: 1 año a partir de la fecha de la factura de compra\nTiempos de Respuesta: 3 a 5 días hábiles contados a partir de recibido para diagnóstico. Solución final sujeta a disponibilidad de repuestos en fabrica, máximo 30 días.\nCondiciones Generales:\n- NO se tramitan garantías por defectos cosméticos producto roto o faltante por lo que debe revisar su producto en el momento de la entrega por parte del área logística.\n- Derecho al diagnóstico: Todo producto reportado debe ser sometido a diagnóstico, inspección y evaluación técnica por parte de Impresistem.\n- Tener los instaladores actualizados y de acuerdo con su sistema operativo.\n- Que el producto tenga un uso adecuado a sus características máximas.\n- Que no esté roto ni haya sido intervenido.\nSi su producto presenta alguna falla realice los siguiente paso:\n1. Llamar a IMPRESISTEM S.A.S: Sede PBX: (571) 876 6490 / 546 5050 Ext. 812 - 819\n- Enviar correo electrónico a angelica.garzon@impresistem.com\nSuministrar la siguiente información\na. Referencia del producto.\nb. Número de serial si lo posee.\nc. Número de la factura\nd. Falla detallada de la unidad o unidades\n2. De acuerdo con su ubicación le será enviado formato de solicitud de garantías el cual deberá ser diligenciado para poder asignar un número de caso o ticket, con este se le indicará que hacer con su producto y el tiempo aproximado de respuesta.\n3. Para que su producto sea recibido en cualquiera de estas opciones deberá tener:\na. Número de Caso o ticket\nb. Copia de la factura de Impresistem\nc. Oficio de solicitud de garantía donde indiquen el # de caso y # de serie si aplica.\nd. Empaques adecuados, accesorios completos y originales.\n4. Si de acuerdo con diagnóstico el producto presenta defectos de fabricación no corregibles, se procederá a:\na. Realizar NOTA CREDITO por el valor de adquisición - facturado.\nb. De lo contrario se devolverá el mismo producto con su respectivo informe técnico donde se explicará detalladamente el motivo del retorno y/o no aceptación de garantía.\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\n \nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM KINGSTON\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias27": {
+        "props": {
+            "text": "Periodo de Garantía: El tiempo de garantía varía según el modelo y la línea de producto adquirido.\n*Para mayor información visitar\nhttp://www.kingston.com/latam/company/warranty.asp\nhttp://www.kingston.com/latam/company/warranty\nTiempos de Respuesta: 48 horas hábiles contadas a partir de la recepción del producto en Impresistem S.A.S.\nCondiciones Generales:\n- NO se tramitan garantías por defectos cosméticos producto roto o faltante por lo que debe revisar su producto en el momento de la entrega por parte del área logística.\n- Derecho al diagnóstico: Todo producto reportado debe ser sometido a diagnóstico, inspección y evaluación técnica por parte de Impresistem.\n- Tener los instaladores actualizados y de acuerdo a su sistema operativo\n- Que el producto tenga un uso adecuado a sus características máximas\n- Que no esté roto ni haya sido intervenido\nSi su producto presenta alguna falla realice los siguientes pasos:\n1. Llamar a Impresistem S.A.S: Sede principal PBX: (571) 876 6490 / 546 5050 Ext. 812 - 819 o enviar\ncorreo electrónico \nangelica.garzon@impresistem.com\nSuministrar la siguiente información\na. Referencia del producto\nb. Número de serial si lo posee\nc. Número de la factura\n2. De acuerdo a su ubicación le será enviado formato de solicitud de garantías el cual deberá ser diligenciado, para poder realizar la asignación de un número de caso o ticket y poder indicarle que hacer con su producto y el tiempo aproximado de respuesta.\n3. Para que su producto sea recibido en cualquiera de estas opciones deberá tener:\na. Número de Caso o ticket\nb. Copia de la factura de Impresistem\nc. Oficio de solicitud de garantía donde indiquen el # de caso y # de serie si aplica.\nd. Empaques adecuados, accesorios completos y originales\n4. Si de acuerdo al diagnóstico el producto presenta defectos de fabricación no corregibles, se procederá a:\na. Realizar NOTA CREDITO por el valor de adquisición - facturado.\nb. De lo contrario se devolverá el mismo producto con su respectivo informe técnico donde se explicará detalladamente el motivo del retorno y/o no aceptación de garantía.\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\n \nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM LENOVO\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias28": {
+        "props": {
+            "text": "Periodo de Garantía: El tiempo de garantía varía según el modelo y la línea de producto adquirido.\nEl trámite de garantía de este producto es directamente con LENOVO a través de sus líneas de servicio,\nLínea de servicio: 0-1800 917 0541 – opción 1 para consumo, opción 2 para corporativo\nLínea en Bogota: 57 1 3819811\nSoporte via whatsapp 5715800360\nPuede consultar las condiciones generales que tiene LENOVO para la prestación de servicios de garantía\nhttps://support.lenovo.com/bo/es/solutions/ht100140\nEl trámite lo debe realizar directamente el usuario final, ya que solicitarán realizar pruebas sobre la unidad\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\n \nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM LEXMARK\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias29": {
+        "props": {
+            "text": "Periodo de Garantía: El tiempo de garantía varía según el modelo y la línea de producto adquirido.\nEn el siguiente link puede verificar periodo de garantía de su producto\nGarantías\nEl usuario final debe comunicarse directamente con LEXMARK para recibir soporte sobre la unidad\nLínea atención a nivel Nacional: 018007001910\nLínea Bogotá: 57 1 6580058 OPCIÓN 2\n*La fábrica también cuenta con Chat en Línea al cual puede acceder en el siguiente link\nreclamo-de-garantías\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\n \nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM LOGITECH\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias30": {
+        "props": {
+            "text": "Periodo de Garantía: El tiempo de garantía varía según el modelo y línea del producto adquirido esta garantía viene especificada en el empaque del producto. Para mayor información\nhttps://www.logitech.com/es-roam\nUnidades de video conferencia: Para estas unidades el cliente debe generar ticket primero con Logitech y de acuerdo a aprobación remitirse a Impresistem para revisión.\nProceso para generar ticket:\n1. Ingresar a https://prosupport.logi.com/\n2. Selecciones Latinoamérica en la parte superior derecha.\n3. Seleccione Contact Support\n4. Seleccione File a ticket\n5. Ingrese los datos del producto.\n6. Después de generado el Ticket LOGITECH se pondrá en contacto y solicitara una serie pruebas y diagnósticos que debe seguir para solución del caso.\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM LG\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias31": {
+        "props": {
+            "text": "Periodo de Garantía: El tiempo de garantía varía según el modelo y la línea de producto adquirido.\nEl trámite de garantía de este producto es directamente con LG a través de su línea de servicio y centros de servicio autorizados.\nLínea atención Monitores industriales 018000910054\nMonitores de consumo 018000910683\nEn el siguiente link puede encontrar mayor información\nhttps://www.lg.com/co/soporte/reparacion-garantia/localizar-centro-de-reparacion\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM EXCLUSIV\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias32": {
+        "props": {
+            "text": "Tiempo de Garantía: 2 años incluyendo control\nPara la atención de garantías Exclusiv se cuenta con tres modalidades:\n1.A. Atención en tiendas, en las principales ciudades donde la tienda reciba televisores se diagnosticarán y repararán en sitio.\n1.B. Atención en domicilio, para televisores de 50 pulgadas o superiores y en ciudades principales se desplazará técnico al domicilio del cliente.\n2. En centro de servicio, en diferentes ciudades se recibirán televisores en centros de servicio autorizados.\n3. Recolección y devolución del televisor, para ciudades apartadas donde no se disponga de técnico o donde el desplazamiento del mismo sea complejo\nIndistinto de la modalidad se atenderá al usuario final del televisor a través de línea telefónica de pago revertido, donde se buscará solución al inconveniente y se le orientara en cómo obtener la solución, si esta no fué posible vía telefónica\nLínea Nacional de Servicio: 01 800 518 52 10\nCentros de servicio Compuspar:\nMedellín\n• Dirección: Cra. 69 #44b-72\n• Teléfonos: 4796963-322 98 83\n• Horario Laboral: L a V (8 a 6 ) Sábado (8 a 12m)\nCali\n• Dirección: Regional: Cll 25N # 2BN-62\n• Teléfono: 3827500\n• Horario Laboral: L a V (8 a 6 ) Sábado (8 a 12m)\nMosquera\n• Dirección: Avenida Troncal Panamericana de Occidente # 5 - 61 Este - Mosquera - Cundinamarca\n• Centro Empresarial Puerto Vallarta / Bodega 16\n• Teléfono: 893 27 00 Ext. 140\n• Horario Laboral: L a V (8 a 6 )\n• Correos Electrónicos:\nana.alvarez@expressluckservice.com\nyehimy.melendez@expressluckservice.com\nsbriceno@compuspar.com.co\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM MICROSOFT\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias33": {
+        "props": {
+            "text": "Periodo de Garantía: 90 días a 3 años a partir de la fecha de la factura de compra, dependiendo de la referencia\nTiempos de Respuesta: 48 horas contados a partir de recibido para accesorios 3 a 5 días hábiles para consolas\nSe debe verificar primero ya que la garantía de varios accesorios se tramita directo con fábrica.\nNacional: 018000931234 Bogotá: 587 0300\nCondiciones Generales:\n- NO se tramitan garantías por defectos cosméticos producto roto o faltante por lo que debe revisar su producto en el momento de la entrega por parte del área logística.\n- Derecho al diagnóstico: Todo producto reportado debe ser sometido a diagnóstico, inspección y evaluación técnica por parte de Impresistem.\n- Tener los instaladores actualizados y de acuerdo a su sistema operativo\n- Que el producto tenga un uso adecuado a sus características máximas\n- Que no esté roto ni haya sido intervenido\nSi su producto presenta alguna falla realice los siguientes pasos:\n1. Llamar a Impresistem S.A.S: Sede principal PBX: (571) 876 6490 / 546 5050 Ext. 812 - 819 o enviar correo electrónico\nangelica.garzon@impresistem.com\nSuministrar la siguiente información\na. Referencia del producto\nb. Número de serial si lo posee\nc. Número de la factura\nd. Falla detallada de la unidad o unidades\n2. De acuerdo a su ubicación le será enviado formato de solicitud de garantias el cual deberá ser diligenciado, para poder realizar la asignación de un número de caso o ticket y poder indicarle que hacer con su producto y el tiempo aproximado de respuesta.\n3. Para que su producto sea recibido en cualquiera de estas opciones deberá tener:\na. Número de caso o ticket\nb. Copia de la factura de Impresistem\nc. Oficio de solicitud de garantía donde indiquen el # de caso y # de serie si aplica.\nd. Empaques adecuados, accesorios completos y originales\n4. Si de acuerdo al diagnóstico el producto presenta defectos de fabricación no corregibles, se procederá a:\na. Realizar NOTA CREDITO por el valor de adquisición - facturado.\nb. De lo contrario se devolverá el mismo producto con su respectivo informe técnico donde se explicará detalladamente el motivo del retorno y/o no aceptación de garantía\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\n \nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM MSI\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias34": {
+        "props": {
+            "text": "PERIODO DE GARANTÍA: 2 años a partir de la fecha de la factura de compra. (Equipos Gamers).\nTiempos de Respuesta: De acuerdo a disponibilidad de partes o repuestos de fábrica.\nCENTRO NACIONAL DE SERVICIO MSI\nTodas preguntas e inconvenientes de clientes MSI serán atendidas a través de los siguientes medios:\nA través de la página web: \nSoporte MSI\nDirectamente con el CSA autorizado: \nwww.puntodeservicios.com\nE-mail:\nTeléfono: PBX (+57 1) 743 5027\nEn caso de que su equipo requiera ser reparado, les enviaremos una guía de Servientrega para que sea enviado sin costo alguno a nuestro Centro Nacional de Servicio MSI en Bogotá.\nPuede remitirse al siguiente link para mayor información:\n  MSI LATAM\nCualquier inquietud puede enviarla al correo:\n  angelica.garzon@impresistem.com\n \nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM SEAGATE\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias35": {
+        "props": {
+            "text": "TIEMPO DE GARANTÍA: 1, 2, 3 O 5 AÑOS, De acuerdo a referencia de producto.\nTiempos de Respuesta: Dependerá de disponibilidad de producto en fábrica\n1. Si el producto defectuoso está dentro del periodo de garantía (ya sea 1 año, 2, 3 ó 5 años, según el tipo de garantía del producto), se debe abrir un caso de RMA, en la siguiente dirección:\nGarantía y Cambios\nLista de nulidad de garantía:\nlista de verificación de garantía nula\n2. Introducir el serial para verificar garantía de la unidad, seguir con proceso de registro y generación de RMA\n3. Seguidamente ya sea el usuario final o el canal debera llevar el producto al Centro de Atención de Garantías (SEACARE) en Bogotá para su revisión y diagnóstico. El producto debe llegar con fletes pagos, SEAGATE no recibirá unidades con pago contraentrega.\nSEAGATE TECHNOLOGY C/O DATABLU\nCRA 18 NO. 84-87 OFICINA 306\nEDIFICIO DEL VECCHIO\nBOGOTÁ\n4. Unidad ingresa a verificación donde SEAGATE determinará si la unidad aplica para garantía o no.\n5. Si el disco cuenta con garantía y aplica, SEAGATE verifica stock de la unidad de cambio.\nDe contar con unidades disponibles, se procesa el cambio inmediatamente.\nAquí el plazo normal va entre 24 a 48 horas siguientes a la recepción del producto como máximo\n6. SEAGATE se encarga del pago del flete de regreso hacia el usuario final o canal del disco en garantía.\nCabe resaltar que por política corporativa de Seagate, el disco reemplazado por la garantía podra ser un disco nuevo o un disco recertificado, segÚn lo que se tenga disponible en ese momento.\n7. En el caso donde no haya en stock local, Seagate solicitar+a unidad a EUA\nEl tiempo de entrega podrá variar entre 10 a 15 días aproximadamente.\nLuego Seagate se encarga de enviarselo al usuario final o canal con fletes pagos.\nEn cualquier momento el cliente puede solicitar soporte o asesoria a través de las siguientes líneas de servicio\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias36": {
+        "props": {
+            "text": "Cualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM RAZER\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias37": {
+        "props": {
+            "text": "Periodo de Garantía: El tiempo de garantía varía según el modelo y la línea de producto adquirido.\n*Para mayor información visitar\nRazer Garantías\nTiempos de Respuesta: 48 horas hábiles contadas a partir de la recepción del producto en Impresistem S.A.S.\nCondiciones Generales:\n- NO se tramitan garantías por defectos cosméticos producto roto o faltante por lo que debe revisar su producto en el momento de la entrega por parte del área logística.\n- Derecho al diagnóstico: Todo producto reportado debe ser sometido a diagnóstico, inspección y evaluación técnica por parte de Impresistem.\n- Tener los instaladores actualizados y de acuerdo a su sistema operativo\n- Que el producto tenga un uso adecuado a sus características máximas\n- Que no esté roto ni haya sido intervenido\nSi su producto presenta alguna falla realice los siguientes pasos:\n1. Llamar a Impresistem S.A.S: Sede principal PBX: (571) 876 6490 / 546 5050 Ext. 812 - 819 o enviar correo electrónico\nangelica.garzon@impresistem.com\nSuministrar la siguiente información:\na. Referencia del producto\nb. Número de serial si lo posee\nc. Número de la factura\nd. Falla detallada de la unidad o unidades\n2. De acuerdo a su ubicación le será enviado formato de solicitud de garantías el cual deberá ser diligenciado, para poder realizar la asignación de un número de caso o ticket y poder indicarle que hacer con su producto y el tiempo aproximado de respuesta.\n3. Para que su producto sea recibido en cualquiera de estas opciones deberá tener:\na. Número de caso o ticket\nb. Copia de la factura de Impresistem\nc. Oficio de solicitud de garantía donde indiquen el # de caso y # de serie si aplica.\nd. Empaques adecuados, accesorios completos y originales\n4. Si de acuerdo al diagnóstico el producto presenta defectos de fabricación no corregibles, se procederá a:\na. Realizar NOTA CREDITO por el valor de adquisición - facturado.\nb. De lo contrario se devolverá el mismo producto con su respectivo informe técnico donde se explicará detalladamente el motivo del retorno y/o no aceptación de garantía\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\n \nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM REDRAGON\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias38": {
+        "props": {
+            "text": "Periodo de Garantía: 1 año a partir de la fecha de facturación\nTiempos de Respuesta: 48 horas contados a partir de recibido el producto en Impresistem S.A.S.\nCondiciones Generales:\n- NO se tramitan garantías por defectos cosméticos producto roto o faltante por lo que debe revisar su producto en el momento de la entrega por parte del área logística.\n- Derecho al diagnóstico: Todo producto reportado debe ser sometido a diagnóstico, inspección y evaluación técnica por parte de Impresistem.\n- Tener los instaladores actualizados y de acuerdo a su sistema operativo\n- Que el producto tenga un uso adecuado a sus características máximas\n- Que no esté roto ni haya sido intervenido\nSi su producto presenta alguna falla realice los siguientes pasos:\n1. Llamar a Impresistem S.A.S: Sede principal PBX: (571) 876 6490 / 546 5050 Ext. 812 - 819 o enviar correo electrónico\nangelica.garzon@impresistem.com\nSuministrar la siguiente información\na. Referencia del producto\nb. Número de serial si lo posee\nc. Número de la factura\nd. Falla detallada de la unidad o unidades\n2. De acuerdo a su ubicación le será enviado formato de solicitud de garantías el cual deberá ser diligenciado, para poder realizar la asignación de un número de caso o ticket y poder indicarle que hacer con su producto y el tiempo aproximado de respuesta.\n3. Para que su producto sea recibido en cualquiera de estas opciones deberá tener:\na. Número de caso o ticket\nb. Copia de la factura de Impresistem\nc. Oficio de solicitud de garantía donde indiquen el # de caso y # de serie si aplica.\nd. Empaques adecuados, accesorios completos y originales\n4. Si de acuerdo al diagnóstico el producto presenta defectos de fabricación no corregibles, se procederá a:\na. Realizar NOTA CREDITO por el valor de adquisición - facturado.\nb. De lo contrario se devolverá el mismo producto con su respectivo informe técnico donde se explicará detalladamente el motivo del retorno y/o no aceptación de garantía\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM SAMSUNG\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias39": {
+        "props": {
+            "text": "Periodo de garantía:\n1 a 3 Años a partir de la factura de compra monitores depediendo de la referencia\n1 Año a partir de la factura de compra para celulares\nPara mayor información visitar\nSoporte Samsung\nEl trámite de garantía deberá realizarse en cualquiera de los centros autorizados de Samsung en todo el país:\nLínea gratuita 018000112112\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias40": {
+        "props": {
+            "text": "--",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias41": {
+        "props": {
+            "text": "--",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias42": {
+        "props": {
+            "text": "--",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias43": {
+        "props": {
+            "text": "--",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias44": {
+        "props": {
+            "text": "Cualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM SANDISK",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias45": {
+        "props": {
+            "text": "Periodo de Garantía: A partir de 1 año hasta 5, de acuerdo a la referencia del producto\nTiempos de Respuesta: 48 horas contados a partir de recibido el producto en Impresistem S.A.S.\nCondiciones Generales:\n- NO se tramitan garantías por defectos cosméticos producto roto o faltante por lo que debe revisar su producto en el momento de la entrega por parte del área logística.\n- Derecho al diagnóstico: Todo producto reportado debe ser sometido a diagnóstico, inspección y evaluación técnica por parte de Impresistem.\n- Tener los instaladores actualizados y de acuerdo a su sistema operativo\n- Que el producto tenga un uso adecuado a sus características máximas\n- Que no esté roto ni haya sido intervenido\nSi su producto presenta alguna falla realice los siguientes pasos:\n1. Llamar a Impresistem S.A.S: Sede principal PBX: (571) 876 6490 / 546 5050 Ext. 812 - 819 o enviar correo electrónico\nangelica.garzon@impresistem.com\nSuministrar la siguiente información\na. Referencia del producto\nb. Número de serial si lo posee\nc. Número de la factura\nd. Falla detallada de la unidad o unidades\n2. De acuerdo a su ubicación le será enviado formato de solicitud de garantías el cual deberá ser diligenciado, para poder realizar la asignación de un número de caso o ticket y poder indicarle que hacer con su producto y el tiempo aproximado de respuesta.\n3. Para que su producto sea recibido en cualquiera de estas opciones deberá tener:\na. Número de Caso o ticket\nb. Copia de la factura de Impresistem\nc. Oficio de solicitud de garantía donde indiquen el # de caso y # de serie si aplica.\nd. Empaques adecuados, accesorios completos y originales\n4. Si de acuerdo al diagnóstico el producto presenta defectos de fabricación no corregibles, se procederá a:\na. Realizar NOTA CREDITO por el valor de adquisición - facturado.\nb. De lo contrario se devolverá el mismo producto con su respectivo informe técnico donde se explicara detalladamente el motivo del retorno y/o no aceptación de garantía\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\n \nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM TARGUS\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias46": {
+        "props": {
+            "text": "Periodo de Garantía:\nAccesorios: 1 año a partir de la fecha de la factura de compra.\nMorrales y maletines: Limitada de por vida\nTiempos de Respuesta: 48 horas hábiles contadas a partir de la recepción del producto en Impresistem S.A.S.\nCondiciones Generales:\n- NO se tramitan garantías por defectos cosméticos producto roto o faltante por lo que debe revisar su producto en el momento de la entrega por parte del área logística.\n- Derecho al diagnóstico: Todo producto reportado debe ser sometido a diagnóstico, inspección y evaluación técnica por parte de Impresistem.\n- Tener los instaladores actualizados y de acuerdo a su sistema operativo\n- Que el producto tenga un uso adecuado a sus características máximas\n- Que no esté roto ni haya sido intervenido\nSi su producto presenta alguna falla realice los siguientes pasos:\n1. Llamar a Impresistem S.A.S: Sede principal PBX: (571) 876 6490 / 546 5050 Ext. 812 - 819 o enviar correo electrónico\nangelica.garzon@impresistem.com\nSuministrar la siguiente información\na. Referencia del producto\nb. Número de serial si lo posee\nc. Número de la factura\nd. Falla detallada de la unidad o unidades\n2. De acuerdo a su ubicación le será enviado formato de solicitud de garantías el cual deberá ser diligenciado, para poder realizar la asignación de un número de caso o ticket y poder indicarle que hacer con su producto y el tiempo aproximado de respuesta.\n3. Para que su producto sea recibido en cualquiera de estas opciones deberá tener:\na. Número de caso o ticket\nb. Copia de la factura de Impresistem\nc. Oficio de solicitud de garantía donde indiquen el # de caso y # de serie si aplica.\nd. Empaques adecuados, accesorios completos y originales\n4. Si de acuerdo al diagnóstico el producto presenta defectos de fabricación no corregibles, se procederá a:\na. Realizar NOTA CREDITO por el valor de adquisición - facturado.\nb. De lo contrario se devolverá el mismo producto con su respectivo informe técnico donde se explicará detalladamente el motivo del retorno y/o no aceptación de garantía.\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM TOSHIBA\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias47": {
+        "props": {
+            "text": "Periodo de Garantía: 1 año a partir de la fecha de la factura de compra.\nTiempos de Respuesta: 48 horas contados a partir de recibido el producto en Impresistem S.A.S.\nCondiciones Generales:\n- NO se tramitan garantías por defectos cosméticos producto roto o faltante por lo que debe revisar su producto en el momento de la entrega por parte del área logística.\n- Derecho al diagnóstico: Todo producto reportado debe ser sometido a diagnóstico, inspección y evaluación técnica por parte de Impresistem.\n- Tener los instaladores actualizados y de acuerdo a su sistema operativo.\n- Que el producto tenga un uso adecuado a sus características máximas.\n- Que no esté roto ni haya sido intervenido\nSi su producto presenta alguna falla realice los siguientes pasos:\n1. Llamar a Impresistem S.A.S: Sede IMPRESISTEM principal PBX: (571) 876 6490 / 546 5050 Ext. 812 - 819 o enviar correo electrónico.\nangelica.garzon@impresistem.com\nSuministrar la siguiente información\na. Referencia del producto\nb. Número de serial si lo posee\nc. Número de la factura\nd. Falla detallada de la unidad o unidades\n2. De acuerdo a su ubicación le será enviado formato de solicitud de garantías el cual deberá ser diligenciado, para poder realizar la asignación de un número de caso o ticket y poder indicarle que hacer con su producto y el tiempo aproximado de respuesta.\n3. Para que su producto sea recibido en cualquiera de estas opciones deberá tener:\na. Número de caso o ticket\nb. Copia de la factura de Impresistem\nc. Oficio de solicitud de garantía donde indiquen el # de caso y # de serie si aplica.\nd. Empaques adecuados, accesorios completos y originales\n4. Si de acuerdo al diagnóstico el producto presenta defectos de fabricación no corregibles, se procederá a:\na. Realizar NOTA CREDITO por el valor de adquisición - facturado.\nb. De lo contrario se devolverá el mismo producto con su respectivo informe técnico donde se explicará detalladamente el motivo del retorno y/o no aceptación de garantía\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM TP-LINK\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias48": {
+        "props": {
+            "text": "Periodo de Garantía: El tiempo de garantía varía según el modelo y la línea de producto adquirido.\n1. Es indispensable haber generado caso con TP-LINK a través de la línea de servicio 018000 113646 o en Bogotá en el 2542690.\nLa fábrica al momento de generar el caso indicará si debe hacer llegar el producto a TP-LINK directamente o a Impresistem\n2. Producto sin número de caso no será recibido.\nPara unidades remitidas por fábrica a Impresistem:\nTiempos de Respuesta: 2 a 3 días hábiles contadas a partir de la recepción del producto en Impresistem S.A.S.\nCondiciones Generales:\n- NO se tramitan garantías por defectos cosméticos producto roto o faltante por lo que debe revisar su producto en el momento de la entrega por parte del área logística.\n- Derecho al diagnóstico: Todo producto reportado debe ser sometido a diagnóstico, inspección y evaluación técnica por parte de Impresistem.\n- Tener los instaladores actualizados y de acuerdo a su sistema operativo\n- Que el producto tenga un uso adecuado a sus características máximas\n- Que no esté roto ni haya sido intervenido\nSi su producto presenta alguna falla realice los siguientes pasos:\n1. Llamar a Impresistem S.A.S: Sede principal PBX: (571) 876 6490 / 546 5050 Ext. 812 - 819 o enviar correo electrónico\nangelica.garzon@impresistem.com\nSuministrar la siguiente información\na. Referencia del producto\nb. Número de serial si lo posee\nc. Número de la factura\nd. Falla detallada de la unidad o unidades\n2. De acuerdo a su ubicación le será enviado formato de solicitud de garantías el cual deberá ser diligenciado, para poder realizar la asignación de un número de caso o ticket y poder indicarle que hacer con su producto y el tiempo aproximado de respuesta.\n3. Para que su producto sea recibido en cualquiera de estas opciones deberá tener:\na. Número de Caso o ticket.\nb. Copia de la factura de Impresistem.\nc. Oficio de solicitud de garantía donde indiquen el # de caso y # de serie si aplica.\nd. Empaques adecuados, accesorios completos y originales.\n4. Si de acuerdo al diagnóstico el producto presenta defectos de fabricación no corregibles, se procederá a:\na. Realizar NOTA CREDITO por el valor de adquisición - facturado.\nb. De lo contrario se devolverá el mismo producto con su respectivo informe técnico donde se explicara detalladamente el motivo del retorno y/o no aceptación de garantía.\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\n \nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM UBIQUITI\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias49": {
+        "props": {
+            "text": "Periodo de Garantía: 1 año a partir de la fecha de compra.\nTiempos de Respuesta: 3 a 4 días hábiles contadas a partir de la recepción del producto en Impresistem S.A.S.\nCondiciones Generales:\n- NO se tramitan garantías por defectos cosméticos producto roto o faltante por lo que debe revisar su producto en el momento de la entrega por parte del área logística.\n- Derecho al diagnóstico: Todo producto reportado debe ser sometido a diagnóstico, inspección y evaluación técnica por parte de Impresistem.\n- Tener los instaladores actualizados y de acuerdo a su sistema operativo\n- Que el producto tenga un uso adecuado a sus características máximas\n- Que no esté roto ni haya sido intervenido\nSi su producto presenta alguna falla realice los siguientes pasos:\n1. Llamar a Impresistem S.A.S: Sede principal PBX: (571) 876 6490 / 546 5050 Ext. 812 - 819 o enviar correo electrónico\nangelica.garzon@impresistem.com\nSuministrar la siguiente información\na. Referencia del producto\nb. Número de serial si lo posee\nc. Número de la factura\nd. Falla detallada de la unidad o unidades\n2. De acuerdo a su ubicación le será enviado formato de solicitud de garantías el cual deberá ser diligenciado, para poder realizar la asignación de un número de caso o ticket y poder indicarle que hacer con su producto y el tiempo aproximado de respuesta.\n3. Para que su producto sea recibido en cualquiera de estas opciones deberá tener:\na. Número de caso o ticket\nb. Copia de la factura de Impresistem\nc. Oficio de solicitud de garantía donde indiquen el # de caso y # de serie si aplica.\nd. Empaques adecuados, accesorios completos y originales\n4. Si de acuerdo al diagnóstico el producto presenta defectos de fabricación no corregibles, se procederá a:\na. Realizar NOTA CREDITO por el valor de adquisición - facturado.\nb. De lo contrario se devolverá el mismo producto con su respectivo informe técnico donde se explicara detalladamente el motivo del retorno y/o no aceptación de garantía\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\n \nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM VIEWSONIC\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias50": {
+        "props": {
+            "text": "El trámite de garantía se realiza directamente con la marca a través de su centro de servicio autorizado\nTeléfono de contacto : PBX: 744 26 0",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias51": {
+        "props": {
+            "text": "Para otras ciudades o mayor información consulta la página:\nhttp://ceser.co/\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM WESTERN DIGITAL\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias52": {
+        "props": {
+            "text": "Periodo de Garantía: El tiempo de garantía varía según el modelo y la línea de producto adquirido.\nTiempos de Respuesta: 3 a 4 semanas contadas a partir de la recepción del producto en Impresistem S.A.S ya que el producto viaja a fábrica para validación directa de su personal técnico.\nEn el siguiente link puede verificar las políticas de garantía de la marca:\nhttps://support.wdc.com/warranty/warrantypolicy.aspx?lang=ls\nCondiciones Generales:\n- NO se tramitan garantías por defectos cosméticos producto roto o faltante por lo que debe revisar su producto en el momento de la entrega por parte del área logística.\n- Derecho al diagnóstico: Todo producto reportado debe ser sometido a diagnóstico, inspección y evaluación técnica por parte de Impresistem.\n- Tener los instaladores actualizados y de acuerdo a su sistema operativo\n- Que el producto tenga un uso adecuado a sus características máximas\n- Que no esté roto ni haya sido intervenido\nSi su producto presenta alguna falla realice los siguientes pasos:\n1. Llamar a Impresistem S.A.S: Sede principal PBX: (571) 876 6490 / 546 5050 Ext. 812 - 819 o enviar correo electrónico\nangelica.garzon@impresistem.com\nSuministrar la siguiente información\na. Referencia del producto\nb. Número de serial si lo posee\nc. Número de la factura\nd. Falla detallada de la unidad o unidades\n2. De acuerdo a su ubicación le será enviado formato de solicitud de garantías el cual deberá ser diligenciado, para poder realizar la asignación de un número de caso o ticket y poder indicarle que hacer con su producto y el tiempo aproximado de respuesta.\n3. Para que su producto sea recibido en cualquiera de estas opciones deberá tener:\na. Número de Caso o ticket\nb. Copia de la factura de Impresistem\nc. Oficio de solicitud de garantía donde indiquen el # de caso y # de serie si aplica.\nd. Empaques adecuados, accesorios completos y originales\n4. Si de acuerdo al diagnóstico el producto presenta defectos de fabricación no corregibles, se procederá a:\na. La fábrica enviará una unidad en reposición de las mismas características a la procesada, como solución a la garantía.\nb. De lo contrario se devolverá el mismo producto con su respectivo informe técnico donde se explicara detalladamente el motivo del retorno y/o no aceptación de garantía\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\n \nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM XKIM\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias53": {
+        "props": {
+            "text": "Periodo de Garantía: 2 años a partir de la fecha de la factura de compra.\nTiempos de Respuesta: 48 horas contados a partir de recibido el producto en Impresistem S.A.S.\nCondiciones Generales:\n- NO se tramitan garantías por defectos cosméticos producto roto o faltante por lo que debe revisar su producto en el momento de la entrega por parte del área logística.\n- Derecho al diagnóstico: Todo producto reportado debe ser sometido a diagnóstico, inspección y evaluación técnica por parte de Impresistem.\n- Tener los instaladores actualizados y de acuerdo a su sistema operativo\n- Que el producto tenga un uso adecuado a sus características máximas\n- Que no esté roto ni haya sido intervenido\nSi su producto presenta alguna falla realice los siguientes pasos:\n1. Llamar a Impresistem S.A.S: Sede principal PBX: (571) 876 6490 / 546 5050 Ext. 812 - 819 o enviar correo electrónico\nangelica.garzon@impresistem.com\nSuministrar la siguiente información\na. Referencia del producto\nb. Número de serial si lo posee\nc. Número de la factura\nd. Falla detallada de la unidad o unidades\n2. De acuerdo a su ubicación le será enviado formato de solicitud de garantías el cual deberá ser diligenciado, para poder realizar la asignación de un número de caso o ticket y poder indicarle que hacer con su producto y el tiempo aproximado de respuesta.\n3. Para que su producto sea recibido en cualquiera de estas opciones deberá tener:\na. Número de caso o ticket\nb. Copia de la factura de Impresistem\nc. Oficio de solicitud de garantía donde indiquen el # de caso y # de serie si aplica.\nd. Empaques adecuados, accesorios completos y originales\n4. Si de acuerdo al diagnóstico el producto presenta defectos de fabricación no corregibles, se procederá a:\na. Realizar NOTA CREDITO por el valor de adquisición - facturado.\nb. De lo contrario se devolverá el mismo producto con su respectivo informe técnico donde se explicará detalladamente el motivo del retorno y/o no aceptación de garantía\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\n \nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM ZAGG\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias54": {
+        "props": {
+            "text": "Periodo de Garantía: 1 año a partir de la fecha de compra.\nTiempos de Respuesta: 48 horas hábiles contadas a partir de la recepción del producto en Impresistem S.A.S.\nCondiciones Generales:\n- NO se tramitan garantías por defectos cosméticos producto roto o faltante por lo que debe revisar su producto en el momento de la entrega por parte del área logística.\n- Derecho al diagnóstico: Todo producto reportado debe ser sometido a diagnóstico, inspección y evaluación técnica por parte de Impresistem.\n- Tener los instaladores actualizados y de acuerdo a su sistema operativo\n- Que el producto tenga un uso adecuado a sus características máximas\n- Que no esté roto ni haya sido intervenido\nSi su producto presenta alguna falla realice los siguientes pasos:\n1. Llamar a Impresistem S.A.S: Sede principal PBX: (571) 876 6490 / 546 5050 Ext. 812 - 819 o enviar correo electrónico\nangelica.garzon@impresistem.com\nSuministrar la siguiente información\na. Referencia del producto\nb. Número de serial si lo posee\nc. Número de la factura\nd. Falla detallada de la unidad o unidades\n2. De acuerdo a su ubicación le será enviado formato de solicitud de garantías el cual deberá ser diligenciado, para poder realizar la asignación de un número de caso o ticket y poder indicarle que hacer con su producto y el tiempo aproximado de respuesta.\n3. Para que su producto sea recibido en cualquiera de estas opciones deberá tener:\na. Número de Caso o ticket\nb. Copia de la factura de Impresistem\nc. Oficio de solicitud de garantía donde indiquen el # de caso y # de serie si aplica.\nd. Empaques adecuados, accesorios completos y originales\n4. Si de acuerdo al diagnóstico el producto presenta defectos de fabricación no corregibles, se procederá a:\na. Realizar NOTA CREDITO por el valor de adquisición - facturado.\nb. De lo contrario se devolverá el mismo producto con su respectivo informe técnico donde se explicaré detalladamente el motivo del retorno y/o no aceptación de garantía\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\n \nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM HUAWEI\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias55": {
+        "props": {
+            "text": "Periodo de Garantía: El tiempo de garantía varía según el modelo y la línea de producto adquirido.\nEn el siguiente Link puede verificar periodo de garantía de su producto\nCentro de Garantías\nEl trámite de garantía es directamente con HUAWEI a través sus centros de servicio\nCentro de Servicio al Cliente\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias56": {
+        "props": {
+            "text": "Cualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM XIAOMI",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias57": {
+        "props": {
+            "text": "Periodo de Garantía: 1 año de garantía a partir de la fecha de facturación\nEl trámite es directamente con XIAOMI a través de su Centro de servicio\nAutorizado:\nLínea Gratuita: 018000 182 399\nMN Foto S.A.S.\nTel: (571) 256 6693 Bogotá\nwww.mnfoto.com.co\nemail serviciotecnico@mnfoto.com.co\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM MOPHIE\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias58": {
+        "props": {
+            "text": "Periodo de Garantía: 2 años a partir de la fecha de compra.\nTiempos de Respuesta: 48 horas hábiles contadas a partir de la recepción del producto en Impresistem S.A.S.\nCondiciones Generales:\n- NO se tramitan garantías por defectos cosméticos producto roto o faltante por lo que debe revisar su producto en el momento de la entrega por parte del área logística.\n- Derecho al diagnóstico: Todo producto reportado debe ser sometido a diagnóstico, inspección y evaluación técnica por parte de Impresistem.\n- Tener los instaladores actualizados y de acuerdo a su sistema operativo\n- Que el producto tenga un uso adecuado a sus características máximas\n- Que no esté roto ni haya sido intervenido\nSi su producto presenta alguna falla realice los siguientes pasos:\n1. Llamar a Impresistem S.A.: Sede principal PBX: (571) 876 6490 / 546 5050 Ext. 812 - 819 o enviar correo electrónico\nangelica.garzon@impresistem.com\nSuministrar la siguiente información\na. Referencia del producto\nb. Número de serial si lo posee\nc. Número de la factura\nd. Falla detallada de la unidad o unidades\n2. De acuerdo a su ubicación le será enviado formato de solicitud de garantías el cual deberá ser diligenciado, para poder realizar la asignación de un número de caso o ticket y poder indicarle que hacer con su producto y el tiempo aproximado de respuesta.\n3. Para que su producto sea recibido en cualquiera de estas opciones deberá tener:\na. Número de Caso o ticket\nb. Copia de la factura de Impresistem\nc. Oficio de solicitud de garantía donde indiquen el # de caso y # de serie si aplica.\nd. Empaques adecuados, accesorios completos y originales\n4. Si de acuerdo al diagnóstico el producto presenta defectos de fabricación no corregibles, se procederá a:\na. Realizar NOTA CREDITO por el valor de adquisición - facturado.\nb. De lo contrario se devolverá el mismo producto con su respectivo informe técnico donde se explicará detalladamente el motivo del retorno y/o no aceptación de garantía\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\n \nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM INVISIBLE SHIELD\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias59": {
+        "props": {
+            "text": "Periodo de Garantía: Invisible Shield Vidrio y FiIm: Garantía Limitada de por vida\nTiempos de Respuesta: 48 horas hábiles contadas a partir de la recepción del producto en Impresistem S.A.S.\nCondiciones Generales:\n- NO se tramitan garantías por defectos cosméticos producto roto o faltante por lo que debe revisar su producto en el momento de la entrega por parte del área logística.\n- Derecho al diagnóstico: Todo producto reportado debe ser sometido a diagnóstico, inspección y evaluación técnica por parte de Impresistem.\n- Tener los instaladores actualizados y de acuerdo a su sistema operativo\n- Que el producto tenga un uso adecuado a sus características máximas\n- Que no esté roto ni haya sido intervenido\nSi su producto presenta alguna falla realice los siguientes pasos:\n1. Llamar a Impresistem S.A.S: Sede principal PBX: (571) 876 6490 / 546 5050 Ext. 812 - 819 o enviar correo electrónico\nangelica.garzon@impresistem.com\nSuministrar la siguiente información\na. Referencia del producto\nb. Número de serial si lo posee\nc. Número de la factura\nd. Falla detallada de la unidad o unidades\n2. De acuerdo a su ubicación le será enviado formato de solicitud de garantías el cual deberá ser diligenciado, para poder realizar la asignación de un número de caso o ticket y poder indicarle que hacer con su producto y el tiempo aproximado de respuesta.\n3. Para que su producto sea recibido en cualquiera de estas opciones deberá tener:\na. Número de Caso o ticket\nb. Copia de la factura de Impresistem\nc. Oficio de solicitud de garantía donde indiquen el # de caso y # de serie si aplica.\nd. Empaques adecuados, accesorios completos y originales\n4. Si de acuerdo al diagnóstico el producto presenta defectos de fabricación no corregibles, se procederá a:\na. Realizar NOTA CREDITO por el valor de adquisición - facturado.\nb. De lo contrario se devolverá el mismo producto con su respectivo informe técnico donde se explicará detalladamente el motivo del retorno y/o no aceptación de garantía\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\n \nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM REALME\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias60": {
+        "props": {
+            "text": "Periodo de Garantía: 1 año de garantía a partir de la fecha de facturación El trámite es directamente con RealMe a través de sus diferentes canales de servicio:",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias61": {
+        "props": {
+            "text": "Cualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM INTEL NUC",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias62": {
+        "props": {
+            "text": "Periodo de Garantía: 1 año a partir de la fecha de la factura de compra.\nTiempos de Respuesta: 3 a 5 días hábiles contados a partir de recibido para diagnóstico\nSolución final sujeta a disponibilidad de repuestos en fábrica, máximo 30 días.\nCondiciones Generales:\n- NO se tramitan garantías por defectos cosméticos producto roto o faltante por lo que debe revisar su producto en el momento de la entrega por parte del área logística.\n- Derecho al diagnóstico: Todo producto reportado debe ser sometido a diagnóstico, inspección y evaluación técnica por parte de Impresistem.\n- Tener los instaladores actualizados y de acuerdo a su sistema operativo\n- Que el producto tenga un uso adecuado a sus características máximas\n- Que no esté roto ni haya sido intervenido\nSi su producto presenta alguna falla realice los siguientes pasos:\n1. Llamar a Impresistem S.A.S: Sede principal PBX: (571) 876 6490 / 546 5050 Ext. 812 - 819 o enviar correo electrónico\nangelica.garzon@impresistem.com\nSuministrar la siguiente información\na. Referencia del producto\nb. Número de serial si lo posee\nc. Número de la factura\nd. Falla detallada de la unidad o unidades\n2. De acuerdo a su ubicación le será enviado formato de solicitud de garantías el cual deberá ser diligenciado, para poder realizar la asignación de un número de caso o ticket y poder indicarle que hacer con su producto y el tiempo aproximado de respuesta.\n3. Para que su producto sea recibido en cualquiera de estas opciones deberá tener:\na. Número de Caso o ticket\nb. Copia de la factura de Impresistem\nc. Oficio de solicitud de garantía donde indiquen el # de caso y # de serie si aplica.\nd. Empaques adecuados, accesorios completos y originales\n4. Si de acuerdo al diagnóstico el producto presenta defectos de fabricación no corregibles, se procederá a:\na. Realizar NOTA CREDITO por el valor de adquisición - facturado.\nb. De lo contrario se devolverá el mismo producto con su respectivo informe técnico donde se explicará detalladamente el motivo del retorno y/o no aceptación de garantía\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM LOGITECH VIDEOCONFERENCE\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias63": {
+        "props": {
+            "text": "Periodo de Garantía: El tiempo de garantía varía según el modelo y línea del producto adquirido esta garantía viene especificada en el empaque del producto.\nPara mayor información\nwww.logitech.com\nUnidades de video conferencia: Para estas unidades el cliente debe generar ticket primero con LOGITECH y de acuerdo a aprobación remitirse a Impresistem para revisión.\nProceso para generar Ticket\n1. Ingresar a: https://prosupport.logi.com/\n2. Selecciones Latinoamérica en la parte superior derecha\n3. Seleccione Contact Support\n4. Seleccione File a ticket\n5. Ingrese los datos del producto\n6. Despues de generado el Ticket LOGITECH se pondrá en contacto y solicitará una serie pruebas y diagnósticos que debe seguir para solución del caso.\nCualquier inquietud puede enviarla al correo:\nCualquier inquietud puede enviarla a los correos web:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM MOTOROLA\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias64": {
+        "props": {
+            "text": "Periodo de Garantía: 1 año a partir de la fecha de compra.\nTiempos de Respuesta: 48 horas hábiles contadas a partir de la recepción del producto en Impresistem S.A.S.\nCondiciones Generales:\n- NO se tramitan garantías por defectos cosméticos producto roto o faltante por lo que debe revisar su producto en el momento de la entrega por parte del área logística.\n- Derecho al diagnóstico: Todo producto reportado debe ser sometido a diagnóstico, inspección y evaluación técnica por parte de Impresistem.\n- Tener los instaladores actualizados y de acuerdo a su sistema operativo\n- Que el producto tenga un uso adecuado a sus características máximas\n- Que no esté roto ni haya sido intervenido\nSi su producto presenta alguna falla realice los siguientes pasos:\n1. Llamar a Impresistem S.A.S: Sede principal PBX: (571) 876 6490 / 546 5050 Ext. 812 - 819 o enviar correo electrónico\nangelica.garzon@impresistem.com\nSuministrar la siguiente información\na. Referencia del producto\nb. Número de serial si lo posee\nc. Número de la factura\nd. Falla detallada de la unidad o unidades\n2. De acuerdo a su ubicación le será enviado formato de solicitud de garantías el cual deberá ser diligenciado, para poder realizar la asignación de un número de caso o ticket y poder indicarle que hacer con su producto y el tiempo aproximado de respuesta.\n3. Para que su producto sea recibido en cualquiera de estas opciones deberá tener:\na. Número de Caso o ticket\nb. Copia de la factura de Impresistem\nc. Oficio de solicitud de garantía donde indiquen el # de caso y # de serie si aplica.\nd. Empaques adecuados, accesorios completos y originales\n4. Si de acuerdo al diagnóstico el producto presenta defectos de fabricación no corregibles, se procederá a:\na. Realizar NOTA CREDITO por el valor de adquisición - facturado.\nb. De lo contrario se devolverá el mismo producto con su respectivo informe técnico donde se explicará detalladamente el motivo del retorno y/o no aceptación de garantía\nCualquier inquietud puede enviarla a los correos web:\nangelica.garzon@impresistem.com\nPOLÍTICA DE GARANTÍA PARA DISTRIBUIDORES DE IMPRESISTEM DYNABOOK\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "rich-text#Garantias65": {
+        "props": {
+            "text": "PERIODO DE GARANTÍA : 1 a 3 AÑOS SEGÚN REFERENCIA DE LA UNIDAD\nEl trámite de garantía de este producto es directamente con los centros de servicio autorizados\nPunto De Servicios S.A.\nArmenia 630004\nBarrio Nueva Cecilia\nDirección: Calle 2 Norte No. 18 – 05\nTeléfono: (+57 6) 731 2528 | 731 2529| 318 261 84 80\nHorarios: Lunes a Viernes 8:00 am a 3:30 pm\nSábado 8:00 am a 12:00 pm\nCorreo electrónico: servicio.cliente@puntodeservicios.com\nSoporte S.A.\nBarranquilla 80020\nCra 75b # 86b-31 Barrio Limoncito - Atlantico\ninformacion@soporte.com.co\nTelefono 57 4 444 26 12\nPunto De Servicios S.A.\nBarranquilla 80020\nDirección: Calle 75 No. 44 – 56\nTeléfono: (+57 5) 309 2017 | Móvil: (+57) 318 335 21 38\nHorarios: Lunes a Viernes 8:00 am a 3:30 pm\nSábado 8:00 am a 12:00 pm\nCorreo electrónico: servicio.cliente@puntodeservicios.com\nTotal Support Ltda\nCalle 74 No. 15 – 80, Interior 1, Oficina 220, Bogotá\n2 hours ahead\nMain\nJuan de Jesus Sanchez Escobar\n571-3216605\n571-236-0475\njuan.sanchez@totalsupport.com.co\nLogistics\nClaudia Torres\n571-3216605\n571-236-0475\nclaudia.torres@totalsupport.com.co\nTechnical\n571-3216605 - 571-236-0475\nSoporte S.A.\nTransversal 58 #106-44 Cundinamarca\nBogotá 111021\nPhone: 318-487-0332\nFax:572-664-6776\nEmail informacion@soporte.com.co\nSoporte S.A.\nTransversal 58 #106-44 Barrio Puente Largo Cundinamar\nBogotá 111021\nPhone: 17434634\nEmail informacion@soporte.com.co\nPunto De Servicios S.A.\nBogotá D.C. 111211\nSede Castellana\nDirección: Carrera 49 No. 93 – 12\nTeléfono: PBX (+57 1) 743 5027\nHorarios: Lunes a Viernes 8:00 am a 3:30 pm\nSábado 8:00 am a 12:00 pm\nCorreo electrónico: servicio.cliente@puntodeservicios.com\nPunto De Servicios S.A.\nBogotá D.C. 111021\nSede Quinta Paredes\nDirección : Carrera 40 No. 24A – 59\nTeléfonos:  PBX (+57 1) 745 2493\nHorarios: Lunes a Viernes 8:00 am a 3:30 pm\nSábado 8:00 am a 12:00 pm\nCorreo electrónico : servicio.cliente@puntodeservicios.com\nPunto De Servicios S.A.\nBucaramanga 680003\nBarrio Cabecera\nDirección : Carrera 37 numero 51- 106\nTeléfono :(+57 7) 6971910 – 6971914 | Móvil: (+57) 311 211 3625 – 317 438 97 40\nHorarios : Lunes a Viernes 8:00 am a 3:30 pm\nSábado 8:00 am a 12:00 pm\nCorreo electrónico: servicio.cliente@puntodeservicios.com\nTecnomicros\nCra 27 #65-08 Bucaramanga, Santander\nBucaramanga\nPhone: 571- 695 9888\nWebsite:https://tecnomicros.com/portal/?page_id=17\nPunto De Servicios S.A.\nCali 760046\nCalle 25 Norte No 5BN – 65 Esquina Edificio EGUZMAN, Barrio San Vicente\nMóvil: (+57) 320 800 74 27 | (+57) 317 500 5261\nHorarios : Lunes a Viernes 8:00 am a 3:30 pm\nSábado 8:00 am a 12:00 pm\nCorreo electrónico: servicio.cliente@puntodeservicios.com\nTecnomicros\nCalle 34 #78-27 Barrio Laureles\nMedellin\nPhone: 571-444-4293\nWebsite:https://tecnomicros.com/portal/?page_id=17\nSoporte S.A.\nCarrera 43b 11-59 Of 303 Edificio Nelida\nMedellin 50021\nToll-Free: 800-011-7723\nPhone: 44442612\nEmail informacion@soporte.com.co\nPunto De Servicios S.A.\nMedellin 55422\nDirección : Calle 33 B Sur No. 47 – 66\nTeléfono :(+57 4) 448 0445\nHorarios : Lunes a Viernes 8:00 am a 3:30 pm\nSábado 8:00 am a 12:00 pm\nCorreo electrónico: servicio.cliente@puntodeservicios.com\nCualquier inquietud puede enviarla al correo:\nangelica.garzon@impresistem.com\n",
+            "blockClass": "textostilo"
+        }
+    },
+    "image#garantia": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia1": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia2": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia3": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia4": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia5": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia6": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia7": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia8": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia9": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia10": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia11": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia12": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia13": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia14": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia15": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia16": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia17": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia18": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia19": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia20": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia21": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia22": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia23": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia24": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia25": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia26": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia27": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia28": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia29": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia30": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia31": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia32": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia33": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia34": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia35": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia36": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia37": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia38": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia39": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia40": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia41": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia42": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia43": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia44": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia45": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia46": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia47": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia48": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia49": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia50": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia51": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia52": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia53": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia54": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia55": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia56": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia57": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia58": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia59": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia60": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia61": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia62": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia63": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    },
+    "image#garantia64": {
+        "props": {
+            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "blockClass": "bannerGarantia"
+        }
+    }
+}
