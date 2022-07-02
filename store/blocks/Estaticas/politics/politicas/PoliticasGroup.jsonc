@@ -32,7 +32,7 @@
       "blockClass": ["Disclosure__content", "Disclosure__content--Politicas"]
     },
     "children": [
-      "tab-list.item#Despacho",
+     // "tab-list.item#Despacho",
       "tab-list.item#Devoluciones",
       "tab-list.item#Garantias"
     ]
