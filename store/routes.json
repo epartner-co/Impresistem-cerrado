@@ -24,9 +24,6 @@
   "store.custom#Devolucion":{
     "path": "/devolucion"
   },
-  "store.custom#Garantia":{
-    "path": "/garantia"
-  },
   "store.custom#Nosotros":{
     "path": "/Nosotros"
   },

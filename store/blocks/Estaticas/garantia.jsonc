@@ -1,4 +1,4 @@
-{
+{/*
     "store.custom#Garantia": {
       "blocks": [
         "responsive-layout.desktop#Garantia",
@@ -551,10 +551,7 @@
     },
     "disclosure-content#simpleGarantia2": {
       "children": [
-   /*     "image#devoluciones1",
-        "image#devoluciones2",
-        "image#devoluciones3"
-        */
+   
       ]
     },
     "rich-text#questionGarantia2": {
@@ -577,7 +574,7 @@
       "children": ["rich-text#questionGarantia3"]
     },
     "disclosure-content#simpleGarantia3": {
-      "children": [/*"rich-text#Datos"*/]
+      "children": ["rich-text#Datos"]
     },
     "rich-text#questionGarantia3": {
       "props": {
@@ -1426,5 +1423,5 @@
           "blockClass": "bannerGarantia"
       }
     }
-  }
-  
+   */}
+ 
