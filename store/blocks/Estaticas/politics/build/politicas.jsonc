@@ -74,7 +74,7 @@
     "children": [
       "tab-content.item#Faq", //../faq/FaqGroup.jsonc
       "tab-content.item#Terminos", // ../terminosycondciones/terminosycondicionesGroup.jsonc
-      //"tab-content.item#Despacho", // ../Politicas/PoliticasGroup.jsonc
+      "tab-content.item#Despacho", // ../Politicas/PoliticasGroup.jsonc
       "tab-content.item#Devoluciones", 
       "tab-content.item#Garantias",
       "tab-content.item#SmartSolutions" // ../SmartSolutions/SmartSolutionsGroup.jsonc
