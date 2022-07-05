@@ -1,0 +1,177 @@
+{
+"disclosure-layout#acronis":{
+    "children": ["disclosure-trigger#acronis", "disclosure-content#acronis"]
+ },
+ "disclosure-trigger#acronis": {
+   "children": ["rich-text#title-acronis"]
+ },
+ "disclosure-content#acronis": {
+   "children": [ "flex-layout.row#acronis"]
+ },
+  "flex-layout.row#acronis":{
+    "children":["flex-layout.col#acronis"],
+    "props":{
+        "blockClass":["row-cloud-acronis"]
+    }
+},
+ "flex-layout.col#acronis":{
+    "children":[
+        "image#img-acronis",
+        "rich-text#acronis-text-1",
+        "video#acronis-video-1",
+        "rich-text#acronis-text-2",
+        "rich-text#acronis-text-3",
+        "flex-layout.row#acronis-triple-text",
+        "rich-text#acronis-text-4",
+        "rich-text#acronis-text-5",
+        "flex-layout.row#acronis-double-text"
+    ],
+    "props":{
+        "blockClass":["col-cloud","col-cloud-acronis"]
+    }
+},
+
+"rich-text#title-acronis": {
+    "props": {
+        "text": "## Acronis",
+        "blockClass": ["title-cloud","title-cloud-acronis"]
+    }
+},
+"image#img-acronis":{
+    "props":{
+        "src":"https://orbeim.vteximg.com.br/arquivos/acronis-img.png",
+        "blockClass": ["image-subestatica","img-acronis"]
+    } 
+},
+    "rich-text#acronis-text-1": {
+        "props": {
+            "text": " Para proteger los datos empresariales esenciales de sus clientes, la copia de seguridad no basta: los clientes necesitan una estrategia integrada de ciberprotección. Combinado con Acronis Cyber Protect Cloud, el paquete Advanced Backup le permite ampliar las funciones de copia de seguridad en la nube que necesitan sus clientes para proteger sus datos de forma proactiva. Disponible con modelos de licencia por uso o por carga de trabajo, permite minimizar la pérdida de datos en las infraestructuras y las cargas de trabajo de sus clientes con la mejor tecnología de copia de seguridad y recuperación, que se ha reforzado con ciberprotección.\n\n ##### MÁS QUE UNA MERA COPIA DE SEGURIDAD: UNA SOLUCIÓN DE CIBERPROTECCIÓN COMPLETA \n\n Benefíciese de unas funciones de copia de seguridad reforzadas con ciberprotección: al proteger más de 20 plataformas, podrá salvaguardar los datos de sus clientes con plena confianza. Aproveche las ventajas de una sola solución, un solo agente y una sola consola para ofrecer la ciberprotección exhaustiva que buscan sus clientes. Descubra qué funciones de copia de seguridad y protección de datos conseguirá con Acronis Cyber Protect Cloud con Advanced Backup.",
+            "blockClass": ["cloud-text","cloud-text-1"]
+        }
+    },
+"video#acronis-video-1": {
+    "props": {
+      "width": "60%",
+      "height": "400px",
+      "loop": false,
+      "autoPlay": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=A9I8PMbJBHQ",
+      "blockClass": "cloud-video-1"
+    }
+  },
+    "rich-text#acronis-text-2": {
+        "props": {
+            "text": " ##### ADVANCED SECURITY \n\n Detenga más ciberamenazas para los clientes con menos recursos. El complemento Advanced Security amplía las funciones de protección de endpoints de Acronis Cyber Protect Cloud, lo que le permite reducir los riesgos de sus clientes con una protección antimalware y unos servicios de corrección mejorados. Simplifique las tareas de implementación, configuración y administración con integración y automatización avanzadas.",
+            "blockClass": ["cloud-text","cloud-text-2"]
+        }
+    },
+    "rich-text#acronis-text-3": {
+    "props": {
+        "text": " ##### ADVANCED MANAGEMENT \n\n Dedique menos tiempo a la gestión de múltiples soluciones y más a proteger los datos, las aplicaciones y los sistemas de sus clientes. Añadiendo Advanced Management a nuestra solución integrada Acronis Cyber Protect Cloud, es posible automatizar la administración de parches y facilitar la planificación del trabajo para reducir las tareas administrativas.",
+        "blockClass": ["cloud-text","cloud-text-3"]
+    }
+    },
+"flex-layout.row#acronis-triple-text":{
+    "children":["rich-text#acronis-subtext-1","rich-text#acronis-subtext-2","rich-text#acronis-subtext-3"],
+    "props":{
+        "blockClass":["cloud-triple-text"]
+    }
+},
+    "rich-text#acronis-subtext-1": {
+    "props": {
+        "text": " ##### INCREMENTE LA AUTOMATIZACIÓN Y LA PRODUCTIVIDAD \n\n Los informes de copia de seguridad programados, combinados con las mejoras de la copia de seguridad en la nube —como la protección continua de los datos—, le ayudan a ahorrar tiempo y protegen a sus clientes frente a las pérdidas de datos.",
+        "blockClass": ["cloud-text", "cloud-subtext-1"]
+    }
+    },
+    "rich-text#acronis-subtext-2": {
+    "props": {
+        "text": " ##### LA COPIA DE SEGURIDAD MÁS SEGURA \n\n  Acronis ofrece una estrategia única que combina la copia de seguridad en la nube con funciones de ciberprotección, como antimalware y antivirus, para que mantenga protegidos los datos de sus clientes.",
+        "blockClass": ["cloud-text","cloud-subtext-2"]
+    }
+    },
+    "rich-text#acronis-subtext-3": {
+    "props": {
+        "text": " ##### PROTEJA MÁS CARGAS DE TRABAJO EN MÁS PLATAFORMAS \n\n Proteja desde una sola consola más de 20 plataformas, incluidas Microsoft Exchange, Microsoft SQL Server, Oracle DBMS Real Application Clusters y SAP HANA.",
+        "blockClass": ["cloud-text","cloud-subtext-3"]
+    }
+    },
+    "rich-text#acronis-text-4": {
+        "props": {
+            "text": " ##### ADVANCED BACKUP \n\n Cuando se trata de los datos empresariales esenciales de sus clientes, la copia de seguridad no basta: los clientes necesitan una estrategia integrada de ciberprotección. Combinado con Acronis Cyber Protect Cloud, el paquete Advanced Backup le permite ampliar las funciones de copia de seguridad en la nube que necesitan sus clientes para proteger sus datos de forma proactiva.",
+            "blockClass": ["cloud-text","cloud-text-4"]
+        }
+    },
+    "rich-text#acronis-text-5": {
+        "props": {
+            "text": " ##### ADVANCED DISASTER RECOVERY \n\n Proteja las cargas de trabajo de sus clientes cuando ocurra un desastre poniendo en marcha al instante sus sistemas gracias a la recuperación basada en la nube y restaurándolos en cualquier lugar. Al añadir Advanced Disaster Recovery a Acronis Cyber Protect Cloud, podrá ampliar fácilmente los servicios de recuperación en la nube que sus clientes necesitan.",
+            "blockClass": ["cloud-text","cloud-text-5"]
+        }
+    },
+"flex-layout.row#acronis-double-text":{
+    "children":["flex-layout.col#acronis-double-text-col-1","flex-layout.col#acronis-double-text-col-2"],
+    "props":{
+        "blockClass":["cloud-double-text"]
+    }
+},
+"flex-layout.col#acronis-double-text-col-1":{
+    "children":["rich-text#acronis-subtext-4","rich-text#acronis-subtext-5","rich-text#acronis-subtext-6","rich-text#acronis-subtext-7"],
+    "props":{
+        "blockClass":["cloud-double-text-col-1"]
+    }
+},
+"flex-layout.col#acronis-double-text-col-2":{
+    "children":["rich-text#acronis-subtext-8","rich-text#acronis-subtext-9","rich-text#acronis-subtext-10","rich-text#acronis-subtext-11"],
+    "props":{
+        "blockClass":["cloud-double-text-col-2"]
+    }
+},
+    "rich-text#acronis-subtext-4": {
+    "props": {
+        "text": " ##### ACRONIS CYBER PROTECT CLOUD INCLUYE: \n\n - Copia de seguridad a nivel de archivos, a nivel de discos, de imágenes y aplicaciones \n - Haga copias de seguridad de las cargas de trabajo más utilizadas, incluidas las de Mac, Windows, Linux, Microsoft 365, Google Workspace, Hyper-V, VMware, entre muchas otras. \n - Opciones de almacenamiento híbridas: alojado por Acronis, en nubes públicas como Microsoft Azure, o almacenamiento local de MSP \n - Opciones flexibles de recuperación, desde sistemas completos hasta archivos individuales \n - Migración a nube-local-virtual \n - Antimalware y antivirus basados en inteligencia artificial para neutralizar los ataques de ransomware y de día cero \n - Cifrado de archivos comprimidos \n - Copias de seguridad incrementales y diferenciales \n - Evaluaciones de vulnerabilidades \n - Protección de datos de Google Workspace \n - Protección completa para Microsoft 365 \n - Cifrado de copias de seguridad \n - Deduplicación \n - Supervisión y generación de informes",
+        "blockClass": ["cloud-text","cloud-subtext-4"]
+    }
+    },
+    "rich-text#acronis-subtext-5": {
+    "props": {
+        "text": " ##### PROTECCIÓN CONTINUA DE LOS DATOS \n\n Asegúrese de que los usuarios no pierdan el trabajo en curso definiendo una lista de las aplicaciones esenciales que utilizan con frecuencia. El agente de Acronis supervisa cada cambio realizado en las aplicaciones de la lista y crea continuamente una copia de seguridad para que no se pierda ningún dato entre copias de seguridad programadas, lo que ayuda a lograr RPO casi nulos. Esto, junto con la ciberprotección, contribuye a ofrecer a los clientes la mejor prevención y recuperación que existe.",
+        "blockClass": ["cloud-text","cloud-subtext-5"]
+    }
+    },
+    "rich-text#acronis-subtext-6": {
+        "props": {
+            "text": " ##### CERTICACIÓN Y FIRMA ELECTRÓNICA PARA ARCHIVOS DE COPIA DE SEGURIDAD \n\n  Refuerce la protección de datos con funciones de certificación que verifican la autenticidad y la integridad de los archivos de copias de seguridad, y permiten rubricar de forma electrónica esos archivos con una firma digital públicamente verificable.",
+            "blockClass": ["cloud-text","cloud-subtext-6"]
+        }
+    },    
+    "rich-text#acronis-subtext-7": {
+        "props": {
+            "text": " ##### COPIA DE SEGURIDAD DE SAP HANA \n\n Refuerce la protección de sus bases de datos de SAP HANA con copias de seguridad a nivel de disco, coherentes y basadas en scripts, que simplifican la administración y no requieren experiencia con SAP HANA.",
+            "blockClass": ["cloud-text","cloud-subtext-7"]
+        }
+    },
+    "rich-text#acronis-subtext-8": {
+        "props": {
+            "text": " ##### ADVANCED BACKUP AÑADE: \n\n  **Protección continua de los datos:** \n\n El agente de Acronis supervisa y crea copias de seguridad de los cambios realizados en tiempo real con puntos de recuperación (RPO) casi nulos, lo que garantiza que no se pierdan datos \n - Compatibilidad de copias de seguridad ampliada: cubre clústeres de Microsoft SQL y Microsoft Exchange, Oracle DB y SAP HANA \n - Mapa de protección de datos e informes de cumplimiento: analice los entornos de sus clientes para garantizar la protección de sus cargas de trabajo, archivos, aplicaciones y usuarios \n - Informes de copias de seguridad programadas: reduzca el tiempo y destaque el valor de su empresa de servicios gestionados (MSP) con generación de informes automática",
+            "blockClass": ["cloud-text","cloud-subtext-8"]
+        }
+        },
+    "rich-text#acronis-subtext-9": {
+        "props": {
+            "text": " ##### MAPA DE PROTECCIÓN DE DATOS E INFORMES DE CUMPLIMIENTO \n\n Garantice la protección de los datos críticos para la generación de informes de cumplimiento de normativas con el mapa de protección de datos. \n\n Utilice la clasificación de datos automática para controlar el estado de protección de archivos, carpetas y estaciones de trabajo importantes. \n\n Si no están protegidos, se genera una alerta para que pueda salvaguardar los datos críticos de sus clientes.",
+            "blockClass": ["cloud-text","cloud-subtext-9"]
+        }
+    },
+    "rich-text#acronis-subtext-10": {
+        "props": {
+            "text": " ##### COPIA DE SEGURIDAD Y RESTAURACIÓN DE CLÚSTERES DE APLICACIONES \n\n Facilite el trabajo administrativo del departamento de TI con funciones integradas que permiten crear y recuperar fácilmente las copias de seguridad de clústeres de Microsoft Exchange, Microsoft SQL Server y Oracle DBMS Real Application Clusters.",
+            "blockClass": ["cloud-text","cloud-subtext-10"]
+        }
+    },
+    "rich-text#acronis-subtext-11": {
+        "props": {
+            "text": " ##### INFORMES DE COPIA DE SEGURIDAD PROGRAMADOS \n\n Aumente la visibilidad de la protección de datos y simplifique la auditoría programando el envío de informes de copia de seguridad, en formato PDF o Excel y en el idioma que especifique, a los destinatarios de una lista.",
+            "blockClass": ["cloud-text","cloud-subtext-11"]
+        }
+        }
+}

@@ -1,0 +1,255 @@
+{
+    /******* Portafolio de servicios ********/
+
+    "disclosure-layout#microsoft-portafolio-servicios":{
+        "children": ["disclosure-trigger#microsoft-portafolio-servicios", "disclosure-content#microsoft-portafolio-servicios"]
+     }, 
+     "disclosure-trigger#microsoft-portafolio-servicios":{
+       "children": ["rich-text#title-microsoft-portafolio-servicios"]
+     },
+     "disclosure-content#microsoft-portafolio-servicios": {
+       "children": [ "flex-layout.row#microsoft-portafolio-servicios"]
+     },
+      "flex-layout.row#microsoft-portafolio-servicios":{
+        "children":["flex-layout.col#microsoft-portafolio-servicios"],
+        "props":{
+            "blockClass":["sub-disclosure","sub-disclosure-portafolio-servicios"]
+        }
+    },
+     "flex-layout.col#microsoft-portafolio-servicios":{
+        "children":[
+            "rich-text#microsoft-text-portafolio-servicios-1",
+            "flex-layout.col#portafolio-servicios-video-1"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-cloud-microsoft"]
+        }
+    },
+    "rich-text#title-microsoft-portafolio-servicios": {
+        "props": {
+            "text": " ##### PORTAFOLIO DE SERVICIOS",
+            "blockClass": ["subtitle","subtitle-portafolio-servicios"]
+        }
+    },
+    "rich-text#microsoft-text-portafolio-servicios-1": {
+        "props": {
+            "text": " ##### Cloud Solution Provider \n **Las soluciones que su empresa necesita** \n\n A medida que el mundo se desarrolla, surgen nuevas demandas y debemos responder a ellas. \n\n Cloud Solution Provider (CSP). Esta es una forma de obtener soluciones en la nube (Office 365, Microsoft Azure, Windows, Dynamics y EMS), lo que le permite avanzar y aprovechar al máximo los proyectos a corto, mediano y largo plazo. Un programa que puede ayudarlo a tener las tecnologías y soluciones de Microsoft más innovadoras, y puede usarse para mejorar el flujo de caja de la empresa. Los proveedores de soluciones en la nube serán rentables, simples y adaptables a sus necesidades para ayudar a su negocio en la transformación digital.",
+            "blockClass": ["cloud-text","microsoft-text-portafolio-servicios-1"]
+        }
+    },
+    "flex-layout.col#portafolio-servicios-video-1":{
+        "children":[
+            "rich-text#title-portafolio-servicios-video-1",
+            "video#microsoft-video-1",
+            "rich-text#title-triple-text",
+            "flex-layout.row#microsoft-triple-text-button",
+            "rich-text#conozca-azure",
+            "video#microsoft-video-2",
+            "rich-text#beneficios-azure",
+            "rich-text#productos-microsoft",
+            "rich-text#title-triple-text-2",
+            "flex-layout.row#microsoft-triple-text-button-2"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-cloud-microsoft"]
+        }
+    },
+    "rich-text#title-portafolio-servicios-video-1": {
+        "props": {
+            "text": "**Actualmente contamos con soluciones orientadas al mercado, conozca nuestra oferta de valor**",
+            "blockClass": ["subtitle","title-portafolio-servicios-video-1"]
+        }
+    },
+    "video#microsoft-video-1": {
+        "props": {
+          "width": "60%",
+          "height": "400px",
+          "loop": false,
+          "autoPlay": true,
+          "muted": false,
+          "src": "https://www.youtube.com/watch?v=A9I8PMbJBHQ",
+          "blockClass": "cloud-video-1"
+        }
+      },
+      "rich-text#title-triple-text": {
+        "props": {
+            "text": "**Entre las ventajas que aporta, destacan las siguientes**",
+            "blockClass": ["cloud-text","title-text","title-triple-text"]
+        }
+    },
+    "flex-layout.row#microsoft-triple-text-button":{
+        "children":[
+            "flex-layout.col#microsoft-triple-text-button-1",
+            "flex-layout.col#microsoft-triple-text-button-2",
+            "flex-layout.col#microsoft-triple-text-button-3"
+        ],
+        "props":{
+            "blockClass":["microsoft-triple-text-button"]
+        }
+    },
+    "flex-layout.col#microsoft-triple-text-button-1":{
+        "children":["rich-text#microsoft-triple-subtext-1","link#conozca-1"],
+        "props":{
+            "blockClass":["cloud-double","cloud-triple-text-with-button"]
+        }
+    },
+    "rich-text#microsoft-triple-subtext-1": {
+        "props": {
+            "text": " ##### SATISFACE SUS NECESIDADES \n\nNo solo tiene la oportunidad de pagar mensualmente, sino que también puede pagar exactamente lo que necesita.",
+            "blockClass": ["cloud-text","microsoft-triple-subtext-1"]
+        }
+    },
+    "link#conozca-1": {
+        "props": {
+          "label": "Conozca más",
+          "href": "#",
+          "width": "100%",
+          "blockClass": ["button-smart-solutions","info-card-home", "ir-a-link-tabber"]
+        }
+    },
+    "flex-layout.col#microsoft-triple-text-button-2":{
+        "children":["rich-text#microsoft-triple-subtext-2","link#conozca-2"],
+        "props":{
+            "blockClass":["cloud-double","cloud-double-text-with-button"]
+        }
+    },
+    "rich-text#microsoft-triple-subtext-2": {
+        "props": {
+            "text": " ##### NO EXISTE UNA CLÁUSULA PERMANENTE \n\n Con CSP, no estará sujeto a ningún tipo de contrato, porque es completamente libre de decidir cuándo dejar de utilizar el servicio.",
+            "blockClass": ["cloud-text","microsoft-triple-subtext-2"]
+        }
+    },
+    "link#conozca-2": {
+        "props": {
+          "label": "Conozca más",
+          "href": "#",
+          "width": "100%",
+          "blockClass": ["button-smart-solutions","info-card-home", "ir-a-link-tabber"]
+        }
+    },
+    "flex-layout.col#microsoft-triple-text-button-3":{
+        "children":["rich-text#microsoft-triple-subtext-3","link#conozca-3"],
+        "props":{
+            "blockClass":["cloud-double","cloud-double-text-with-button"]
+        }
+    },
+    "rich-text#microsoft-triple-subtext-3": {
+        "props": {
+            "text": " ##### PUEDE AGREGAR O ELIMINAR USUARIOS \n\n También puede ajustar la cantidad de licencias en función de la cantidad de usuarios en un momento determinado.",
+            "blockClass": ["cloud-text","microsoft-triple-subtext-3"]
+        }
+    },
+    "link#conozca-3": {
+        "props": {
+          "label": "Conozca más",
+          "href": "#",
+          "width": "100%",
+          "blockClass": ["button-smart-solutions","info-card-home", "ir-a-link-tabber"]
+        }
+    },
+    "rich-text#conozca-azure": {
+        "props": {
+            "text": "**Conozca Azure** \n **Convierta sus ideas en innovación con productos y servicios de Azure de confianza** \n\n Administre e implemente aplicaciones de manera libre y flexible en cualquier lugar para lograr sus objetivos. Utilice el idioma, el marco y la infraestructura de su elección (incluido su propio centro de datos y otras nubes) para resolver desafíos de cualquier tamaño. Con Azure, tendrá todo lo que necesita para crear la próxima gran solución. \n\n Confía en tu nube Desde el principio. la seguridad se obtiene con el apoyo de un equipo de expertos, se obtiene la confianza de las empresas, la gestión pública y la puesta en marcha, y se sigue de forma activa la normativa. Trabaje sin problemas en un entorno mixto En las instalaciones, en la nube multicapa y en el límite de las necesidades. Utilice herramientas y servicios diseñados para nubes híbridas para integrar y administrar su entorno. Crea soluciones según tus preferencias. Como parte del compromiso con el código abierto y la compatibilidad con todos los idiomas y plataformas, le brindamos la capacidad de crear soluciones a su gusto e implementarlas en cualquier lugar. Prepárate para el futuro. La innovación continua de Microsoft proporciona la base para su trabajo de desarrollo actual y sus ideas para productos futuros.",
+            "blockClass": ["subtitle","conozca-azure"]
+        }
+    },
+    "video#microsoft-video-2": {
+        "props": {
+          "width": "60%",
+          "height": "400px",
+          "loop": false,
+          "autoPlay": true,
+          "muted": false,
+          "src": "https://www.youtube.com/watch?v=A9I8PMbJBHQ",
+          "blockClass": "cloud-video-1"
+        }
+    },
+    "rich-text#beneficios-azure": {
+        "props": {
+            "text": " ##### BENEFICIOS AZURE \n\n **Reducción de costos** \n\n Gracias a Azure, podrás reducir el capital que tenías destinado para el hardware, lo cual además garantizará un ahorro significativo de energía dentro de tu organización. \n\n **Reducción de esfuerzos** \n\n Cuando el mantenimiento y soporte técnico de la infraestructura de los centros de datos pasa a ser responsabilidad del servicio Azure, el tiempo y recurso que tenías destinado para esa labor ahora podrá ser invertido a nueva labores o tareas que lograrán mejorar el funcionamiento de tu empresa. \n\n **Seguridad** \n\n Según Microsoft, “Azure le ayuda a proteger sus recursos a través de una metodología rigurosa y a centrarse en la seguridad, la privacidad, el cumplimiento y la transparencia”. \n\n **Almacenamiento y respaldo** \n\n Como este servicio ha respaldado, su información estará protegida y los problemas causados ​​por la pérdida de información valiosa se reducirán considerablemente. Con Azure, la recuperación de un desastre solo puede llevar unos minutos. \n\n **Disponibilidad** \n\n el servicio se implementa en una red de centro de datos global administrada por Microsoft, que cubre 42 regiones. Con este servicio, su empresa podrá obtener un mayor rango de datos y rendimiento.",
+            "blockClass": ["subtitle","beneficios-azure"]
+        }
+    },
+    "rich-text#productos-microsoft": {
+        "props": {
+            "text": "**Microsoft 365 está diseñado para ayudarte a mejorar la productividad con las aplicaciones innovadoras de Office, servicios inteligentes en la nube y seguridad de primer nivel.** \n\n - Microsoft 365 Familia  \n - Microsoft 365 Personal \n - Planes de Microsoft 365 para negocios \n - Microsoft 365 Empresa Básico \n - Microsoft 365 Empresa Estándar \n - Microsoft 365 Empresa Premium \n - Aplicaciones Microsoft 365 para negocios \n - Planes de Microsoft 365 para empresas \n - Microsoft 365 E3 \n - Microsoft 365 E5 \n - Microsoft 365 F1 \n - Aplicaciones Microsoft 365 para empresas",
+            "blockClass": ["subtitle","productos-microsoft"]
+        }
+    },
+    "rich-text#title-triple-text-2": {
+        "props": {
+            "text": "**BENEFICIOS**",
+            "blockClass": ["cloud-text","title-text","title-triple-text"]
+        }
+    },
+    "flex-layout.row#microsoft-triple-text-button-2":{
+        "children":[
+            "flex-layout.col#microsoft-triple-text-button-2-1",
+            "flex-layout.col#microsoft-triple-text-button-2-2",
+            "flex-layout.col#microsoft-triple-text-button-2-3"
+        ],
+        "props":{
+            "blockClass":["microsoft-triple-text-button"]
+        }
+    },
+    "flex-layout.col#microsoft-triple-text-button-2-1":{
+        "children":["rich-text#microsoft-triple-subtext-2-1","link#beneficios-2-1"],
+        "props":{
+            "blockClass":["cloud-double","cloud-triple-text-with-button-2-1"]
+        }
+    },
+    "rich-text#microsoft-triple-subtext-2-1": {
+        "props": {
+            "text": " ##### ACCEDE A ARCHIVOS DESDE CUALQUIER LUGAR \n\n Cuando almacenamos archivos en Sharepoint u Onedrive, podemos acceder a ellos desde cualquier ubicación en Internet con solo iniciar sesión como usuarios de Microsoft 365.",
+            "blockClass": ["cloud-text","microsoft-triple-subtext-2-1"]
+        }
+    },
+    "link#beneficios-2-1": {
+        "props": {
+          "label": "Conozca más",
+          "href": "#",
+          "width": "100%",
+          "blockClass": ["button-smart-solutions","info-card-home", "ir-a-link-tabber"]
+        }
+    },
+    "flex-layout.col#microsoft-triple-text-button-2-2":{
+        "children":["rich-text#microsoft-triple-subtext-2-2","link#beneficios-2-2"],
+        "props":{
+            "blockClass":["cloud-double","cloud-double-text-with-button-2-2"]
+        }
+    },
+    "rich-text#microsoft-triple-subtext-2-2": {
+        "props": {
+            "text": " ##### COLABORA EN EL MISMO ARCHIVO AL TIEMPO REAL \n\n Podemos procesar el archivo en tiempo real al mismo tiempo que otros compañeros con derechos de acceso. De esta forma, solo tendremos 1 versión actualizada del archivo.",
+            "blockClass": ["cloud-text","microsoft-triple-subtext-2-2"]
+        }
+    },
+    "link#beneficios-2-2": {
+        "props": {
+          "label": "Conozca más",
+          "href": "#",
+          "width": "100%",
+          "blockClass": ["button-smart-solutions","info-card-home", "ir-a-link-tabber"]
+        }
+    },
+    "flex-layout.col#microsoft-triple-text-button-2-3":{
+        "children":["rich-text#microsoft-triple-subtext-2-3","link#beneficios-2-3"],
+        "props":{
+            "blockClass":["cloud-double","cloud-double-text-with-button"]
+        }
+    },
+    "rich-text#microsoft-triple-subtext-2-3": {
+        "props": {
+            "text": " ##### ALMACENAMIENTO SEGURO Y GESTIÓN DE LA AUTORIDAD \n\n Almacenamiento seguro en los servidores de Microsoft, tendremos una copia de respaldo y toda la información estará disponible desde cualquier dispositivo.",
+            "blockClass": ["cloud-text","microsoft-triple-subtext-2-3"]
+        }
+    },
+    "link#beneficios-2-3": {
+        "props": {
+          "label": "Conozca más",
+          "href": "#",
+          "width": "100%",
+          "blockClass": ["button-smart-solutions","info-card-home", "ir-a-link-tabber"]
+        }
+    }
+}

@@ -1,0 +1,109 @@
+{
+      /******* EVENTOS ENERGÍAS  ********/
+  
+   "disclosure-layout#energias-eventos":{
+    "children": ["disclosure-trigger#energias-eventos", "disclosure-content#energias-eventos"]
+    }, 
+    "disclosure-trigger#energias-eventos":{
+    "children": ["rich-text#energias-eventos"]
+    },
+    "disclosure-content#energias-eventos": {
+    "children": [ "flex-layout.row#energias-eventos"]
+    },
+    "rich-text#energias-eventos": {
+    "props": {
+        "text": " ##### EVENTOS",
+        "blockClass": ["subtitle","subtitle-energias-eventos"]
+    }
+    },
+    "flex-layout.row#energias-eventos":{
+    "children":["flex-layout.col#energias-eventos"],
+    "props":{
+        "blockClass":["row-cloud-content"]
+    }
+    },
+    "flex-layout.col#energias-eventos":{
+        "children":[
+            "rich-text#energias-5-congreso",
+            "rich-text#energias-5-congreso-text",
+            "link#registrate-aqui",
+            "flex-layout.row#buttons-eventos"
+        ],
+        "props":{
+            "blockClass":["col-cloud-content"]
+        }
+    },
+    "rich-text#energias-5-congreso": {
+    "props": {
+        "text": " ##### 5TO CONGRESO INTERNACIONAL DE ENERGÍAS RENOVALES Y RUEDA DE NEGOCIOS",
+        "blockClass": ["subtitle","subtitle-5-congreso"]
+    }
+    },
+    "rich-text#energias-5-congreso-text": {
+    "props": {
+        "text": " No te pierdas el Congreso Internacional de Energías Renovables y Rueda de negocios, el espacio ideal para actualizar tus conocimientos sobre el sector de las #EnergíasRenovables, propiciar negocios y generar nuevos contactos. #SoyRenovable. \n\n ¿Por qué no perderse el evento?\n Oportunidad de actualizar tus conocimientos sobre el sector de energías renovables\n Un espacio para los negocios y networking\n Habrán 3 ejes de conversación: Seguridad energética, sostenibilidad ambiental y equidad energética",
+        "blockClass": ["subtitle","subtitle-5-congreso"]
+    }
+    },
+    "link#registrate-aqui": {
+        "props": {
+          "label": "¡Regístrate aquí!",
+          "href": "#",
+          "width": "100%",
+          "blockClass": ["button-smart-solutions","info-card-home", "ir-a-link-tabber"]
+        }
+    },
+    "flex-layout.row#buttons-eventos":{
+      "children":["flex-layout.row#row-buttons-eventos-1","flex-layout.row#row-buttons-eventos-2"],
+      "props":{
+          "blockClass":["flex-layout-doble","buttons-eventos"]
+      }
+    },
+    "flex-layout.row#row-buttons-eventos-1":{
+       "children":[
+           "rich-text#button-eventos-link-1",
+           "link#eventos-button-1"
+       ],
+       "props":{
+           "blockClass":["col-cloud","col-buttons-eventos"]
+       }
+   },
+   "flex-layout.row#row-buttons-eventos-2":{
+      "children":[
+           "rich-text#button-eventos-link-2",
+           "link#eventos-button-2"
+      ],
+      "props":{
+          "blockClass":["col-cloud","col-buttons-eventos"]
+      }
+   },
+   "rich-text#button-eventos-link-1": {
+       "props": {
+           "text": "CASOS DE ÉXITO",
+           "blockClass": ["text-button-link","text-button-link-1"]
+       }
+   },
+   "link#eventos-button-1": {
+       "props": {
+         "label": "Conocer más",
+         "href": "#",
+         "width": "100%",
+         "blockClass": ["button-smart-solutions","info-card-home", "ir-a-link-tabber"]
+       }
+   },
+   "rich-text#button-eventos-link-2": {
+       "props": {
+           "text": "ACADEMIA SE",
+           "blockClass": ["text-button-link","text-button-link-1"]
+       }
+   },
+   "link#eventos-button-2": {
+       "props": {
+         "label": "Conocer más",
+         "href": "#",
+         "width": "100%",
+         "blockClass": ["button-smart-solutions","info-card-home", "ir-a-link-tabber"]
+       }
+   }
+
+}

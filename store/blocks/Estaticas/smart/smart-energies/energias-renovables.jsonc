@@ -1,0 +1,216 @@
+{
+        /******* ENERGÍAS RENOVABLES ********/
+    
+    "disclosure-layout#energias-renovables":{
+        "children": ["disclosure-trigger#energias-renovables", "disclosure-content#energias-renovables"]
+    }, 
+    "disclosure-trigger#energias-renovables":{
+    "children": ["rich-text#energias-renovables"]
+    },
+    "disclosure-content#energias-renovables": {
+    "children": [ "flex-layout.row#energias-renovables"]
+    },
+    "rich-text#energias-renovables": {
+    "props": {
+        "text": " ##### ENERGÍAS RENOVABLES",
+        "blockClass": ["subtitle","subtitle-energias-renovables"]
+    }
+    },
+    "flex-layout.row#energias-renovables":{
+    "children":["flex-layout.col#energias-renovables"],
+    "props":{
+        "blockClass":["row-cloud-content"]
+    }
+    },
+    "flex-layout.col#energias-renovables":{
+        "children":[
+            "rich-text#energias-renovables-subtitle",
+            "flex-layout.col#smart-energies-triple-text",
+            "rich-text#smart-energies-energia-solar",
+            "rich-text#smart-energies-energia-termica",
+            "rich-text#smart-energies-movilidad-electrica"
+        ],
+        "props":{
+            "blockClass":["col-cloud-content"]
+        }
+    },
+ "rich-text#energias-renovables-subtitle": {
+  "props": {
+      "text": " ##### ¿CUÁLES SON LOS BENEFICIOS DE LA ENERGÍA RENOVABLE?",
+      "blockClass": ["subtitle","subtitle-energias-renovables-subtitle"]
+  }
+ },
+ "flex-layout.col#smart-energies-triple-text":{
+  "children":[
+    "flex-layout.row#smart-energies-triple-text-1",
+    "flex-layout.row#smart-energies-triple-text-2"
+  ],
+  "props":{
+      "blockClass":["row-cloud-content"]
+  }
+  },
+ "flex-layout.row#smart-energies-triple-text-1":{
+  "children":[
+     "flex-layout.col#smart-energies-triple-col-1",
+     "flex-layout.col#smart-energies-triple-col-2",
+     "flex-layout.col#smart-energies-triple-col-3"
+  ],
+  "props":{
+      "blockClass":["row-cloud-content"]
+  }
+  },
+  "flex-layout.row#smart-energies-triple-text-2":{
+   "children":[
+    "flex-layout.col#smart-energies-triple-col-4",
+    "flex-layout.col#smart-energies-triple-col-5",
+    "flex-layout.col#smart-energies-triple-col-6"
+   ],
+   "props":{
+       "blockClass":["row-cloud-content"]
+   }
+   },
+   "flex-layout.col#smart-energies-triple-col-1":{
+      "children":[
+        "rich-text#smart-energies-subtext-title-1",
+        "rich-text#smart-energies-subtext-1"
+      ],
+      "props":{
+          "blockClass":["col-cloud-content"]
+      }
+  },
+  "rich-text#smart-energies-subtext-title-1": {
+    "props": {
+        "text": " ##### AYUDA A LUCHAR CONTRA EL CAMBIO CLIMÁTICO",
+        "blockClass": ["subtitle","smart-energies-subtext-title-1"]
+    }
+  },
+  "rich-text#smart-energies-subtext-1": {
+   "props": {
+       "text": " Debido a que durante su producción no emite gases de efecto invernadero, la energía renovable es una aliada imprescindible para mitigar el impacto de la sociedad en el medio ambiente.",
+       "blockClass": ["subtext","smart-energies-subtext-1"]
+   }
+    },
+    "flex-layout.col#smart-energies-triple-col-2":{
+        "children":[
+        "rich-text#smart-energies-subtext-title-2",
+        "rich-text#smart-energies-subtext-2"
+        ],
+        "props":{
+            "blockClass":["col-cloud-content"]
+        }
+    },
+    "rich-text#smart-energies-subtext-title-2": {
+    "props": {
+        "text": " ##### SUS RECURSOS NO SE AGOTAN NUNCA",
+        "blockClass": ["subtitle","smart-energies-subtext-title-2"]
+    }
+    },
+    "rich-text#smart-energies-subtext-2": {
+    "props": {
+        "text": "Las fuentes de energía renovable son inagotables y se adaptan a los ciclos naturales, a diferencia de las fuentes de energía convencionales (carbón, gas, petróleo o energía nuclear). Esto las convierte en la clave para crear un sistema energético sostenible que permita el desarrollo local sin poner en riesgo el futuro de las siguientes generaciones.",
+        "blockClass": ["subtext","smart-energies-subtext-2"]
+    }
+    },
+    "flex-layout.col#smart-energies-triple-col-3":{
+    "children":[
+        "rich-text#smart-energies-subtext-title-3",
+        "rich-text#smart-energies-subtext-3"
+    ],
+    "props":{
+        "blockClass":["col-cloud-content"]
+    }
+    },
+    "rich-text#smart-energies-subtext-title-3": {
+    "props": {
+        "text": " ##### DEMOCRATIZACIÓN DE LA ENERGÍA",
+        "blockClass": ["subtitle","smart-energies-subtext-title-3"]
+    }
+    },
+    "rich-text#smart-energies-subtext-3": {
+    "props": {
+        "text": "El costo de la producción de energía renovable es previsible y planificable. Además, las energías renovables pueden encontrarse en cualquier parte del planeta lo que significa una ventaja diferencial para las economías locales, asegurando la independencia energética al no tener que recurrir a la importación de combustibles fósiles.",
+        "blockClass": ["subtext","smart-energies-subtext-3"]
+    }
+    },
+    "flex-layout.col#smart-energies-triple-col-4":{
+    "children":[
+        "rich-text#smart-energies-subtext-title-4",
+        "rich-text#smart-energies-subtext-4"
+    ],
+    "props":{
+        "blockClass":["col-cloud-content"]
+    }
+    },
+    "rich-text#smart-energies-subtext-title-4": {
+    "props": {
+        "text": " ##### ES COMPETITIVA Y ACEPTADA EN EL MUNDO",
+        "blockClass": ["subtitle","smart-energies-subtext-title-4"]
+    }
+    },
+    "rich-text#smart-energies-subtext-4": {
+    "props": {
+        "text": "Desde hace varios años el costo de las energías renovables ha caído a nivel mundial gracias al desarrollo de nuevas tecnologías que mejoran su eficiencia así como el creciente apoyo político que ha recibido de la comunidad internacional por sus numerosos beneficios. En la actualidad, el clima de consenso es a favor del impulso a las tecnologías de energía limpia y sostenible.",
+        "blockClass": ["subtext","smart-energies-subtext-4"]
+    }
+    },
+    "flex-layout.col#smart-energies-triple-col-5":{
+    "children":[
+        "rich-text#smart-energies-subtext-title-5",
+        "rich-text#smart-energies-subtext-5"
+    ],
+    "props":{
+        "blockClass":["col-cloud-content"]
+    }
+    },
+    "rich-text#smart-energies-subtext-title-5": {
+    "props": {
+        "text": " ##### NUEVA FUENTE DE TRABAJO",
+        "blockClass": ["subtitle","smart-energies-subtext-title-5"]
+    }
+    },
+    "rich-text#smart-energies-subtext-5": {
+    "props": {
+        "text": "Duplicar la cuota de energías renovables a nivel mundial hasta alcanzar el 36% en 2030 supondría el aumento del empleo por más de 24 millones de personas en el sector frente a los 9.2 millones actuales, Agencia Internacional de Energías Renovables (IRENA).",
+        "blockClass": ["subtext","smart-energies-subtext-5"]
+    }
+    },
+    "flex-layout.col#smart-energies-triple-col-6":{
+    "children":[
+        "rich-text#smart-energies-subtext-title-6",
+        "rich-text#smart-energies-subtext-6"
+    ],
+    "props":{
+        "blockClass":["col-cloud-content"]
+    }
+    },
+    "rich-text#smart-energies-subtext-title-6": {
+    "props": {
+        "text": " ",
+        "blockClass": ["subtitle","smart-energies-subtext-title-6"]
+    }
+    },
+    "rich-text#smart-energies-subtext-6": {
+    "props": {
+        "text": "",
+        "blockClass": ["subtext","smart-energies-subtext-6"]
+    }
+    },
+    "rich-text#smart-energies-energia-solar": {
+    "props": {
+        "text": "##### ENERGÍA SOLAR \n\n La  energía solar es aquella generada por el sol y que viaja a través de radiaciones para llegar a la tierra, una vez llegada a la superficie terrestre, la energía solar necesita una instalación fotovoltaica para convertirse en electricidad. La instalación capta la radiación mediante celdas fotovoltaicas y la transforma en corriente. ",
+        "blockClass": ["subtext","smart-energies-energias"]
+    }
+    },
+    "rich-text#smart-energies-energia-termica": {
+    "props": {
+        "text": " ##### ENERGÍA TÉRMICA \n\n La energía solar térmica consiste principalmente en aprovechar la energía que genera el sol hacia un medio que sea portador de calor, que generalmente suele ser agua o aire en estos casos. Entre las distintas aplicaciones que podemos encontrar en este tipo de energía también existe la posibilidad de generar energía para un hogar. Hoy en día los avances tecnológicos permiten calentar agua con la radiación solar hasta producir vapor y posteriormente obtener dicha electricidad.",
+        "blockClass": ["subtext","smart-energies-energias"]
+    }
+    },
+    "rich-text#smart-energies-movilidad-electrica": {
+    "props": {
+        "text": " ##### MOVILIDAD ELÉCTRICA \n\n Una de las principales ventajas de la movilidad eléctrica es que mejora la calidad de vida de las personas al no emitir gases tóxicos. Asi mismo, al prescindir de los motores de combustión, los vehículos eléctricos evitan la emisión de toneladas de gases de efecto invernadero lo que a su vez ayuda en la lucha para mitigar los efectos del cambio climático.",
+        "blockClass": ["subtext","smart-energies-energias"]
+    }
+    }
+}

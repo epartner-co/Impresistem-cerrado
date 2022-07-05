@@ -1,0 +1,120 @@
+{
+        /******* Promociones smart cloud ********/
+    
+        "disclosure-layout#promociones-smart-cloud":{
+            "children": ["disclosure-trigger#promociones-smart-cloud", "disclosure-content#promociones-smart-cloud"]
+         }, 
+         "disclosure-trigger#promociones-smart-cloud":{
+           "children": ["rich-text#promociones-smart-cloud"]
+         },
+         "disclosure-content#promociones-smart-cloud": {
+           "children": [ "flex-layout.row#promociones-smart-cloud"]
+         },
+          "flex-layout.row#promociones-smart-cloud":{
+            "children":["flex-layout.col#promociones-smart-cloud"],
+            "props":{
+                "blockClass":["sub-disclosure","promociones-smart-cloud"]
+            }
+        },
+         "flex-layout.col#promociones-smart-cloud":{
+            "children":[
+                "rich-text#promociones-smart-cloud-1",
+                "flex-layout.row#promociones-productos",
+                "link#promociones"
+            ],
+            "props":{
+                "blockClass":["col-cloud","col-cloud-microsoft"]
+            }
+        },
+        "rich-text#promociones-smart-cloud": {
+            "props": {
+                "text": " ##### PROMOCIONES SMART CLOUD",
+                "blockClass": ["subtitle","subtitle-portafolio-servicios"]
+            }
+        },
+        "rich-text#promociones-smart-cloud-1": {
+            "props": {
+                "text": "Cada licencia Office 365 E1 contiene las siguientes aplicaciones:",
+                "blockClass": ["cloud-text","promociones-smart-cloud-1"]
+            }
+        },
+        "flex-layout.row#promociones-productos":{
+          "children":[
+            "image#planner",
+            "image#sharepoint",
+            "image#onedrive",
+            "image#yammer",
+            "image#teams",
+            "image#powerapps",
+            "image#flow",
+            "image#exchange"
+        ],
+          "props":{
+              "blockClass":["sub-disclosure","promociones-smart-cloud"]
+          }
+      },
+      "image#planner":{
+        "props":{
+          "src": "https://orbeim.vteximg.com.br/arquivos/icon-microsoft-planner.png",
+          "link":"#",
+          "title":"Microsoft Planner"
+        }
+      },
+      "image#sharepoint":{
+        "props":{
+          "src": "https://orbeim.vteximg.com.br/arquivos/icon-microsoft-sharepoint.png",
+          "link":"#",
+          "title":"Microsoft Sharepoint"
+        }
+      },
+      "image#onedrive":{
+        "props":{
+          "src": "https://orbeim.vteximg.com.br/arquivos/icon-onedrive.png",
+          "link":"#",
+          "title":"Onedrive"
+        }
+      },
+      "image#yammer":{
+        "props":{
+          "src": "https://orbeim.vteximg.com.br/arquivos/icon-yammer.png",
+          "link":"#",
+          "title":"Microsoft Yammer"
+        }
+      },
+      "image#teams":{
+        "props":{
+          "src": "https://orbeim.vteximg.com.br/arquivos/icon-microsoft-teams.png",
+          "link":"#",
+          "title":"Microsoft Teams"
+        }
+      },
+      "image#powerapps":{
+        "props":{
+          "src": "https://orbeim.vteximg.com.br/arquivos/icon-powerapps.png",
+          "link":"#",
+          "title":"Microsoft PowerApps"
+        }
+      },
+      "image#flow":{
+        "props":{
+          "src": "https://orbeim.vteximg.com.br/arquivos/icon-microsoft-flow.png",
+          "link":"#",
+          "title":"Microsoft Flow"
+        }
+      },
+      "image#exchange":{
+        "props":{
+          "src": "https://orbeim.vteximg.com.br/arquivos/icon-microsoft-exchange.png",
+          "link":"#",
+          "title":"Microsoft Exchange"
+        }
+      },
+      "link#promociones": {
+          "props": {
+            "label": "¡Contactanos Ahora!",
+            "href": "#",
+            "width": "100%",
+            "blockClass": ["button-smart-solutions","info-card-home", "ir-a-link-tabber"]
+          }
+      }
+}

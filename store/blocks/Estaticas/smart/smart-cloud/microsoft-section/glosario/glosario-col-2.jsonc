@@ -1,0 +1,446 @@
+{
+    /******* Nube ********/
+    
+    "disclosure-layout#nube":{
+        "children": ["disclosure-trigger#nube", "disclosure-content#nube"]
+     }, 
+     "disclosure-trigger#nube":{
+       "children": ["rich-text#trigger-nube"]
+     },
+     "disclosure-content#nube": {
+       "children": [ "flex-layout.row#nube"]
+     },
+      "flex-layout.row#nube":{
+        "children":["flex-layout.col#nube"],
+        "props":{
+            "blockClass":["sub-disclosure","nube"]
+        }
+    },
+     "flex-layout.col#nube":{
+        "children":[
+            "rich-text#content-nube"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-nube"]
+        }
+    },
+    "rich-text#trigger-nube": {
+        "props": {
+            "text": " ##### Nube",
+            "blockClass": ["subtitle","subtitle-nube"]
+        }
+    },
+    "rich-text#content-nube": {
+        "props": {
+            "text": "",
+            "blockClass": ["disclosure-content","content-nube"]
+        }
+    },
+/******* Informática en la nube ********/
+    
+    "disclosure-layout#info-nube":{
+        "children": ["disclosure-trigger#info-nube", "disclosure-content#info-nube"]
+     }, 
+     "disclosure-trigger#info-nube":{
+       "children": ["rich-text#trigger-info-nube"]
+     },
+     "disclosure-content#info-nube": {
+       "children": [ "flex-layout.row#info-nube"]
+     },
+      "flex-layout.row#info-nube":{
+        "children":["flex-layout.col#info-nube"],
+        "props":{
+            "blockClass":["sub-disclosure","info-nube"]
+        }
+    },
+     "flex-layout.col#info-nube":{
+        "children":[
+            "rich-text#content-info-nube"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-info-nube"]
+        }
+    },
+    "rich-text#trigger-info-nube": {
+        "props": {
+            "text": " ##### Informática en la nube",
+            "blockClass": ["subtitle","subtitle-info-nube"]
+        }
+    },
+    "rich-text#content-info-nube": {
+        "props": {
+            "text": "",
+            "blockClass": ["disclosure-content","content-info-nube"]
+        }
+    },
+    /******* Proveedor de servicios en la nube ********/
+    
+    "disclosure-layout#proveedor-nube":{
+        "children": ["disclosure-trigger#proveedor-nube", "disclosure-content#proveedor-nube"]
+     }, 
+     "disclosure-trigger#proveedor-nube":{
+       "children": ["rich-text#trigger-proveedor-nube"]
+     },
+     "disclosure-content#proveedor-nube": {
+       "children": [ "flex-layout.row#proveedor-nube"]
+     },
+      "flex-layout.row#proveedor-nube":{
+        "children":["flex-layout.col#proveedor-nube"],
+        "props":{
+            "blockClass":["sub-disclosure","proveedor-nube"]
+        }
+    },
+     "flex-layout.col#proveedor-nube":{
+        "children":[
+            "rich-text#content-proveedor-nube"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-proveedor-nube"]
+        }
+    },
+    "rich-text#trigger-proveedor-nube": {
+        "props": {
+            "text": " ##### Proveedor de servicios en la nube",
+            "blockClass": ["subtitle","subtitle-proveedor-nube"]
+        }
+    },
+    "rich-text#content-proveedor-nube": {
+        "props": {
+            "text": "",
+            "blockClass": ["disclosure-content","content-proveedor-nube"]
+        }
+    },
+    /******* Mallas de PC ********/
+    
+    "disclosure-layout#mallas-pc":{
+        "children": ["disclosure-trigger#mallas-pc", "disclosure-content#mallas-pc"]
+     }, 
+     "disclosure-trigger#mallas-pc":{
+       "children": ["rich-text#trigger-mallas-pc"]
+     },
+     "disclosure-content#mallas-pc": {
+       "children": [ "flex-layout.row#mallas-pc"]
+     },
+      "flex-layout.row#mallas-pc":{
+        "children":["flex-layout.col#mallas-pc"],
+        "props":{
+            "blockClass":["sub-disclosure","mallas-pc"]
+        }
+    },
+     "flex-layout.col#mallas-pc":{
+        "children":[
+            "rich-text#content-mallas-pc"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-mallas-pc"]
+        }
+    },
+    "rich-text#trigger-mallas-pc": {
+        "props": {
+            "text": " ##### Mallas de PC",
+            "blockClass": ["subtitle","subtitle-mallas-pc"]
+        }
+    },
+    "rich-text#content-mallas-pc": {
+        "props": {
+            "text": "",
+            "blockClass": ["disclosure-content","content-mallas-pc"]
+        }
+    },
+    /******* DevOps ********/
+    
+    "disclosure-layout#DevOps":{
+        "children": ["disclosure-trigger#DevOps", "disclosure-content#DevOps"]
+     }, 
+     "disclosure-trigger#DevOps":{
+       "children": ["rich-text#trigger-DevOps"]
+     },
+     "disclosure-content#DevOps": {
+       "children": [ "flex-layout.row#DevOps"]
+     },
+      "flex-layout.row#DevOps":{
+        "children":["flex-layout.col#DevOps"],
+        "props":{
+            "blockClass":["sub-disclosure","DevOps"]
+        }
+    },
+     "flex-layout.col#DevOps":{
+        "children":[
+            "rich-text#content-DevOps"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-DevOps"]
+        }
+    },
+    "rich-text#trigger-DevOps": {
+        "props": {
+            "text": " ##### DevOps",
+            "blockClass": ["subtitle","subtitle-DevOps"]
+        }
+    },
+    "rich-text#content-DevOps": {
+        "props": {
+            "text": "",
+            "blockClass": ["disclosure-content","content-DevOps"]
+        }
+    },
+    /******* Nube híbrida ********/
+    
+    "disclosure-layout#nube-hibrida":{
+        "children": ["disclosure-trigger#nube-hibrida", "disclosure-content#nube-hibrida"]
+     }, 
+     "disclosure-trigger#nube-hibrida":{
+       "children": ["rich-text#trigger-nube-hibrida"]
+     },
+     "disclosure-content#nube-hibrida": {
+       "children": [ "flex-layout.row#nube-hibrida"]
+     },
+      "flex-layout.row#nube-hibrida":{
+        "children":["flex-layout.col#nube-hibrida"],
+        "props":{
+            "blockClass":["sub-disclosure","nube-hibrida"]
+        }
+    },
+     "flex-layout.col#nube-hibrida":{
+        "children":[
+            "rich-text#content-nube-hibrida"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-nube-hibrida"]
+        }
+    },
+    "rich-text#trigger-nube-hibrida": {
+        "props": {
+            "text": " ##### Nube híbrida",
+            "blockClass": ["subtitle","subtitle-nube-hibrida"]
+        }
+    },
+    "rich-text#content-nube-hibrida": {
+        "props": {
+            "text": "",
+            "blockClass": ["disclosure-content","content-nube-hibrida"]
+        }
+    },
+    /******* Aprendizaje automático ********/
+    
+    "disclosure-layout#aprendizaje-automatico":{
+        "children": ["disclosure-trigger#aprendizaje-automatico", "disclosure-content#aprendizaje-automatico"]
+     }, 
+     "disclosure-trigger#aprendizaje-automatico":{
+       "children": ["rich-text#trigger-aprendizaje-automatico"]
+     },
+     "disclosure-content#aprendizaje-automatico": {
+       "children": [ "flex-layout.row#aprendizaje-automatico"]
+     },
+      "flex-layout.row#aprendizaje-automatico":{
+        "children":["flex-layout.col#aprendizaje-automatico"],
+        "props":{
+            "blockClass":["sub-disclosure","aprendizaje-automatico"]
+        }
+    },
+     "flex-layout.col#aprendizaje-automatico":{
+        "children":[
+            "rich-text#content-aprendizaje-automatico"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-aprendizaje-automatico"]
+        }
+    },
+    "rich-text#trigger-aprendizaje-automatico": {
+        "props": {
+            "text": " ##### Aprendizaje automático",
+            "blockClass": ["subtitle","subtitle-aprendizaje-automatico"]
+        }
+    },
+    "rich-text#content-aprendizaje-automatico": {
+        "props": {
+            "text": "",
+            "blockClass": ["disclosure-content","content-aprendizaje-automatico"]
+        }
+    },
+    /******* Middleware ********/
+    
+    "disclosure-layout#middleware":{
+        "children": ["disclosure-trigger#middleware", "disclosure-content#middleware"]
+     }, 
+     "disclosure-trigger#middleware":{
+       "children": ["rich-text#trigger-middleware"]
+     },
+     "disclosure-content#middleware": {
+       "children": [ "flex-layout.row#middleware"]
+     },
+      "flex-layout.row#middleware":{
+        "children":["flex-layout.col#middleware"],
+        "props":{
+            "blockClass":["sub-disclosure","middleware"]
+        }
+    },
+     "flex-layout.col#middleware":{
+        "children":[
+            "rich-text#content-middleware"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-middleware"]
+        }
+    },
+    "rich-text#trigger-middleware": {
+        "props": {
+            "text": " ##### Middleware",
+            "blockClass": ["subtitle","subtitle-middleware"]
+        }
+    },
+    "rich-text#content-middleware": {
+        "props": {
+            "text": "",
+            "blockClass": ["disclosure-content","content-middleware"]
+        }
+    },
+    /******* Plataforma como servicio (PaaS) ********/
+    
+    "disclosure-layout#paas":{
+        "children": ["disclosure-trigger#paas", "disclosure-content#paas"]
+     }, 
+     "disclosure-trigger#paas":{
+       "children": ["rich-text#trigger-paas"]
+     },
+     "disclosure-content#paas": {
+       "children": [ "flex-layout.row#paas"]
+     },
+      "flex-layout.row#paas":{
+        "children":["flex-layout.col#paas"],
+        "props":{
+            "blockClass":["sub-disclosure","paas"]
+        }
+    },
+     "flex-layout.col#paas":{
+        "children":[
+            "rich-text#content-paas"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-paas"]
+        }
+    },
+    "rich-text#trigger-paas": {
+        "props": {
+            "text": " ##### Plataforma como servicio (PaaS)",
+            "blockClass": ["subtitle","subtitle-paas"]
+        }
+    },
+    "rich-text#content-paas": {
+        "props": {
+            "text": "",
+            "blockClass": ["disclosure-content","content-paas"]
+        }
+    },
+    /******* Nube pública ********/
+    
+    "disclosure-layout#nube-publica":{
+        "children": ["disclosure-trigger#nube-publica", "disclosure-content#nube-publica"]
+     }, 
+     "disclosure-trigger#nube-publica":{
+       "children": ["rich-text#trigger-nube-publica"]
+     },
+     "disclosure-content#nube-publica": {
+       "children": [ "flex-layout.row#nube-publica"]
+     },
+      "flex-layout.row#nube-publica":{
+        "children":["flex-layout.col#nube-publica"],
+        "props":{
+            "blockClass":["sub-disclosure","nube-publica"]
+        }
+    },
+     "flex-layout.col#nube-publica":{
+        "children":[
+            "rich-text#content-nube-publica"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-nube-publica"]
+        }
+    },
+    "rich-text#trigger-nube-publica": {
+        "props": {
+            "text": " ##### Nube pública",
+            "blockClass": ["subtitle","subtitle-nube-publica"]
+        }
+    },
+    "rich-text#content-nube-publica": {
+        "props": {
+            "text": "",
+            "blockClass": ["disclosure-content","content-nube-publica"]
+        }
+    },
+    /******* Informática sin servidor ********/
+    
+    "disclosure-layout#informatica-sin-servidor":{
+        "children": ["disclosure-trigger#informatica-sin-servidor", "disclosure-content#informatica-sin-servidor"]
+     }, 
+     "disclosure-trigger#informatica-sin-servidor":{
+       "children": ["rich-text#trigger-informatica-sin-servidor"]
+     },
+     "disclosure-content#informatica-sin-servidor": {
+       "children": [ "flex-layout.row#informatica-sin-servidor"]
+     },
+      "flex-layout.row#informatica-sin-servidor":{
+        "children":["flex-layout.col#informatica-sin-servidor"],
+        "props":{
+            "blockClass":["sub-disclosure","informatica-sin-servidor"]
+        }
+    },
+     "flex-layout.col#informatica-sin-servidor":{
+        "children":[
+            "rich-text#content-informatica-sin-servidor"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-informatica-sin-servidor"]
+        }
+    },
+    "rich-text#trigger-informatica-sin-servidor": {
+        "props": {
+            "text": " ##### Informática sin servidor",
+            "blockClass": ["subtitle","subtitle-informatica-sin-servidor"]
+        }
+    },
+    "rich-text#content-informatica-sin-servidor": {
+        "props": {
+            "text": "",
+            "blockClass": ["disclosure-content","content-informatica-sin-servidor"]
+        }
+    },
+    /******* Virtualización ********/
+    
+    "disclosure-layout#virtualizacion":{
+        "children": ["disclosure-trigger#virtualizacion", "disclosure-content#virtualizacion"]
+     }, 
+     "disclosure-trigger#virtualizacion":{
+       "children": ["rich-text#trigger-virtualizacion"]
+     },
+     "disclosure-content#virtualizacion": {
+       "children": [ "flex-layout.row#virtualizacion"]
+     },
+      "flex-layout.row#virtualizacion":{
+        "children":["flex-layout.col#virtualizacion"],
+        "props":{
+            "blockClass":["sub-disclosure","virtualizacion"]
+        }
+    },
+     "flex-layout.col#virtualizacion":{
+        "children":[
+            "rich-text#content-virtualizacion"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-virtualizacion"]
+        }
+    },
+    "rich-text#trigger-virtualizacion": {
+        "props": {
+            "text": " ##### Virtualización",
+            "blockClass": ["subtitle","subtitle-virtualizacion"]
+        }
+    },
+    "rich-text#content-virtualizacion": {
+        "props": {
+            "text": "",
+            "blockClass": ["disclosure-content","content-virtualizacion"]
+        }
+    }
+}

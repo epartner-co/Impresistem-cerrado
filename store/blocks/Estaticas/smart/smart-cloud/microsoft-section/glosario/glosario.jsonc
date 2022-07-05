@@ -1,0 +1,133 @@
+{
+    /******* Glosario ********/
+    
+    "disclosure-layout#glosario":{
+        "children": ["disclosure-trigger#glosario", "disclosure-content#glosario"]
+     }, 
+     "disclosure-trigger#glosario":{
+       "children": ["rich-text#glosario"]
+     },
+     "disclosure-content#glosario": {
+       "children": [ 
+        "flex-layout.row#glosario",
+        "flex-layout.row#buttons-glosario"
+    ]
+     },
+      "flex-layout.row#glosario":{
+        "children":["flex-layout.col#glosario"],
+        "props":{
+            "blockClass":["sub-disclosure","glosario"]
+        }
+    },
+     "flex-layout.col#glosario":{
+        "children":[
+            "flex-layout.row#columns-glosario"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-cloud-microsoft"]
+        }
+    },
+    "rich-text#glosario": {
+        "props": {
+            "text": " ##### GLOSARIO",
+            "blockClass": ["subtitle","subtitle-glosario"]
+        }
+    },
+    "flex-layout.row#columns-glosario":{
+      "children":["flex-layout.col#col-glosario-1","flex-layout.col#col-glosario-2"],
+      "props":{
+          "blockClass":["sub-disclosure","columns-glosario"]
+      }
+  },
+   "flex-layout.col#col-glosario-1":{
+      "children":[
+        "disclosure-layout#afinnia",
+        "disclosure-trigger#BI",
+        "disclosure-layout#ampliacion-nube",
+        "disclosure-layout#informatica-nube",
+        "disclosure-layout#almacenamiento-nube",
+        "disclosure-layout#particionamiento-bd",
+        "disclosure-layout#informatica-elastica",
+        "disclosure-layout#infra-iaas",
+        "disclosure-layout#algoritmos-auto",
+        "disclosure-layout#NoSQL",
+        "disclosure-layout#nube-privada",
+        "disclosure-layout#saas",
+        "disclosure-layout#maquina-virtual"
+      ],
+      "props":{
+          "blockClass":["col-cloud","col-glosario-1"]
+      }
+  },
+  "flex-layout.col#col-glosario-2":{
+     "children":[
+        "disclosure-layout#nube",
+        "disclosure-layout#info-nube",
+        "disclosure-layout#proveedor-nube",
+        "disclosure-layout#mallas-pc",
+        "disclosure-layout#DevOps",
+        "disclosure-layout#nube-hibrida",
+        "disclosure-layout#aprendizaje-automatico",
+        "disclosure-layout#middleware",
+        "disclosure-layout#paas",
+        "disclosure-layout#nube-publica",
+        "disclosure-layout#informatica-sin-servidor",
+        "disclosure-layout#virtualizacion"
+     ],
+     "props":{
+         "blockClass":["col-cloud","col-glosario-1"]
+     }
+ },
+ "flex-layout.row#buttons-glosario":{
+   "children":["flex-layout.row#row-buttons-glosario-1","flex-layout.row#row-buttons-glosario-2"],
+   "props":{
+       "blockClass":["flex-layout-doble","buttons-glosario"]
+   }
+ },
+ "flex-layout.row#row-buttons-glosario-1":{
+    "children":[
+        "rich-text#button-link-1",
+        "link#glosario-button-1"
+    ],
+    "props":{
+        "blockClass":["col-cloud","col-buttons-glosario"]
+    }
+},
+"flex-layout.row#row-buttons-glosario-2":{
+   "children":[
+        "rich-text#button-link-2",
+        "link#glosario-button-2"
+   ],
+   "props":{
+       "blockClass":["col-cloud","col-buttons-glosario"]
+   }
+},
+"rich-text#button-link-1": {
+    "props": {
+        "text": "EVENTOS SMART CLOUD",
+        "blockClass": ["text-button-link","text-button-link-1"]
+    }
+},
+"link#glosario-button-1": {
+    "props": {
+      "label": "¡Contáctanos Ahora!",
+      "href": "#",
+      "width": "100%",
+      "blockClass": ["button-smart-solutions","info-card-home", "ir-a-link-tabber"]
+    }
+},
+"rich-text#button-link-2": {
+    "props": {
+        "text": "AFINNIA",
+        "blockClass": ["text-button-link","text-button-link-1"]
+    }
+},
+"link#glosario-button-2": {
+    "props": {
+      "label": "¡Contáctanos Ahora!",
+      "href": "#",
+      "width": "100%",
+      "blockClass": ["button-smart-solutions","info-card-home", "ir-a-link-tabber"]
+    }
+}
+}

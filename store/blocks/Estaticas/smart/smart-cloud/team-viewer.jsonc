@@ -1,0 +1,109 @@
+{
+    /******* TEAMVIEWER ********/
+  
+    "disclosure-layout#teamviewer":{
+        "children": ["disclosure-trigger#teamviewer", "disclosure-content#teamviewer"]
+     }, 
+     "disclosure-trigger#teamviewer":{
+       "children": ["rich-text#teamviewer"]
+     },
+     "disclosure-content#teamviewer": {
+       "children": [ "flex-layout.row#teamviewer"]
+     },
+     "rich-text#teamviewer": {
+      "props": {
+          "text": " ##### TEAMVIEWER",
+          "blockClass": ["subtitle","subtitle-teamviewer"]
+      }
+  },
+      "flex-layout.row#teamviewer":{
+        "children":["flex-layout.col#teamviewer"],
+          
+        "props":{
+            "blockClass":["sub-disclosure","teamviewer"]
+        }
+    },"flex-layout.col#teamviewer":{
+      "children":[
+        "image#img-teamviewer",
+        "flex-layout.row#teamviewer-triple-text-button"
+      ],
+      "props":{
+          "blockClass":["col-cloud","col-teamviewer"]
+      }
+    },
+    "image#img-teamviewer":{
+        "props":{
+            "src":"https://orbeim.vteximg.com.br/arquivos/imagen-teamviewer.png",
+            "blockClass": ["image-subestatica", "img-microsoft"]
+        } 
+    },"flex-layout.row#teamviewer-triple-text-button":{
+        "children":[
+            "flex-layout.col#teamviewer-triple-text-button",
+            "flex-layout.col#teamviewer-triple-text-button-2",
+            "flex-layout.col#teamviewer-triple-text-button-3"
+        ],
+        "props":{
+            "blockClass":["teamviewer-triple-text-button"]
+        }
+    },
+    "flex-layout.col#teamviewer-triple-text-button":{
+        "children":["rich-text#teamviewer-triple-subtext","link#teamviewer"],
+        "props":{
+            "blockClass":["cloud-double","cloud-triple-text-with-button"]
+        }
+    },
+    "rich-text#teamviewer-triple-subtext": {
+        "props": {
+            "text": " ##### LICENCIA BUSINESS USUARIO ÚNICO \n\n Para emprendedores, consultores de TI y de otros servicios, y empleados remotos",
+            "blockClass": ["cloud-text","teamviewer-triple-subtext-2-1"]
+        }
+    },
+    "link#teamviewer": {
+        "props": {
+          "label": "Conozca más",
+          "href": "#",
+          "width": "100%",
+          "blockClass": ["button-smart-solutions","info-card-home", "ir-a-link-tabber"]
+        }
+    },
+    "flex-layout.col#teamviewer-triple-text-button-2":{
+        "children":["rich-text#teamviewer-triple-subtext-2","link#teamviewer-2"],
+        "props":{
+            "blockClass":["cloud-double","cloud-double-text-with-button-2"]
+        }
+    },
+    "rich-text#teamviewer-triple-subtext-2": {
+        "props": {
+            "text": " ##### LICENCIA PREMIUM MULTIUSUARIO \n\n Diseñada para pequeños y medianos negocios, proveedores de servicios gestionados (MSPs) y equipos pequeños",
+            "blockClass": ["cloud-text","teamviewer-triple-subtext-2"]
+        }
+    },
+    "link#teamviewer-2": {
+        "props": {
+          "label": "Conozca más",
+          "href": "#",
+          "width": "100%",
+          "blockClass": ["button-smart-solutions","info-card-home", "ir-a-link-tabber"]
+        }
+    },
+    "flex-layout.col#teamviewer-triple-text-button-3":{
+        "children":["rich-text#teamviewer-triple-subtext-3","link#teamviewer-3"],
+        "props":{
+            "blockClass":["cloud-double","cloud-double-text-with-button"]
+        }
+    },
+    "rich-text#teamviewer-triple-subtext-3": {
+        "props": {
+            "text": " ##### LICENCIA CORPORATE PARA EQUIPOS \n\n Diseñado para equipos con varios usuarios donde las tareas múltiples son necesarias",
+            "blockClass": ["cloud-text","teamviewer-triple-subtext-2-3"]
+        }
+    },
+    "link#teamviewer-3": {
+        "props": {
+          "label": "Conozca más",
+          "href": "#",
+          "width": "100%",
+          "blockClass": ["button-smart-solutions","info-card-home", "ir-a-link-tabber"]
+        }
+    }
+}

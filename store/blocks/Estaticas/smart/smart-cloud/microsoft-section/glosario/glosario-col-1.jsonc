@@ -1,0 +1,495 @@
+{
+    /******* Afinnia ********/
+    
+    "disclosure-layout#afinnia":{
+        "children": ["disclosure-trigger#afinnia", "disclosure-content#afinnia"]
+     }, 
+     "disclosure-trigger#afinnia":{
+       "children": ["rich-text#trigger-afinnia"]
+     },
+     "disclosure-content#afinnia": {
+       "children": [ "flex-layout.row#afinnia"]
+     },
+      "flex-layout.row#afinnia":{
+        "children":["flex-layout.col#afinnia"],
+        "props":{
+            "blockClass":["sub-disclosure","afinnia"]
+        }
+    },
+     "flex-layout.col#afinnia":{
+        "children":[
+            "rich-text#content-afinnia"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-afinnia"]
+        }
+    },
+    "rich-text#trigger-afinnia": {
+        "props": {
+            "text": " ##### AFINNIA",
+            "blockClass": ["subtitle","subtitle-afinnia"]
+        }
+    },
+    "rich-text#content-afinnia": {
+        "props": {
+            "text": " Afinnia es la plataforma de autoaprovisionamiento que Impresistem como valor agregado pone a disposición de sus clientes para proporcionarles una experiencia de servicio excepcional al agilizar la administración de precios, la facturación y el aprovisionamiento de Microsoft Azure, Microsoft 365 y otros servicios. Afinnia le ayuda a automatizar la administración de suscripciones desde la cotización hasta la facturación. Afinnia actualiza los precios de Microsoft con sincronización bidireccional con el Centro de socios, y realiza un seguimiento y actualización de los cambios en las suscripciones y el uso del cliente para que no se pierda nada.",
+            "blockClass": ["disclosure-content","content-afinnia"]
+        }
+    },
+
+    /******* Herramientas de inteligencia empresarial (BI) ********/
+    
+    "disclosure-layout#BI":{
+        "children": ["disclosure-trigger#BI", "disclosure-content#BI"]
+     }, 
+     "disclosure-trigger#BI":{
+       "children": ["rich-text#trigger-BI"]
+     },
+     "disclosure-content#BI": {
+       "children": [ "flex-layout.row#BI"]
+     },
+      "flex-layout.row#BI":{
+        "children":["flex-layout.col#BI"],
+        "props":{
+            "blockClass":["sub-disclosure","BI"]
+        }
+    },
+     "flex-layout.col#BI":{
+        "children":[
+            "rich-text#content-BI"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-BI"]
+        }
+    },
+    "rich-text#trigger-BI": {
+        "props": {
+            "text": " ##### Herramientas de inteligencia empresarial (BI)",
+            "blockClass": ["subtitle","subtitle-BI"]
+        }
+    },
+    "rich-text#content-BI": {
+        "props": {
+            "text": "",
+            "blockClass": ["disclosure-content","content-BI"]
+        }
+    },
+
+    /******* Ampliación en la nube ********/
+    
+    "disclosure-layout#ampliacion-nube":{
+        "children": ["disclosure-trigger#ampliacion-nube", "disclosure-content#ampliacion-nube"]
+     }, 
+     "disclosure-trigger#ampliacion-nube":{
+       "children": ["rich-text#trigger-ampliacion-nube"]
+     },
+     "disclosure-content#ampliacion-nube": {
+       "children": [ "flex-layout.row#ampliacion-nube"]
+     },
+      "flex-layout.row#ampliacion-nube":{
+        "children":["flex-layout.col#ampliacion-nube"],
+        "props":{
+            "blockClass":["sub-disclosure","ampliacion-nube"]
+        }
+    },
+     "flex-layout.col#ampliacion-nube":{
+        "children":[
+            "rich-text#content-ampliacion-nube"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-ampliacion-nube"]
+        }
+    },
+    "rich-text#trigger-ampliacion-nube": {
+        "props": {
+            "text": " ##### Ampliación en la nube",
+            "blockClass": ["subtitle","subtitle-ampliacion-nube"]
+        }
+    },
+    "rich-text#content-ampliacion-nube": {
+        "props": {
+            "text": "",
+            "blockClass": ["disclosure-content","content-ampliacion-nube"]
+        }
+    },
+
+    /******* Tipos de informática en la nube ********/
+    
+    "disclosure-layout#informatica-nube":{
+        "children": ["disclosure-trigger#informatica-nube", "disclosure-content#informatica-nube"]
+     }, 
+     "disclosure-trigger#informatica-nube":{
+       "children": ["rich-text#trigger-informatica-nube"]
+     },
+     "disclosure-content#informatica-nube": {
+       "children": [ "flex-layout.row#informatica-nube"]
+     },
+      "flex-layout.row#informatica-nube":{
+        "children":["flex-layout.col#informatica-nube"],
+        "props":{
+            "blockClass":["sub-disclosure","informatica-nube"]
+        }
+    },
+     "flex-layout.col#informatica-nube":{
+        "children":[
+            "rich-text#content-informatica-nube"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-informatica-nube"]
+        }
+    },
+    "rich-text#trigger-informatica-nube": {
+        "props": {
+            "text": " ##### Tipos de informática en la nube",
+            "blockClass": ["subtitle","subtitle-informatica-nube"]
+        }
+    },
+    "rich-text#content-informatica-nube": {
+        "props": {
+            "text": "",
+            "blockClass": ["disclosure-content","content-informatica-nube"]
+        }
+    },
+
+    /******* Almacenamiento en la nube ********/
+    
+    "disclosure-layout#almacenamiento-nube":{
+        "children": ["disclosure-trigger#almacenamiento-nube", "disclosure-content#almacenamiento-nube"]
+     }, 
+     "disclosure-trigger#almacenamiento-nube":{
+       "children": ["rich-text#trigger-almacenamiento-nube"]
+     },
+     "disclosure-content#almacenamiento-nube": {
+       "children": [ "flex-layout.row#almacenamiento-nube"]
+     },
+      "flex-layout.row#almacenamiento-nube":{
+        "children":["flex-layout.col#almacenamiento-nube"],
+        "props":{
+            "blockClass":["sub-disclosure","almacenamiento-nube"]
+        }
+    },
+     "flex-layout.col#almacenamiento-nube":{
+        "children":[
+            "rich-text#content-almacenamiento-nube"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-almacenamiento-nube"]
+        }
+    },
+    "rich-text#trigger-almacenamiento-nube": {
+        "props": {
+            "text": " ##### Almacenamiento en la nube",
+            "blockClass": ["subtitle","subtitle-almacenamiento-nube"]
+        }
+    },
+    "rich-text#content-almacenamiento-nube": {
+        "props": {
+            "text": "",
+            "blockClass": ["disclosure-content","content-almacenamiento-nube"]
+        }
+    },
+
+    /******* Particionamiento de bases de datos ********/
+    
+    "disclosure-layout#particionamiento-bd":{
+        "children": ["disclosure-trigger#particionamiento-bd", "disclosure-content#particionamiento-bd"]
+     }, 
+     "disclosure-trigger#particionamiento-bd":{
+       "children": ["rich-text#trigger-particionamiento-bd"]
+     },
+     "disclosure-content#particionamiento-bd": {
+       "children": [ "flex-layout.row#particionamiento-bd"]
+     },
+      "flex-layout.row#particionamiento-bd":{
+        "children":["flex-layout.col#particionamiento-bd"],
+        "props":{
+            "blockClass":["sub-disclosure","particionamiento-bd"]
+        }
+    },
+     "flex-layout.col#particionamiento-bd":{
+        "children":[
+            "rich-text#content-particionamiento-bd"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-particionamiento-bd"]
+        }
+    },
+    "rich-text#trigger-particionamiento-bd": {
+        "props": {
+            "text": " ##### Particionamiento de bases de datos",
+            "blockClass": ["subtitle","subtitle-particionamiento-bd"]
+        }
+    },
+    "rich-text#content-particionamiento-bd": {
+        "props": {
+            "text": "",
+            "blockClass": ["disclosure-content","content-particionamiento-bd"]
+        }
+    },
+
+    /******* Informática elástica ********/
+    
+    "disclosure-layout#informatica-elastica":{
+        "children": ["disclosure-trigger#informatica-elastica", "disclosure-content#informatica-elastica"]
+     }, 
+     "disclosure-trigger#informatica-elastica":{
+       "children": ["rich-text#trigger-informatica-elastica"]
+     },
+     "disclosure-content#informatica-elastica": {
+       "children": [ "flex-layout.row#informatica-elastica"]
+     },
+      "flex-layout.row#informatica-elastica":{
+        "children":["flex-layout.col#informatica-elastica"],
+        "props":{
+            "blockClass":["sub-disclosure","informatica-elastica"]
+        }
+    },
+     "flex-layout.col#informatica-elastica":{
+        "children":[
+            "rich-text#content-informatica-elastica"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-informatica-elastica"]
+        }
+    },
+    "rich-text#trigger-informatica-elastica": {
+        "props": {
+            "text": " ##### Informática elástica",
+            "blockClass": ["subtitle","subtitle-informatica-elastica"]
+        }
+    },
+    "rich-text#content-informatica-elastica": {
+        "props": {
+            "text": "",
+            "blockClass": ["disclosure-content","content-informatica-elastica"]
+        }
+    },
+
+    /******* Infraestructura como servicio (IaaS) ********/
+    
+    "disclosure-layout#infra-iaas":{
+        "children": ["disclosure-trigger#infra-iaas", "disclosure-content#infra-iaas"]
+     }, 
+     "disclosure-trigger#infra-iaas":{
+       "children": ["rich-text#trigger-infra-iaas"]
+     },
+     "disclosure-content#infra-iaas": {
+       "children": [ "flex-layout.row#infra-iaas"]
+     },
+      "flex-layout.row#infra-iaas":{
+        "children":["flex-layout.col#infra-iaas"],
+        "props":{
+            "blockClass":["sub-disclosure","infra-iaas"]
+        }
+    },
+     "flex-layout.col#infra-iaas":{
+        "children":[
+            "rich-text#content-infra-iaas"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-infra-iaas"]
+        }
+    },
+    "rich-text#trigger-infra-iaas": {
+        "props": {
+            "text": " ##### Infraestructura como servicio (IaaS)",
+            "blockClass": ["subtitle","subtitle-infra-iaas"]
+        }
+    },
+    "rich-text#content-infra-iaas": {
+        "props": {
+            "text": "",
+            "blockClass": ["disclosure-content","content-infra-iaas"]
+        }
+    },
+
+    /******* Algoritmos de aprendizaje automático ********/
+    
+    "disclosure-layout#algoritmos-auto":{
+        "children": ["disclosure-trigger#algoritmos-auto", "disclosure-content#algoritmos-auto"]
+     }, 
+     "disclosure-trigger#algoritmos-auto":{
+       "children": ["rich-text#trigger-algoritmos-auto"]
+     },
+     "disclosure-content#algoritmos-auto": {
+       "children": [ "flex-layout.row#algoritmos-auto"]
+     },
+      "flex-layout.row#algoritmos-auto":{
+        "children":["flex-layout.col#algoritmos-auto"],
+        "props":{
+            "blockClass":["sub-disclosure","algoritmos-auto"]
+        }
+    },
+     "flex-layout.col#algoritmos-auto":{
+        "children":[
+            "rich-text#content-algoritmos-auto"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-algoritmos-auto"]
+        }
+    },
+    "rich-text#trigger-algoritmos-auto": {
+        "props": {
+            "text": " ##### Algoritmos de aprendizaje automático",
+            "blockClass": ["subtitle","subtitle-algoritmos-auto"]
+        }
+    },
+    "rich-text#content-algoritmos-auto": {
+        "props": {
+            "text": "",
+            "blockClass": ["disclosure-content","content-algoritmos-auto"]
+        }
+    },
+
+    /******* NoSQL ********/
+    
+    "disclosure-layout#NoSQL":{
+        "children": ["disclosure-trigger#NoSQL", "disclosure-content#NoSQL"]
+     }, 
+     "disclosure-trigger#NoSQL":{
+       "children": ["rich-text#trigger-NoSQL"]
+     },
+     "disclosure-content#NoSQL": {
+       "children": [ "flex-layout.row#NoSQL"]
+     },
+      "flex-layout.row#NoSQL":{
+        "children":["flex-layout.col#NoSQL"],
+        "props":{
+            "blockClass":["sub-disclosure","NoSQL"]
+        }
+    },
+     "flex-layout.col#NoSQL":{
+        "children":[
+            "rich-text#content-NoSQL"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-NoSQL"]
+        }
+    },
+    "rich-text#trigger-NoSQL": {
+        "props": {
+            "text": " ##### NoSQL",
+            "blockClass": ["subtitle","subtitle-NoSQL"]
+        }
+    },
+    "rich-text#content-NoSQL": {
+        "props": {
+            "text": "",
+            "blockClass": ["disclosure-content","content-NoSQL"]
+        }
+    },
+
+    /******* Nube privada ********/
+    
+    "disclosure-layout#nube-privada":{
+        "children": ["disclosure-trigger#nube-privada", "disclosure-content#nube-privada"]
+     }, 
+     "disclosure-trigger#nube-privada":{
+       "children": ["rich-text#trigger-nube-privada"]
+     },
+     "disclosure-content#nube-privada": {
+       "children": [ "flex-layout.row#nube-privada"]
+     },
+      "flex-layout.row#nube-privada":{
+        "children":["flex-layout.col#nube-privada"],
+        "props":{
+            "blockClass":["sub-disclosure","nube-privada"]
+        }
+    },
+     "flex-layout.col#nube-privada":{
+        "children":[
+            "rich-text#content-nube-privada"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-nube-privada"]
+        }
+    },
+    "rich-text#trigger-nube-privada": {
+        "props": {
+            "text": " ##### Nube privada",
+            "blockClass": ["subtitle","subtitle-nube-privada"]
+        }
+    },
+    "rich-text#content-nube-privada": {
+        "props": {
+            "text": "",
+            "blockClass": ["disclosure-content","content-nube-privada"]
+        }
+    },
+
+    /******* Software como servicio (SaaS) ********/
+    
+    "disclosure-layout#saas":{
+        "children": ["disclosure-trigger#saas", "disclosure-content#saas"]
+     }, 
+     "disclosure-trigger#saas":{
+       "children": ["rich-text#trigger-saas"]
+     },
+     "disclosure-content#saas": {
+       "children": [ "flex-layout.row#saas"]
+     },
+      "flex-layout.row#saas":{
+        "children":["flex-layout.col#saas"],
+        "props":{
+            "blockClass":["sub-disclosure","saas"]
+        }
+    },
+     "flex-layout.col#saas":{
+        "children":[
+            "rich-text#content-saas"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-saas"]
+        }
+    },
+    "rich-text#trigger-saas": {
+        "props": {
+            "text": " ##### Software como servicio (SaaS)",
+            "blockClass": ["subtitle","subtitle-saas"]
+        }
+    },
+    "rich-text#content-saas": {
+        "props": {
+            "text": "",
+            "blockClass": ["disclosure-content","content-saas"]
+        }
+    },
+
+    /******* Máquina virtual ********/
+    
+    "disclosure-layout#maquina-virtual":{
+        "children": ["disclosure-trigger#maquina-virtual", "disclosure-content#maquina-virtual"]
+     }, 
+     "disclosure-trigger#maquina-virtual":{
+       "children": ["rich-text#trigger-maquina-virtual"]
+     },
+     "disclosure-content#maquina-virtual": {
+       "children": [ "flex-layout.row#maquina-virtual"]
+     },
+      "flex-layout.row#maquina-virtual":{
+        "children":["flex-layout.col#maquina-virtual"],
+        "props":{
+            "blockClass":["sub-disclosure","maquina-virtual"]
+        }
+    },
+     "flex-layout.col#maquina-virtual":{
+        "children":[
+            "rich-text#content-maquina-virtual"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-maquina-virtual"]
+        }
+    },
+    "rich-text#trigger-maquina-virtual": {
+        "props": {
+            "text": " ##### Máquina virtual",
+            "blockClass": ["subtitle","subtitle-maquina-virtual"]
+        }
+    },
+    "rich-text#content-maquina-virtual": {
+        "props": {
+            "text": "",
+            "blockClass": ["disclosure-content","content-maquina-virtual"]
+        }
+    }
+}

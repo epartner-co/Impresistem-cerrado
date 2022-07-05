@@ -1,4 +1,7 @@
 {
+  "store.custom#smart-solutions":{
+    "path": "/statics-smart"
+  },
   "store.custom#about-us": {
     "path": "/quienes-somos"
   },

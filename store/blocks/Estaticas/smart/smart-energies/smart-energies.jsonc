@@ -1,0 +1,120 @@
+{
+    //------disclosure energies
+
+"disclosure-layout#energies":{
+    "children": ["disclosure-trigger#energies", "disclosure-content#energies"]
+ },
+ "disclosure-trigger#energies": {
+   "children": ["image#disclosure-energies","rich-text#energies"]
+ },
+ "disclosure-content#energies": {
+   "children": ["flex-layout.row#disclosure-smart-energies"]
+ },
+ "rich-text#energies": {
+   "props": {
+       "text": "SMART ENERGIES",
+       "blockClass": "smart-energies--text"
+   }
+},
+   //imagen disclosure trigger
+   "image#disclosure-energies":{
+       "props":{
+           "src":"https://orbeim.vteximg.com.br/arquivos/banner-energies.png",
+           "blockClass": "img-manner--desk"
+       } 
+   },
+   "flex-layout.row#disclosure-smart-energies":{
+    "children":["flex-layout.col#disclosure-smart-energies"],
+    "props":{
+        "blockClass":["row-cloud-content"]
+    }
+    },
+    "flex-layout.col#disclosure-smart-energies":{
+        "children":[
+            "disclosure-layout#smart-energies",
+            "disclosure-layout#energias-renovables",
+            "disclosure-layout#energias-portafolio",
+            "disclosure-layout#energias-eventos"
+        ],
+        "props":{
+            "blockClass":["col-cloud-content"]
+        }
+    }, 
+   
+   /******* SMART ENERGIES ********/
+  
+   "disclosure-layout#smart-energies":{
+       "children": ["disclosure-trigger#smart-energies", "disclosure-content#smart-energies"]
+    }, 
+    "disclosure-trigger#smart-energies":{
+      "children": ["rich-text#smart-energies"]
+    },
+    "disclosure-content#smart-energies": {
+      "children": [ "flex-layout.row#smart-energies"]
+    },
+    "rich-text#smart-energies": {
+     "props": {
+         "text": " ##### SMART ENERGIES",
+         "blockClass": ["subtitle","subtitle-smart-energies"]
+     }
+    },
+   "flex-layout.row#smart-energies":{
+    "children":["flex-layout.col#smart-energies"],
+    "props":{
+        "blockClass":["row-cloud-content"]
+    }
+    },
+    "flex-layout.col#smart-energies":{
+        "children":[
+            "rich-text#smart-energies-text-1",
+            "flex-layout.row#smart-energies-double-text"
+        ],
+        "props":{
+            "blockClass":["col-cloud-content"]
+        }
+    },
+    "rich-text#smart-energies-text-1": {
+     "props": {
+         "text": " ##### ¿QUIÉNES SOMOS? \n\n Smart Energies nace con la idea de aportar y contribuir a la capilaridad y diversificación de la industria de energías renovables en América Latina, gracias a que en los últimos años Impresistem ha sido líder en la comercialización y distribución del sector IT posicionándose como un mayorista confiable. Ahora con una visión de transformación y dinamismo quiere innovar en la cadena de distribución del mercado de fuentes no convencionales de energía.",
+         "blockClass": ["subtitle","subtitle-energies-text-1"]
+     }
+    },
+    "flex-layout.row#smart-energies-double-text":{
+     "children":[
+        "flex-layout.col#smart-energies-double-col-1",
+        "flex-layout.col#smart-energies-double-col-2"
+     ],
+     "props":{
+         "blockClass":["row-cloud-content"]
+     }
+     },
+     "flex-layout.col#smart-energies-double-col-1":{
+         "children":[
+             "rich-text#smart-energies-text-2"
+         ],
+         "props":{
+             "blockClass":["col-cloud-content"]
+         }
+     },
+     "rich-text#smart-energies-text-2": {
+      "props": {
+          "text": " ##### ¿QUÉ HACEMOS? \n\n Somos el aliado en suministros de equipos para Energías Renovables , además de esto asesoramos y guiamos a nuestros partners para formular proyectos de ingeniería fotovoltaica entre otros. Somos una empresa de soluciones, en donde la prioridad es generar valor a nuestros clientes.",
+          "blockClass": ["subtitle","subtitle-energies-text-1"]
+      }
+    },
+    "flex-layout.col#smart-energies-double-col-2":{
+        "children":[
+            "rich-text#smart-energies-text-3"
+        ],
+        "props":{
+            "blockClass":["col-cloud-content"]
+        }
+    },
+    "rich-text#smart-energies-text-3": {
+     "props": {
+         "text": " ##### ¿CÓMO? \n\n - Venta Consultiva \n - EaaS / Portafolio Financiero \n -Generación de oportunidades rentables \n - Eficiencia Logística: Sinergia como holding y Certificación OEA \n - Disponibilidad de Inventario \n - Cobertura Nacional \n - Servicio Postventa",
+         "blockClass": ["subtitle","subtitle-energies-text-1"]
+     }
+   }
+     
+}

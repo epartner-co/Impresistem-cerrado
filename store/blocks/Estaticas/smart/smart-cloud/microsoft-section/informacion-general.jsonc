@@ -1,0 +1,131 @@
+{
+    /******* Información general ********/
+
+    "disclosure-layout#microsoft-informacion-general":{
+        "children": ["disclosure-trigger#microsoft-informacion-general", "disclosure-content#microsoft-informacion-general"]
+     }, 
+     "disclosure-trigger#microsoft-informacion-general":{
+       "children": ["rich-text#title-microsoft-informacion"]
+     },
+     "disclosure-content#microsoft-informacion-general": {
+       "children": [ "flex-layout.row#microsoft-informacion-general"]
+     },
+      "flex-layout.row#microsoft-informacion-general":{
+        "children":["flex-layout.col#microsoft-informacion-general"],
+        "props":{
+            "blockClass":["sub-disclosure","sub-disclosure-informacion-general"]
+        }
+    },
+     "flex-layout.col#microsoft-informacion-general":{
+        "children":[
+            "rich-text#microsoft-text-2",
+            "flex-layout.col#microsoft-double-text",
+            "flex-layout.col#microsoft-bloque-beneficios"           
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-cloud-microsoft"]
+        }
+    },
+    "rich-text#title-microsoft-informacion": {
+        "props": {
+            "text": " ##### INFORMACIÓN GENERAL",
+            "blockClass": ["subtitle","subtitle-informacion"]
+        }
+    },
+    "rich-text#microsoft-text-1": {
+        "props": {
+            "text": " ##### INFORMACIÓN GENERAL \n\n **La definición de la nube, básicamente, es un término que se utiliza para describir una red mundial de servidores, cada uno con una función única. La nube no es una entidad física, sino una red enorme de servidores remotos de todo el mundo que están conectados para funcionar como un único ecosistema.** \n\n Estos servidores están diseñados para almacenar y administrar datos, ejecutar aplicaciones o entregar contenido o servicios, como streaming de vídeos, correo web, software de ofimática o medios sociales. En lugar de acceder a archivos y datos desde un equipo personal o local, accede a ellos en línea desde cualquier dispositivo conectado a Internet, es decir, la información está disponible dondequiera que vaya y siempre que la necesite. \n\n Las empresas utilizan cuatro métodos diferentes para implementar recursos en la nube. Hay una nube pública, que comparte recursos y ofrece servicios al público a través de Internet; una nube privada, que no se comparte y ofrece servicios a través de una red interna privada, normalmente hospedada en el entorno local; una nube híbrida, que comparte servicios entre nubes públicas y privadas, según su finalidad; y una nube comunitaria, que comparte recursos solo entre organizaciones, por ejemplo, con instituciones gubernamentales.",
+            "blockClass": ["cloud-text","cloud-text-1"]
+        }
+    },
+    "rich-text#microsoft-text-2": {
+        "props": {
+            "text": " ##### BENEFICIOS DE LA NUBE PRIVADA \n\n La nube privada se define como los servicios informáticos que se ofrecen a través de Internet o de una red interna privada solo a algunos usuarios y no al público general. También denominada nube interna o corporativa, la informática en nube privada aporta a las empresas gran parte de las ventajas de la nube pública (como autoservicio, escalabilidad y elasticidad), pero con el control y la personalización disponibles en los recursos dedicados a través de una infraestructura informática hospedada en el entorno local. Además, las nubes privadas ofrecen un nivel más alto de seguridad y privacidad con firewalls de la compañía y hospedaje interno, con el fin de garantizar que las operaciones y los datos confidenciales no estén accesibles para proveedores externos. Un inconveniente es que el departamento de TI de la compañía es responsable de la administración de la nube privada y el costo que conlleva. Por tanto, las nubes privadas requieren el mismo gasto de personal, administración y mantenimiento que los centros de datos tradicionales en propiedad. \n\n En una nube privada, se pueden ofrecer dos modelos de servicios en la nube. El primero es infraestructura como servicio (IaaS), que permite a una compañía utilizar recursos de infraestructura, como proceso, red y almacenamiento, como servicio. El segundo es plataforma como servicio (PaaS), que permite a una compañía ofrecer todo, desde sencillas aplicaciones basadas en la nube hasta sofisticadas aplicaciones empresariales. Las nubes privadas se pueden combinar también con nubes públicas para crear una nube híbrida, que permite a las empresas aprovechar la extensión a la nube para liberar más espacio y escalar servicios informáticos en la nube pública cuando aumenta la demanda de recursos informáticos.",
+            "blockClass": ["cloud-text","cloud-text-2"]
+        }
+    },
+    "flex-layout.row#microsoft-double-text":{
+        "children":["flex-layout.col#microsoft-double-text"],
+        "props":{
+            "blockClass":["cloud-double-text"]
+        }
+    }, 
+    "flex-layout.col#microsoft-double-text":{
+        "children":["rich-text#title-double-text","flex-layout.row#microsoft-double-text-button"],
+        "props":{
+            "blockClass":["cloud-double-text-col"]
+        }
+    },
+    "rich-text#title-double-text": {
+        "props": {
+            "text": " ##### NUBE HÍBRIDA",
+            "blockClass": ["cloud-text","title-text"]
+        }
+    },
+    "flex-layout.row#microsoft-double-text-button":{
+        "children":["flex-layout.col#microsoft-text-button-1","flex-layout.col#microsoft-text-button-2"],
+        "props":{
+            "blockClass":["cloud-double-text"]
+        }
+    },
+    "flex-layout.col#microsoft-text-button-1":{
+        "children":["rich-text#microsoft-subtext-1","link#question-1"],
+        "props":{
+            "blockClass":["cloud-double","cloud-double-text-with-button"]
+        }
+    },
+    "rich-text#microsoft-subtext-1": {
+        "props": {
+            "text": " ##### ¿QUÉ ES UNA NUBE HÍBRIDA? \n\n Una nube híbrida, a veces llamada híbrido en la nube, es un entorno informático que combina un centro de datos local (también denominado nube privada) con una nube pública,lo que permite compartir datos y aplicaciones entre ellos. Algunas personas definen la nube híbrida para incluir configuraciones \"multinube\" donde una organización utiliza más de una nube pública además de su centro de datos local.",
+            "blockClass": ["cloud-text","cloud-text-2"]
+        }
+    },
+    "link#question-1": {
+        "props": {
+          "label": "Preguntar Ahora",
+          "href": "#",
+          "width": "100%",
+          "blockClass": ["button-smart-solutions","info-card-home", "ir-a-link-tabber"]
+        }
+    },
+    "flex-layout.col#microsoft-text-button-2":{
+        "children":["rich-text#microsoft-subtext-2","link#question-2"],
+        "props":{
+            "blockClass":["cloud-double","cloud-double-text-with-button"]
+        }
+    },
+    "rich-text#microsoft-subtext-2": {
+        "props": {
+            "text": " ##### ¿CÚALES SON LOS BENEFICIOS DE LA NUBE HÍBRIDA? \n\n No importa qué definición de nube híbrida utilice, las ventajas son las mismas: cuando la demanda de computación y procesamiento aumenta más allá de las capacidades de un centro de datos local, las empresas pueden usar la nube para escalar o reducir instantáneamente la capacidad para controlar el exceso de capacidad. También les permite evitar el tiempo y el costo de comprar, instalar y mantener nuevos servidores que tal vez no siempre necesiten.",
+            "blockClass": ["cloud-text","cloud-text-2"]
+        }
+    },
+    "link#question-2": {
+        "props": {
+          "label": "Preguntar Ahora",
+          "href": "#",
+          "width": "100%",
+          "blockClass": ["button-smart-solutions","info-card-home", "ir-a-link-tabber"]
+        }
+    },
+    "flex-layout.col#microsoft-bloque-beneficios":{
+        "children":["rich-text#microsoft-subtext-3","link#beneficios-1"],
+        "props":{
+            "blockClass":["cloud-double","cloud-double-text-with-button"]
+        }
+    },
+    "rich-text#microsoft-subtext-3": {
+        "props": {
+            "text": "**Beneficios de ser parte de Impresistem SAS como proveedor de soluciones en la nube** \n\n **Cupo de Crédito** \n\n Cupo de crédito exclusivo para CSP, lo que le permitirá seguir aprovisionando servicios sin inconvenientes de topes de cupo. \n\n **Plataforma de Servicios** \n\n Plataforma única de aprovisionamiento de servicios \"AFINNIA\" \n\n  **Equipo Especializado** \n\n Equipo de consultores y preventas especializados en la nube de Microsoft quienes les estarán apoyando en sus requerimientos, dimencionamientos y arquitecturas \n\n **Equipo de Seguridad** \n\n Equipo de consultores especializados en seguridad quienes estarán acompañando sus soluciones de CSP \n\n **Mesa de Ayuda** \n\n Mesa de ayuda Microsoft, recurso 100% dedicado a atender los requerimientos de CSP",
+            "blockClass": ["cloud-text","microsoft-subtext-3"]
+        }
+    },
+    "link#beneficios-1": {
+        "props": {
+          "label": "Preguntar Ahora",
+          "href": "#",
+          "width": "100%",
+          "blockClass": ["button-beneficios-smart-solutions","info-card-home", "ir-a-link-tabber"]
+        }
+    }
+}

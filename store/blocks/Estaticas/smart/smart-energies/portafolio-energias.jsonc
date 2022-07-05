@@ -1,0 +1,69 @@
+{
+     /******* PORTAFOLIO ENERGÍAS  ********/
+  
+   "disclosure-layout#energias-portafolio":{
+    "children": ["disclosure-trigger#energias-portafolio", "disclosure-content#energias-portafolio"]
+    }, 
+    "disclosure-trigger#energias-portafolio":{
+    "children": ["rich-text#energias-portafolio"]
+    },
+    "disclosure-content#energias-portafolio": {
+    "children": [ "flex-layout.row#energias-portafolio"]
+    },
+    "rich-text#energias-portafolio": {
+    "props": {
+        "text": " ##### PORTAFOLIO",
+        "blockClass": ["subtitle","subtitle-energias-portafolio"]
+    }
+    },
+    "flex-layout.row#energias-portafolio":{
+    "children":["flex-layout.col#energias-portafolio"],
+    "props":{
+        "blockClass":["row-cloud-content"]
+    }
+    },
+    "flex-layout.col#energias-portafolio":{
+        "children":[
+            "flex-layout.row#energias-infocard"
+        ],
+        "props":{
+            "blockClass":["col-cloud-content"]
+        }
+    },
+    "flex-layout.row#energias-infocard":{
+    "children":["info-card#portafolio-1","info-card#portafolio-2"],
+    "props":{
+        "blockClass":["row-cloud-content","energias-infocard"]
+    }
+    },      
+    "info-card#portafolio-1": {
+        "props": {
+          "id": "info-card-portafolio-1",
+          "isFullModeStyle": false,
+          "textPosition": "right",
+          "imageUrl": "https://orbeim.vteximg.com.br/arquivos/imagen-portafolio-energias.png",            
+          "callToActionText": "Descargar ficha tecnica",
+          "callToActionUrl": "#",
+          "callToActionMode": "link",
+          "subhead":"Panel 450W Mono Perc Half Cells. 2094 x 1038 x 35 mm. 23.5Kg",
+          "headline":"Panel Solar Longi Hi-MO 4m 450w",
+          "blockClass": ["info-card","info-card-portafolio"],
+          "textAlignment": "left"
+        }
+      },      
+      "info-card#portafolio-2": {
+          "props": {
+            "id": "info-card-portafolio-2",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "https://orbeim.vteximg.com.br/arquivos/imagen-portafolio-energias.png",            
+            "callToActionText": "Descargar ficha tecnica",
+            "callToActionUrl": "#",
+            "callToActionMode": "link",
+            "subhead":"Panel 540W Mono Perc Half Cells. 2256 x 1133 x 35 mm. 27.2Kg",
+            "headline":"Panel Solar Longi Hi-MO 5m 540W",
+            "blockClass": ["info-card","info-card-portafolio"],
+            "textAlignment": "left"
+          }
+        }
+    }

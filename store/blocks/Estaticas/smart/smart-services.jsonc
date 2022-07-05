@@ -1,0 +1,34 @@
+{
+    //------disclosure services
+
+"disclosure-layout#services":{
+    "children": ["disclosure-trigger#services", "disclosure-content#services"]
+ },
+ "disclosure-trigger#services": {
+   "children": ["image#disclosure-services","rich-text#services"]
+ },
+ "disclosure-content#services": {
+   "children": ["image#disclosure-services-mobile"]
+ },
+ "rich-text#services": {
+   "props": {
+       "text": "SMART SERVICES",
+       "blockClass": "smart-services--text"
+   }
+},
+   
+
+   //imagen disclosure trigger
+   "image#disclosure-services":{
+       "props":{
+           "src":"https://orbeim.vteximg.com.br/arquivos/banner-services.png",
+           "blockClass": "img-manner--desk"
+       } 
+   },
+   "image#disclosure-services-mobile":{
+       "props":{
+           "src":"https://orbeim.vteximg.com.br/arquivos/cloud-mobile.png",
+           "blockClass": "img-manner--mobile"
+       } 
+   }
+}

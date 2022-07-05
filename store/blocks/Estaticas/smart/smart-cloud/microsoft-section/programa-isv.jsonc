@@ -1,0 +1,157 @@
+{
+    /******* PROGRAMA ISV DESARROLLO ********/
+  
+      "disclosure-layout#programa-isv":{
+        "children": ["disclosure-trigger#programa-isv", "disclosure-content#programa-isv"]
+     }, 
+     "disclosure-trigger#programa-isv":{
+       "children": ["rich-text#programa-isv"]
+     },
+     "disclosure-content#programa-isv": {
+       "children": [ "flex-layout.row#programa-isv"]
+     },
+     "rich-text#programa-isv": {
+      "props": {
+          "text": " ##### PROGRAMA ISV DESARROLLO",
+          "blockClass": ["subtitle","subtitle-programa-isv"]
+      }
+  },
+      "flex-layout.row#programa-isv":{
+        "children":["flex-layout.col#programa-isv"],
+          
+        "props":{
+            "blockClass":["sub-disclosure","programa-isv"]
+        }
+    },"flex-layout.col#programa-isv":{
+      "children":[
+        "flex-layout.row#programa-isv-infocard-wrapper",
+        "flex-layout.col#technical-support",
+        "flex-layout.col#digital-advertising"
+      ],
+      "props":{
+          "blockClass":["col-cloud","col-programa-isv"]
+      }
+  },"flex-layout.row#programa-isv-infocard-wrapper":{
+    "children":[
+      "flex-layout.col#programa-isv-1", 
+      "flex-layout.col#programa-isv-2"
+      
+  ]},
+     "flex-layout.col#programa-isv-1":{
+        "children":[
+          "info-card#isv-1",
+          "info-card#isv-2"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-programa-isv"]
+        }
+      },      
+    "info-card#isv-1": {
+        "props": {
+          "id": "info-card-isv-1",
+          "isFullModeStyle": false,
+          "textPosition": "right",
+          "imageUrl": "https://orbeim.vteximg.com.br/arquivos/info-card-apoyo-financiero.png",            
+          "callToActionText": "Apoyo Financiero",
+          "callToActionUrl": "#",
+          "callToActionMode": "link",
+          "subhead":"Créditos preaprobados sin estudio de crédito | Plazos de pago especiales",
+          "blockClass": "info-card-isv",
+          "textAlignment": "left"
+        }
+      },      
+      "info-card#isv-2": {
+          "props": {
+            "id": "info-card-isv-2",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "https://orbeim.vteximg.com.br/arquivos/info-card-digital-marketing.png",            
+            "callToActionText": "Digital Marketing",
+            "callToActionUrl": "#",
+            "callToActionMode": "link",
+            "subhead":"IM se convierte en el Mayorista que convierte las ideas y promesas de valor de nuestros Partner en un Engine de generación de demanda a través de Marketing Digital Powered by IM, eventos donde el ISV va y presenta su solución, apoyo en promoción de la plataforma Marketplace de Impresistem y apoyo con marketing digital.",
+            "blockClass": "info-card-isv",
+            "textAlignment": "left"
+          }
+        },
+        "flex-layout.col#programa-isv-2":{
+           "children":[
+             "info-card#isv-3",
+             "info-card#isv-4"
+           ],
+           "props":{
+               "blockClass":["col-cloud","col-programa-isv"]
+           }
+       },      
+       "info-card#isv-3": {
+           "props": {
+             "id": "info-card-isv-3",
+             "isFullModeStyle": false,
+             "textPosition": "right",
+             "imageUrl": "https://orbeim.vteximg.com.br/arquivos/info-card-apoyo-tecnico.png",            
+             "callToActionText": "Apoyo Técnico",
+             "callToActionUrl": "#",
+             "callToActionMode": "link",
+             "subhead":"Reciba asistencia para la cambiar las aplicaciones de plataforma en la nube, incluida la definición de los objetivos y requisitos del sistema, la planificación de la migración, la protección de datos, la implementación y el soporte continuo.",
+             "blockClass": "info-card-isv",
+             "textAlignment": "left"
+           }
+         },      
+         "info-card#isv-4": {
+             "props": {
+               "id": "info-card-isv-4",
+               "isFullModeStyle": false,
+               "textPosition": "right",
+               "imageUrl": "https://orbeim.vteximg.com.br/arquivos/info-card-posicionamiento.png",            
+               "callToActionText": "Posicionamiento",
+               "callToActionUrl": "#",
+               "callToActionMode": "link",
+               "subhead":"Ofrecer soluciones del ISV que el cliente final muchas veces ni siquiera se ha planteado, por desconocimiento",
+               "blockClass": "info-card-isv",
+               "textAlignment": "left"
+             }
+           },
+           "flex-layout.col#technical-support":{
+              "children":[
+                  "rich-text#subtitle-technical-support",
+                  "rich-text#ul-technical-support"
+              ],
+              "props":{
+                  "blockClass":["col-cloud","technical-support"]
+              }
+          },
+          "rich-text#subtitle-technical-support": {
+           "props": {
+               "text": " ##### TECHNICAL SUPPORT",
+               "blockClass": ["subtitle","subtitle-technical-support"]
+           }
+       },
+       "rich-text#ul-technical-support": {
+        "props": {
+            "text": "- Oferta de valor para los ISV \n - Desde la fuerza local de Impresistem le podemos apoyar en: \n - Apoyo en despliegue y administración del almacenamiento.\n - Apoyo en despliegue y administración recursos informáticos de Azure (Máquinas virtuales , App services , databases).\n - Configuración y administración de redes virtuales.\n - Supervisar y realizar copias de seguridad de los recursos de Azure.\n - Asesoría en Desarrollo de soluciones informáticas de Azure.\n - Apoyo en como monitorear y optimizar las soluciones de Azure.\n - Conéctese y consuma servicios de Azure y servicios de terceros.\n - Asesoría en estandarización y replicación de sus aplicaciones para que las pueda ofrecer a sus clientes de forma automatizada.",
+            "blockClass": ["subtitle","ul-technical-support"]
+        }
+    },
+ "flex-layout.col#digital-advertising":{
+    "children":[
+      "rich-text#subtitle-digital-advertising",
+      "rich-text#text-digital-advertising"
+    ],
+    "props":{
+        "blockClass":["col-cloud","technical-support"]
+    }
+},
+"rich-text#subtitle-digital-advertising": {
+ "props": {
+     "text": " ##### DIGITAL ADVERTISING",
+     "blockClass": ["subtitle","subtitle-digital-advertising"]
+ }
+},
+"rich-text#text-digital-advertising": {
+"props": {
+   "text": " **Estrategia integral SEM** \n Generación de campañas pagas en diferentes plataformas (Google, Facebook, LinkedIn) para aumentar el alcance \n\n **Comunicaciones** \n Diseño y parametrización de campañas automatizadas \n\n **Contenido** \n Growth Marketing | Inbound Marketing \n\n **Diseño** \n Diseño y desarrollo de Landing page \n\n **Analítica** \n Reporte de gestión digital",
+   "blockClass": ["subtitle","text-digital-advertising"]
+}
+}
+
+}

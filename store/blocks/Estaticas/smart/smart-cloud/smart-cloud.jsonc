@@ -1,0 +1,55 @@
+{
+     //------disclosure cloud
+
+"disclosure-layout#cloud":{
+    "children": ["disclosure-trigger#cloud", "disclosure-content#cloud"]
+},
+  "disclosure-trigger#cloud": {
+    "children": ["image#bannermain","rich-text#cloud"]
+  },
+  "disclosure-content#cloud": {
+    "children": [ "flex-layout.row#cloud-content"]
+  },
+  "rich-text#cloud": {
+    "props": {
+        "text": "SMART CLOUD",
+        "blockClass": "smart-cloud--text"
+    }
+},  
+
+//imagen banner principal
+    "image#bannermain":{
+        "props":{
+            "src":"https://orbeim.vteximg.com.br/arquivos/banner-smart-cloud.png",
+            "blockClass": "img-manner--desk"
+        } 
+    },
+    "image#bannermain-mobile":{
+        "props":{
+            "src":"https://orbeim.vteximg.com.br/arquivos/cloud-mobile.png",
+            "blockClass": "img-manner--mobile"
+        } 
+    },
+//contenido del disclousure
+  
+  "flex-layout.row#cloud-content":{
+    "children":["flex-layout.col#cloud-content"],
+    "props":{
+        "blockClass":["row-cloud-content"]
+    }
+},
+"flex-layout.col#cloud-content":{
+    "children":[
+        "disclosure-layout#acronis",
+        "disclosure-layout#microsoft",
+        "disclosure-layout#teamviewer"
+    ],
+    "props":{
+        "blockClass":["col-cloud-content"]
+    }
+}
+}
+
+
+
+

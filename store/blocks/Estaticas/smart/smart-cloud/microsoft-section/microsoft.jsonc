@@ -1,0 +1,44 @@
+{
+    "disclosure-layout#microsoft":{
+        "children": ["disclosure-trigger#microsoft", "disclosure-content#microsoft"]
+     }, 
+     "disclosure-trigger#microsoft":{
+       "children": ["rich-text#title-microsoft"]
+     },
+     "disclosure-content#microsoft": {
+       "children": [ "flex-layout.row#microsoft"]
+     },
+      "flex-layout.row#microsoft":{
+        "children":["flex-layout.col#microsoft"],
+        "props":{
+            "blockClass":["row-cloud-microsoft"]
+        }
+    },
+     "flex-layout.col#microsoft":{
+        "children":[
+            "image#img-microsoft",
+            "disclosure-layout#microsoft-informacion-general",
+            "disclosure-layout#microsoft-portafolio-servicios",
+            "disclosure-layout#academia-smart-cloud",
+            "disclosure-layout#promociones-smart-cloud",
+            "disclosure-layout#programa-isv",
+            "disclosure-layout#glosario"           
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-cloud-microsoft"]
+        }
+    },
+    
+    "rich-text#title-microsoft": {
+        "props": {
+            "text": "## Microsoft",
+            "blockClass": ["title-cloud","title-cloud-microsoft"]
+        }
+    },
+    "image#img-microsoft":{
+        "props":{
+            "src":"https://orbeim.vteximg.com.br/arquivos/img-microsoft.png",
+            "blockClass": ["image-subestatica", "img-microsoft"]
+        } 
+    }
+}

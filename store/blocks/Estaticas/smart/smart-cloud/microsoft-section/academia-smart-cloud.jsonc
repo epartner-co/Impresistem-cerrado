@@ -1,0 +1,126 @@
+{    
+    /******* Academia smart cloud ********/
+
+    "disclosure-layout#academia-smart-cloud":{
+        "children": ["disclosure-trigger#academia-smart-cloud", "disclosure-content#academia-smart-cloud"]
+     }, 
+     "disclosure-trigger#academia-smart-cloud":{
+       "children": ["rich-text#academia-smart-cloud"]
+     },
+     "disclosure-content#academia-smart-cloud": {
+       "children": [ "flex-layout.row#academia-smart-cloud"]
+     },
+      "flex-layout.row#academia-smart-cloud":{
+        "children":["flex-layout.col#academia-smart-cloud"],
+        "props":{
+            "blockClass":["sub-disclosure","sub-disclosure-academia-smart-cloud"]
+        }
+    },
+     "flex-layout.col#academia-smart-cloud":{
+        "children":[
+            "rich-text#academia-smart-cloud-text-1",
+            "flex-layout.row#tematicas"
+        ],
+        "props":{
+            "blockClass":["col-cloud","col-cloud-microsoft"]
+        }
+    },
+    "rich-text#academia-smart-cloud": {
+        "props": {
+            "text": " ##### ACADEMIA SMART CLOUD",
+            "blockClass": ["subtitle","subtitle-portafolio-servicios"]
+        }
+    },
+    "rich-text#academia-smart-cloud-text-1": {
+        "props": {
+            "text": " ##### PLAN DE ESTUDIO MS CSP \n El propósito de nuestra academia es brindarle orientación sobre cómo acelerar el crecimiento de su negocio en la nube con el programa Microsoft Cloud Solution Provider \"CSP\" y expandir sus oportunidades de ingresos",
+            "blockClass": ["cloud-text","academia-smart-cloud-text-1"]
+        }
+    },
+    "rich-text#tematicas": {
+        "props": {
+            "text": " ##### TEMATICAS QUE APRENDERAS CON NOSOTROS",
+            "blockClass": ["subtitle","text-tematicas"]
+        }
+    },
+    "flex-layout.row#tematicas":{
+      "children":["flex-layout.col#tematicas"],
+      "props":{
+          "blockClass":["sub-disclosure","row-infocard-tematicas"]
+      }
+  },
+   "flex-layout.col#tematicas":{
+      "children":[
+          "rich-text#tematicas",
+          "flex-layout.row#tematicas-infocard"
+      ],
+      "props":{
+          "blockClass":["col-cloud","col-infocard-tematicas"]
+      }
+  },
+  "flex-layout.row#tematicas-infocard":{
+    "children":[
+        "info-card#tematicas-1",
+        "info-card#tematicas-2",
+        "info-card#tematicas-3",
+        "info-card#tematicas-4"
+    ],
+    "props":{
+        "blockClass":["row-infocard", "row-infocard-1"]
+    }
+},
+"info-card#tematicas-1": {
+    "props": {
+      "id": "info-card-microsoft-licencia",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/imagen-infocard-licencia-microsoft.png",
+      "callToActionText": "LICENCIAMIENTO MICROSOFT",
+      "callToActionUrl": "#",
+      "callToActionMode": "link",
+      "blockClass": "info-card-terminos",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#tematicas-2": {
+      "props": {
+        "id": "info-card-microsoft-competencia",
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "https://orbeim.vteximg.com.br/arquivos/imagen-infocard-competencia-microsoft.png",
+        "callToActionText": "COMPETENCIAS MICROSOFT",
+        "callToActionUrl": "#",
+        "callToActionMode": "link",
+        "blockClass": "info-card-terminos",
+        "textAlignment": "center"
+      }
+    },
+    "info-card#tematicas-3": {
+        "props": {
+          "id": "info-card-microsoft-365",
+          "isFullModeStyle": false,
+          "textPosition": "left",
+          "imageUrl": "https://orbeim.vteximg.com.br/arquivos/imagen-infocard-microsoft-365.png",
+          "callToActionText": "MICROSOFT 365 ",
+          "callToActionUrl": "#",
+          "callToActionMode": "link",
+          "subhead":"-Planes Business y Enterprise - Seguridad y cumplimiento - Conozca el centro de trabajo colaborativo",
+          "blockClass": "info-card-terminos",
+          "textAlignment": "center"
+        }
+      },
+      "info-card#tematicas-4": {
+          "props": {
+            "id": "info-card-microsoft-azure",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://orbeim.vteximg.com.br/arquivos/imagen-infocard-microsoft-azure.png",            
+            "callToActionText": "MICROSOFT AZURE",
+            "callToActionUrl": "#",
+            "callToActionMode": "link",
+            "subhead":"- Azure: Infraestructura como servicio - Plataforma como servicio - Software como servicio",
+            "blockClass": "info-card-terminos",
+            "textAlignment": "center"
+          }
+        }
+}
