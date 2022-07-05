@@ -8,7 +8,7 @@
    "children": ["image#disclosure-services","rich-text#services"]
  },
  "disclosure-content#services": {
-   "children": ["image#disclosure-services-mobile"]
+   "children": ["flex-layout.row#smart-services"]
  },
  "rich-text#services": {
    "props": {
@@ -16,7 +16,20 @@
        "blockClass": "smart-services--text"
    }
 },
-   
+    "flex-layout.row#smart-services":{
+    "children":["flex-layout.col#smart-services"],
+    "props":{
+        "blockClass":["row-cloud-content"]
+    }
+    },
+    "flex-layout.col#smart-services":{
+        "children":[
+            "disclosure-layout#backup-and-recovery"
+        ],
+        "props":{
+            "blockClass":["col-cloud-content"]
+        }
+    },   
 
    //imagen disclosure trigger
    "image#disclosure-services":{

@@ -1,0 +1,270 @@
+{
+    /******* BACKUP AND RECOVERY  ********/
+  
+   "disclosure-layout#backup-and-recovery":{
+    "children": ["disclosure-trigger#backup-and-recovery", "disclosure-content#backup-and-recovery"]
+    }, 
+    "disclosure-trigger#backup-and-recovery":{
+    "children": ["rich-text#backup-and-recovery"]
+    },
+    "disclosure-content#backup-and-recovery": {
+    "children": [ "flex-layout.row#backup-and-recovery"]
+    },
+    "rich-text#backup-and-recovery": {
+    "props": {
+        "text": " ##### BACKUP AND RECOVERY",
+        "blockClass": ["subtitle","subtitle-backup-and-recovery"]
+    }
+    },
+    "flex-layout.row#backup-and-recovery":{
+    "children":["flex-layout.col#backup-and-recovery"],
+    "props":{
+        "blockClass":["row-cloud-content"]
+    }
+    },
+    "flex-layout.col#backup-and-recovery":{
+        "children":[
+            "rich-text#backup-and-recovery-text",
+            "flex-layout.row#byr-infocard-wrapper",
+            "flex-layout.row#byr-alcance"
+        ],
+        "props":{
+            "blockClass":["col-cloud-content"]
+        }
+    },
+    "rich-text#backup-and-recovery-text": {
+    "props": {
+        "text": "Impresistem provee servicios de Implementación, gestión, respaldos y monitoreo de seguridad para complementar su propuesta de protección de la información de los clientes, previniendo posibles amenazas que puedan vulnerar los sistemas, aplicaciones e infraestructura de TI, mitigando los riesgos para reducir brechas de seguridad, garantizando el cumplimiento regulatorio donde aplique.",
+        "blockClass": ["subtitle","subtitle-backup-and-recovery"]
+        }
+    },
+    "flex-layout.row#byr-infocard-wrapper":{
+        "children":[
+          "flex-layout.col#col-byr-1", 
+          "flex-layout.col#col-byr-2",
+          "flex-layout.col#col-byr-3"
+          
+      ]
+    },
+    "flex-layout.col#col-byr-1":{
+    "children":[
+        "info-card#byr-1",
+        "info-card#byr-2"
+    ],
+    "props":{
+        "blockClass":["col-cloud","col-programa-byr"]
+    }
+    },      
+        "info-card#byr-1": {
+            "props": {
+            "id": "info-card-byr-1",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "https://orbeim.vteximg.com.br/arquivos/infocard-byr-1.png",            
+            "callToActionText": "",
+            "callToActionUrl": "#",
+            "callToActionMode": "link",
+            "subhead":"Prevención proactiva de amenazas, reduciendo los tiempos de atención de incidentes",
+            "blockClass": ["info-card","info-card-byr" ],
+            "textAlignment": "left"
+        }
+        },      
+        "info-card#byr-2": {
+            "props": {
+            "id": "info-card-byr-2",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "https://orbeim.vteximg.com.br/arquivos/infocard-byr-2.png",            
+            "callToActionText": "",
+            "callToActionUrl": "#",
+            "callToActionMode": "link",
+            "subhead":"Mayor seguridad al monitorear y respaldar de manera unificada todos los posibles dispositivos críticos para el negocio",
+            "blockClass": ["info-card","info-card-byr" ],
+            "textAlignment": "left"
+            }
+        },
+        "flex-layout.col#col-byr-2":{
+            "children":[
+                "info-card#byr-3",
+                "info-card#byr-4"
+            ],
+            "props":{
+                "blockClass":["col-cloud","col-programa-isv"]
+            }
+        },      
+        "info-card#byr-3": {
+            "props": {
+                "id": "info-card-byr-3",
+                "isFullModeStyle": false,
+                "textPosition": "right",
+                "imageUrl": "https://orbeim.vteximg.com.br/arquivos/infocard-byr-3.png",            
+                "callToActionText": "",
+                "callToActionUrl": "#",
+                "callToActionMode": "link",
+                "subhead":"Amplia visibilidad sobre la infraestructura de TI y el tráfico de los dispositivos de red principales",
+                "blockClass": "info-card-byr",
+                "textAlignment": "left"
+        }
+        },      
+        "info-card#byr-4": {
+            "props": {
+            "id": "info-card-byr-4",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "https://orbeim.vteximg.com.br/arquivos/infocard-byr-4.png",            
+            "callToActionText": "",
+            "callToActionUrl": "#",
+            "callToActionMode": "link",
+            "subhead":"Personal calificado y certificado en gobierno de seguridad, análisis y detección de ataques",
+            "blockClass": "info-card-byr",
+            "textAlignment": "left"
+            }
+        },
+        "flex-layout.col#col-byr-3":{
+            "children":[
+                "info-card#byr-5",
+                "info-card#byr-6"
+            ],
+            "props":{
+                "blockClass":["col-cloud","col-programa-isv"]
+            }
+        },      
+        "info-card#byr-5": {
+            "props": {
+                "id": "info-card-byr-5",
+                "isFullModeStyle": false,
+                "textPosition": "right",
+                "imageUrl": "https://orbeim.vteximg.com.br/arquivos/infocard-byr-5.png",            
+                "callToActionText": "",
+                "callToActionUrl": "#",
+                "callToActionMode": "link",
+                "subhead":"Optimización de costos de operación al adquirir este modelo de negocio",
+                "blockClass": "info-card-byr",
+                "textAlignment": "left"
+            }
+        },      
+        "info-card#byr-6": {
+            "props": {
+            "id": "info-card-byr-6",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "https://orbeim.vteximg.com.br/arquivos/infocard-byr-6.png",            
+            "callToActionText": "",
+            "callToActionUrl": "#",
+            "callToActionMode": "link",
+            "subhead":"Cumplimiento regulaciones de entes externos en cuanto a controles que deben implementar para reducir riesgos",
+            "blockClass": "info-card-byr",
+            "textAlignment": "left"
+            }
+        },
+    "flex-layout.row#byr-alcance":{
+    "children":["flex-layout.col#byr-alcance"],
+    "props":{
+        "blockClass":["row-cloud-content"]
+    }
+    },
+    "flex-layout.col#byr-alcance":{
+        "children":[
+            "rich-text#subtitle-alcance",
+            "flex-layout.row#byr-alcance-quadruple-text"
+        ],
+        "props":{
+            "blockClass":["col-cloud-content"]
+        }
+    },
+    "rich-text#subtitle-alcance": {
+    "props": {
+        "text": "##### ALCANCE",
+        "blockClass": ["subtitle","subtitle-alcance"]
+        }
+    },
+    "flex-layout.row#byr-alcance-quadruple-text":{
+        "children":[
+            "flex-layout.col#byr-alcance-quadru-col-1",
+            "flex-layout.col#byr-alcance-quadru-col-2",
+            "flex-layout.col#byr-alcance-quadru-col-3",
+            "flex-layout.col#byr-alcance-quadru-col-4"
+        ],
+        "props":{
+            "blockClass":["row-cloud-content"]
+        }
+    },
+    "flex-layout.col#byr-alcance-quadru-col-1":{
+        "children":[
+            "rich-text#alcance-quadru-text-1"
+        ],
+        "props":{
+            "blockClass":["col-cloud-content"]
+        }
+    },
+    "rich-text#alcance-quadru-text-1": {
+    "props": {
+        "text": "##### SERVICIO IMOC (MONITOREO) \n\n **Monitoreo de red e infraestructura de TI** \n\n - Monitoreo del estado y rendimiento de la red. \n - Monitoreo de disponibilidad y capacidad de dispositivos. \n - Monitoreo de servicios en la nube. \n - Monitoreo de conexiones. \n - Monitoreo de los Logs de los Dispositivos de red. \n\n **Monitoreo y Correlación Eventos de Seguridad** \n\n - Monitoreo y correlación de eventos de seguridad. \n - Monitoreo de integridad de datos y archivos. \n - Monitoreo preventivo de amenazas (malware, phishing, virus). \n - Monitoreo denegación de servicio. \n - Monitoreo de seguridad en la nube.",
+        "blockClass": ["subtitle","alcance-quadru-text-1"]
+        }
+    },
+    "flex-layout.col#byr-alcance-quadru-col-2":{
+        "children":[
+            "rich-text#alcance-quadru-text-2"
+        ],
+        "props":{
+            "blockClass":["col-cloud-content"]
+        }
+    },
+    "rich-text#alcance-quadru-text-2": {
+    "props": {
+        "text": "##### SERVICIO DE SEGURIDAD PARA ENTORNOS MICROSOFT \n\n **Monitoreo de red e infraestructura de TI** \n\n - Configuración Políticas \"Exchange Online Protection\". \n - Configuración Antivirus y Control de Amenazas \"Microsoft Defender ATP\". \n - Implementación DLP para prevenir fugas de información. \n - Implementación Políticas de Seguridad para Directorio Activo. \n - Implementación Protección de Información “Azure Information Protection”. \n - Configuración Firewall, VPN. \n - Implementación Cloud App Security. \n - Implementación Correlación de Eventos de Seguridad \"Microsoft Sentinel\".",
+        "blockClass": ["subtitle","alcance-quadru-text-2"]
+        }
+    },
+    "flex-layout.col#byr-alcance-quadru-col-3":{
+        "children":[
+            "rich-text#alcance-quadru-text-3"
+        ],
+        "props":{
+            "blockClass":["col-cloud-content"]
+        }
+    },
+    "rich-text#alcance-quadru-text-3": {
+    "props": {
+        "text": "##### SERVICIOS DE GOBIERNO Y CUMPLIMIENTO \n\n **Servicios de Gobierno y Cumplimiento** \n - Implementación modelo gobierno seguridad de la información.\n - Cumplimiento lineamientos regulaciones y estándares de seguridad para diferentes sectores de la industria.\n - Análisis de vulnerabilidades.\n - Planes concientización y formación en seguridad de la información.\n - Asesoría en cumplimiento o cierres de brechas generadas por entes de control o auditorías.",
+        "blockClass": ["subtitle","alcance-quadru-text-2"]
+        }
+    },
+    "flex-layout.col#byr-alcance-quadru-col-4":{
+        "children":[
+            "rich-text#alcance-quadru-text-4",
+            "image#service-acronis",
+            "image#service-azure",
+            "image#service-dell"
+        ],
+        "props":{
+            "blockClass":["col-cloud-content"]
+        }
+    },
+    "rich-text#alcance-quadru-text-4": {
+    "props": {
+        "text": "##### SERVICIOS DE BACKUP AND RECOVERY \n\n **Servicios de Backup and Recovery** \n - Este servicio se ofrece a través de soluciones que respaldan la protección de la información en máquinas virtuales, servidores físicos, bases de datos.",
+        "blockClass": ["subtitle","alcance-quadru-text-4"]
+        }
+    },
+    "image#service-acronis":{
+        "props":{
+            "src":"https://orbeim.vteximg.com.br/arquivos/img-service-acronis.png",
+            "blockClass": "img-smart-service"
+        } 
+    },
+    "image#service-azure":{
+        "props":{
+            "src":"https://orbeim.vteximg.com.br/arquivos/img-service-azure.png",
+            "blockClass": "img-smart-service"
+        } 
+    },
+    "image#service-dell":{
+        "props":{
+            "src":"https://orbeim.vteximg.com.br/arquivos/img-service-dell.png",
+            "blockClass": "img-smart-service"
+        } 
+    }
+    
+}
