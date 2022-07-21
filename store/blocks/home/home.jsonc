@@ -101,19 +101,19 @@
           }
         },
         {
-          "image": "https://orbeim.vteximg.com.br/arquivos/banne-home-1-full.jpg",
-          "mobileImage": "https://orbeim.vteximg.com.br/arquivos/banner mobile-newBannerImpre.jpg",
+          "image": "https://orbeim.vteximg.com.br/arquivos/MOBILE-banner-pag-producto.jpg",
+          "mobileImage": "https://orbeim.vteximg.com.br/arquivos/MOBILE-banner-pag-producto.jpg",
           "link":{
             "url":"/hombre"
           }
-        },
+        }/* ,
         {
           "image": "https://orbeim.vteximg.com.br/arquivos/banne-home-1-full.jpg",
           "mobileImage": "https://orbeim.vteximg.com.br/arquivos/banner mobile-newBannerImpre.jpg",
           "link":{
             "url":"/coleccion/bosque-encantado"
           }
-        }
+        } */
       ]
     }
   },

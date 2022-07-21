@@ -11,6 +11,7 @@
    "children": ["image#disclosure-energies","rich-text#energies"],
    "props":{
        "blockClass":["btn-trigger-smart"]
+       
    }
  },
  "disclosure-content#energies": {
@@ -56,15 +57,21 @@
        "children": ["disclosure-trigger#smart-energies", "disclosure-content#smart-energies"]
     }, 
     "disclosure-trigger#smart-energies":{
-      "children": ["rich-text#smart-energies"]
+      "children": ["rich-text#smart-energies"],
+      "props":{
+          "blockClass":["sub-btn-trigger-smart"]
+      }
     },
     "disclosure-content#smart-energies": {
-      "children": [ "flex-layout.row#smart-energies"]
+      "children": [ "flex-layout.row#smart-energies"],
+      "props":{
+          "blockClass":["sub-content-disclosure-smart"]
+      }
     },
     "rich-text#smart-energies": {
      "props": {
-         "text": " ##### SMART ENERGIES",
-         "blockClass": ["subtitle","subtitle-smart-energies"]
+         "text": " ## Smart energies",
+         "blockClass": ["subtitle","subtitle-smart-energies","title-cloud"]
      }
     },
    "flex-layout.row#smart-energies":{

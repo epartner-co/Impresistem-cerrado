@@ -5,15 +5,21 @@
     "children": ["disclosure-trigger#backup-and-recovery", "disclosure-content#backup-and-recovery"]
     }, 
     "disclosure-trigger#backup-and-recovery":{
-    "children": ["rich-text#backup-and-recovery"]
+    "children": ["rich-text#backup-and-recovery"],
+    "props":{
+        "blockClass":["sub-btn-trigger-smart"]
+    }
     },
     "disclosure-content#backup-and-recovery": {
-    "children": [ "flex-layout.row#backup-and-recovery"]
+    "children": [ "flex-layout.row#backup-and-recovery"],
+    "props":{
+        "blockClass":["sub-content-disclosure-smart"]
+    }
     },
     "rich-text#backup-and-recovery": {
     "props": {
-        "text": " ##### BACKUP AND RECOVERY",
-        "blockClass": ["subtitle","subtitle-backup-and-recovery"]
+        "text": " ## Backup and recovery",
+        "blockClass": ["subtitle","subtitle-backup-and-recovery","title-cloud"]
     }
     },
     "flex-layout.row#backup-and-recovery":{

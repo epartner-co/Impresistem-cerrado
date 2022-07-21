@@ -5,15 +5,21 @@
         "children": ["disclosure-trigger#energias-renovables", "disclosure-content#energias-renovables"]
     }, 
     "disclosure-trigger#energias-renovables":{
-    "children": ["rich-text#energias-renovables"]
+    "children": ["rich-text#energias-renovables"],
+    "props":{
+        "blockClass":["sub-btn-trigger-smart"]
+    }
     },
     "disclosure-content#energias-renovables": {
-    "children": [ "flex-layout.row#energias-renovables"]
+    "children": [ "flex-layout.row#energias-renovables"],
+    "props":{
+        "blockClass":["sub-content-disclosure-smart"]
+    }
     },
     "rich-text#energias-renovables": {
     "props": {
-        "text": " ##### ENERGÍAS RENOVABLES",
-        "blockClass": ["subtitle","subtitle-energias-renovables"]
+        "text": " ## Energías renovables",
+        "blockClass": ["subtitle","subtitle-energias-renovables","title-cloud"]
     }
     },
     "flex-layout.row#energias-renovables":{

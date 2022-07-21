@@ -5,15 +5,21 @@
     "children": ["disclosure-trigger#energias-eventos", "disclosure-content#energias-eventos"]
     }, 
     "disclosure-trigger#energias-eventos":{
-    "children": ["rich-text#energias-eventos"]
+    "children": ["rich-text#energias-eventos"],
+    "props":{
+        "blockClass":["sub-btn-trigger-smart"]
+    }
     },
     "disclosure-content#energias-eventos": {
-    "children": [ "flex-layout.row#energias-eventos"]
+    "children": [ "flex-layout.row#energias-eventos"],
+    "props":{
+        "blockClass":["sub-content-disclosure-smart"]
+    }
     },
     "rich-text#energias-eventos": {
     "props": {
-        "text": " ##### EVENTOS",
-        "blockClass": ["subtitle","subtitle-energias-eventos"]
+        "text": " ## Eventos",
+        "blockClass": ["subtitle","subtitle-energias-eventos","title-cloud"]
     }
     },
     "flex-layout.row#energias-eventos":{
