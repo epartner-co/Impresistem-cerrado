@@ -5,14 +5,20 @@
         "children": ["disclosure-trigger#teamviewer", "disclosure-content#teamviewer"]
      }, 
      "disclosure-trigger#teamviewer":{
-       "children": ["rich-text#teamviewer"]
+       "children": ["rich-text#teamviewer"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#teamviewer": {
-       "children": [ "flex-layout.row#teamviewer"]
+       "children": [ "flex-layout.row#teamviewer"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
      "rich-text#teamviewer": {
       "props": {
-          "text": " ##### TEAMVIEWER",
+          "text": " ## Teamviewer",
           "blockClass": ["subtitle","subtitle-teamviewer"]
       }
   },

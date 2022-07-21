@@ -2,18 +2,27 @@
     //------disclosure energies
 
 "disclosure-layout#energies":{
-    "children": ["disclosure-trigger#energies", "disclosure-content#energies"]
+    "children": ["disclosure-trigger#energies", "disclosure-content#energies"],
+    "props":{
+        "blockClass":["btn-trigger-smart"]
+    }
  },
  "disclosure-trigger#energies": {
-   "children": ["image#disclosure-energies","rich-text#energies"]
+   "children": ["image#disclosure-energies","rich-text#energies"],
+   "props":{
+       "blockClass":["btn-trigger-smart"]
+   }
  },
  "disclosure-content#energies": {
-   "children": ["flex-layout.row#disclosure-smart-energies"]
+   "children": ["flex-layout.row#disclosure-smart-energies"],
+   "props":{
+       "blockClass":["content-disclosure-smart"]
+   }
  },
  "rich-text#energies": {
    "props": {
        "text": "SMART ENERGIES",
-       "blockClass": "smart-energies--text"
+       "blockClass": "smart--text"
    }
 },
    //imagen disclosure trigger

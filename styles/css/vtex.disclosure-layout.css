@@ -1,0 +1,81 @@
+.trigger--btn-trigger-smart{
+    background-color: #fff;
+    margin-bottom: 20px;
+    border: 1px solid #D3D3E9;
+}
+.trigger--btn-trigger-smart--visible{
+    background-color: #fff;
+    border-left: 1px solid #D3D3E9;
+    border-top: 1px solid #D3D3E9;
+    border-right: 1px solid #D3D3E9;
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.content--content-disclosure-smart--visible{
+    margin-bottom: 20px;
+    border-left: 1px solid #D3D3E9;
+    border-bottom: 1px solid #D3D3E9;
+    border-right: 1px solid #D3D3E9;
+    padding: 15px;
+}
+.trigger--btn-trigger-smart--visible :global(.vtex-rich-text-0-x-paragraph--smart--text)::after{
+    content: "";
+    background: url("https://orbeim.vteximg.com.br/arquivos/triangle-trigger.png") no-repeat;
+    background-size: 100%;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 7%;
+  }
+.trigger--btn-trigger-smart--hidden :global(.vtex-rich-text-0-x-paragraph--smart--text)::after{
+    content: "";
+    background: url("https://orbeim.vteximg.com.br/arquivos/triangle-trigger.png") no-repeat;
+    background-size: 100%;
+    width: 15px;
+    height: 15px;
+    transform: rotate(180deg);
+    position: absolute;
+    right: 7%;
+}
+.trigger--sub-btn-trigger-smart{
+    width: 100%;
+    border: 1px solid #d3d3d3 ;
+    height: 50px;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    background-color: #F2F2F2;
+}
+.trigger--sub-btn-trigger-smart--hidden :global(.vtex-rich-text-0-x-headingLevel2)::after{
+    content: "";
+    background: url("https://orbeim.vteximg.com.br/arquivos/triangle-trigger.png") no-repeat;
+    background-size: 100%;
+    width: 15px;
+    height: 15px;
+    transform: rotate(180deg);
+    position: absolute;
+    right: 8%;
+}
+.trigger--sub-btn-trigger-smart--visible :global(.vtex-rich-text-0-x-headingLevel2)::after{
+    content: "";
+    background: url("https://orbeim.vteximg.com.br/arquivos/triangle-trigger.png") no-repeat;
+    background-size: 100%;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 8%;
+}
+.trigger--sub-btn-trigger-smart--visible{
+    background-color: #F2F2F2;
+    border-left: 1px solid #D3D3E9;
+    border-top: 1px solid #D3D3E9;
+    border-right: 1px solid #D3D3E9;
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.content--sub-content-disclosure-smart--visible{
+    background-color: #F2F2F2;
+    margin-bottom: 20px;
+    border-left: 1px solid #D3D3E9;
+    border-bottom: 1px solid #D3D3E9;
+    border-right: 1px solid #D3D3E9;
+}

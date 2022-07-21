@@ -2,18 +2,27 @@
     //------disclosure services
 
 "disclosure-layout#services":{
-    "children": ["disclosure-trigger#services", "disclosure-content#services"]
+    "children": ["disclosure-trigger#services", "disclosure-content#services"],
+    "props":{
+        "blockClass":["btn-trigger-smart"]
+    }
  },
  "disclosure-trigger#services": {
-   "children": ["image#disclosure-services","rich-text#services"]
+   "children": ["image#disclosure-services","rich-text#services"],
+   "props":{
+       "blockClass":["btn-trigger-smart"]
+   }
  },
  "disclosure-content#services": {
-   "children": ["flex-layout.row#smart-services"]
+   "children": ["flex-layout.row#smart-services"],
+   "props":{
+       "blockClass":["content-disclosure-smart"]
+   }
  },
  "rich-text#services": {
    "props": {
        "text": "SMART SERVICES",
-       "blockClass": "smart-services--text"
+       "blockClass": "smart--text"
    }
 },
     "flex-layout.row#smart-services":{

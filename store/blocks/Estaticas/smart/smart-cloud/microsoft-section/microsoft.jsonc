@@ -3,10 +3,16 @@
         "children": ["disclosure-trigger#microsoft", "disclosure-content#microsoft"]
      }, 
      "disclosure-trigger#microsoft":{
-       "children": ["rich-text#title-microsoft"]
+       "children": ["rich-text#title-microsoft"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#microsoft": {
-       "children": [ "flex-layout.row#microsoft"]
+       "children": [ "flex-layout.row#microsoft"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#microsoft":{
         "children":["flex-layout.col#microsoft"],

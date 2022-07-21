@@ -784,7 +784,10 @@ position: relative;
   margin-left: 5vw;
   width: 80VW;
 }
-
-
 }
-
+.imageElement--image-subestatica{
+  margin: 10px;
+}
+:global(.vtex-store-video-1-x-videoContainer--cloud-video-1){
+  margin: 0 10px;
+}

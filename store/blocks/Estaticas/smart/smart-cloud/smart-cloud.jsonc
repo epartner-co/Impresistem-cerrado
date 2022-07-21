@@ -5,15 +5,21 @@
     "children": ["disclosure-trigger#cloud", "disclosure-content#cloud"]
 },
   "disclosure-trigger#cloud": {
-    "children": ["image#bannermain","rich-text#cloud"]
+    "children": ["image#bannermain","rich-text#cloud"],
+    "props":{
+        "blockClass":["btn-trigger-smart"]
+    }
   },
   "disclosure-content#cloud": {
-    "children": [ "flex-layout.row#cloud-content"]
+    "children": [ "flex-layout.row#cloud-content"],
+    "props":{
+        "blockClass":["content-disclosure-smart"]
+    }
   },
   "rich-text#cloud": {
     "props": {
         "text": "SMART CLOUD",
-        "blockClass": "smart-cloud--text"
+        "blockClass": "smart--text"
     }
 },  
 

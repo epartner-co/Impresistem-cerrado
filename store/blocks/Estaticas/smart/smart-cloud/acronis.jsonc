@@ -3,10 +3,16 @@
     "children": ["disclosure-trigger#acronis", "disclosure-content#acronis"]
  },
  "disclosure-trigger#acronis": {
-   "children": ["rich-text#title-acronis"]
+   "children": ["rich-text#title-acronis"],
+   "props":{
+       "blockClass":["sub-btn-trigger-smart"]
+   }
  },
  "disclosure-content#acronis": {
-   "children": [ "flex-layout.row#acronis"]
+   "children": [ "flex-layout.row#acronis"],
+   "props":{
+       "blockClass":["sub-content-disclosure-smart"]
+   }
  },
   "flex-layout.row#acronis":{
     "children":["flex-layout.col#acronis"],

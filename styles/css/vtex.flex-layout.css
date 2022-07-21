@@ -1021,12 +1021,12 @@
   margin-left: auto;
   margin-bottom: 2vh;
 }
-
-
-
 }
-
-
+.flexRowContent--banner--main--smart :global(.vtex-store-components-3-x-imageElement--img-manner--desk){
+   position: absolute;
+   right: 0;
+   left: 0;
+ }
 
 
 

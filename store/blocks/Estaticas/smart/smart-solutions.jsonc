@@ -25,6 +25,7 @@
     "responsive-layout.desktop#solutions-Desktop":{
       "children": [
         "flex-layout.row#banner-text",
+        "rich-text#smart-text",
         "disclosure-layout#cloud",
         "disclosure-layout#energies",
         "disclosure-layout#services"
@@ -43,7 +44,7 @@
         }
     },
      "flex-layout.col#banner-text":{
-        "children":["flex-layout.row#banner-smart","rich-text#smart-text"],
+        "children":["flex-layout.row#banner-smart"],
         "props":{
             "blockClass":["banner--main--smart"]
         }
@@ -63,7 +64,7 @@
     },
         "image#bannermain-smart":{
             "props":{
-                "src":"https://orbeim.vteximg.com.br/arquivos/banner1-desk.png",
+                "src":"https://orbeim.vteximg.com.br/arquivos/banner-smart-solutions.png",
                 "blockClass": "img-manner--desk"
             } 
         },
@@ -75,8 +76,8 @@
         },
         "rich-text#smart-text": {
             "props": {
-                "text": "En Smart Solutions ofrecemos soluciones  donde encontrara un portafolio de soluciones de Cloud, encaminadas a la transformación digital y la innovación empresarial. Somos líderes modernos y aliados experimentados, conocemos las necesidades de las industrias y ofrecemos soluciones seguras, respaldadas en Cloud. En Impresistem contamos con servicios especializados exclusivos para nuestros clientes, contamos con un equipo altamente calificado para afrontar los diferentes retos de la industria enfocándonos en tecnologías de Ciberseguridad y analítica.",
-                "blockClass": "smart--text"
+                "text": "En Smart Solutions ofrecemos soluciones  donde encontrara un portafolio de soluciones de Cloud, encaminadas a la transformación digital y la innovación empresarial. Somos líderes modernos y aliados experimentados, conocemos las necesidades de las industrias y ofrecemos soluciones seguras, respaldadas en Cloud. \n\n En Impresistem contamos con servicios especializados exclusivos para nuestros clientes, contamos con un equipo altamente calificado para afrontar los diferentes retos de la industria enfocándonos en tecnologías de Ciberseguridad y analítica.",
+                "blockClass": "smart-text"
             }
         }
    
