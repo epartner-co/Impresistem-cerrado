@@ -5,10 +5,16 @@
         "children": ["disclosure-trigger#nube", "disclosure-content#nube"]
      }, 
      "disclosure-trigger#nube":{
-       "children": ["rich-text#trigger-nube"]
+       "children": ["rich-text#trigger-nube"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#nube": {
-       "children": [ "flex-layout.row#nube"]
+       "children": [ "flex-layout.row#nube"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#nube":{
         "children":["flex-layout.col#nube"],
@@ -26,8 +32,8 @@
     },
     "rich-text#trigger-nube": {
         "props": {
-            "text": " ##### Nube",
-            "blockClass": ["subtitle","subtitle-nube"]
+            "text": " ### Nube",
+            "blockClass": ["subtitle","subtitle-nube","subtitle-gris"]
         }
     },
     "rich-text#content-nube": {
@@ -42,10 +48,16 @@
         "children": ["disclosure-trigger#info-nube", "disclosure-content#info-nube"]
      }, 
      "disclosure-trigger#info-nube":{
-       "children": ["rich-text#trigger-info-nube"]
+       "children": ["rich-text#trigger-info-nube"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#info-nube": {
-       "children": [ "flex-layout.row#info-nube"]
+       "children": [ "flex-layout.row#info-nube"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#info-nube":{
         "children":["flex-layout.col#info-nube"],
@@ -63,8 +75,8 @@
     },
     "rich-text#trigger-info-nube": {
         "props": {
-            "text": " ##### Informática en la nube",
-            "blockClass": ["subtitle","subtitle-info-nube"]
+            "text": " ### Informática en la nube",
+            "blockClass": ["subtitle","subtitle-info-nube","subtitle-gris"]
         }
     },
     "rich-text#content-info-nube": {
@@ -79,10 +91,16 @@
         "children": ["disclosure-trigger#proveedor-nube", "disclosure-content#proveedor-nube"]
      }, 
      "disclosure-trigger#proveedor-nube":{
-       "children": ["rich-text#trigger-proveedor-nube"]
+       "children": ["rich-text#trigger-proveedor-nube"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#proveedor-nube": {
-       "children": [ "flex-layout.row#proveedor-nube"]
+       "children": [ "flex-layout.row#proveedor-nube"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#proveedor-nube":{
         "children":["flex-layout.col#proveedor-nube"],
@@ -100,8 +118,8 @@
     },
     "rich-text#trigger-proveedor-nube": {
         "props": {
-            "text": " ##### Proveedor de servicios en la nube",
-            "blockClass": ["subtitle","subtitle-proveedor-nube"]
+            "text": " ### Proveedor de servicios en la nube",
+            "blockClass": ["subtitle","subtitle-proveedor-nube","subtitle-gris"]
         }
     },
     "rich-text#content-proveedor-nube": {
@@ -116,10 +134,16 @@
         "children": ["disclosure-trigger#mallas-pc", "disclosure-content#mallas-pc"]
      }, 
      "disclosure-trigger#mallas-pc":{
-       "children": ["rich-text#trigger-mallas-pc"]
+       "children": ["rich-text#trigger-mallas-pc"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#mallas-pc": {
-       "children": [ "flex-layout.row#mallas-pc"]
+       "children": [ "flex-layout.row#mallas-pc"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#mallas-pc":{
         "children":["flex-layout.col#mallas-pc"],
@@ -137,8 +161,8 @@
     },
     "rich-text#trigger-mallas-pc": {
         "props": {
-            "text": " ##### Mallas de PC",
-            "blockClass": ["subtitle","subtitle-mallas-pc"]
+            "text": " ### Mallas de PC",
+            "blockClass": ["subtitle","subtitle-mallas-pc","subtitle-gris"]
         }
     },
     "rich-text#content-mallas-pc": {
@@ -153,10 +177,16 @@
         "children": ["disclosure-trigger#DevOps", "disclosure-content#DevOps"]
      }, 
      "disclosure-trigger#DevOps":{
-       "children": ["rich-text#trigger-DevOps"]
+       "children": ["rich-text#trigger-DevOps"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#DevOps": {
-       "children": [ "flex-layout.row#DevOps"]
+       "children": [ "flex-layout.row#DevOps"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#DevOps":{
         "children":["flex-layout.col#DevOps"],
@@ -174,8 +204,8 @@
     },
     "rich-text#trigger-DevOps": {
         "props": {
-            "text": " ##### DevOps",
-            "blockClass": ["subtitle","subtitle-DevOps"]
+            "text": " ### DevOps",
+            "blockClass": ["subtitle","subtitle-DevOps","subtitle-gris"]
         }
     },
     "rich-text#content-DevOps": {
@@ -190,10 +220,17 @@
         "children": ["disclosure-trigger#nube-hibrida", "disclosure-content#nube-hibrida"]
      }, 
      "disclosure-trigger#nube-hibrida":{
-       "children": ["rich-text#trigger-nube-hibrida"]
+       "children": ["rich-text#trigger-nube-hibrida"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
+
      },
      "disclosure-content#nube-hibrida": {
-       "children": [ "flex-layout.row#nube-hibrida"]
+       "children": [ "flex-layout.row#nube-hibrida"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#nube-hibrida":{
         "children":["flex-layout.col#nube-hibrida"],
@@ -211,8 +248,8 @@
     },
     "rich-text#trigger-nube-hibrida": {
         "props": {
-            "text": " ##### Nube híbrida",
-            "blockClass": ["subtitle","subtitle-nube-hibrida"]
+            "text": " ### Nube híbrida",
+            "blockClass": ["subtitle","subtitle-nube-hibrida","subtitle-gris"]
         }
     },
     "rich-text#content-nube-hibrida": {
@@ -227,10 +264,16 @@
         "children": ["disclosure-trigger#aprendizaje-automatico", "disclosure-content#aprendizaje-automatico"]
      }, 
      "disclosure-trigger#aprendizaje-automatico":{
-       "children": ["rich-text#trigger-aprendizaje-automatico"]
+       "children": ["rich-text#trigger-aprendizaje-automatico"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#aprendizaje-automatico": {
-       "children": [ "flex-layout.row#aprendizaje-automatico"]
+       "children": [ "flex-layout.row#aprendizaje-automatico"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#aprendizaje-automatico":{
         "children":["flex-layout.col#aprendizaje-automatico"],
@@ -248,8 +291,8 @@
     },
     "rich-text#trigger-aprendizaje-automatico": {
         "props": {
-            "text": " ##### Aprendizaje automático",
-            "blockClass": ["subtitle","subtitle-aprendizaje-automatico"]
+            "text": " ### Aprendizaje automático",
+            "blockClass": ["subtitle","subtitle-aprendizaje-automatico","subtitle-gris"]
         }
     },
     "rich-text#content-aprendizaje-automatico": {
@@ -264,10 +307,17 @@
         "children": ["disclosure-trigger#middleware", "disclosure-content#middleware"]
      }, 
      "disclosure-trigger#middleware":{
-       "children": ["rich-text#trigger-middleware"]
+       "children": ["rich-text#trigger-middleware"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
+
      },
      "disclosure-content#middleware": {
-       "children": [ "flex-layout.row#middleware"]
+       "children": [ "flex-layout.row#middleware"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#middleware":{
         "children":["flex-layout.col#middleware"],
@@ -285,8 +335,8 @@
     },
     "rich-text#trigger-middleware": {
         "props": {
-            "text": " ##### Middleware",
-            "blockClass": ["subtitle","subtitle-middleware"]
+            "text": " ### Middleware",
+            "blockClass": ["subtitle","subtitle-middleware","subtitle-gris"]
         }
     },
     "rich-text#content-middleware": {
@@ -301,10 +351,16 @@
         "children": ["disclosure-trigger#paas", "disclosure-content#paas"]
      }, 
      "disclosure-trigger#paas":{
-       "children": ["rich-text#trigger-paas"]
+       "children": ["rich-text#trigger-paas"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#paas": {
-       "children": [ "flex-layout.row#paas"]
+       "children": [ "flex-layout.row#paas"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#paas":{
         "children":["flex-layout.col#paas"],
@@ -322,8 +378,8 @@
     },
     "rich-text#trigger-paas": {
         "props": {
-            "text": " ##### Plataforma como servicio (PaaS)",
-            "blockClass": ["subtitle","subtitle-paas"]
+            "text": " ### Plataforma como servicio (PaaS)",
+            "blockClass": ["subtitle","subtitle-paas","subtitle-gris"]
         }
     },
     "rich-text#content-paas": {
@@ -338,10 +394,16 @@
         "children": ["disclosure-trigger#nube-publica", "disclosure-content#nube-publica"]
      }, 
      "disclosure-trigger#nube-publica":{
-       "children": ["rich-text#trigger-nube-publica"]
+       "children": ["rich-text#trigger-nube-publica"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#nube-publica": {
-       "children": [ "flex-layout.row#nube-publica"]
+       "children": [ "flex-layout.row#nube-publica"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#nube-publica":{
         "children":["flex-layout.col#nube-publica"],
@@ -359,8 +421,8 @@
     },
     "rich-text#trigger-nube-publica": {
         "props": {
-            "text": " ##### Nube pública",
-            "blockClass": ["subtitle","subtitle-nube-publica"]
+            "text": " ### Nube pública",
+            "blockClass": ["subtitle","subtitle-nube-publica","subtitle-gris"]
         }
     },
     "rich-text#content-nube-publica": {
@@ -375,10 +437,16 @@
         "children": ["disclosure-trigger#informatica-sin-servidor", "disclosure-content#informatica-sin-servidor"]
      }, 
      "disclosure-trigger#informatica-sin-servidor":{
-       "children": ["rich-text#trigger-informatica-sin-servidor"]
+       "children": ["rich-text#trigger-informatica-sin-servidor"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#informatica-sin-servidor": {
-       "children": [ "flex-layout.row#informatica-sin-servidor"]
+       "children": [ "flex-layout.row#informatica-sin-servidor"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#informatica-sin-servidor":{
         "children":["flex-layout.col#informatica-sin-servidor"],
@@ -396,8 +464,8 @@
     },
     "rich-text#trigger-informatica-sin-servidor": {
         "props": {
-            "text": " ##### Informática sin servidor",
-            "blockClass": ["subtitle","subtitle-informatica-sin-servidor"]
+            "text": " ### Informática sin servidor",
+            "blockClass": ["subtitle","subtitle-informatica-sin-servidor","subtitle-gris"]
         }
     },
     "rich-text#content-informatica-sin-servidor": {
@@ -412,10 +480,16 @@
         "children": ["disclosure-trigger#virtualizacion", "disclosure-content#virtualizacion"]
      }, 
      "disclosure-trigger#virtualizacion":{
-       "children": ["rich-text#trigger-virtualizacion"]
+       "children": ["rich-text#trigger-virtualizacion"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#virtualizacion": {
-       "children": [ "flex-layout.row#virtualizacion"]
+       "children": [ "flex-layout.row#virtualizacion"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#virtualizacion":{
         "children":["flex-layout.col#virtualizacion"],
@@ -433,8 +507,8 @@
     },
     "rich-text#trigger-virtualizacion": {
         "props": {
-            "text": " ##### Virtualización",
-            "blockClass": ["subtitle","subtitle-virtualizacion"]
+            "text": " ### Virtualización",
+            "blockClass": ["subtitle","subtitle-virtualizacion","subtitle-gris"]
         }
     },
     "rich-text#content-virtualizacion": {

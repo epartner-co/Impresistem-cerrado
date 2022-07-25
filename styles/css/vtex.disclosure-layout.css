@@ -64,6 +64,20 @@
     position: absolute;
     right: 8%;
 }
+.trigger--sub-btn-trigger-smart--hidden :global(.vtex-rich-text-0-x-wrapper--subtitle-gris) :global(.vtex-rich-text-0-x-headingLevel3){
+    background: url("https://orbeim.vteximg.com.br/arquivos/triangle-trigger-invert.png") no-repeat;
+    background-size: 100%;
+    background-size: auto;
+    background-position-y:center ;
+    background-position-x: right;
+}
+.trigger--sub-btn-trigger-smart--visible :global(.vtex-rich-text-0-x-wrapper--subtitle-gris) :global(.vtex-rich-text-0-x-headingLevel3){
+    background: url("https://orbeim.vteximg.com.br/arquivos/triangle-trigger.png") no-repeat;
+    background-size: 100%;
+    background-size: auto;
+    background-position-y:center ;
+    background-position-x: right;    
+}
 .trigger--sub-btn-trigger-smart--visible{
     background-color: #F2F2F2;
     border-left: 1px solid #D3D3E9;

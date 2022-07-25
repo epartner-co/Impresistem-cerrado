@@ -5,13 +5,19 @@
         "children": ["disclosure-trigger#glosario", "disclosure-content#glosario"]
      }, 
      "disclosure-trigger#glosario":{
-       "children": ["rich-text#glosario"]
+       "children": ["rich-text#glosario"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#glosario": {
        "children": [ 
         "flex-layout.row#glosario",
         "flex-layout.row#buttons-glosario"
-    ]
+    ],
+    "props":{
+        "blockClass":["sub-content-disclosure-smart"]
+    }
      },
       "flex-layout.row#glosario":{
         "children":["flex-layout.col#glosario"],
@@ -29,8 +35,8 @@
     },
     "rich-text#glosario": {
         "props": {
-            "text": " ##### GLOSARIO",
-            "blockClass": ["subtitle","subtitle-glosario"]
+            "text": " ## Glosario",
+            "blockClass": ["subtitle","subtitle-glosario","subtitle-azul"]
         }
     },
     "flex-layout.row#columns-glosario":{

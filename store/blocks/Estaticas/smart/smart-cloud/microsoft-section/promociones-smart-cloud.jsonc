@@ -5,10 +5,16 @@
             "children": ["disclosure-trigger#promociones-smart-cloud", "disclosure-content#promociones-smart-cloud"]
          }, 
          "disclosure-trigger#promociones-smart-cloud":{
-           "children": ["rich-text#promociones-smart-cloud"]
+           "children": ["rich-text#promociones-smart-cloud"],
+           "props":{
+               "blockClass":["sub-btn-trigger-smart"]
+           }
          },
          "disclosure-content#promociones-smart-cloud": {
-           "children": [ "flex-layout.row#promociones-smart-cloud"]
+           "children": [ "flex-layout.row#promociones-smart-cloud"],
+           "props":{
+               "blockClass":["sub-content-disclosure-smart"]
+           }
          },
           "flex-layout.row#promociones-smart-cloud":{
             "children":["flex-layout.col#promociones-smart-cloud"],
@@ -28,8 +34,8 @@
         },
         "rich-text#promociones-smart-cloud": {
             "props": {
-                "text": " ##### PROMOCIONES SMART CLOUD",
-                "blockClass": ["subtitle","subtitle-portafolio-servicios"]
+                "text": " ## Promociones smart cloud",
+                "blockClass": ["subtitle","subtitle-portafolio-servicios","subtitle-azul"]
             }
         },
         "rich-text#promociones-smart-cloud-1": {

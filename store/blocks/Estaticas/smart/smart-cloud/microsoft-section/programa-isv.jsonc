@@ -5,15 +5,21 @@
         "children": ["disclosure-trigger#programa-isv", "disclosure-content#programa-isv"]
      }, 
      "disclosure-trigger#programa-isv":{
-       "children": ["rich-text#programa-isv"]
+       "children": ["rich-text#programa-isv"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#programa-isv": {
-       "children": [ "flex-layout.row#programa-isv"]
+       "children": [ "flex-layout.row#programa-isv"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
      "rich-text#programa-isv": {
       "props": {
-          "text": " ##### PROGRAMA ISV DESARROLLO",
-          "blockClass": ["subtitle","subtitle-programa-isv"]
+          "text": " ## Programa ISV desarrollo",
+          "blockClass": ["subtitle","subtitle-programa-isv","subtitle-azul"]
       }
   },
       "flex-layout.row#programa-isv":{

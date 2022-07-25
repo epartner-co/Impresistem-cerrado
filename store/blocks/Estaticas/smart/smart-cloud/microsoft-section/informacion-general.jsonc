@@ -5,10 +5,16 @@
         "children": ["disclosure-trigger#microsoft-informacion-general", "disclosure-content#microsoft-informacion-general"]
      }, 
      "disclosure-trigger#microsoft-informacion-general":{
-       "children": ["rich-text#title-microsoft-informacion"]
+       "children": ["rich-text#title-microsoft-informacion"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#microsoft-informacion-general": {
-       "children": [ "flex-layout.row#microsoft-informacion-general"]
+       "children": [ "flex-layout.row#microsoft-informacion-general"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#microsoft-informacion-general":{
         "children":["flex-layout.col#microsoft-informacion-general"],
@@ -28,8 +34,8 @@
     },
     "rich-text#title-microsoft-informacion": {
         "props": {
-            "text": " ##### INFORMACIÓN GENERAL",
-            "blockClass": ["subtitle","subtitle-informacion"]
+            "text": " ## Información general",
+            "blockClass": ["subtitle","subtitle-informacion","subtitle-azul"]
         }
     },
     "rich-text#microsoft-text-1": {

@@ -5,10 +5,16 @@
         "children": ["disclosure-trigger#afinnia", "disclosure-content#afinnia"]
      }, 
      "disclosure-trigger#afinnia":{
-       "children": ["rich-text#trigger-afinnia"]
+       "children": ["rich-text#trigger-afinnia"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#afinnia": {
-       "children": [ "flex-layout.row#afinnia"]
+       "children": [ "flex-layout.row#afinnia"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#afinnia":{
         "children":["flex-layout.col#afinnia"],
@@ -26,8 +32,8 @@
     },
     "rich-text#trigger-afinnia": {
         "props": {
-            "text": " ##### AFINNIA",
-            "blockClass": ["subtitle","subtitle-afinnia"]
+            "text": " ### Afinnia",
+            "blockClass": ["subtitle","subtitle-afinnia","subtitle-gris"]
         }
     },
     "rich-text#content-afinnia": {
@@ -43,10 +49,16 @@
         "children": ["disclosure-trigger#BI", "disclosure-content#BI"]
      }, 
      "disclosure-trigger#BI":{
-       "children": ["rich-text#trigger-BI"]
+       "children": ["rich-text#trigger-BI"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#BI": {
-       "children": [ "flex-layout.row#BI"]
+       "children": [ "flex-layout.row#BI"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#BI":{
         "children":["flex-layout.col#BI"],
@@ -64,8 +76,8 @@
     },
     "rich-text#trigger-BI": {
         "props": {
-            "text": " ##### Herramientas de inteligencia empresarial (BI)",
-            "blockClass": ["subtitle","subtitle-BI"]
+            "text": " ### Herramientas de inteligencia empresarial (BI)",
+            "blockClass": ["subtitle","subtitle-BI" ,"subtitle-gris"]
         }
     },
     "rich-text#content-BI": {
@@ -81,10 +93,16 @@
         "children": ["disclosure-trigger#ampliacion-nube", "disclosure-content#ampliacion-nube"]
      }, 
      "disclosure-trigger#ampliacion-nube":{
-       "children": ["rich-text#trigger-ampliacion-nube"]
+       "children": ["rich-text#trigger-ampliacion-nube"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#ampliacion-nube": {
-       "children": [ "flex-layout.row#ampliacion-nube"]
+       "children": [ "flex-layout.row#ampliacion-nube"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#ampliacion-nube":{
         "children":["flex-layout.col#ampliacion-nube"],
@@ -102,8 +120,8 @@
     },
     "rich-text#trigger-ampliacion-nube": {
         "props": {
-            "text": " ##### Ampliación en la nube",
-            "blockClass": ["subtitle","subtitle-ampliacion-nube"]
+            "text": " ### Ampliación en la nube",
+            "blockClass": ["subtitle","subtitle-ampliacion-nube","subtitle-gris"]
         }
     },
     "rich-text#content-ampliacion-nube": {
@@ -119,10 +137,16 @@
         "children": ["disclosure-trigger#informatica-nube", "disclosure-content#informatica-nube"]
      }, 
      "disclosure-trigger#informatica-nube":{
-       "children": ["rich-text#trigger-informatica-nube"]
+       "children": ["rich-text#trigger-informatica-nube"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#informatica-nube": {
-       "children": [ "flex-layout.row#informatica-nube"]
+       "children": [ "flex-layout.row#informatica-nube"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#informatica-nube":{
         "children":["flex-layout.col#informatica-nube"],
@@ -140,8 +164,8 @@
     },
     "rich-text#trigger-informatica-nube": {
         "props": {
-            "text": " ##### Tipos de informática en la nube",
-            "blockClass": ["subtitle","subtitle-informatica-nube"]
+            "text": " ### Tipos de informática en la nube",
+            "blockClass": ["subtitle","subtitle-informatica-nube","subtitle-gris"]
         }
     },
     "rich-text#content-informatica-nube": {
@@ -157,10 +181,17 @@
         "children": ["disclosure-trigger#almacenamiento-nube", "disclosure-content#almacenamiento-nube"]
      }, 
      "disclosure-trigger#almacenamiento-nube":{
-       "children": ["rich-text#trigger-almacenamiento-nube"]
+       "children": ["rich-text#trigger-almacenamiento-nube"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
+
      },
      "disclosure-content#almacenamiento-nube": {
-       "children": [ "flex-layout.row#almacenamiento-nube"]
+       "children": [ "flex-layout.row#almacenamiento-nube"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#almacenamiento-nube":{
         "children":["flex-layout.col#almacenamiento-nube"],
@@ -178,8 +209,8 @@
     },
     "rich-text#trigger-almacenamiento-nube": {
         "props": {
-            "text": " ##### Almacenamiento en la nube",
-            "blockClass": ["subtitle","subtitle-almacenamiento-nube"]
+            "text": " ### Almacenamiento en la nube",
+            "blockClass": ["subtitle","subtitle-almacenamiento-nube","subtitle-gris"]
         }
     },
     "rich-text#content-almacenamiento-nube": {
@@ -195,10 +226,16 @@
         "children": ["disclosure-trigger#particionamiento-bd", "disclosure-content#particionamiento-bd"]
      }, 
      "disclosure-trigger#particionamiento-bd":{
-       "children": ["rich-text#trigger-particionamiento-bd"]
+       "children": ["rich-text#trigger-particionamiento-bd"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#particionamiento-bd": {
-       "children": [ "flex-layout.row#particionamiento-bd"]
+       "children": [ "flex-layout.row#particionamiento-bd"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#particionamiento-bd":{
         "children":["flex-layout.col#particionamiento-bd"],
@@ -216,8 +253,8 @@
     },
     "rich-text#trigger-particionamiento-bd": {
         "props": {
-            "text": " ##### Particionamiento de bases de datos",
-            "blockClass": ["subtitle","subtitle-particionamiento-bd"]
+            "text": " ### Particionamiento de bases de datos",
+            "blockClass": ["subtitle","subtitle-particionamiento-bd","subtitle-gris"]
         }
     },
     "rich-text#content-particionamiento-bd": {
@@ -233,10 +270,16 @@
         "children": ["disclosure-trigger#informatica-elastica", "disclosure-content#informatica-elastica"]
      }, 
      "disclosure-trigger#informatica-elastica":{
-       "children": ["rich-text#trigger-informatica-elastica"]
+       "children": ["rich-text#trigger-informatica-elastica"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#informatica-elastica": {
-       "children": [ "flex-layout.row#informatica-elastica"]
+       "children": [ "flex-layout.row#informatica-elastica"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#informatica-elastica":{
         "children":["flex-layout.col#informatica-elastica"],
@@ -254,8 +297,8 @@
     },
     "rich-text#trigger-informatica-elastica": {
         "props": {
-            "text": " ##### Informática elástica",
-            "blockClass": ["subtitle","subtitle-informatica-elastica"]
+            "text": " ### Informática elástica",
+            "blockClass": ["subtitle","subtitle-informatica-elastica","subtitle-gris"]
         }
     },
     "rich-text#content-informatica-elastica": {
@@ -271,10 +314,16 @@
         "children": ["disclosure-trigger#infra-iaas", "disclosure-content#infra-iaas"]
      }, 
      "disclosure-trigger#infra-iaas":{
-       "children": ["rich-text#trigger-infra-iaas"]
+       "children": ["rich-text#trigger-infra-iaas"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#infra-iaas": {
-       "children": [ "flex-layout.row#infra-iaas"]
+       "children": [ "flex-layout.row#infra-iaas"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#infra-iaas":{
         "children":["flex-layout.col#infra-iaas"],
@@ -292,8 +341,8 @@
     },
     "rich-text#trigger-infra-iaas": {
         "props": {
-            "text": " ##### Infraestructura como servicio (IaaS)",
-            "blockClass": ["subtitle","subtitle-infra-iaas"]
+            "text": " ### Infraestructura como servicio (IaaS)",
+            "blockClass": ["subtitle","subtitle-infra-iaas","subtitle-gris"]
         }
     },
     "rich-text#content-infra-iaas": {
@@ -309,10 +358,16 @@
         "children": ["disclosure-trigger#algoritmos-auto", "disclosure-content#algoritmos-auto"]
      }, 
      "disclosure-trigger#algoritmos-auto":{
-       "children": ["rich-text#trigger-algoritmos-auto"]
+       "children": ["rich-text#trigger-algoritmos-auto"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#algoritmos-auto": {
-       "children": [ "flex-layout.row#algoritmos-auto"]
+       "children": [ "flex-layout.row#algoritmos-auto"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#algoritmos-auto":{
         "children":["flex-layout.col#algoritmos-auto"],
@@ -330,8 +385,8 @@
     },
     "rich-text#trigger-algoritmos-auto": {
         "props": {
-            "text": " ##### Algoritmos de aprendizaje automático",
-            "blockClass": ["subtitle","subtitle-algoritmos-auto"]
+            "text": " ### Algoritmos de aprendizaje automático",
+            "blockClass": ["subtitle","subtitle-algoritmos-auto","subtitle-gris"]
         }
     },
     "rich-text#content-algoritmos-auto": {
@@ -347,10 +402,16 @@
         "children": ["disclosure-trigger#NoSQL", "disclosure-content#NoSQL"]
      }, 
      "disclosure-trigger#NoSQL":{
-       "children": ["rich-text#trigger-NoSQL"]
+       "children": ["rich-text#trigger-NoSQL"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#NoSQL": {
-       "children": [ "flex-layout.row#NoSQL"]
+       "children": [ "flex-layout.row#NoSQL"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#NoSQL":{
         "children":["flex-layout.col#NoSQL"],
@@ -368,8 +429,8 @@
     },
     "rich-text#trigger-NoSQL": {
         "props": {
-            "text": " ##### NoSQL",
-            "blockClass": ["subtitle","subtitle-NoSQL"]
+            "text": " ### NoSQL",
+            "blockClass": ["subtitle","subtitle-NoSQL","subtitle-gris"]
         }
     },
     "rich-text#content-NoSQL": {
@@ -385,10 +446,16 @@
         "children": ["disclosure-trigger#nube-privada", "disclosure-content#nube-privada"]
      }, 
      "disclosure-trigger#nube-privada":{
-       "children": ["rich-text#trigger-nube-privada"]
+       "children": ["rich-text#trigger-nube-privada"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#nube-privada": {
-       "children": [ "flex-layout.row#nube-privada"]
+       "children": [ "flex-layout.row#nube-privada"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#nube-privada":{
         "children":["flex-layout.col#nube-privada"],
@@ -406,8 +473,8 @@
     },
     "rich-text#trigger-nube-privada": {
         "props": {
-            "text": " ##### Nube privada",
-            "blockClass": ["subtitle","subtitle-nube-privada"]
+            "text": " ### Nube privada",
+            "blockClass": ["subtitle","subtitle-nube-privada","subtitle-gris"]
         }
     },
     "rich-text#content-nube-privada": {
@@ -423,10 +490,16 @@
         "children": ["disclosure-trigger#saas", "disclosure-content#saas"]
      }, 
      "disclosure-trigger#saas":{
-       "children": ["rich-text#trigger-saas"]
+       "children": ["rich-text#trigger-saas"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#saas": {
-       "children": [ "flex-layout.row#saas"]
+       "children": [ "flex-layout.row#saas"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#saas":{
         "children":["flex-layout.col#saas"],
@@ -444,8 +517,8 @@
     },
     "rich-text#trigger-saas": {
         "props": {
-            "text": " ##### Software como servicio (SaaS)",
-            "blockClass": ["subtitle","subtitle-saas"]
+            "text": " ### Software como servicio (SaaS)",
+            "blockClass": ["subtitle","subtitle-saas","subtitle-gris"]
         }
     },
     "rich-text#content-saas": {
@@ -461,10 +534,16 @@
         "children": ["disclosure-trigger#maquina-virtual", "disclosure-content#maquina-virtual"]
      }, 
      "disclosure-trigger#maquina-virtual":{
-       "children": ["rich-text#trigger-maquina-virtual"]
+       "children": ["rich-text#trigger-maquina-virtual"],
+       "props":{
+           "blockClass":["sub-btn-trigger-smart"]
+       }
      },
      "disclosure-content#maquina-virtual": {
-       "children": [ "flex-layout.row#maquina-virtual"]
+       "children": [ "flex-layout.row#maquina-virtual"],
+       "props":{
+           "blockClass":["sub-content-disclosure-smart"]
+       }
      },
       "flex-layout.row#maquina-virtual":{
         "children":["flex-layout.col#maquina-virtual"],
@@ -482,8 +561,8 @@
     },
     "rich-text#trigger-maquina-virtual": {
         "props": {
-            "text": " ##### Máquina virtual",
-            "blockClass": ["subtitle","subtitle-maquina-virtual"]
+            "text": " ### Máquina virtual",
+            "blockClass": ["subtitle","subtitle-maquina-virtual","subtitle-gris"]
         }
     },
     "rich-text#content-maquina-virtual": {

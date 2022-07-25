@@ -1027,6 +1027,13 @@
    right: 0;
    left: 0;
  }
-
-
+.flexColChild--col-cloud{
+  margin: 5px;
+}
+.flexColChild--col-glosario-1{
+  height: 70% !important;
+}
+.flexColChild--col-glosario-1 :global(.vtex-disclosure-layout-1-x-trigger--sub-btn-trigger-smart){
+  margin: 0;
+}
 
