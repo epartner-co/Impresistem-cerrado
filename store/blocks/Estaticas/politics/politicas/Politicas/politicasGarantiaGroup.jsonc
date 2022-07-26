@@ -102,7 +102,7 @@
             "rich-text#Garantias49",
             "image#garantia49",
             "rich-text#Garantias50",
-            "image#garantia50",
+            "rich-text#table50",
             "rich-text#Garantias51",
             "image#garantia51",
             "rich-text#Garantias52",
@@ -935,385 +935,385 @@
     },
     "image#garantia1": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
-            "blockClass": "bannerGarantia"
+            "src": "https://orbeim.vtexassets.com/arquivos/tyc-alcatel.png",
+            "blockClass": "bannerGarantia3"
         }
     },
     "image#garantia2": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vtexassets.com/arquivos/tyc-wappsoporte.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia3": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vtexassets.com/arquivos/tyc-apc.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia4": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vtexassets.com/arquivos/tyc-asus.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia5": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vtexassets.com/arquivos/tyc-belkin.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia6": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vtexassets.com/arquivos/tyc-brother.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia7": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vtexassets.com/arquivos/tyc-canon.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia8": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
-            "blockClass": "bannerGarantia"
+            "src": "https://orbeim.vtexassets.com/arquivos/tyc-contactos.png",
+            "blockClass": "bannerGarantia2"
         }
-    },
+    },  
     "image#garantia9": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vtexassets.com/arquivos/tyc-cdp.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia10": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vtexassets.com/arquivos/tyc-claro.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia11": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vtexassets.com/arquivos/tyc-trust.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia12": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vtexassets.com/arquivos/tyc-dell.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia13": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
-            "blockClass": "bannerGarantia"
+            "src": "https://orbeim.vtexassets.com/arquivos/tyc-horarioDell.png",
+            "blockClass": "bannerGarantia2"
         }
     },
     "image#garantia14": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vtexassets.com/arquivos/tyc-dji.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia15": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vtexassets.com/arquivos/tyc-gd.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia16": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vtexassets.com/arquivos/tyc-epson.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia17": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vtexassets.com/arquivos/tyc-ezviz.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia18": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vtexassets.com/arquivos/tyc-genius.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia19": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vtexassets.com/arquivos/tyc-hik.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia20": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vtexassets.com/arquivos/tyc-hilook.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia21": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
-            "blockClass": "bannerGarantia"
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-hp.png",
+            "blockClass": "bannerGarantia3"
         }
     },
     "image#garantia22": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
-            "blockClass": "bannerGarantia"
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-horariohp.png",
+            "blockClass": "bannerGarantia2"
         }
     },
     "image#garantia23": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-soportehp2.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia24": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-ibm.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia25": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-intel.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia26": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-kingston.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia27": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-lenovo.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia28": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-lexmark.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia29": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-logitech.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia30": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-lg.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia31": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-exclusiv.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia32": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-microsoft.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia33": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-msi.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia34": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-seagate.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia35": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
-            "blockClass": "bannerGarantia"
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-ayuda.png",
+            "blockClass": "bannerGarantia2"
         }
     },
     "image#garantia36": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-razer.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia37": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-redragon.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia38": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-samsung.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia39": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
-            "blockClass": "bannerGarantia"
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-callcenter.png",
+            "blockClass": "bannerGarantia2"
         }
     },
     "image#garantia40": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
-            "blockClass": "bannerGarantia"
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-chat.png",
+            "blockClass": "bannerGarantia2"
         }
     },
     "image#garantia41": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
-            "blockClass": "bannerGarantia"
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-soporter.png",
+            "blockClass": "bannerGarantia2"
         }
     },
     "image#garantia42": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
-            "blockClass": "bannerGarantia"
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-paginaweb.png",
+            "blockClass": "bannerGarantia2"
         }
     },
     "image#garantia43": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
-            "blockClass": "bannerGarantia"
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-centroservicio.png",
+            "blockClass": "bannerGarantia2"
         }
     },
     "image#garantia44": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-sandisk.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia45": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-targus.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia46": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-toshiba.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia47": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-tp-link.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia48": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-ubnt.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia49": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-viewsonic.png",
             "blockClass": "bannerGarantia"
         }
     },
-    "image#garantia50": {
+    "rich-text#table50": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
-            "blockClass": "bannerGarantia"
+            "text": "| Sede | Telefóno  | Celular | Dirección | Horario de atención | E-Mail | \n | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |\n | Bogotá | 7442601 | 304 5470855 |Calle 53 # 67-57 Salitre Greco | L-V 8am - 5:30pm Sábado de 8am - 12m | info@ceser.com.co | \n| Ibagué | 2762442 | 310 7506109 |Cra 3ra # 46-28 Sobre la Avenida el Jordán | L-V 8am - 12m / 2pm - 6pm Sábado de 8am - 12m |ceseribague@ceser.com.co | \n| Cartagena | 6787058 | 302 2853482 |Mz a Lote 1 Alameda La Victoria. | L-V 8am - 12m / 2pm - 6pm Sábado de 8am - 12m | cesercartagena1@ceser.com.co | \n| Pereira | 3401176 | 322 9001616 |Av Circunvalar 4-28 Edificio el Greco | L-V 8am - 6pm Sábado de 8am - 12m | ceserpereira@ceser.com.co| \n",
+            "blockClass":"tabla50"
         }
     },
     "image#garantia51": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-wstern.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia52": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
-            "blockClass": "bannerGarantia"
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-xkin.png",
+            "blockClass": "bannerGarantia3"
         }
     },
     "image#garantia53": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/zagg.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia54": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-huawei.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia55": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
-            "blockClass": "bannerGarantia"
+            "src": "https://orbeim.vtexassets.com/arquivos/image%2085.png",
+            "blockClass": "bannerGarantia2"
         }
     },
     "image#garantia56": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
-            "blockClass": "bannerGarantia"
+            "src": "https://orbeim.vteximg.com.br/arquivos/xiaomi.png",
+            "blockClass": "bannerGarantia3"
         }
     },
     "image#garantia57": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/mophie.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia58": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-invisible-shield.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia59": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-realme.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia60": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
-            "blockClass": "bannerGarantia"
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-serviceRealme.png",
+            "blockClass": "bannerGarantia2"
         }
     },
     "image#garantia61": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-nuc.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia62": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-logitechvideo.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia63": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/tyc-motorola.png",
             "blockClass": "bannerGarantia"
         }
     },
     "image#garantia64": {
         "props": {
-            "src": "https://orbeim.vteximg.com.br/arquivos/adata.png",
+            "src": "https://orbeim.vteximg.com.br/arquivos/dynabook.png",
             "blockClass": "bannerGarantia"
         }
     }
