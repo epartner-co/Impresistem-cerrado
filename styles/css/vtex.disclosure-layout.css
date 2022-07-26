@@ -93,3 +93,20 @@
     border-bottom: 1px solid #D3D3E9;
     border-right: 1px solid #D3D3E9;
 }
+.trigger--sub-btn-trigger-lvl2{    
+    border-radius: 7px;
+    border:none;
+}
+.trigger--sub-btn-trigger-lvl1{
+    background-color: #fff;
+    border-radius:7px;
+    border:none;
+}
+.trigger--sub-btn-trigger-lvl1--visible{  
+    border-radius:7px 7px 0 0;
+}
+.content--sub-content-lvl1--visible{
+    background-color: #fff;
+    border: none;
+    border-radius: 0 0 7px 7px;
+}

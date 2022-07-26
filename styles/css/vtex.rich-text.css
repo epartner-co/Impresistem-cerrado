@@ -701,3 +701,17 @@
   font-size: 20px;
   color: #2a2a2a;  
 }
+.paragraph--text-button-link-1,
+.paragraph--text-button-link-2{
+  margin: 0;
+  font-weight: 700;
+  color: #001E49;
+}
+.container--text-button-link-1{
+  align-items: center;
+}
+
+.container--promociones-smart-cloud-1 .paragraph--promociones-smart-cloud-1,
+.container--promociones-smart-cloud-1 .wrapper--cloud-text{
+  background-color: #f3f3f3;
+}

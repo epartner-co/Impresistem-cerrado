@@ -7,13 +7,13 @@
      "disclosure-trigger#programa-isv":{
        "children": ["rich-text#programa-isv"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl1"]
        }
      },
      "disclosure-content#programa-isv": {
        "children": [ "flex-layout.row#programa-isv"],
        "props":{
-           "blockClass":["sub-content-disclosure-smart"]
+           "blockClass":["sub-content-disclosure-smart","sub-content-lvl1"]
        }
      },
      "rich-text#programa-isv": {

@@ -7,13 +7,13 @@
          "disclosure-trigger#promociones-smart-cloud":{
            "children": ["rich-text#promociones-smart-cloud"],
            "props":{
-               "blockClass":["sub-btn-trigger-smart"]
+               "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl1"]
            }
          },
          "disclosure-content#promociones-smart-cloud": {
            "children": [ "flex-layout.row#promociones-smart-cloud"],
            "props":{
-               "blockClass":["sub-content-disclosure-smart"]
+               "blockClass":["sub-content-disclosure-smart","sub-content-lvl1"]
            }
          },
           "flex-layout.row#promociones-smart-cloud":{

@@ -7,13 +7,13 @@
      "disclosure-trigger#microsoft-portafolio-servicios":{
        "children": ["rich-text#title-microsoft-portafolio-servicios"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl1"]
        }
      },
      "disclosure-content#microsoft-portafolio-servicios": {
        "children": [ "flex-layout.row#microsoft-portafolio-servicios"],
        "props":{
-           "blockClass":["sub-content-disclosure-smart"]
+           "blockClass":["sub-content-disclosure-smart","sub-content-lvl1"]
        }
      },
       "flex-layout.row#microsoft-portafolio-servicios":{

@@ -7,7 +7,7 @@
      "disclosure-trigger#nube":{
        "children": ["rich-text#trigger-nube"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl2"]
        }
      },
      "disclosure-content#nube": {
@@ -50,7 +50,7 @@
      "disclosure-trigger#info-nube":{
        "children": ["rich-text#trigger-info-nube"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl2"]
        }
      },
      "disclosure-content#info-nube": {
@@ -93,7 +93,7 @@
      "disclosure-trigger#proveedor-nube":{
        "children": ["rich-text#trigger-proveedor-nube"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl2"]
        }
      },
      "disclosure-content#proveedor-nube": {
@@ -136,7 +136,7 @@
      "disclosure-trigger#mallas-pc":{
        "children": ["rich-text#trigger-mallas-pc"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl2"]
        }
      },
      "disclosure-content#mallas-pc": {
@@ -179,7 +179,7 @@
      "disclosure-trigger#DevOps":{
        "children": ["rich-text#trigger-DevOps"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl2"]
        }
      },
      "disclosure-content#DevOps": {
@@ -222,7 +222,7 @@
      "disclosure-trigger#nube-hibrida":{
        "children": ["rich-text#trigger-nube-hibrida"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl2"]
        }
 
      },
@@ -266,7 +266,7 @@
      "disclosure-trigger#aprendizaje-automatico":{
        "children": ["rich-text#trigger-aprendizaje-automatico"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl2"]
        }
      },
      "disclosure-content#aprendizaje-automatico": {
@@ -309,7 +309,7 @@
      "disclosure-trigger#middleware":{
        "children": ["rich-text#trigger-middleware"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl2"]
        }
 
      },
@@ -353,7 +353,7 @@
      "disclosure-trigger#paas":{
        "children": ["rich-text#trigger-paas"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl2"]
        }
      },
      "disclosure-content#paas": {
@@ -396,7 +396,7 @@
      "disclosure-trigger#nube-publica":{
        "children": ["rich-text#trigger-nube-publica"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl2"]
        }
      },
      "disclosure-content#nube-publica": {
@@ -439,7 +439,7 @@
      "disclosure-trigger#informatica-sin-servidor":{
        "children": ["rich-text#trigger-informatica-sin-servidor"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl2"]
        }
      },
      "disclosure-content#informatica-sin-servidor": {
@@ -482,7 +482,7 @@
      "disclosure-trigger#virtualizacion":{
        "children": ["rich-text#trigger-virtualizacion"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl2"]
        }
      },
      "disclosure-content#virtualizacion": {

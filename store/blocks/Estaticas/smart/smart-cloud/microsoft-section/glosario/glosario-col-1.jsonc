@@ -7,7 +7,7 @@
      "disclosure-trigger#afinnia":{
        "children": ["rich-text#trigger-afinnia"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl2"]
        }
      },
      "disclosure-content#afinnia": {
@@ -51,7 +51,7 @@
      "disclosure-trigger#BI":{
        "children": ["rich-text#trigger-BI"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl2"]
        }
      },
      "disclosure-content#BI": {
@@ -95,7 +95,7 @@
      "disclosure-trigger#ampliacion-nube":{
        "children": ["rich-text#trigger-ampliacion-nube"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart" , "sub-btn-trigger-lvl2"]
        }
      },
      "disclosure-content#ampliacion-nube": {
@@ -139,7 +139,7 @@
      "disclosure-trigger#informatica-nube":{
        "children": ["rich-text#trigger-informatica-nube"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl2"]
        }
      },
      "disclosure-content#informatica-nube": {
@@ -183,7 +183,7 @@
      "disclosure-trigger#almacenamiento-nube":{
        "children": ["rich-text#trigger-almacenamiento-nube"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl2"]
        }
 
      },
@@ -228,7 +228,7 @@
      "disclosure-trigger#particionamiento-bd":{
        "children": ["rich-text#trigger-particionamiento-bd"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl2"]
        }
      },
      "disclosure-content#particionamiento-bd": {
@@ -272,7 +272,7 @@
      "disclosure-trigger#informatica-elastica":{
        "children": ["rich-text#trigger-informatica-elastica"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl2"]
        }
      },
      "disclosure-content#informatica-elastica": {
@@ -316,7 +316,7 @@
      "disclosure-trigger#infra-iaas":{
        "children": ["rich-text#trigger-infra-iaas"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl2"]
        }
      },
      "disclosure-content#infra-iaas": {
@@ -360,7 +360,7 @@
      "disclosure-trigger#algoritmos-auto":{
        "children": ["rich-text#trigger-algoritmos-auto"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl2"]
        }
      },
      "disclosure-content#algoritmos-auto": {
@@ -404,7 +404,7 @@
      "disclosure-trigger#NoSQL":{
        "children": ["rich-text#trigger-NoSQL"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl2"]
        }
      },
      "disclosure-content#NoSQL": {
@@ -448,7 +448,7 @@
      "disclosure-trigger#nube-privada":{
        "children": ["rich-text#trigger-nube-privada"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl2"]
        }
      },
      "disclosure-content#nube-privada": {
@@ -492,7 +492,7 @@
      "disclosure-trigger#saas":{
        "children": ["rich-text#trigger-saas"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl2"]
        }
      },
      "disclosure-content#saas": {
@@ -536,7 +536,7 @@
      "disclosure-trigger#maquina-virtual":{
        "children": ["rich-text#trigger-maquina-virtual"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl2"]
        }
      },
      "disclosure-content#maquina-virtual": {

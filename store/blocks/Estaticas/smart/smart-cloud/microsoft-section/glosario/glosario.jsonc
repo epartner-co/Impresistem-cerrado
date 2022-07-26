@@ -7,7 +7,7 @@
      "disclosure-trigger#glosario":{
        "children": ["rich-text#glosario"],
        "props":{
-           "blockClass":["sub-btn-trigger-smart"]
+           "blockClass":["sub-btn-trigger-smart", "sub-btn-trigger-lvl1"]
        }
      },
      "disclosure-content#glosario": {
@@ -16,7 +16,7 @@
         "flex-layout.row#buttons-glosario"
     ],
     "props":{
-        "blockClass":["sub-content-disclosure-smart"]
+        "blockClass":["sub-content-disclosure-smart","sub-content-lvl1"]
     }
      },
       "flex-layout.row#glosario":{
@@ -48,7 +48,7 @@
    "flex-layout.col#col-glosario-1":{
       "children":[
         "disclosure-layout#afinnia",
-        "disclosure-trigger#BI",
+        /* "disclosure-trigger#BI", */
         "disclosure-layout#ampliacion-nube",
         "disclosure-layout#informatica-nube",
         "disclosure-layout#almacenamiento-nube",
