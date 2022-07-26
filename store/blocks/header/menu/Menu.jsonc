@@ -62,10 +62,11 @@
     "props": {
       "id": "level-1-card1",
       "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk1.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile1.png",
+      "textPosition": "center",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-TECLADOS.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-TECLADOS.jpg",
       "callToActionUrl": "/sale/d",
+      "headline": "Teclados",      
       "blockClass": ["level-1-card1", "level-card"],
       "textAlignment": "center"
     }
@@ -75,9 +76,10 @@
       "id": "level-1-card1",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk2.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile2.png",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-MOUSE.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-MOUSE.jpg",
       "callToActionUrl": "/sale/d",
+      "headline": "Mouses",
       "blockClass": ["level-1-card1", "level-card"],
       "textAlignment": "center"
     }
@@ -519,9 +521,10 @@
       "id": "level-2-card2",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk1.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile1.png",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-DISCODURO.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-DISCODURO.jpg",
       "callToActionUrl": "/sale/d",
+      "headline": "Discos Duros",
       "blockClass": ["level-2-card2", "level-card"],
       "textAlignment": "center"
     }
@@ -531,9 +534,10 @@
       "id": "level-2-card2",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk2.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile2.png",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-MEMORIA.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-MEMORIA.jpg",
       "callToActionUrl": "/sale/d",
+      "headline": "Memorias",
       "blockClass": ["level-2-card2", "level-card"],
       "textAlignment": "center"
     }
@@ -769,9 +773,10 @@
       "id": "level-3-card3",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk1.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile1.png",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-RADIO-ENLACES.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-RADIO-ENLACES.jpg",
       "callToActionUrl": "/sale/d",
+      "headline": "Radio Enlacex",
       "blockClass": ["level-3-card1", "level-card"],
       "textAlignment": "center"
     }
@@ -781,9 +786,10 @@
       "id": "level-3-card3",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk2.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile2.png",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-ROUTERS.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-ROUTERS.jpg",
       "callToActionUrl": "/sale/d",
+      "headline": "Routers",
       "blockClass": ["level-3-card2", "level-card"],
       "textAlignment": "center"
     }
@@ -1017,9 +1023,10 @@
       "id": "level-4-card4",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk1.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile1.png",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-DRONES.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-DRONES.jpg",
       "callToActionUrl": "/sale/d",
+      "headline": "Drones", 
       "blockClass": ["level-4-card1", "level-card"],
       "textAlignment": "center"
     }
@@ -1029,9 +1036,10 @@
       "id": "level-4-card4",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk2.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile2.png",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-CAMARA-OSMOS.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-CAMARA-OSMOS.jpg",
       "callToActionUrl": "/sale/d",
+      "headline": "Estabilizadores",
       "blockClass": ["level-4-card2", "level-card"],
       "textAlignment": "center"
     }
@@ -1211,9 +1219,10 @@
       "id": "level-5-card5",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk1.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile1.png",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-TIMON.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-TIMON.jpg",
       "callToActionUrl": "/sale/d",
+      "headline": "Timones", 
       "blockClass": ["level-5-card1", "level-card"],
       "textAlignment": "center"
     }
@@ -1223,9 +1232,10 @@
       "id": "level-5-card5",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk2.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile2.png",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-AUDIO.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-AUDIO.jpg",
       "callToActionUrl": "/sale/d",
+      "headline": "Audífonos", 
       "blockClass": ["level-5-card2", "level-card"],
       "textAlignment": "center"
     }
@@ -1479,9 +1489,10 @@
       "id": "level-6-card1",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk1.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile1.png",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-LAPTOPS.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-LAPTOPS.jpg",
       "callToActionUrl": "/sale/d",
+      "headline": "Laptop", 
       "blockClass": ["level-1-card1", "level-card"],
       "textAlignment": "center"
     }
@@ -1491,9 +1502,10 @@
       "id": "level-6-card1",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk2.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile2.png",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-MONITORES.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-MONITORES.jpg",
       "callToActionUrl": "/sale/d",
+      "headline": "Monitores", 
       "blockClass": ["level-1-card1", "level-card"],
       "textAlignment": "center"
     }
@@ -1920,9 +1932,10 @@
       "id": "level-7-card1",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk1.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile1.png",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-IMPRESORAS.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-IMPRESORAS.jpg",
       "callToActionUrl": "/sale/d",
+      "headline": "Impresoras", 
       "blockClass": ["level-7-card1", "level-card"],
       "textAlignment": "center"
     }
@@ -1932,9 +1945,10 @@
       "id": "level-7-card1",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk2.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile2.png",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-SUMINISTROS.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-SUMINISTROS.jpg",
       "callToActionUrl": "/sale/d",
+      "headline": "Suministros", 
       "blockClass": ["level-7-card1", "level-card"],
       "textAlignment": "center"
     }
@@ -2257,9 +2271,10 @@
       "id": "level-8-card1",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk1.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile1.png",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-SMARTPHONE.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-SMARTPHONEjpg",
       "callToActionUrl": "/sale/d",
+      "headline": "Celulares", 
       "blockClass": ["level-8-card1", "level-card"],
       "textAlignment": "center"
     }
@@ -2269,9 +2284,10 @@
       "id": "level-8-card1",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk2.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile2.png",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-tablets.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-tablets.jpg",
       "callToActionUrl": "/sale/d",
+      "headline": "Tablets", 
       "blockClass": ["level-8-card1", "level-card"],
       "textAlignment": "center"
     }
@@ -2423,9 +2439,10 @@
       "id": "level-9-card1",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk1.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile1.png",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-CONTROLADOR-DE-ACCESO.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-CONTROLADOR-DE-ACCESO.jpg",
       "callToActionUrl": "/sale/d",
+      "headline": "Control de acceso", 
       "blockClass": ["level-9-card1", "level-card"],
       "textAlignment": "center"
     }
@@ -2435,9 +2452,10 @@
       "id": "level-9-card1",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk2.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile2.png",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-CAMARA.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-CAMARA.jpg",
       "callToActionUrl": "/sale/d",
+      "headline": "Camaras", 
       "blockClass": ["level-9-card1", "level-card"],
       "textAlignment": "center"
     }
@@ -2875,9 +2893,10 @@
       "id": "level-11-card1",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk1.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile1.png",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-BASE-REFRIGERANTE.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-BASE-REFRIGERANTE.jpg",
       "callToActionUrl": "/sale/d",
+      "headline": "Base refrigerante", 
       "blockClass": ["level-11-card1", "level-card"],
       "textAlignment": "center"
     }
@@ -2887,9 +2906,10 @@
       "id": "level-11-card1",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk2.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile2.png",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-MOUSE-PAD.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-MOUSE-PAD.jpg",
       "callToActionUrl": "/sale/d",
+      "headline": "Mouse Pad", 
       "blockClass": ["level-11-card1", "level-card"],
       "textAlignment": "center"
     }

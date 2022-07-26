@@ -88,7 +88,12 @@
   position: absolute;
   width: 16rem;
   height: 23rem;
-  left: 2rem;
+  left: 0.5rem;
+}
+.infoCardHeadline--level-card{
+  color: #fff;
+  font-size: 25px;
+  font-weight: 300;
 }
 .infoCardCallActionContainer--level-card :global(.vtex-button) {
   width: 16rem !important;
