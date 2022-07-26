@@ -24,6 +24,27 @@
   color: #d3d3d3;
 }
 
+/*---------------Dibujado lineas tabla horarios politicas-------------------------------------------------------------------*/
+@media (max-width: 600px) {
+  .table--tabla50 {
+    font-size: 8px;
+  }
+  .tableTd--tabla50 {
+    max-width:55px;
+    word-wrap: break-word;
+  }
+}
+.table--tabla50 {
+  outline: 1px solid black;
+}
+
+.tableTh--tabla50 {
+  outline: 1px solid black;
+}
+
+.tableTd--tabla50 {
+  outline: 1px solid black;
+}
 /*----------------------------------------------------------------------------------*/
 
 .container--deals {

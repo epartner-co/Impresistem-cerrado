@@ -26,8 +26,14 @@
 }
 .contentContainer  :global(.vtex-store-components-3-x-container){
     margin: 0;
-    border: 1px solid #D3D3D3;
-    background: #F9F9F9;
+    border: none;
+    background: transparent;
+    border-radius: 5px;
+}
+.flexRow--flex-layout_bannerDespachos  :global(.vtex-store-components-3-x-container){
+    margin: 0;
+    border: none;
+    background: white;
     border-radius: 5px;
 }
 .container--product .listItem :global(.vtex-button__label){

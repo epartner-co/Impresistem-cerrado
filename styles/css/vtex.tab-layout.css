@@ -11,6 +11,13 @@
   font-size: 12px;
   width: 100%;
 }
+.TabContent--Politica {
+  overflow-x:hidden;
+}
+
+.contentItem--TabContent--Politicas{
+  overflow-x:hidden;
+}
 
 
 
@@ -38,6 +45,10 @@
 .contentContainer {
   padding: 0 10px;
 }
+.contentContainer {
+  padding: 0 10px;
+}
+
 
 
 @media screen and (max-width: 700px) {

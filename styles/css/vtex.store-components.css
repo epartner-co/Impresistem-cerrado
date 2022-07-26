@@ -144,6 +144,12 @@
   .autoCompleteOuterContainer :global(.vtex-input__suffix)::before {
     display: none;
   }
+  .flexRow--flex-layout_bannerDespachos  :global(.vtex-store-components-3-x-container){
+    margin: 0;
+    border: none;
+    background: white;
+    border-radius: 5px;
+  }
 
   .infoCardContainer--level-card {
     width: 100% !important;
@@ -720,12 +726,15 @@ max-width: 100vw;
 position: relative;
   margin-left: calc(-15vw - 1px );
 }
-
+.flexRow--flex-layout_bannerDespachos  .container{
+  border: none !important;
+  background-color: transparent !important;
+}
 
 .imageElement--bannerDespachos{
   position: relative;
-  max-width: 67VW;
-  width: auto;
+  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -736,6 +745,20 @@ position: relative;
 .imageElement--bannerGarantia{
   margin: auto ;
   display: flex;
+  max-width: 40%;
+  min-width: 20%;
+}
+.imageElement--bannerGarantia2{
+  margin: auto ;
+  display: flex;
+  max-width: 90%;
+  min-width: 70%;
+}
+.imageElement--bannerGarantia3{
+  margin: auto ;
+  display: flex;
+  max-width: 20%;
+  min-width: 10%;
 }
 
 .contentContainer--cardSmartInfoDesktopTYC{
@@ -770,7 +793,7 @@ position: relative;
 :global(.vtex-slider-layout-0-x-slide--post-Marcas-slider):hover .imageElement--slider-images-nuestras-marcas {filter: brightness(1);}
 .imageElement--bannerDespachos{
   position: relative;
-  width: 80vw;
+  width: 100%;
   height: auto;
   margin-left: 5vw;
 
