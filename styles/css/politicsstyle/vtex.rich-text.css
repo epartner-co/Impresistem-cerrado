@@ -38,7 +38,6 @@
   font-weight: 700;
 }
 .paragraph--Politics__Text {
-  font-family: 'Montserrat';
   margin: 0;
   font-size: 13px;
   font-weight: 400;
@@ -50,7 +49,8 @@
   font-size: 18px;
 }
 .listItem--Politics__Text{
-  font-family: 'Montserrat';
+  font-family: "Encode Sans", sans-serif;
+  letter-spacing: 1px;
   margin: 0;
   font-size: 13px;
   color: #808080;
