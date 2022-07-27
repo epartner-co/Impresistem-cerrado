@@ -29,7 +29,7 @@
                 "link#promociones"
             ],
             "props":{
-                "blockClass":["col-cloud","col-cloud-microsoft"]
+                "blockClass":["col-cloud","col-cloud-microsoft", "iconos-promociones"]
             }
         },
         "rich-text#promociones-smart-cloud": {
