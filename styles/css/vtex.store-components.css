@@ -842,3 +842,33 @@ position: relative;
   margin: 0;
   color: #2a2a2a;
 }
+.infoCardContainer--info-card-isv{
+  height: 150px;
+  display: flex;
+  align-items: flex-start;
+}
+.infoCardTextContainer--info-card-isv{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column-reverse;
+}
+.infoCardTextContainer--info-card-isv:first-child{
+  width: 80%;
+}
+.infoCardImageContainer--info-card-isv{
+  width: 20%;
+}
+.infoCardImage--info-card-isv{
+  object-fit: contain;
+  width: 100px;
+  height: 100px;
+}
+.infoCardCallActionContainer--info-card-isv{
+  margin: 0;
+  height: 40px;
+  text-decoration: none;
+}
+.infoCardCallActionText--info-card-isv{
+  text-decoration: none;
+  color:#2a2a2a;
+}
