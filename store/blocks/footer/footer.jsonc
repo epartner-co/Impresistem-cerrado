@@ -104,7 +104,7 @@
   "image#medios--de--pago":{
     "props":{
       "blockClass":"medios--de--pago",
-      "src":"assets/iconosIM/pagos-desk.png",
+      "src":"https://orbeim.vteximg.com.br/arquivos/medios-pago-desk.png",
       "maxHeight": 20
     }
   },
@@ -385,7 +385,7 @@
   "image#phone--medios--de--pago":{
     "props":{
       "blockClass":"phone--medios--de--pago--image",
-      "src":"assets/iconosIM/pagos-mobile.png",
+      "src":"https://orbeim.vteximg.com.br/arquivos/medios-pago-mobile.png",
       "maxHeight": 54
     }
   },
