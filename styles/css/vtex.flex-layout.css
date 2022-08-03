@@ -857,7 +857,7 @@
 .flexCol--buycolection.flexCol--shelf-vitrina :global(.vtex-button__label) {padding: 0;}
 .flexRowContent--imageVitrina {align-items: center;min-height: 175px; max-height: 175px;overflow: hidden;}
 .flexRow.flexRow--productCountMobileRow :global(.vtex-store-components-3-x-container) {padding: 0 0%;}
-.flexCol--newsletter-form--contenedor {width: 85% !important;margin:30px auto 15px;}
+/* .flexCol--newsletter-form--contenedor {width: 85% !important;margin:30px auto 15px;} */
 /*AJUSTES CLIENTE*/ /*.flexRowContent.flexRowContent--newsletter-form--phone {  background: #FFC533;  }*/
 .flexRow--cetegoria {visibility: visible; }
 .flexCol--redes--sociales {display: contents;}
@@ -1082,4 +1082,43 @@
 }
 .flexCol--iconos-promociones{
   padding: 15px;
+}
+
+/* estilos John S. */
+.flexCol--col-footer-mobile{
+  overflow: hidden;
+}
+.flexColChild--col-footer-mobile{
+  margin-top: 30px;
+  height: auto !important;
+}
+.flexColChild--1-footer-mobile{
+  height: auto !important;
+}
+.flexCol--1-footer-mobile{
+  height: auto !important;
+}
+.flexRowContent--newsletter-form--phone:nth-child(1n){
+  width: 100%;
+}
+
+.flexRow--row-footer-mobile{
+  margin-bottom: 30px;
+}
+@media(max-width:1000px){
+  :global(.vtex-store-newsletter-1-x-emailInputContainer){
+    width: 70vw;
+  }
+  .flexColChild--medios--de--pago,
+  .flexColChild--phone--desarrollado--por{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  :global(.vtex-store-components-3-x-imageElement--phone--medios--de--pago--image){
+    margin: 0;
+  }
+  .flexColChild--redes--sociales{
+    display: none;
+  }
 }

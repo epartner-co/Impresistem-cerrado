@@ -271,6 +271,17 @@
 
   /*primera parte del mobile*/
   "flex-layout.row#1-footer-mobile": {
+    "props":{
+      "blockClass":"row-footer-mobile"
+    },
+    "children":[
+      "flex-layout.col#1-1-footer-mobile"
+    ]
+  },
+  "flex-layout.col#1-1-footer-mobile": {
+    "props":{
+      "blockClass":"col-footer-mobile"
+    },
     "children":[
       "flex-layout.col#1-footer-mobile",
       "flex-layout.col#newsletter-form",
@@ -284,7 +295,6 @@
       "blockClass":"1-footer-mobile"
     },
     "children":[
-
       "flex-layout.col#PrimeraCol1",
       "flex-layout.col#PrimeraCol2",
       "flex-layout.col#PrimeraCol3",

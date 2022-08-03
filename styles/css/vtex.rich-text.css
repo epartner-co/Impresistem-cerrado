@@ -736,3 +736,18 @@
 .container--promociones-smart-cloud-1 .wrapper--cloud-text{
   background-color: #f3f3f3;
 }
+
+/* estilos John S */
+.paragraph--TituloCont{
+  font-size: 14px;
+}
+.container--medios--de--pago--phone{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+@media(max-width:1000px){
+  .container--siguenos--en{
+    display: none;
+  }
+}

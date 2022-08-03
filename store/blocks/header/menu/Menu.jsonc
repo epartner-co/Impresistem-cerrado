@@ -3026,9 +3026,10 @@
       "id": "level-12-card1",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk1.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile1.png",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-MOVILIDAD.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-MOVILIDAD.jpg",
       "callToActionUrl": "/sale/d",
+      "headline": "Tablets", 
       "blockClass": ["level-12-card1", "level-card"],
       "textAlignment": "center"
     }
@@ -3038,9 +3039,10 @@
       "id": "level-12-card1",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk2.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile2.png",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-MOVILIDAD.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-MOVILIDAD.jpg",
       "callToActionUrl": "/sale/d",
+      "headline": "Smartphone", 
       "blockClass": ["level-12-card1", "level-card"],
       "textAlignment": "center"
     }
@@ -3177,9 +3179,10 @@
       "id": "level-13-card1",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk1.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile1.png",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-SEGURIDAD.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-SEGURIDAD.jpg",
       "callToActionUrl": "/sale/d",
+      "headline": "Camaras", 
       "blockClass": ["level-13-card1", "level-card"],
       "textAlignment": "center"
     }
@@ -3189,9 +3192,10 @@
       "id": "level-13-card1",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk2.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile2.png",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-SEGURIDAD.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-SEGURIDAD.jpg",
       "callToActionUrl": "/sale/d",
+      "headline": "CCTV", 
       "blockClass": ["level-13-card1", "level-card"],
       "textAlignment": "center"
     }
@@ -3307,9 +3311,10 @@
       "id": "level-14-card1",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk1.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile1.png",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-SALAS-DE-CONFERENCIA.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-SALAS-DE-CONFERENCIA.jpg",
       "callToActionUrl": "/sale/d",
+      "headline": "Sala de conferencias", 
       "blockClass": ["level-14-card1", "level-card"],
       "textAlignment": "center"
     }
@@ -3319,9 +3324,10 @@
       "id": "level-14-card1",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-desk2.png",
-      "mobileImageUrl": "assets/Assets-IMPRESISTEM-header/menu/banner-mobile2.png",
+      "imageUrl": "https://orbeim.vteximg.com.br/arquivos/DESK-SALAS-DE-CONFERENCIA.jpg",
+      "mobileImageUrl": "https://orbeim.vteximg.com.br/arquivos/MOBILE-SALAS-DE-CONFERENCIA.jpg",
       "callToActionUrl": "/sale/d",
+      "headline": "Paneles", 
       "blockClass": ["level-14-card1", "level-card"],
       "textAlignment": "center"
     }

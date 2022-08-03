@@ -110,3 +110,9 @@
     border: none;
     border-radius: 0 0 7px 7px;
 }
+/* estilos John S. */
+@media(max-width:100px){
+.disclosure-icon-search-mobile--hidden{
+    width: 60%;
+}
+}

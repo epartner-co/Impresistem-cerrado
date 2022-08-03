@@ -64,6 +64,16 @@
     border-radius: 0;
     color: white;
 }
+@media(max-width:1000px){
+    .emailInputContainer :global(.vtex-styleguide-9-x-hideDecorators) {
+        background: #ffffff;
+        color: black;
+    }
+    :global(.vtex-store-newsletter-1-x-formSubmitContainer--newsletter-submit--phone){
+        right: 13% !important;
+        left: inherit !important;
+    }
+}
 .emailInputContainer :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
     color: white;
 }
@@ -87,7 +97,7 @@
 @media screen and (max-width: 700px) {
 .confirmationCheckboxContainer--newsletter-checkbox-confirmation--phone :global(.vtex-checkbox__label) {font-size: 12px;}
 .formSubmitContainer--newsletter-submit--phone {position: absolute;top: 0;right: 0;left: unset;}
-.emailInputContainer {width: 100%;}
+/* .emailInputContainer {width: 100%;} */
 .defaultSuccessMessage {
     text-align: center;
 }
